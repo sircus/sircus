@@ -1,11 +1,11 @@
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
-var cssscss     = require('css-scss');
 var del         = require('del');
 var gulp        = require('gulp');
+var rename      = require('gulp-rename');
 var pagespeed   = require('psi');
 var runSequence = require('run-sequence');
-var fs = require('fs');
+var fs          = require('fs');
 var pkg         = require('./package.json');
 var autoprefixerBrowsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1'];
 var headerBanner = [
@@ -19,44 +19,19 @@ var headerBanner = [
 ''].join('\n');
 
 module.exports = {
-  browserSync: {
+  'browserSync': {
     notify: true,
     https: false,
     server: './_gh_pages',
   },
-  uninstall: {
+  'uninstall': {
     files: [
       './dist',
       './_gh_pages',
       './docs/build'
     ]
   },
-  csslint: {
-    setting:'./.csslintrc',
-    src: './docs/build/kicss.css'
-  },
-  cssmin: {
-    src: './docs/build/kicss.css',
-    dest: './docs/build/'
-  },
-  ghpage : {
-    src : './_gh_pages/**/*',
-    remoteUrl : 'https://github.com/kicss/kicss.github.io.git',
-    branch : 'master'
-  },
-  jekyll : {
-    buildMessages : '<span style="color: grey">Running:</span> $ jekyll build'
-  },
-  bump: {
-    version: pkg.version, // base
-    src:  './bower.json', //
-    dest: '.'
-  },
-  dist: {
-    src:  './docs/build/**',
-    dest: './css'
-  },
-  sass : {
+  'sass' : {
     src : './scss/kicss.scss',
     dest : './docs/build',
     autoprefixer: autoprefixerBrowsers,
@@ -65,9 +40,31 @@ module.exports = {
     banner:headerBanner,
     jekyll : true,
     jekyllPub: './_gh_pages'
+  },
+  'csslint': {
+    setting:'./.csslintrc',
+    src: './docs/build/kicss.css'
+  },
+  'cssmin': {
+    src: './docs/build/kicss.css',
+    dest: './docs/build/'
+  },
+  'ghpage' : {
+    src : './_gh_pages/**/*',
+    remoteUrl : 'https://github.com/kicss/kicss.github.io.git',
+    branch : 'master'
+  },
+  'jekyll' : {
+    buildMessages : '<span style="color: grey">Running:</span> $ jekyll build'
+  },
+  'bump': {
+    version: pkg.version, // base
+    src:  './bower.json', //
+    dest: '.'
   }
 };
 
+gulp.task('bower', require('gulptasks/lib/bower'));
 gulp.task('sass', require('gulptasks/lib/sass'));
 gulp.task('csslint', require('gulptasks/lib/csslint'));
 gulp.task('cssmin', require('gulptasks/lib/cssmin'));
@@ -79,21 +76,27 @@ gulp.task('server', function(){ browserSync.init(null, module.exports.browserSyn
 
 gulp.task('default',['server'],function() {
   gulp.watch(['./scss/**/*.scss'], ['sass']);
-  gulp.watch(['./docs/**/*.html', './docs/build/*.css', './docs/build/*.css'], ['jekyll',reload]);
+  gulp.watch(['./docs/**/*.html', './docs/build/*.css'], ['jekyll',reload]);
 });
 
 gulp.task('dist',function() {
-  return gulp.src(module.exports.dist.src)
-    .pipe(gulp.dest(module.exports.dist.dest));
+  return gulp.src('./docs/build/**')
+    .pipe(gulp.dest('./css'));
+});
+
+gulp.task('bower-copy',function() {
+  return gulp.src('./bower_components/HTML5-Reset/assets/css/reset.css')
+    .pipe(rename('./base/_html5-reset.scss'))
+    .pipe(gulp.dest('./scss'));
 });
 
 gulp.task('build', function() {
   runSequence(
-    'uninstall',
-    ['sass'],
-    'csslint',
-    'cssmin',
-    ['jekyll'],
-    'bump', 'dist', 'default'
+    'bower',
+    ['bower-copy','uninstall'],
+    'sass',
+    ['csslint','cssmin'],
+    'jekyll',
+    ['bump','dist','default']
   );
 });
