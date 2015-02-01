@@ -31,6 +31,13 @@ body {
   line-height: $g-line-height-bs;
 }
 
+h1, h2, h3, h4, h5, h6,
+p,
+ul,
+dl {
+  margin: ($g-sum-height-bs / 2) 0;
+}
+
 a {
   color: $g-link-color;
   text-decoration: underline;
@@ -49,14 +56,7 @@ h1, h2, h3, h4, h5, h6,
   color: $headings-color;
   font-weight: $headings-weight;
   line-height: $headings-lineHeight;
-  margin-bottom: .5em;
 }
-
-h1, h2, h3,
-.h1, .h2, .h3 { margin-top: 1em; }
-
-h4, h5, h6,
-.h4, .h5, .h6 { margin-top: .5em; }
 
 h1, .h1 { font-size: $h1-font-size; }
 h2, .h2 { font-size: $h2-font-size; }
@@ -64,8 +64,6 @@ h3, .h3 { font-size: $h3-font-size; }
 h4, .h4 { font-size: $h4-font-size; }
 h5, .h5 { font-size: $h5-font-size; }
 h6, .h6 { font-size: $h6-font-size; }
-
-p { margin: 0 0 ($g-sum-height-bs / 2); }
 
 a {
   color: $link-color;
@@ -79,7 +77,7 @@ a {
 
 small, .small { font-size: 80%; }
 
-mark {
+mark, .mark {
   padding-left:.5rem;
   padding-right:.5rem;
   background-color:$mark-bg-color;
@@ -96,18 +94,7 @@ ul {
   li > ul { list-style:circle; }
 }
 
-// Description Lists -------------------------
-dl { margin : 0 0 $g-sum-height-bs 0; }
-dt { font-weight: bold; }
-dd { margin-left: 0; }
-
-pre,
-code {
-  font-family: $g-font-family-monospace-en;
-  white-space: pre-wrap;
-}
-
-// list
+// list  -------------------------
 .list-reset,
 .list-inline {
   padding-left: 0;
@@ -121,4 +108,15 @@ code {
     padding-left: $list-inline-margin;
     padding-right: $list-inline-margin;
   }
+}
+
+// Description Lists -------------------------
+// dl { margin : 0 0 $g-sum-height-bs 0; }
+dt { font-weight: bold; }
+dd { margin-left: 0; }
+
+pre,
+code {
+  font-family: $g-font-family-monospace-en;
+  white-space: pre-wrap;
 }
