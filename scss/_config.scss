@@ -1,0 +1,93 @@
+// Colors
+// ==========================
+$g-color-gray-darkest:           #222 !default;
+$g-color-gray-darker:            #555 !default;
+$g-color-gray-dark:              #888 !default;
+$g-color-gray:                   #AAA !default;
+$g-color-gray-light:             #DDD !default;
+$g-color-gray-lighter:           #F5F5F5 !default;
+$g-color-gray-lightest:          #FAFAFA !default;
+
+$g-color-primary:                 #b89e52 !default;
+$g-color-primary-darkest:         darken($g-color-primary, 45%) !default;
+$g-color-primary-darker:          darken($g-color-primary, 30%) !default;
+$g-color-primary-dark:            darken($g-color-primary, 15%) !default;
+$g-color-primary-light:           lighten($g-color-primary,15%) !default;
+$g-color-primary-lighter:         lighten($g-color-primary,30%) !default;
+$g-color-primary-lightest:        lighten($g-color-primary,45%) !default;
+
+
+// Screen size
+// ==========================
+$g-screen-xs-min:         480px !default;
+$g-screen-sm-min:         768px !default;
+$g-screen-md-min:         992px !default;
+$g-screen-lg-min:         1200px !default;
+
+$g-screen-xs-max:         ($g-screen-sm-min - 1) !default;
+$g-screen-sm-max:         ($g-screen-md-min - 1) !default;
+$g-screen-md-max:         ($g-screen-lg-min - 1) !default;
+
+// Font
+// ==========================
+// Family -------------------
+$g-font-family-sans-en:        Raleway, helvetica, arial, sans-serif !default;
+$g-font-family-sans-ja:        Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !default;
+$g-font-family-serif-en:       Georgia, "Times New Roman", Times, serif !default;
+$g-font-family-serif-ja:       "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif !default;
+$g-font-family-monospace-en:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$g-font-family-monospace-ja:   "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !default;
+
+// Size --------------------
+$g-font-size-bs:            1.6rem !default; // base
+
+$g-font-size-hg:            ($g-font-size-bs + 2.4) !default; // Huge
+$g-font-size-mg:            ($g-font-size-bs + 1.6) !default; // mega
+$g-font-size-xl:            ($g-font-size-bs + .8) !default;  //h1
+$g-font-size-lg:            ($g-font-size-bs + .4) !default;
+$g-font-size-md:            $g-font-size-bs !default;
+$g-font-size-sm:            ($g-font-size-bs - .2) !default;
+$g-font-size-xs:            ($g-font-size-bs - .3) !default;
+
+$g-text-color:            $g-color-gray-darkest !default;
+$g-text-muted:            $g-color-gray !default;
+
+$g-link-color:            $g-color-primary !default;
+$g-link-hover-color:       $g-color-primary-dark !default;
+
+// line-height
+// ==========================
+// $g-line-height-bs:      1.428571429 !default; // 20/14
+$g-line-height-xl:        2 !default;
+$g-line-height-lg:        1.8 !default;
+$g-line-height-bs:        1.5 !default; // 20/14
+$g-line-height-sm:        1.2 !default;
+$g-line-height-xs:        1.1 !default;
+
+// padding
+// ==========================
+$g-padding-xl-vertical:       1.4rem !default;
+$g-padding-xl-horizontal:     2rem !default;
+
+$g-padding-lg-vertical:       .8rem !default;
+$g-padding-lg-horizontal:     1.6rem !default;
+
+$g-padding-bs-vertical:       .6rem !default;
+$g-padding-bs-horizontal:     1.2rem !default;
+
+$g-padding-sm-vertical:       .4rem !default;
+$g-padding-sm-horizontal:     .8rem !default;
+
+$g-padding-xs-vertical:       .1rem !default;
+$g-padding-xs-horizontal:     .5rem !default;
+
+// ==========================
+$g-sum-height-bs:       ($g-font-size-bs + $g-line-height-bs + $g-padding-bs-vertical) !default;
+$g-sum-height-lg:       ($g-font-size-lg + $g-line-height-lg + $g-padding-lg-vertical) !default;
+$g-sum-height-sm:       ($g-font-size-sm + $g-line-height-sm + $g-padding-sm-vertical) !default;
+
+// border-radius
+// ==========================
+$g-border-radius-sm:   .2rem !default;
+$g-border-radius-bs:   .4rem !default;
+$g-border-radius-lg:   .5rem !default;

@@ -1,0 +1,124 @@
+@import "../config";
+
+// local var ------------------------
+$headings-weight:        500 !default;
+$headings-lineHeight:    1.1 !default;
+$headings-color:         inherit !default;
+
+$h1-font-size:            $g-font-size-hg !default;
+$h2-font-size:            $g-font-size-mg !default;
+$h3-font-size:            $g-font-size-xl !default;
+$h4-font-size:            $g-font-size-lg !default;
+$h5-font-size:            $g-font-size-bs !default;
+$h6-font-size:            $g-font-size-sm !default;
+
+$link-color:              $g-link-color !default;
+$link-decoration:         underline !default;
+$link-hover-color:        $g-link-hover-color !default;
+$link-hover-decoration:   none !default;
+
+$mark-bg-color:          $g-color-primary !default;
+$mark-color:             #fff !default;
+
+$list-inline-margin:     5px !default;
+
+
+// ==================================
+body {
+  font-family: $g-font-family-sans-en;
+  color: $g-text-color;
+  font-size: $g-font-size-bs;
+  line-height: $g-line-height-bs;
+}
+
+a {
+  color: $g-link-color;
+  text-decoration: underline;
+}
+a:hover,
+a:focus,
+a:active  {
+  color: $g-link-hover-color;
+  text-decoration: none;
+}
+
+//  Headding  -------------------------
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  color: $headings-color;
+  font-weight: $headings-weight;
+  line-height: $headings-lineHeight;
+  margin-bottom: .5em;
+}
+
+h1, h2, h3,
+.h1, .h2, .h3 { margin-top: 1em; }
+
+h4, h5, h6,
+.h4, .h5, .h6 { margin-top: .5em; }
+
+h1, .h1 { font-size: $h1-font-size; }
+h2, .h2 { font-size: $h2-font-size; }
+h3, .h3 { font-size: $h3-font-size; }
+h4, .h4 { font-size: $h4-font-size; }
+h5, .h5 { font-size: $h5-font-size; }
+h6, .h6 { font-size: $h6-font-size; }
+
+p { margin: 0 0 ($g-sum-height-bs / 2); }
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+}
+
+small, .small { font-size: 80%; }
+
+mark {
+  padding-left:.5rem;
+  padding-right:.5rem;
+  background-color:$mark-bg-color;
+  color:$mark-color;
+}
+
+// list -------------------------
+ul > li > ul,
+ol > li > ol{
+  padding-left:20px;
+}
+ul {
+  list-style:square;
+  li > ul { list-style:circle; }
+}
+
+// Description Lists -------------------------
+dl { margin : 0 0 $g-sum-height-bs 0; }
+dt { font-weight: bold; }
+dd { margin-left: 0; }
+
+pre,
+code {
+  font-family: $g-font-family-monospace-en;
+  white-space: pre-wrap;
+}
+
+// list
+.list-reset,
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  margin-left: (-$list-inline-margin);
+  > li {
+    display: inline-block;
+    padding-left: $list-inline-margin;
+    padding-right: $list-inline-margin;
+  }
+}

@@ -1,0 +1,14 @@
+markdown:         redcarpet
+exclude:          []
+source:           ./docs
+destination:      ./_gh_pages
+encoding:         UTF-8
+exclude:          ['idea-*']
+title:            kicss
+description:      The scalable css for responsive project.
+url:              http://kicss.blivesta.com
+repo:             kicss
+repo_url:         https://github.com/kicss/kicss
+tag:              css3,kicss,rem,calc
+git_fork_btn:     http://ghbtns.com/github-btn.html?user=kicss&amp;repo=kicss&amp;type=fork&amp;count=true
+git_star_btn:     http://ghbtns.com/github-btn.html?user=kicss&amp;repo=kicss&amp;type=watch&amp;count=true

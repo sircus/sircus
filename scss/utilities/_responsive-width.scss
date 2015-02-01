@@ -1,0 +1,34 @@
+@import "../config";
+
+$grid-columns:              12 !default;
+
+@mixin make-grid($screen: xs , $columns : $grid-columns) {
+  @include each-grid-width($screen, $columns);
+}
+@mixin each-grid-width($screen, $columns) {
+  @for $i from 0 through $columns {
+    @include grid-width($i, $screen, $columns);
+  }
+}
+@mixin grid-width($index, $screen, $columns, $list: ".u-#{$screen}-#{$index}of#{$columns}") {
+  @if ($index > 0) {
+    #{$list} {
+      width: percentage(($index / $columns));
+    }
+  }
+}
+
+// ==================================
+@include make-grid(xs, $grid-columns);
+
+@media (min-width: $g-screen-sm-min) {
+  @include make-grid(sm, $grid-columns);
+}
+
+@media (min-width: $g-screen-md-min) {
+  @include make-grid(md, $grid-columns);
+}
+
+@media (min-width: $g-screen-lg-min) {
+  @include make-grid(lg, $grid-columns);
+}

@@ -1,0 +1,15 @@
+@import "../config";
+
+// ----------------------------------
+html,
+body { height: 100%;}
+
+html {
+  background: inherit;
+  color: inherit;
+  font-size: 62.5%; // 10px
+}
+
+body {
+  font-size: $g-font-size-bs;
+}

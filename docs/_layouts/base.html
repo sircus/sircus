@@ -1,0 +1,24 @@
+{% include head.html %}
+<body class="{{ page.class }}">
+  {% include header.html %}
+  <div class="l-face">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <p class="lead">Experimental Work in Progress</p>
+      <p>
+        <a href="https://github.com/kicss/kicss" class="btn btn--border-primary btn--lg">Download on GitHub</a>
+      </p>
+    </div>
+  </div>
+
+	<div class="l-body">
+    <div class="container">
+      {{ content }}
+    </div>
+	</div><!-- /.container -->
+
+  {% include footer.html %}
+  {% include carbon-ads.html %}
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+@import "../config";
+
+$img-round-border-radius : $g-border-radius-bs !default;
+
+// ==================================
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-round {
+  border-radius: $img-round-border-radius;
+}
+
+.img-circle {
+  border-radius: 50%;
+}

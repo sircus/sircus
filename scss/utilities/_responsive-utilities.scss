@@ -1,0 +1,167 @@
+// @import "../mixins/responsive-invisibility";
+// @import "../mixins/responsive-visibility";
+
+// var ------------------------------
+@import "../config";
+
+
+@mixin responsive-invisibility($parent) {
+  #{$parent} { display: none !important; }
+}
+
+@mixin responsive-visibility($parent) {
+  #{$parent}       { display: block !important; }
+  table#{$parent}  { display: table; }
+  tr#{$parent}     { display: table-row !important; }
+  th#{$parent},
+  td#{$parent}     { display: table-cell !important; }
+}
+
+// ==================================
+// IE10 in Windows (Phone) 8
+@-ms-viewport {
+  width: device-width;
+}
+
+// Visibility utilities
+@include responsive-invisibility('.u-visible-xs, .u-visible-sm, .u-visible-md, .u-visible-lg');
+
+.u-visible-xs-block,
+.u-visible-xs-inline,
+.u-visible-xs-inline-block,
+.u-visible-sm-block,
+.u-visible-sm-inline,
+.u-visible-sm-inline-block,
+.u-visible-md-block,
+.u-visible-md-inline,
+.u-visible-md-inline-block,
+.u-visible-lg-block,
+.u-visible-lg-inline,
+.u-visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: $g-screen-xs-max) {
+  @include responsive-visibility('.u-visible-xs');
+}
+.u-visible-xs-block {
+  @media (max-width: $g-screen-xs-max) {
+    display: block !important;
+  }
+}
+.u-visible-xs-inline {
+  @media (max-width: $g-screen-xs-max) {
+    display: inline !important;
+  }
+}
+.u-visible-xs-inline-block {
+  @media (max-width: $g-screen-xs-max) {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+  @include responsive-visibility('.u-visible-sm');
+}
+.u-visible-sm-block {
+  @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+    display: block !important;
+  }
+}
+.u-visible-sm-inline {
+  @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+    display: inline !important;
+  }
+}
+.u-visible-sm-inline-block {
+  @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+  @include responsive-visibility('.u-visible-md');
+}
+.u-visible-md-block {
+  @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+    display: block !important;
+  }
+}
+.u-visible-md-inline {
+  @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+    display: inline !important;
+  }
+}
+.u-visible-md-inline-block {
+  @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: $g-screen-lg-min) {
+  @include responsive-visibility('.u-visible-lg');
+}
+.u-visible-lg-block {
+  @media (min-width: $g-screen-lg-min) {
+    display: block !important;
+  }
+}
+.u-visible-lg-inline {
+  @media (min-width: $g-screen-lg-min) {
+    display: inline !important;
+  }
+}
+.u-visible-lg-inline-block {
+  @media (min-width: $g-screen-lg-min) {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: $g-screen-xs-max) {
+  @include responsive-invisibility('.u-hidden-xs');
+}
+
+@media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+  @include responsive-invisibility('.u-hidden-sm');
+}
+
+@media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+  @include responsive-invisibility('.u-hidden-md');
+}
+
+@media (min-width: $g-screen-lg-min) {
+  @include responsive-invisibility('.u-hidden-lg');
+}
+
+
+// Print utilities
+@include responsive-invisibility('.u-visible-print');
+
+@media print {
+  @include responsive-visibility('.u-visible-print');
+}
+.u-visible-print-block {
+  display: none !important;
+
+  @media print {
+    display: block !important;
+  }
+}
+.u-visible-print-inline {
+  display: none !important;
+
+  @media print {
+    display: inline !important;
+  }
+}
+.u-visible-print-inline-block {
+  display: none !important;
+
+  @media print {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  @include responsive-invisibility('.u-hidden-print');
+}

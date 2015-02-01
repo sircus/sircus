@@ -1,0 +1,75 @@
+@import "../config";
+
+$grid-gutter-width:         40px !default;
+$container-gutter-width:    $grid-gutter-width !default;
+$container-sm:              720px + $container-gutter-width !default;
+$container-md:              940px + $container-gutter-width !default;
+$container-lg:              1140px + $container-gutter-width !default;
+
+// ==================================
+.container-full,
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $container-gutter-width / 2;
+  padding-right: $container-gutter-width / 2;
+}
+
+.container {
+  @media (min-width: $g-screen-sm-min) {
+    width: $container-sm;
+  }
+
+  @media (min-width: $g-screen-md-min) {
+    width: $container-md;
+  }
+
+  @media (min-width: $g-screen-lg-min) {
+    width: $container-lg;
+  }
+}
+
+// Row
+// =====================================
+.row,
+.row-float,
+.row-inline-block,
+.row-table {
+  margin-left:  ($grid-gutter-width / -2);
+  margin-right: ($grid-gutter-width / -2);
+}
+
+.row,
+.row-float {
+  > .col {
+    float: left;
+  }
+}
+
+.row-inline-block {
+  font-size: 0;
+  > .col {
+    display: inline-block;
+    font-size: $g-font-size-bs;
+  }
+}
+
+.row-table {
+  @media (min-width: $g-screen-xs-min) {
+    display: table;
+    table-layout: fixed;
+    width: calc(100% + #{$grid-gutter-width});
+    > .col {
+      display: table-cell;
+    }
+  }
+}
+
+// Columns
+// =====================================
+.col {
+  min-height: 1px;
+  padding-left: $grid-gutter-width / 2;
+  padding-right: $grid-gutter-width / 2;
+  position: relative;
+}

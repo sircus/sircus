@@ -1,0 +1,33 @@
+.embed {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+
+  .embed-item,
+  iframe,
+  embed,
+  object,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
+
+.embed--16by9 {
+  padding-bottom: 56.25%;
+}
+
+.embed--4by3 {
+  padding-bottom: 75%;
+}
+
+.embed--3by1 {
+  padding-bottom: calc(100% / 3);
+}
