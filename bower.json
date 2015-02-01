@@ -1,0 +1,25 @@
+{
+  "name": "kicss",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kicss/kicss",
+  "authors": [
+    "blivesta"
+  ],
+  "description": "The scalable css for responsive project.",
+  "main": [
+    "css",
+    "scss"
+  ],
+  "keywords": [
+    "scalable css",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.yml",
+    "node_modules",
+    "gulpfile.js",
+    "docs"
+  ]
+}
