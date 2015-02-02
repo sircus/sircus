@@ -19,38 +19,41 @@ $container-lg:              1140px + $container-gutter-width !default;
   @media (min-width: $g-screen-sm-min) {
     width: $container-sm;
   }
-
   @media (min-width: $g-screen-md-min) {
     width: $container-md;
   }
-
   @media (min-width: $g-screen-lg-min) {
     width: $container-lg;
   }
 }
 
+.container-sm {
+  width: $container-sm;
+}
+
+
 // Row
 // =====================================
 .row,
 .row-float,
-.row-inline-block,
+.row-inline,
 .row-table {
   margin-left:  ($grid-gutter-width / -2);
   margin-right: ($grid-gutter-width / -2);
 }
 
 .row,
-.row-float {
-  > .col {
-    float: left;
-  }
-}
-
-.row-inline-block {
+.row-inline {
   font-size: 0;
   > .col {
     display: inline-block;
     font-size: $g-font-size-bs;
+  }
+}
+
+.row-float {
+  > .col {
+    float: left;
   }
 }
 
