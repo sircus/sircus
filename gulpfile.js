@@ -5,7 +5,6 @@ var gulp        = require('gulp');
 var rename      = require('gulp-rename');
 var pagespeed   = require('psi');
 var runSequence = require('run-sequence');
-var fs          = require('fs');
 var pkg         = require('./package.json');
 var autoprefixerBrowsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1'];
 var headerBanner = [
@@ -61,6 +60,9 @@ module.exports = {
     version: pkg.version, // base
     src:  './bower.json', //
     dest: '.'
+  },
+  'psi': {
+    production: 'http://kicss.blivesta.com',
   }
 };
 
@@ -99,4 +101,10 @@ gulp.task('build', function() {
     'jekyll',
     ['bump','dist','default']
   );
+});
+
+gulp.task('psi', function (cb) {
+  pagespeed.output(module.exports.psi.production, {
+    strategy: 'mobile'
+  }, cb);
 });
