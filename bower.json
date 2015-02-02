@@ -22,7 +22,7 @@
     "gulpfile.js",
     "docs"
   ],
-  "dependencies": {
+  "devDependencies": {
     "HTML5-Reset": "^2.1.2"
   }
 }
