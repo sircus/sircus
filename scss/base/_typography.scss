@@ -5,6 +5,7 @@ $headings-weight:        500 !default;
 $headings-lineHeight:    1.1 !default;
 $headings-color:         inherit !default;
 
+$h0-font-size:            $g-font-size-sc !default;
 $h1-font-size:            $g-font-size-hg !default;
 $h2-font-size:            $g-font-size-mg !default;
 $h3-font-size:            $g-font-size-xl !default;
@@ -51,13 +52,14 @@ a:active  {
 
 //  Headding  -------------------------
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h0, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   color: $headings-color;
   font-weight: $headings-weight;
   line-height: $headings-lineHeight;
 }
 
+.h0     { font-size: $h0-font-size; }
 h1, .h1 { font-size: $h1-font-size; }
 h2, .h2 { font-size: $h2-font-size; }
 h3, .h3 { font-size: $h3-font-size; }
@@ -111,7 +113,6 @@ ul {
 }
 
 // Description Lists -------------------------
-// dl { margin : 0 0 $g-sum-height-bs 0; }
 dt { font-weight: bold; }
 dd { margin-left: 0; }
 

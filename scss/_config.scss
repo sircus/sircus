@@ -41,6 +41,7 @@ $g-font-family-monospace-ja:   "Osaka－等幅", Osaka-mono, "ＭＳ ゴシッ�
 // Size --------------------
 $g-font-size-bs:            1.6rem !default; // base
 
+$g-font-size-sc:            ($g-font-size-bs + 3.6) !default;
 $g-font-size-hg:            ($g-font-size-bs + 2.4) !default; // Huge
 $g-font-size-mg:            ($g-font-size-bs + 1.6) !default; // mega
 $g-font-size-xl:            ($g-font-size-bs + .8) !default;  //h1
