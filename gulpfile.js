@@ -30,13 +30,15 @@ module.exports = {
       './docs/static/build'
     ]
   },
-  'sass' : {
-    src : './scss/kicss.scss',
-    dest : './docs/static/build/css',
+  'sass': {
+    src: './scss/kicss.scss',
+    dest: './docs/static/build/css',
     autoprefixer: autoprefixerBrowsers,
     pkg: pkg,
-    headerBanner : true,
+    headerBanner: true,
     banner:headerBanner,
+    staticGenerator: true,
+    staticGeneratorBuild:'./docs/public'
   },
   'csslint': {
     setting:'./.csslintrc',
