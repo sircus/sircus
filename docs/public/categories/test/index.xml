@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Test on kicss </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>/categories/test/index.xml/</link>
+    
+    
+    <copyright>Copyright (c) 2015 Kicss. all rights reserved.</copyright>
+    <updated>Tue, 03 Feb 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Test / Grid</title>
+      <link>/test/grid/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/test/grid/</guid>
+      <description>&lt;h1&gt;row-inline-block&lt;/h1&gt;
+&lt;div class=&#34;container&#34;&gt;
+  &lt;code&gt;.container&lt;/code&gt;
+  &lt;div class=&#34;row-inline-block&#34;&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;u-va-bottom col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;row-float&lt;/h1&gt;
+&lt;div class=&#34;container&#34;&gt;
+  &lt;code&gt;.container&lt;/code&gt;
+  &lt;div class=&#34;row-float&#34;&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;row-table&lt;/h1&gt;
+&lt;div class=&#34;container&#34;&gt;
+  &lt;code&gt;.container&lt;/code&gt;
+  &lt;div class=&#34;row-table&#34;&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34; col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col u-bs-6of12 u-xs-4of12 u-sm-3of12 u-md-2of12 u-lg-2of12&#34;&gt;
+      &lt;code&gt;col&lt;/code&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test / Elements</title>
+      <link>/test/elements/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/test/elements/</guid>
+      <description>&lt;h1&gt;Hello world! This is HTML5 Boilerplate.&lt;/h1&gt;
+&lt;h6&gt;Hello world! This is HTML5 Boilerplate.&lt;/h6&gt;
+
+
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+
+&lt;section&gt;
+  &lt;h1&gt;Heading 1 (in section)&lt;/h1&gt;
+  &lt;h2&gt;Heading 2 (in section)&lt;/h2&gt;
+  &lt;h3&gt;Heading 3 (in section)&lt;/h3&gt;
+  &lt;h4&gt;Heading 4 (in section)&lt;/h4&gt;
+  &lt;h5&gt;Heading 5 (in section)&lt;/h5&gt;
+  &lt;h6&gt;Heading 6 (in section)&lt;/h6&gt;
+&lt;/section&gt;
+
+&lt;article&gt;
+  &lt;h1&gt;Heading 1 (in article)&lt;/h1&gt;
+  &lt;h2&gt;Heading 2 (in article)&lt;/h2&gt;
+  &lt;h3&gt;Heading 3 (in article)&lt;/h3&gt;
+  &lt;h4&gt;Heading 4 (in article)&lt;/h4&gt;
+  &lt;h5&gt;Heading 5 (in article)&lt;/h5&gt;
+  &lt;h6&gt;Heading 6 (in article)&lt;/h6&gt;
+&lt;/article&gt;
+
+&lt;header&gt;
+  &lt;hgroup&gt;
+    &lt;h1&gt;Heading 1 (in hgroup)&lt;/h1&gt;
+    &lt;h2&gt;Heading 2 (in hgroup)&lt;/h2&gt;
+  &lt;/hgroup&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&#34;#&#34;&gt;navigation item #1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;#&#34;&gt;navigation item #2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;#&#34;&gt;navigation item #3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;h1&gt;Text-level semantics&lt;/h1&gt;
+
+&lt;p hidden&gt;This should be hidden in all browsers, apart from IE6&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+&lt;address&gt;Address: somewhere, world&lt;/address&gt;
+
+&lt;hr&gt;
+
+&lt;hr style=&#34;height:4px; border:solid #000; border-width:1px 0;&#34;&gt;
+
+&lt;p&gt;
+  The &lt;a href=&#34;#&#34;&gt;a element&lt;/a&gt; example&lt;br&gt;
+  The &lt;abbr&gt;abbr element&lt;/abbr&gt; and &lt;abbr title=&#34;Title text&#34;&gt;abbr element with title&lt;/abbr&gt; examples&lt;br&gt;
+  The &lt;b&gt;b element&lt;/b&gt; example&lt;br&gt;
+  The &lt;cite&gt;cite element&lt;/cite&gt; example&lt;br&gt;
+  The &lt;code&gt;code element&lt;/code&gt; example&lt;br&gt;
+  The &lt;del&gt;del element&lt;/del&gt; example&lt;br&gt;
+  The &lt;dfn&gt;dfn element&lt;/dfn&gt; and &lt;dfn title=&#34;Title text&#34;&gt;dfn element with title&lt;/dfn&gt; examples&lt;br&gt;
+  The &lt;em&gt;em element&lt;/em&gt; example&lt;br&gt;
+  The &lt;i&gt;i element&lt;/i&gt; example&lt;br&gt;
+  The img element &lt;img src=&#34;http://lorempixel.com/16/16&#34; alt=&#34;&#34;&gt; example&lt;br&gt;
+  The &lt;ins&gt;ins element&lt;/ins&gt; example&lt;br&gt;
+  The &lt;kbd&gt;kbd element&lt;/kbd&gt; example&lt;br&gt;
+  The &lt;mark&gt;mark element&lt;/mark&gt; example&lt;br&gt;
+  The &lt;q&gt;q element &lt;q&gt;inside&lt;/q&gt; a q element&lt;/q&gt; example&lt;br&gt;
+  The &lt;s&gt;s element&lt;/s&gt; example&lt;br&gt;
+  The &lt;samp&gt;samp element&lt;/samp&gt; example&lt;br&gt;
+  The &lt;small&gt;small element&lt;/small&gt; example&lt;br&gt;
+  The &lt;span&gt;span element&lt;/span&gt; example&lt;br&gt;
+  The &lt;strong&gt;strong element&lt;/strong&gt; example&lt;br&gt;
+  The &lt;sub&gt;sub element&lt;/sub&gt; example&lt;br&gt;
+  The &lt;sup&gt;sup element&lt;/sup&gt; example&lt;br&gt;
+  The &lt;u&gt;u element&lt;/u&gt; example&lt;br&gt;
+  The &lt;var&gt;var element&lt;/var&gt; example
+&lt;/p&gt;
+
+&lt;h1&gt;Embedded content&lt;/h1&gt;
+
+&lt;h3&gt;audio&lt;/h3&gt;
+
+&lt;audio controls&gt;&lt;/audio&gt;
+&lt;audio&gt;&lt;/audio&gt;
+
+&lt;h3&gt;img&lt;/h3&gt;
+
+&lt;img src=&#34;http://lorempixel.com/100/100&#34; alt=&#34;&#34;&gt;
+&lt;a href=&#34;#&#34;&gt;&lt;img src=&#34;http://lorempixel.com/100/100&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+
+&lt;h3&gt;svg&lt;/h3&gt;
+
+&lt;svg width=&#34;100px&#34; height=&#34;100px&#34;&gt;
+  &lt;circle cx=&#34;100&#34; cy=&#34;100&#34; r=&#34;100&#34; fill=&#34;#ff0000&#34; /&gt;
+&lt;/svg&gt;
+
+&lt;h3&gt;video&lt;/h3&gt;
+
+&lt;video controls&gt;&lt;/video&gt;
+&lt;video&gt;&lt;/video&gt;
+
+&lt;h1&gt;Interactive content&lt;/h1&gt;
+
+&lt;h3&gt;details / summary&lt;/h3&gt;
+&lt;details&gt;
+  &lt;summary&gt;More info&lt;/summary&gt;
+  &lt;p&gt;Additional information&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Point 1&lt;/li&gt;
+    &lt;li&gt;Point 2&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/details&gt;
+
+&lt;h1&gt;Grouping content&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.&lt;/p&gt;
+
+&lt;h3&gt;pre&lt;/h3&gt;
+
+&lt;pre&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et me.&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markup&#34;&gt;
+&amp;lt;html&gt;
+&amp;lt;head&gt;
+&amp;lt;/head&gt;
+&amp;lt;body&gt;
+  &amp;lt;div class=&#34;main&#34;&gt; &amp;lt;div&gt;
+&amp;lt;/body&gt;
+&amp;lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+  &lt;h3&gt;blockquote&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some sort of famous witty quote marked up with a &amp;lt;blockquote&gt; and a child &amp;lt;p&gt; element.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;Even better philosophical quote marked up with just a &amp;lt;blockquote&gt; element.&lt;/blockquote&gt;
+
+&lt;h3&gt;ordered list&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 1
+    &lt;ol&gt;
+      &lt;li&gt;list item 2&lt;/li&gt;
+      &lt;li&gt;list item 2
+        &lt;ol&gt;
+          &lt;li&gt;list item 3&lt;/li&gt;
+          &lt;li&gt;list item 3&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;list item 2&lt;/li&gt;
+      &lt;li&gt;list item 2&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;unordered list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 1
+    &lt;ul&gt;
+      &lt;li&gt;list item 2&lt;/li&gt;
+      &lt;li&gt;list item 2
+        &lt;ul&gt;
+          &lt;li&gt;list item 3&lt;/li&gt;
+          &lt;li&gt;list item 3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;list item 2&lt;/li&gt;
+      &lt;li&gt;list item 2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;description list&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Description name&lt;/dt&gt;
+  &lt;dd&gt;Description value&lt;/dd&gt;
+  &lt;dt&gt;Description name&lt;/dt&gt;
+  &lt;dd&gt;Description value&lt;/dd&gt;
+  &lt;dd&gt;Description value&lt;/dd&gt;
+  &lt;dt&gt;Description name&lt;/dt&gt;
+  &lt;dt&gt;Description name&lt;/dt&gt;
+  &lt;dd&gt;Description value&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3&gt;figure&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src=&#34;http://lorempixel.com/400/200&#34; alt=&#34;&#34;&gt;
+  &lt;figcaption&gt;Figcaption content&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1&gt;Tabular data&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;caption&gt;Jimi Hendrix - albums&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Album&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Album&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Are You Experienced&lt;/td&gt;
+      &lt;td&gt;1967&lt;/td&gt;
+      &lt;td&gt;$10.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Axis: Bold as Love&lt;/td&gt;
+      &lt;td&gt;1967&lt;/td&gt;
+      &lt;td&gt;$12.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Electric Ladyland&lt;/td&gt;
+      &lt;td&gt;1968&lt;/td&gt;
+      &lt;td&gt;$10.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Band of Gypsys&lt;/td&gt;
+      &lt;td&gt;1970&lt;/td&gt;
+      &lt;td&gt;$12.00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1&gt;Forms&lt;/h1&gt;
+
+&lt;form&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Inputs as descendents of labels (form legend). This doubles up as a long legend that can test word wrapping.&lt;/legend&gt;
+    &lt;p&gt;&lt;label&gt;Text input &lt;input type=&#34;text&#34; value=&#34;default value that goes on and on without stopping or punctuation&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Email input &lt;input type=&#34;email&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Search input &lt;input type=&#34;search&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Tel input &lt;input type=&#34;tel&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;URL input &lt;input type=&#34;url&#34; placeholder=&#34;http://&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Password input &lt;input type=&#34;password&#34; value=&#34;password&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;File input &lt;input type=&#34;file&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label&gt;Radio input &lt;input type=&#34;radio&#34; name=&#34;rad&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Checkbox input &lt;input type=&#34;checkbox&#34;&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;&lt;input type=&#34;radio&#34; name=&#34;rad&#34;&gt; Radio input&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34;&gt; Checkbox input&lt;/label&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label&gt;Select field &lt;select&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label&gt;Textarea &lt;textarea cols=&#34;30&#34; rows=&#34;5&#34; &gt;Textarea text&lt;/textarea&gt;&lt;/label&gt;&lt;/p&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Inputs as siblings of labels&lt;/legend&gt;
+    &lt;p&gt;&lt;label for=&#34;ic&#34;&gt;Color input&lt;/label&gt; &lt;input type=&#34;color&#34; id=&#34;ic&#34; value=&#34;#000000&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;in&#34;&gt;Number input&lt;/label&gt; &lt;input type=&#34;number&#34; id=&#34;in&#34; min=&#34;0&#34; max=&#34;10&#34; value=&#34;5&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;ir&#34;&gt;Range input&lt;/label&gt; &lt;input type=&#34;range&#34; id=&#34;ir&#34; value=&#34;10&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idd&#34;&gt;Date input&lt;/label&gt; &lt;input type=&#34;date&#34; id=&#34;idd&#34; value=&#34;1970-01-01&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idm&#34;&gt;Month input&lt;/label&gt; &lt;input type=&#34;month&#34; id=&#34;idm&#34; value=&#34;1970-01&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idw&#34;&gt;Week input&lt;/label&gt; &lt;input type=&#34;week&#34; id=&#34;idw&#34; value=&#34;1970-W01&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idt&#34;&gt;Datetime input&lt;/label&gt; &lt;input type=&#34;datetime&#34; id=&#34;idt&#34; value=&#34;1970-01-01T00:00:00Z&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;idtl&#34;&gt;Datetime-local input&lt;/label&gt; &lt;input type=&#34;datetime-local&#34; id=&#34;idtl&#34; value=&#34;1970-01-01T00:00&#34;&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&#34;irb&#34;&gt;Radio input&lt;/label&gt; &lt;input type=&#34;radio&#34; id=&#34;irb&#34; name=&#34;rad&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;icb&#34;&gt;Checkbox input&lt;/label&gt; &lt;input type=&#34;checkbox&#34; id=&#34;icb&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;radio&#34; id=&#34;irb2&#34; name=&#34;rad&#34;&gt; &lt;label for=&#34;irb2&#34;&gt;Radio input&lt;/label&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;icb2&#34;&gt; &lt;label for=&#34;icb2&#34;&gt;Checkbox input&lt;/label&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&#34;s&#34;&gt;Select field&lt;/label&gt; &lt;select id=&#34;s&#34;&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;label for=&#34;t&#34;&gt;Textarea&lt;/label&gt; &lt;textarea id=&#34;t&#34; cols=&#34;30&#34; rows=&#34;5&#34; &gt;Textarea text&lt;/textarea&gt;&lt;/p&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Clickable inputs and buttons&lt;/legend&gt;
+    &lt;p&gt;&lt;input type=&#34;image&#34; src=&#34;http://lorempixel.com/90/24&#34; alt=&#34;Image (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;reset&#34; value=&#34;Reset (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;button&#34; value=&#34;Button (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;submit&#34; value=&#34;Submit (input)&#34;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&#34;submit&#34; value=&#34;Disabled (input)&#34; disabled&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;button type=&#34;reset&#34;&gt;Reset (button)&lt;/button&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;button type=&#34;button&#34;&gt;Button (button)&lt;/button&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Submit (button)&lt;/button&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;button type=&#34;submit&#34; disabled&gt;Disabled (button)&lt;/button&gt;&lt;/p&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset id=&#34;boxsize&#34;&gt;
+    &lt;legend&gt;box-sizing tests&lt;/legend&gt;
+    &lt;div&gt;&lt;input type=&#34;text&#34; value=&#34;text&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;email&#34; value=&#34;email&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;search&#34; value=&#34;search&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;url&#34; value=&#34;http://example.com&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;password&#34; value=&#34;password&#34;&gt;&lt;/div&gt;
+
+    &lt;div&gt;&lt;input type=&#34;color&#34; value=&#34;#000000&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;number&#34; value=&#34;5&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;range&#34; value=&#34;10&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;date&#34; value=&#34;1970-01-01&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;month&#34; value=&#34;1970-01&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;week&#34; value=&#34;1970-W01&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;datetime&#34; value=&#34;1970-01-01T00:00:00Z&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;datetime-local&#34; value=&#34;1970-01-01T00:00&#34;&gt;&lt;/div&gt;
+
+    &lt;div&gt;&lt;input type=&#34;radio&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;checkbox&#34;&gt;&lt;/div&gt;
+
+    &lt;div&gt;&lt;select&gt;&lt;option&gt;Option 01&lt;/option&gt;&lt;option&gt;Option 02&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;textarea cols=&#34;30&#34; rows=&#34;5&#34;&gt;Textarea text&lt;/textarea&gt;&lt;/div&gt;
+
+    &lt;div&gt;&lt;input type=&#34;image&#34; src=&#34;http://lorempixel.com/90/24&#34; alt=&#34;Image (input)&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;reset&#34; value=&#34;Reset (input)&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;button&#34; value=&#34;Button (input)&#34;&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;input type=&#34;submit&#34; value=&#34;Submit (input)&#34;&gt;&lt;/div&gt;
+
+    &lt;div&gt;&lt;button type=&#34;reset&#34;&gt;Reset (button)&lt;/button&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;button type=&#34;button&#34;&gt;Button (button)&lt;/button&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;button type=&#34;submit&#34;&gt;Submit (button)&lt;/button&gt;&lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

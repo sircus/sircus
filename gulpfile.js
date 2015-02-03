@@ -21,40 +21,38 @@ module.exports = {
   'browserSync': {
     notify: true,
     https: false,
-    server: './_gh_pages',
+    server: './docs/public',
   },
   'uninstall': {
     files: [
       './dist',
-      './_gh_pages',
-      './docs/build'
+      './docs/public',
+      './docs/static/build'
     ]
   },
   'sass' : {
     src : './scss/kicss.scss',
-    dest : './docs/build',
+    dest : './docs/static/build/css',
     autoprefixer: autoprefixerBrowsers,
     pkg: pkg,
     headerBanner : true,
     banner:headerBanner,
-    jekyll : true,
-    jekyllPub: './_gh_pages'
   },
   'csslint': {
     setting:'./.csslintrc',
-    src: './docs/build/kicss.css'
+    src: './docs/static/build/css/kicss.css'
   },
   'cssmin': {
-    src: './docs/build/kicss.css',
-    dest: './docs/build/'
+    src: './docs/static/build/css/kicss.css',
+    dest: './docs/static/build/css/'
   },
   'ghpage' : {
-    src : './_gh_pages/**/*',
+    src : './docs/public/**/*',
     remoteUrl : 'https://github.com/kicss/kicss.github.io.git',
     branch : 'master'
   },
-  'jekyll' : {
-    buildMessages : '<span style="color: grey">Running:</span> $ jekyll build'
+  'hugo' : {
+    buildMessages : '<span style="color: grey">Running:</span> $ hugo'
   },
   'bump': {
     version: pkg.version, // base
@@ -72,17 +70,17 @@ gulp.task('csslint', require('gulptasks/lib/csslint'));
 gulp.task('cssmin', require('gulptasks/lib/cssmin'));
 gulp.task('deploy', require('gulptasks/lib/ghpage'));
 gulp.task('bump', require('gulptasks/lib/bump'));
-gulp.task('jekyll', require('gulptasks/lib/jekyll'));
+gulp.task('hugo', require('gulptasks/lib/hugo'));
 gulp.task('uninstall', del.bind(null, module.exports.uninstall.files));
 gulp.task('server', function(){ browserSync.init(null, module.exports.browserSync); });
 
 gulp.task('default',['server'],function() {
   gulp.watch(['./scss/**/*.scss'], ['sass']);
-  gulp.watch(['./docs/**/*.html', './docs/build/*.css'], ['jekyll',reload]);
+  gulp.watch(['./docs/**/*.html', './docs/**/*.md', './docs/**/*.css'], ['hugo',reload]);
 });
 
 gulp.task('dist',function() {
-  return gulp.src('./docs/build/**')
+  return gulp.src('./docs/static/build/css/**')
     .pipe(gulp.dest('./css'));
 });
 
@@ -98,7 +96,7 @@ gulp.task('build', function() {
     ['bower-copy','uninstall'],
     'sass',
     ['csslint','cssmin'],
-    'jekyll',
+    'hugo',
     ['bump','dist','default']
   );
 });

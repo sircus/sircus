@@ -1,0 +1,14 @@
+baseurl = "/"
+Title = "kicss"
+copyright = "Copyright (c) 2015 Kicss. all rights reserved."
+
+[params]
+  description = "The scalable css for responsive project."
+  author = "blivesta"
+  maintainer = "ungki"
+  tags = "css3, kicss, rem, calc"
+  kicss_url = "http://kicss.blivesta.com"
+  github_url = "https://github.com/kicss/kicss"
+  twitter = "blivesta"
+  git_fork_btn = "http://ghbtns.com/github-btn.html?user=kicss&amp;repo=kicss&amp;type=fork&amp;count=true"
+  git_star_btn = "http://ghbtns.com/github-btn.html?user=kicss&amp;repo=kicss&amp;type=watch&amp;count=true"

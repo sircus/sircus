@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Components on kicss </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>/categories/components/index.xml/</link>
+    
+    
+    <copyright>Copyright (c) 2015 Kicss. all rights reserved.</copyright>
+    <updated>Tue, 03 Feb 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Component / Grid</title>
+      <link>/components/grid/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/components/grid/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;l-section&#34;&gt;
+&lt;h3&gt;Container&lt;/h3&gt;
+&lt;h4&gt;Center block&lt;/h4&gt;
+{% highlight html linenos %}
+&lt;div class=&#34;container&#34;&gt;&amp;hellip;&lt;/div&gt;
+{% endhighlight %}
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.l-section &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;l-section&#34;&gt;
+&lt;h4&gt;Fuild block&lt;/h4&gt;
+{% highlight html linenos %}
+&lt;div class=&#34;container-full&#34;&gt;&amp;hellip;&lt;/div&gt;
+{% endhighlight %}
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.l-section &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;l-section&#34;&gt;
+&lt;h3&gt;Grid - float:left;&lt;/h3&gt;
+&lt;div class=&#34;demo demo-grid&#34;&gt;
+  &lt;div class=&#34;row-float container-full&#34;&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.demo &amp;ndash;&amp;gt;
+{% highlight html linenos %}
+&lt;div class=&#34;row-float&#34;&gt;
+  &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;hellip;&lt;/div&gt;
+  &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;hellip;&lt;/div&gt;
+&lt;/div&gt;
+{% endhighlight %}
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.l-section &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;l-section&#34;&gt;
+&lt;h3&gt;Grid - display:inline-block;&lt;/h3&gt;
+&lt;div class=&#34;demo demo-grid&#34;&gt;
+  &lt;div class=&#34;row-inline-block container-full&#34;&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34; style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34; style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.demo &amp;ndash;&amp;gt;
+{% highlight html linenos %}
+&lt;div class=&#34;row-inline-block&#34;&gt;
+  &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;hellip;&lt;/div&gt;
+  &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;hellip;&lt;/div&gt;
+&lt;/div&gt;
+{% endhighlight %}
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.l-section &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;l-section&#34;&gt;
+&lt;h3&gt;Grid - display:table;&lt;/h3&gt;
+&lt;div class=&#34;demo demo-grid&#34;&gt;
+  &lt;div class=&#34;row-table container-full&#34;&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;row-table container-full&#34;&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;style=&#34;height:80px;&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&#34;col u-xs-12of12 u-sm-3of12 u-md-1of12&#34;&gt;&amp;nbsp;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.demo &amp;ndash;&amp;gt;
+{% highlight html linenos %}
+&lt;div class=&#34;row-table&#34;&gt;
+  &lt;div class=&#34;col u-xs-6of12&#34;&gt;.col.u-xs-6of12&lt;/div&gt;
+  &lt;div class=&#34;col u-xs-6of12&#34;&gt;.col.u-xs-6of12&lt;/div&gt;
+&lt;/div&gt;
+{% endhighlight %}
+&lt;/div&gt;&amp;lt;!&amp;ndash; /.l-section &amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

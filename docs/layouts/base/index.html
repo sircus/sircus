@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+<body>
+
+{{ partial "header.html" . }}
+
+<div class="l-face">
+  <div class="container">
+    <h2>{{ .Title }}</h2>
+    <p class="lead">Experimental Work in Progress</p>
+    <p>
+      <a href="https://github.com/kicss/kicss" class="btn btn--border-primary btn--lg">Download on GitHub</a>
+    </p>
+  </div>
+</div>
+
+{{ range .Data.Pages }}
+<div class="l-body">
+  <div class="container">
+    <div class="entry-header">
+      <h1 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <span class="updated">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+    </div>
+    <div class="entry-content">
+    {{ .Content }}
+    </div>
+  </div>
+</div><!-- /.container -->
+{{ end }}
+
+{{ partial "footer.html" . }}
+{{ partial "carbon-ads.html" . }}
+  </body>
+</html>

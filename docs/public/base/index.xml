@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Bases on kicss </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>/base/index.xml/</link>
+    
+    
+    <copyright>Copyright (c) 2015 Kicss. all rights reserved.</copyright>
+    <updated>Tue, 03 Feb 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Module / Images</title>
+      <link>/base/images/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/base/images/</guid>
+      <description>&lt;div class=&#34;l-section&#34;&gt;
+&lt;h2&gt;Round&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;img-round&#34; src=&#34;http://placehold.it/250x150&#34; alt=&#34;&#34; /&gt;
+  &lt;/p&gt;
+&lt;/div&gt;&lt;!-- /.demo --&gt;
+{% highlight html linenos %}
+&lt;img class=&#34;img-round&#34; src=&#34;http://placehold.it/250x150&#34; alt=&#34;&#34; /&gt;
+{% endhighlight %}
+&lt;/div&gt;&lt;!-- /.l-section --&gt;
+
+
+&lt;div class=&#34;l-section&#34;&gt;
+&lt;h2&gt;Circle&lt;/h2&gt;
+&lt;div class=&#34;demo&#34;&gt;
+  &lt;p&gt;
+    &lt;img class=&#34;img-circle&#34; src=&#34;http://placehold.it/150x150&#34; alt=&#34;&#34; /&gt;
+  &lt;/p&gt;
+&lt;/div&gt;&lt;!-- /.demo --&gt;
+{% highlight html linenos %}
+&lt;img class=&#34;img-circle&#34; src=&#34;http://placehold.it/150x150&#34; alt=&#34;&#34; /&gt;
+{% endhighlight %}
+&lt;/div&gt;&lt;!-- /.l-section --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
