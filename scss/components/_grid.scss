@@ -11,8 +11,8 @@ $container-lg:              1140px + $container-gutter-width !default;
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: $container-gutter-width / 2;
-  padding-right: $container-gutter-width / 2;
+  padding-left: ($container-gutter-width / 2);
+  padding-right: ($container-gutter-width / 2);
 }
 
 .container {
@@ -35,23 +35,30 @@ $container-lg:              1140px + $container-gutter-width !default;
 // Row
 // =====================================
 .row,
-.row-float,
 .row-inline,
+.row-float,
 .row-table {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
   margin-left:  ($grid-gutter-width / -2);
   margin-right: ($grid-gutter-width / -2);
-}
-
-.row,
-.row-inline {
-  font-size: 0;
   > .col {
-    display: inline-block;
     font-size: $g-font-size-bs;
   }
 }
 
+.row,
+.row-inline {
+  display: block;
+  > .col {
+    display: inline-block;
+  }
+}
+
 .row-float {
+  display: block;
   > .col {
     float: left;
   }
@@ -68,11 +75,33 @@ $container-lg:              1140px + $container-gutter-width !default;
   }
 }
 
+// `.row` Modifier
+// -------------------------------
+// baseline
+.row--baseline-top > .col {
+  vertical-align: top !important;
+}
+.row--baseline-middle > .col{
+  vertical-align: middle !important;
+}
+.row--baseline-bottom > .col{
+  vertical-align: bottom !important;
+}
+// gutter
+.row--gutter {
+  margin: 0 calc(-0.5 * $grid-gutter-width);
+}
+
+.row--gutter > .col {
+  padding: 0 calc(0.5 * $grid-gutter-width);
+}
+
+
 // Columns
 // =====================================
 .col {
   min-height: 1px;
-  padding-left: $grid-gutter-width / 2;
-  padding-right: $grid-gutter-width / 2;
+  padding-left: ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
   position: relative;
 }
