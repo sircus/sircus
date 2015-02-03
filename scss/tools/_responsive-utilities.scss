@@ -24,137 +24,137 @@
 }
 
 // Visibility utilities
-@include responsive-invisibility('.u-visible-xs, .u-visible-sm, .u-visible-md, .u-visible-lg');
+@include responsive-invisibility('.t-visible-xs, .t-visible-sm, .t-visible-md, .t-visible-lg');
 
-.u-visible-xs-block,
-.u-visible-xs-inline,
-.u-visible-xs-inline-block,
-.u-visible-sm-block,
-.u-visible-sm-inline,
-.u-visible-sm-inline-block,
-.u-visible-md-block,
-.u-visible-md-inline,
-.u-visible-md-inline-block,
-.u-visible-lg-block,
-.u-visible-lg-inline,
-.u-visible-lg-inline-block {
+.t-visible-xs-block,
+.t-visible-xs-inline,
+.t-visible-xs-inline-block,
+.t-visible-sm-block,
+.t-visible-sm-inline,
+.t-visible-sm-inline-block,
+.t-visible-md-block,
+.t-visible-md-inline,
+.t-visible-md-inline-block,
+.t-visible-lg-block,
+.t-visible-lg-inline,
+.t-visible-lg-inline-block {
   display: none !important;
 }
 
 @media (max-width: $g-screen-xs-max) {
-  @include responsive-visibility('.u-visible-xs');
+  @include responsive-visibility('.t-visible-xs');
 }
-.u-visible-xs-block {
+.t-visible-xs-block {
   @media (max-width: $g-screen-xs-max) {
     display: block !important;
   }
 }
-.u-visible-xs-inline {
+.t-visible-xs-inline {
   @media (max-width: $g-screen-xs-max) {
     display: inline !important;
   }
 }
-.u-visible-xs-inline-block {
+.t-visible-xs-inline-block {
   @media (max-width: $g-screen-xs-max) {
     display: inline-block !important;
   }
 }
 
 @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
-  @include responsive-visibility('.u-visible-sm');
+  @include responsive-visibility('.t-visible-sm');
 }
-.u-visible-sm-block {
+.t-visible-sm-block {
   @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
     display: block !important;
   }
 }
-.u-visible-sm-inline {
+.t-visible-sm-inline {
   @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
     display: inline !important;
   }
 }
-.u-visible-sm-inline-block {
+.t-visible-sm-inline-block {
   @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
     display: inline-block !important;
   }
 }
 
 @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
-  @include responsive-visibility('.u-visible-md');
+  @include responsive-visibility('.t-visible-md');
 }
-.u-visible-md-block {
+.t-visible-md-block {
   @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
     display: block !important;
   }
 }
-.u-visible-md-inline {
+.t-visible-md-inline {
   @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
     display: inline !important;
   }
 }
-.u-visible-md-inline-block {
+.t-visible-md-inline-block {
   @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
     display: inline-block !important;
   }
 }
 
 @media (min-width: $g-screen-lg-min) {
-  @include responsive-visibility('.u-visible-lg');
+  @include responsive-visibility('.t-visible-lg');
 }
-.u-visible-lg-block {
+.t-visible-lg-block {
   @media (min-width: $g-screen-lg-min) {
     display: block !important;
   }
 }
-.u-visible-lg-inline {
+.t-visible-lg-inline {
   @media (min-width: $g-screen-lg-min) {
     display: inline !important;
   }
 }
-.u-visible-lg-inline-block {
+.t-visible-lg-inline-block {
   @media (min-width: $g-screen-lg-min) {
     display: inline-block !important;
   }
 }
 
 @media (max-width: $g-screen-xs-max) {
-  @include responsive-invisibility('.u-hidden-xs');
+  @include responsive-invisibility('.t-hidden-xs');
 }
 
 @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
-  @include responsive-invisibility('.u-hidden-sm');
+  @include responsive-invisibility('.t-hidden-sm');
 }
 
 @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
-  @include responsive-invisibility('.u-hidden-md');
+  @include responsive-invisibility('.t-hidden-md');
 }
 
 @media (min-width: $g-screen-lg-min) {
-  @include responsive-invisibility('.u-hidden-lg');
+  @include responsive-invisibility('.t-hidden-lg');
 }
 
 
 // Print utilities
-@include responsive-invisibility('.u-visible-print');
+@include responsive-invisibility('.t-visible-print');
 
 @media print {
-  @include responsive-visibility('.u-visible-print');
+  @include responsive-visibility('.t-visible-print');
 }
-.u-visible-print-block {
+.t-visible-print-block {
   display: none !important;
 
   @media print {
     display: block !important;
   }
 }
-.u-visible-print-inline {
+.t-visible-print-inline {
   display: none !important;
 
   @media print {
     display: inline !important;
   }
 }
-.u-visible-print-inline-block {
+.t-visible-print-inline-block {
   display: none !important;
 
   @media print {
@@ -163,5 +163,5 @@
 }
 
 @media print {
-  @include responsive-invisibility('.u-hidden-print');
+  @include responsive-invisibility('.t-hidden-print');
 }

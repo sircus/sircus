@@ -1,17 +1,27 @@
+// config
+// base
+// element
+// tool
+// unit
+// color
+// state
+//===================================
+
 @import "config";
 
 @import "base/html5-reset";
-@import "base/reset";
-@import "base/typography";
-@import "base/images";
-@import "base/tables";
-@import "base/buttons";
+@import "base/default";
 
-@import "utilities/utility";
-@import "utilities/typo";
-@import "utilities/margin";
-@import "utilities/responsive-width";
-@import "utilities/responsive-utilities";
+@import "elements/typography";
+@import "elements/images";
+@import "elements/tables";
+@import "elements/buttons";
 
-@import "components/grid";
-@import "components/embed";
+@import "units/grid";
+@import "units/embed";
+
+@import "tools/utility";
+@import "tools/typo";
+@import "tools/margin";
+@import "tools/responsive-width";
+@import "tools/responsive-utilities";

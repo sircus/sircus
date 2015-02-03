@@ -10,7 +10,7 @@ $grid-columns:              12 !default;
     @include grid-width($i, $screen, $columns);
   }
 }
-@mixin grid-width($index, $screen, $columns, $list: ".u-#{$screen}-#{$index}of#{$columns}") {
+@mixin grid-width($index, $screen, $columns, $list: ".t-#{$screen}-#{$index}of#{$columns}") {
   @if ($index > 0) {
     #{$list} {
       width: percentage(($index / $columns));
