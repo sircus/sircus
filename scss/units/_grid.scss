@@ -89,11 +89,11 @@ $container-lg:              1140px + $container-gutter-width !default;
 }
 // gutter
 .row--gutter {
-  margin: 0 calc(-0.5 * $grid-gutter-width);
+  margin: 0 (-0.5 * $grid-gutter-width);
 }
 
 .row--gutter > .col {
-  padding: 0 calc(0.5 * $grid-gutter-width);
+  padding: 0 (0.5 * $grid-gutter-width);
 }
 
 
