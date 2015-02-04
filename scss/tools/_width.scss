@@ -19,7 +19,11 @@ $grid-columns:              12 !default;
 }
 
 // ==================================
-@include make-grid(xs, $grid-columns);
+@include make-grid(bs, $grid-columns);
+
+@media (min-width: $g-screen-xs-min) {
+  @include make-grid(xs, $grid-columns);
+}
 
 @media (min-width: $g-screen-sm-min) {
   @include make-grid(sm, $grid-columns);

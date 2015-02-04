@@ -1,9 +1,4 @@
-// @import "../mixins/responsive-invisibility";
-// @import "../mixins/responsive-visibility";
-
-// var ------------------------------
 @import "../config";
-
 
 @mixin responsive-invisibility($parent) {
   #{$parent} { display: none !important; }
@@ -18,6 +13,15 @@
 }
 
 // ==================================
+.t-hide      { display: none !important; }
+.t-show      { display: block !important; }
+.t-invisible { visibility: hidden !important; }
+
+.t-hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
 // IE10 in Windows (Phone) 8
 @-ms-viewport {
   width: device-width;
