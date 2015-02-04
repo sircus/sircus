@@ -2,6 +2,13 @@
 
 $grid-columns:              12 !default;
 
+$screen-xs-min: $g-screen-xs-min !default;
+$screen-sm-min: $g-screen-sm-min !default;
+$screen-md-min: $g-screen-md-min !default;
+$screen-lg-min: $g-screen-lg-min !default;
+
+//=====================
+
 @mixin make-grid($screen: xs , $columns : $grid-columns) {
   @include each-grid-width($screen, $columns);
 }

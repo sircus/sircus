@@ -1,21 +1,28 @@
-// var ------------------------------
 @import "../config";
+
+$font-family-sans-en:      $g-font-family-sans-en !default;
+$font-family-sans-ja:      $g-font-family-sans-ja !default;
+$font-family-serif-en:     $g-font-family-serif-en !default;
+$font-family-serif-ja:     $g-font-family-serif-ja !default;
+$font-family-monospace-en: $g-font-family-monospace-en !default;
+$font-family-monospace-ja: $g-font-family-monospace-ja !default;
+$text-muted:               $g-text-muted !default;
 
 // ==================================
 
-.t-typo-bold   { font-weight: bold !important; }
-.t-typo-italic { font-style: italic !important; }
+.t-typo-bold         { font-weight: bold !important; }
+.t-typo-italic       { font-style: italic !important; }
 
-.t-typo-left        { text-align: left !important; }
-.t-typo-right       { text-align: right !important; }
-.t-typo-center      { text-align: center !important; }
-.t-typo-justify     { text-align: justify !important; }
+.t-typo-left         { text-align: left !important; }
+.t-typo-right        { text-align: right !important; }
+.t-typo-center       { text-align: center !important; }
+.t-typo-justify      { text-align: justify !important; }
 
-.t-typo-lowercase      { text-transform: lowercase !important; }
-.t-typo-uppercase      { text-transform: uppercase !important; }
-.t-typo-capitalize     { text-transform: capitalize !important; }
+.t-typo-lowercase    { text-transform: lowercase !important; }
+.t-typo-uppercase    { text-transform: uppercase !important; }
+.t-typo-capitalize   { text-transform: capitalize !important; }
 
-.t-typo-nowrap         { white-space: nowrap !important; }
+.t-typo-nowrap       { white-space: nowrap !important; }
 
 .t-typo-hide {
   font: #{0/0} a !important;
@@ -25,11 +32,11 @@
   border: 0 !important;
 }
 
-.t-typo-muted { color: $g-text-muted !important; }
+.t-typo-muted { color: $text-muted !important; }
 
-.t-typo-en-sans      { font-family: $g-font-family-sans-en !important; }
-.t-typo-ja-sans      { font-family: $g-font-family-sans-ja !important; }
-.t-typo-en-serif     { font-family: $g-font-family-serif-en !important; }
-.t-typo-ja-serif     { font-family: $g-font-family-serif-ja !important; }
-.t-typo-en-monospace { font-family: $g-font-family-monospace-en !important; }
-.t-typo-ja-monospace { font-family: $g-font-family-monospace-ja !important; }
+.t-typo-en-sans      { font-family: $font-family-sans-en !important; }
+.t-typo-ja-sans      { font-family: $font-family-sans-ja !important; }
+.t-typo-en-serif     { font-family: $font-family-serif-en !important; }
+.t-typo-ja-serif     { font-family: $font-family-serif-ja !important; }
+.t-typo-en-monospace { font-family: $font-family-monospace-en !important; }
+.t-typo-ja-monospace { font-family: $font-family-monospace-ja !important; }

@@ -1,9 +1,19 @@
 @import "../config";
 
-// local var ------------------------
-$headings-weight:        500 !default;
-$headings-lineHeight:    1.1 !default;
-$headings-color:         inherit !default;
+$font-family-bs:          $g-font-family-sans-en !default;
+$font-family-monospace:   $g-font-family-monospace-en !default;
+$font-size-bs:            $g-font-size-bs !default;
+$text-color:              $g-text-color !default;
+$line-height-bs:          $g-line-height-bs !default;
+
+$link-color:              $g-link-color !default;
+$link-decoration:         underline !default;
+$link-hover-color:        $g-link-hover-color !default;
+$link-hover-decoration:   none !default;
+
+$headings-weight:         500 !default;
+$headings-lineHeight:     1.1 !default;
+$headings-color:          inherit !default;
 
 $h0-font-size:            $g-font-size-sc !default;
 $h1-font-size:            $g-font-size-hg !default;
@@ -13,40 +23,34 @@ $h4-font-size:            $g-font-size-lg !default;
 $h5-font-size:            $g-font-size-bs !default;
 $h6-font-size:            $g-font-size-sm !default;
 
-$link-color:              $g-link-color !default;
-$link-decoration:         underline !default;
-$link-hover-color:        $g-link-hover-color !default;
-$link-hover-decoration:   none !default;
+$mark-bg-color:           $g-color-primary !default;
+$mark-color:              #fff !default;
 
-$mark-bg-color:          $g-color-primary !default;
-$mark-color:             #fff !default;
-
-$list-inline-margin:     5px !default;
-
+$list-inline-margin:      5px !default;
 
 // ==================================
 body {
-  font-family: $g-font-family-sans-en;
-  color: $g-text-color;
-  font-size: $g-font-size-bs;
-  line-height: $g-line-height-bs;
+  font-family: $font-family-bs;
+  color: $text-color;
+  font-size: $font-size-bs;
+  line-height: $line-height-bs;
 }
 
 h1, h2, h3, h4, h5, h6,
 p,
 ul,
 dl {
-  margin: ($g-sum-height-bs / 2) 0;
+  margin: $g-space-bs 0;
 }
 
 a {
-  color: $g-link-color;
+  color: $link-color;
   text-decoration: underline;
 }
 a:hover,
 a:focus,
 a:active  {
-  color: $g-link-hover-color;
+  color: $link-hover-color;
   text-decoration: none;
 }
 
@@ -118,6 +122,6 @@ dd { margin-left: 0; }
 
 pre,
 code {
-  font-family: $g-font-family-monospace-en;
+  font-family: $font-family-monospace;
   white-space: pre-wrap;
 }
