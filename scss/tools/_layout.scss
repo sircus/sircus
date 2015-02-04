@@ -1,7 +1,5 @@
-@import "../config";
-
 .t-clearfix,
-.t-cf {
+.t-clear {
   &:before,
   &:after {
     content: " ";
@@ -10,23 +8,25 @@
   &:after { clear: both; }
 }
 
-.t-center-block {
+.t-center-block,
+.t-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.t-float-right  { float: right !important; }
-.t-float-left   { float: left !important; }
+.t-float-right,
+.t-right  { float: right !important; }
+.t-float-left,
+.t-left   { float: left !important; }
 
 .t-block        { display:block !important; }
 .t-inline       { display:inline !important; }
-.t-inline-block { display:inline-block !important; }
+.t-inline-block,
+.t-inlineBlock { display:inline-block !important; }
 
 .t-table { display:table !important; }
-.t-table-cell,
-.t-table__cell,
-.t-tableCell {
+.t-table-cell {
   float: none !important;
   display:table-cell !important;
   vertical-align: middle !important;

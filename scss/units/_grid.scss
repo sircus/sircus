@@ -35,7 +35,7 @@ $container-lg:              1140px + $container-gutter-width !default;
 // Row
 // =====================================
 .row,
-.row-inline,
+.row-inline-block,
 .row-float,
 .row-table {
   font-size: 0;
@@ -50,10 +50,13 @@ $container-lg:              1140px + $container-gutter-width !default;
 }
 
 .row,
-.row-inline {
+.row-inline-block {
   display: block;
   > .col {
     display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
   }
 }
 
@@ -78,20 +81,20 @@ $container-lg:              1140px + $container-gutter-width !default;
 // `.row` Modifier
 // -------------------------------
 // baseline
-.row--baseline-top > .col {
+.row--top > .col {
   vertical-align: top !important;
 }
-.row--baseline-middle > .col{
+.row--middle > .col {
   vertical-align: middle !important;
 }
-.row--baseline-bottom > .col{
+.row--bottom > .col{
   vertical-align: bottom !important;
 }
+
 // gutter
 .row--gutter {
   margin: 0 (-0.5 * $grid-gutter-width);
 }
-
 .row--gutter > .col {
   padding: 0 (0.5 * $grid-gutter-width);
 }
