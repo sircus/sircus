@@ -12,6 +12,7 @@ WIP: http://kicss.blivesta.com
 
 ## Development
 
+Install : `nodejs` `npm` `gulp` `bower` `hugo`
 ```bash
 $ git clone https://github.com/kicss/kicss.git
 $ cd kicss
@@ -32,9 +33,8 @@ And finally, open in your browser.
 
 ## Contributing
 
-To contribute to animsition, clone this repo locally and commit your code.
+To contribute to kicss, clone this repo locally and commit your code.
 Please check that everything works before opening a pull-request.
 
-
 ## License
-Released under the MIT license.
+Released under the [MIT license](https://github.com/kicss/kicss/blob/master/LICENCE).
