@@ -477,11 +477,12 @@ input[type="submit"].btn--block, input[type="reset"].btn--block, input[type="but
   .row-float > .col {
     float: left; }
 
+.row-table > .col {
+  width: 100%; }
 @media (min-width: 480px) {
   .row-table {
     display: table;
-    table-layout: fixed;
-    width: calc(100% + 40px); }
+    table-layout: fixed; }
     .row-table > .col {
       display: table-cell; } }
 

@@ -42,10 +42,12 @@ $container-lg:              1140px !default;
 }
 
 .row-table {
+  > .col {
+    width:100%;
+  }
   @media (min-width: $g-screen-xs-min) {
     display: table;
     table-layout: fixed;
-    width: calc(100% + #{$grid-gutter-width});
     > .col {
       display: table-cell;
     }
