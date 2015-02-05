@@ -1,9 +1,9 @@
 @import "../config";
 
 $container-gutter-width:    $g-space-bs !default;
-$container-sm:              76.8rem - $container-gutter-width !default;
-$container-md:              98rem - $container-gutter-width !default;
-$container-lg:              1180rem - $container-gutter-width !default;
+$container-sm:              (72rem + $container-gutter-width) !default;
+$container-md:              (94rem + $container-gutter-width )!default;
+$container-lg:              (114rem + $container-gutter-width ) !default;
 
 $screen-xs-min:             $g-screen-xs-min !default;
 $screen-sm-min:             $g-screen-sm-min !default;

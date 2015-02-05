@@ -446,10 +446,10 @@ input[type="submit"].btn--block, input[type="reset"].btn--block, input[type="but
     width: 74.4rem; } }
 @media (min-width: 992px) {
   .container {
-    width: 95.6rem; } }
+    width: 96.4rem; } }
 @media (min-width: 1200px) {
   .container {
-    width: 1177.6rem; } }
+    width: 116.4rem; } }
 
 .container-sm {
   width: 74.4rem; }
