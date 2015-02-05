@@ -21,35 +21,35 @@ module.exports = {
   'browserSync': {
     notify: true,
     https: false,
-    server: './docs/public',
+    server: './public',
   },
   'uninstall': {
     files: [
       './dist',
-      './docs/public',
-      './docs/static/build'
+      './public',
+      './docs/static/css/build'
     ]
   },
   'sass': {
     src: './scss/kicss.scss',
-    dest: './docs/static/build/css',
+    dest: './docs/static/css/build',
     autoprefixer: autoprefixerBrowsers,
     pkg: pkg,
     headerBanner: true,
     banner:headerBanner,
-    staticGenerator: true,
-    staticGeneratorBuild:'./docs/public'
+    staticGenerator: false,
+    staticGeneratorBuild:'./public'
   },
   'csslint': {
     setting:'./.csslintrc',
-    src: './docs/static/build/css/kicss.css'
+    src: './docs/static/css/build/kicss.css'
   },
   'cssmin': {
-    src: './docs/static/build/css/kicss.css',
-    dest: './docs/static/build/css/'
+    src: './docs/static/css/build/kicss.css',
+    dest: './docs/static/css/build'
   },
   'ghpage' : {
-    src : './docs/public/**/*',
+    src : './public/**/*',
     remoteUrl : 'https://github.com/kicss/kicss.github.io.git',
     branch : 'master'
   },
@@ -82,8 +82,8 @@ gulp.task('default',['server'],function() {
 });
 
 gulp.task('dist',function() {
-  return gulp.src('./docs/static/build/css/**')
-    .pipe(gulp.dest('./css'));
+  return gulp.src('./docs/static/css/build/**')
+    .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('bower-copy',function() {
