@@ -1,4 +1,51 @@
+# Folders
 bower_components
 node_modules
-docs/public
-docs/static/build
+
+# Folders for Docs
+public
+docs/static/css/build
+docs/static/js/build
+
+# OS and Editor
+.DS_Store
+.cache
+.idea
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+*.diff
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+._*
+Icon
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+
+# SASS
+.sass-cache
+
+# Golang
+*.o
+*.a
+*.so
+*.exe
+*.test
+*.prof
+*.out
+
+# jekyll
+_gh_pages
+_site
+.ruby-version
