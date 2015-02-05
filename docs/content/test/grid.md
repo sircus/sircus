@@ -5,7 +5,7 @@ date: "2015-02-03"
 ---
 
 <h3>row-inline-block</h3>
-<div class="">
+<div class="container">
   <div class="row-inline-block">
     <div class="col demo-row-col t-bs-6of12 t-xs-4of12 t-sm-3of12 t-md-2of12 t-lg-2of12">
       col

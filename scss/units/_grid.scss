@@ -16,6 +16,8 @@ $container-lg:              1140px !default;
   margin: 0;
   padding: 0;
   text-align: left;
+  margin-left: -($container-gutter-width / 2);
+  margin-right: -($container-gutter-width / 2);
   > .col {
     font-size: $g-font-size-bs;
   }
@@ -72,7 +74,7 @@ $container-lg:              1140px !default;
 // =====================================
 .col {
   min-height: 1px;
-  padding-left: ($grid-gutter-width / 2);
-  padding-right: ($grid-gutter-width / 2);
+  // padding-left: ($grid-gutter-width / 2);
+  // padding-right: ($grid-gutter-width / 2);
   position: relative;
 }
