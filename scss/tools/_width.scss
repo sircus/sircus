@@ -20,7 +20,7 @@ $screen-lg-min: $g-screen-lg-min !default;
 @mixin grid-width($index, $screen, $columns, $list: ".t-#{$screen}-#{$index}of#{$columns}") {
   @if ($index > 0) {
     #{$list} {
-      width: percentage(($index / $columns));
+      width: percentage(($index / $columns)) !important;
     }
   }
 }

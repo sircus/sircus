@@ -2,35 +2,9 @@
 
 $grid-gutter-width:         40px !default;
 $container-gutter-width:    $grid-gutter-width !default;
-$container-sm:              720px + $container-gutter-width !default;
-$container-md:              940px + $container-gutter-width !default;
-$container-lg:              1140px + $container-gutter-width !default;
-
-// ==================================
-.container-full,
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: ($container-gutter-width / 2);
-  padding-right: ($container-gutter-width / 2);
-}
-
-.container {
-  @media (min-width: $g-screen-sm-min) {
-    width: $container-sm;
-  }
-  @media (min-width: $g-screen-md-min) {
-    width: $container-md;
-  }
-  @media (min-width: $g-screen-lg-min) {
-    width: $container-lg;
-  }
-}
-
-.container-sm {
-  width: $container-sm;
-}
-
+$container-sm:              720px !default;
+$container-md:              940px !default;
+$container-lg:              1140px !default;
 
 // Row
 // =====================================
@@ -42,8 +16,6 @@ $container-lg:              1140px + $container-gutter-width !default;
   margin: 0;
   padding: 0;
   text-align: left;
-  margin-left:  ($grid-gutter-width / -2);
-  margin-right: ($grid-gutter-width / -2);
   > .col {
     font-size: $g-font-size-bs;
   }
@@ -80,16 +52,13 @@ $container-lg:              1140px + $container-gutter-width !default;
 
 // `.row` Modifier
 // -------------------------------
-// baseline
-.row--top > .col {
-  vertical-align: top !important;
-}
-.row--middle > .col {
-  vertical-align: middle !important;
-}
-.row--bottom > .col{
-  vertical-align: bottom !important;
-}
+.row--center { text-align: center; }
+.row--right  { text-align: right; }
+.row--left   { text-align: left; }
+
+.row--top > .col    { vertical-align: top; }
+.row--middle > .col { vertical-align: middle; }
+.row--bottom > .col { vertical-align: bottom; }
 
 // gutter
 .row--gutter {
@@ -98,7 +67,6 @@ $container-lg:              1140px + $container-gutter-width !default;
 .row--gutter > .col {
   padding: 0 (0.5 * $grid-gutter-width);
 }
-
 
 // Columns
 // =====================================

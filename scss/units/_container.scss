@@ -1,0 +1,36 @@
+@import "../config";
+
+$container-gutter-width:    $g-space-bs !default;
+$container-sm:              76.8rem - $container-gutter-width !default;
+$container-md:              98rem - $container-gutter-width !default;
+$container-lg:              1180rem - $container-gutter-width !default;
+
+$screen-xs-min:             $g-screen-xs-min !default;
+$screen-sm-min:             $g-screen-sm-min !default;
+$screen-md-min:             $g-screen-md-min !default;
+$screen-lg-min:             $g-screen-lg-min !default;
+
+// ==================================
+.container-full,
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: ($container-gutter-width / 2);
+  padding-right: ($container-gutter-width / 2);
+}
+
+.container {
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+}
+
+.container-sm {
+  width: $container-sm;
+}

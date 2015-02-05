@@ -1,3 +1,15 @@
+.demo-row-col {
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.6);
+}
+.demo-row-col:nth-child(even) {
+  background-color: rgba(0,0,0,.4);
+}
+.demo-row-col--height {
+  height:60px;
+}
+
+
 /* carbon */
 .carbon {
   position:fixed;

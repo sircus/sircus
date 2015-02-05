@@ -31,3 +31,10 @@
   display:table-cell !important;
   vertical-align: middle !important;
 }
+
+.t-align-top,
+.t-top    { vertical-align:top !important; }
+.t-align-middle,
+.t-middle { vertical-align:middle !important; }
+.t-align-bottom,
+.t-bottom { vertical-align:bottom !important; }
