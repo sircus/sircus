@@ -13,6 +13,18 @@
   </div>
 </div>
 
+<div class="l-body">
+  <div class="container">
+    <ul>
+        {{ range .Data.Pages }}
+        <li>
+          <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon Jan 2, 2006" }}</time></span>
+        </li>
+        {{ end }}
+    </ul>
+  </div>
+</div>
+
 {{ partial "footer.html" . }}
 {{ partial "carbon-ads.html" . }}
   </body>

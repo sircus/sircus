@@ -1,28 +1,21 @@
 ---
 title: "Module / Images"
 description: ""
-tags: [
-    "kicss"
-]
 date: "2015-02-03"
-categories: [
-    "base"
-]
 ---
-
-
 <div class="l-section">
 <h2>Round</h2>
 <div class="demo">
   <p>
     <img class="img-round" src="http://placehold.it/250x150" alt="" />
   </p>
-</div><!-- /.demo -->
-{% highlight html linenos %}
-<img class="img-round" src="http://placehold.it/250x150" alt="" />
-{% endhighlight %}
-</div><!-- /.l-section -->
+</div>
 
+``` markup
+<img class="img-round" src="http://placehold.it/250x150" alt="" />
+```
+
+</div>
 
 <div class="l-section">
 <h2>Circle</h2>
@@ -30,8 +23,10 @@ categories: [
   <p>
     <img class="img-circle" src="http://placehold.it/150x150" alt="" />
   </p>
-</div><!-- /.demo -->
-{% highlight html linenos %}
+</div>
+
+``` markup
 <img class="img-circle" src="http://placehold.it/150x150" alt="" />
-{% endhighlight %}
-</div><!-- /.l-section -->
+```
+
+</div>

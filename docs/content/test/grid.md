@@ -1,13 +1,7 @@
 ---
 title: "Test / Grid"
 description: ""
-tags: [
-    "kicss"
-]
 date: "2015-02-03"
-categories: [
-    "test"
-]
 ---
 
 <h1>row-inline-block</h1>

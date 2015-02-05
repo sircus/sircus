@@ -1,13 +1,7 @@
 ---
 title: "Test / Elements"
 description: ""
-tags: [
-    "kicss"
-]
 date: "2015-02-03"
-categories: [
-    "test"
-]
 ---
 
 <h1>Hello world! This is HTML5 Boilerplate.</h1>

@@ -1,6 +1,10 @@
 baseurl = "/"
-Title = "kicss"
-copyright = "Copyright (c) 2015 Kicss. all rights reserved."
+MetaDataFormat = "yaml"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "../public"
+title = "kicss"
+copyright = "Copyright (c) 2015 blivesta and ungki. all rights reserved."
 
 [params]
   description = "The scalable css for responsive project."
