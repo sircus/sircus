@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
- * kicss - The scalable css for responsive project.
+ * sircus - The scalable css for responsive project.
  * @version v0.0.0
- * @link    http://kicss.blivesta.com
+ * @link    http://sircus.blivesta.com
  * @author  blivesta
  * @license MIT
  */
@@ -1123,4 +1123,4 @@ input[type="submit"].btn--block, input[type="reset"].btn--block, input[type="but
     display: none !important; } }
 
 
-/*# sourceMappingURL=kicss.css.map */
+/*# sourceMappingURL=sircus.css.map */

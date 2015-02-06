@@ -1,21 +1,21 @@
-# [kicss](http://kicss.blivesta.com)
+# [sircus](http://sircus.blivesta.com)
 
-![Bower version](https://img.shields.io/bower/v/kicss.svg?style=flat)
-[![npm version](https://img.shields.io/npm/v/kicss.svg?style=flat)](https://www.npmjs.com/package/kicss)
-[![Build Status](https://img.shields.io/travis/kicss/kicss/master.svg?style=flat)](https://travis-ci.org/kicss/kicss)
-[![devDependency Status](https://david-dm.org/kicss/kicss/dev-status.svg)](https://david-dm.org/kicss/kicss#info=devDependencies)
+![Bower version](https://img.shields.io/bower/v/sircus.svg?style=flat)
+[![npm version](https://img.shields.io/npm/v/sircus.svg?style=flat)](https://www.npmjs.com/package/sircus)
+[![Build Status](https://img.shields.io/travis/sircus/sircus/master.svg?style=flat)](https://travis-ci.org/sircus/sircus)
+[![devDependency Status](https://david-dm.org/sircus/sircus/dev-status.svg)](https://david-dm.org/sircus/sircus#info=devDependencies)
 
 The scalable css for responsive project.
 
 ## Demo
-WIP: http://kicss.blivesta.com
+WIP: http://sircus.blivesta.com
 
 ## Development
 
 Install : `nodejs` `npm` `gulp` `bower` `hugo`
 ```bash
-$ git clone https://github.com/kicss/kicss.git
-$ cd kicss
+$ git clone https://github.com/sircus/sircus.git
+$ cd sircus
 $ git checkout -b patch-1
 $ npm install && gulp build
 ```
@@ -33,8 +33,8 @@ And finally, open in your browser.
 
 ## Contributing
 
-To contribute to kicss, clone this repo locally and commit your code.
+To contribute to sircus, clone this repo locally and commit your code.
 Please check that everything works before opening a pull-request.
 
 ## License
-Released under the [MIT license](https://github.com/kicss/kicss/blob/master/LICENCE).
+Released under the [MIT license](https://github.com/sircus/sircus/blob/master/LICENCE).

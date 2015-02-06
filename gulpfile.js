@@ -31,7 +31,7 @@ module.exports = {
     ]
   },
   'sass': {
-    src: './scss/kicss.scss',
+    src: './scss/sircus.scss',
     dest: './docs/static/css/build',
     autoprefixer: autoprefixerBrowsers,
     pkg: pkg,
@@ -42,15 +42,15 @@ module.exports = {
   },
   'csslint': {
     setting:'./.csslintrc',
-    src: './docs/static/css/build/kicss.css'
+    src: './docs/static/css/build/sircus.css'
   },
   'cssmin': {
-    src: './docs/static/css/build/kicss.css',
+    src: './docs/static/css/build/sircus.css',
     dest: './docs/static/css/build'
   },
   'ghpage' : {
     src : './public/**/*',
-    remoteUrl : 'https://github.com/kicss/kicss.github.io.git',
+    remoteUrl : 'https://github.com/sircus/sircus.github.io.git',
     branch : 'master'
   },
   'hugo' : {
@@ -62,7 +62,7 @@ module.exports = {
     dest: '.'
   },
   'psi': {
-    production: 'http://kicss.blivesta.com',
+    production: 'http://sircus.blivesta.com',
   }
 };
 

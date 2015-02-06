@@ -1,13 +1,13 @@
 {
-  "name": "kicss",
+  "name": "sircus",
   "version": "0.0.0",
   "description": "The scalable css for responsive project.",
   "author":"blivesta",
-  "homepage":"http://kicss.blivesta.com",
+  "homepage":"http://sircus.blivesta.com",
   "license":"MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kicss/kicss.git"
+    "url": "https://github.com/sircus/sircus.git"
   },
   "devDependencies": {
     "browser-sync": "^1.7.0",
