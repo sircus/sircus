@@ -3,17 +3,12 @@
 
 {{ partial "header.html" . }}
 
-<div class="l-body">
-  <div class="">
-    <div class="entry-header">
-    <h1 class="entry-title">{{ .Title }}</h1>
-    <span class="updated">{{ .Date.Format "Mon Jan 2, 2006" }}</span>
-    </div>
-    <div class="entry-content">
-    {{ .Content }}
-    </div>
-  </div>
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  <span>{{ .Date.Format "Mon Jan 2, 2006" }}</span>
 </div>
+
+{{ .Content }}
 
 {{ partial "footer.html" . }}
 {{ partial "carbon-ads.html" . }}

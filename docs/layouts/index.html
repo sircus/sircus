@@ -3,26 +3,22 @@
 
 {{ partial "header.html" . }}
 
-<div class="l-face">
-  <div class="container">
-    <h2>{{ .Site.Params.description }}</h2>
-    <p class="lead">Experimental Work in Progress</p>
-    <p>
-      <a href="https://github.com/sircus/sircus" class="btn btn--border-primary btn--lg">Download on GitHub</a>
-    </p>
-  </div>
+<div class="container">
+  <h2>{{ .Site.Params.description }}</h2>
+  <p class="lead">Experimental Work in Progress</p>
+  <p>
+    <a href="https://github.com/sircus/sircus" class="btn btn--border-primary btn--lg">Download on GitHub</a>
+  </p>
 </div>
 
-<div class="l-body">
-  <div class="container">
-    <ul>
-        {{ range .Data.Pages }}
-        <li>
-          <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon Jan 2, 2006" }}</time></span>
-        </li>
-        {{ end }}
-    </ul>
-  </div>
+<div class="container">
+  <ul>
+      {{ range .Data.Pages }}
+      <li>
+        <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon Jan 2, 2006" }}</time></span>
+      </li>
+      {{ end }}
+  </ul>
 </div>
 
 {{ partial "footer.html" . }}
