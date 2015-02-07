@@ -4,6 +4,10 @@
 {{ partial "header.html" . }}
 
 <div class="container">
+  <h1>
+    <span class="h3 t-typo-uppercase">{{ .Site.Title }}</span>
+    <span class="h5">test {{ .Title }}</span>
+  </h1>
   <ul>
       {{ range .Data.Pages }}
       <li>
@@ -14,7 +18,7 @@
 </div>
 
 {{ partial "footer.html" . }}
-<div class="carbon t-hidden-xs">
+<div class="est-carbon t-hidden-xs">
   {{ partial "carbon-ads.html" . }}
 </div>
 </body>

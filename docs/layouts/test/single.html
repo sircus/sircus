@@ -18,6 +18,13 @@
   <link rel="stylesheet" href="/build/sircus.css">
   <!-- Docs css -->
   <link rel="stylesheet" href="/test.css">
+
+  <script type="text/javascript">
+  function changeVendor(cssid,href) {
+    document.getElementById(cssid).href = href;
+  }
+</script>
+
 </head>
 <body>
 
@@ -35,17 +42,13 @@
   <div class="test-carbon t-hidden-xs">
     {{ partial "carbon-ads.html" . }}
   </div>
-  <hr>
 </div>
+<hr>
 
 {{ .Content }}
 
+<hr>
 {{ partial "footer.html" . }}
 
-<script type="text/javascript">
-  function changeVendor(cssid,href) {
-    document.getElementById(cssid).href = href;
-  }
-</script>
 </body>
 </html>
