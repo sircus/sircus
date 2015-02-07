@@ -51,7 +51,7 @@ module.exports = {
     dest: './docs/static/css/build'
   },
   'ghpage' : {
-    src : './public/**/*',
+    src : './_public/**/*',
     remoteUrl : 'https://github.com/sircus/sircus.github.io.git',
     branch : 'master'
   },
