@@ -11,7 +11,9 @@
 {{ .Content }}
 
 {{ partial "footer.html" . }}
-{{ partial "carbon-ads.html" . }}
+<div class="docs-carbon t-hidden-xs">
+  {{ partial "carbon-ads.html" . }}
+</div>
 
 </body>
 </html>

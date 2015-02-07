@@ -15,31 +15,36 @@
   <link rel="stylesheet" type="text/css" href="" id="vendor">
 
   <!-- sircus css -->
-  <link rel="stylesheet" href="/css/build/sircus.css">
+  <link rel="stylesheet" href="/build/sircus.css">
   <!-- Docs css -->
-  <link rel="stylesheet" href="/css/docs.css">
+  <link rel="stylesheet" href="/test.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>{{ .Site.Title }}</h1>
-  <h2>{{ .Title }}</h2>
-
-  <select onchange="changesytle('vendor',value);">
+<div class="container t-clear">
+  <h1>
+    <span class="h3 t-typo-uppercase">{{ .Site.Title }}</span>
+    <span class="h5">test {{ .Title }}</span>
+  </h1>
+  <a href="/test">Test</a>
+  <select class="" onchange="changeVendor('vendor',value);">
     <option value="">Normal(sircus only)</option>
     <option value="//normalize-css.googlecode.com/svn/trunk/normalize.css">normalize.css</option>
     <option value="//reset5.googlecode.com/hg/reset.min.css">html reset.css</option>
   </select>
-
+  <div class="test-carbon t-hidden-xs">
+    {{ partial "carbon-ads.html" . }}
+  </div>
+  <hr>
 </div>
 
 {{ .Content }}
 
-{{ partial "carbon-ads.html" . }}
+{{ partial "footer.html" . }}
 
 <script type="text/javascript">
-  function changesytle(cssid,cssfile) {
-    document.getElementById(cssid).href = cssfile;
+  function changeVendor(cssid,href) {
+    document.getElementById(cssid).href = href;
   }
 </script>
 </body>

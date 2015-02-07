@@ -1,0 +1,43 @@
+.test-row-col {
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.6);
+}
+.test-row-col:nth-child(even) {
+  background-color: rgba(0,0,0,.4);
+}
+.test-row-col--height {
+  height:60px;
+}
+
+.test-container {
+  background-color: rgba(0,0,0,.1);
+}
+
+
+/* carbon */
+.test-carbon {
+  position:fixed;
+  right:0;
+  top:0;
+  box-sizing:border-box;
+  float: right;
+  background-color: rgba(0,0,0,.05);
+  padding: 1.5rem;
+  width: 16rem;
+  text-align: left !important;
+  font-size:1.1rem;
+  margin:0;
+  min-height:1.3rem;
+}
+.test-carbon .carbon-img {
+  float:left;
+  width:14.5rem;
+  img {
+    margin-bottom:1.5rem;
+  }
+}
+.test-carbon .carbon-poweredby{
+  margin-top:1rem;
+  display:block;
+}
+

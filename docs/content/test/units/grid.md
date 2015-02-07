@@ -1,5 +1,5 @@
 ---
-title: "Test / Grid"
+title: "Grid"
 description: ""
 date: "2015-02-03"
 ---

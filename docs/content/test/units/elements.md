@@ -1,5 +1,5 @@
 ---
-title: "Test / Elements"
+title: "Elements"
 description: ""
 date: "2015-02-03"
 ---
