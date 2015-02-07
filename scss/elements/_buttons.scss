@@ -62,7 +62,9 @@ button {
 .btn-default,
 .btn-primary,
 .btn-border-default,
-.btn-border-primary {
+.btn-borderDefault,
+.btn-border-primary,
+.btn-borderPrimary {
   margin:0;
   font-weight: normal;
   text-decoration:none;
@@ -159,7 +161,8 @@ button {
 
 // border btns
 // --------------------------------------------------
-.btn-border-default      {
+.btn-border-default,
+.btn-borderDefault {
   @include button-color(
     $btn-default-color,
     #fff,
@@ -169,7 +172,8 @@ button {
     $btn-default-color
   );
 }
-.btn-border-primary   {
+.btn-border-primary,
+.btn-borderPrimary   {
   @include button-color(
     $btn-primary-bg,
     #fff,

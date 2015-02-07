@@ -94,6 +94,13 @@ $g-sum-height-bs:       ($g-font-size-bs + $g-line-height-bs + $g-padding-bs-ver
 $g-sum-height-lg:       ($g-font-size-lg + $g-line-height-lg + $g-padding-lg-vertical) !default;
 $g-sum-height-sm:       ($g-font-size-sm + $g-line-height-sm + $g-padding-sm-vertical) !default;
 
+// border
+// ==========================
+$g-border-color : $g-color-gray-light !default;
+$g-border-style : solid !default;
+$g-border-size  : 1px !default;
+$g-border-bs    : $g-border-size $g-border-style $g-border-color;
+
 // border-radius
 // ==========================
 $g-border-radius-sm:   .2rem !default;

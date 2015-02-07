@@ -10,6 +10,7 @@ $container-lg:              1140px !default;
 // =====================================
 .row,
 .row-inline-block,
+.row-inlineBlock,
 .row-float,
 .row-table {
   font-size: 0;
@@ -25,7 +26,8 @@ $container-lg:              1140px !default;
 }
 
 .row,
-.row-inline-block {
+.row-inline-block,
+.row-inlineBlock {
   display: block;
   > .col {
     display: inline-block;

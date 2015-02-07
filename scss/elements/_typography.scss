@@ -101,12 +101,16 @@ ul,ol {
 
 // list  -------------------------
 .list-reset,
-.list-inline {
+.list-inline,
+.list-inline-block,
+.list-inlineBlock {
   padding-left: 0;
   list-style: none;
 }
 
-.list-inline {
+.list-inline,
+.list-inline-block,
+.list-inlineBlock {
   margin-left: (-$list-inline-margin);
   > li {
     display: inline-block;

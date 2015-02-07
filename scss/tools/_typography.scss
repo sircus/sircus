@@ -7,21 +7,37 @@ $font-family-serif-ja:     $g-font-family-serif-ja !default;
 $font-family-monospace-en: $g-font-family-monospace-en !default;
 $font-family-monospace-ja: $g-font-family-monospace-ja !default;
 
+$letter-spacing-xl : .1em !default;
+$letter-spacing-lg : .05em !default;
+$letter-spacing-bs : 0 !default;
+$letter-spacing-sm : (0 - 0.04em) !default;
+$letter-spacing-xs : (0 - 0.08em) !default;
+
+$line-height-xl : $g-line-height-xl !default;
+$line-height-lg : $g-line-height-lg !default;
+$line-height-bs : $g-line-height-bs !default;
+$line-height-sm : $g-line-height-sm !default;
+$line-height-xs : $g-line-height-xs !default;
+
 // ==================================
+.t-normal         { font-weight: normal !important; }
+.t-bold           { font-weight: bold !important; }
+.t-italic         { font-style: italic !important; }
 
-.t-typo-bold         { font-weight: bold !important; }
-.t-typo-italic       { font-style: italic !important; }
+.t-align-left     { text-align: left !important; }
+.t-align-right    { text-align: right !important; }
+.t-align-center   { text-align: center !important; }
+.t-align-justify  { text-align: justify !important; }
 
-.t-typo-left         { text-align: left !important; }
-.t-typo-right        { text-align: right !important; }
-.t-typo-center       { text-align: center !important; }
-.t-typo-justify      { text-align: justify !important; }
+.t-align-top      { vertical-align:top !important; }
+.t-align-middle   { vertical-align:middle !important; }
+.t-align-bottom   { vertical-align:bottom !important; }
 
-.t-typo-lowercase    { text-transform: lowercase !important; }
-.t-typo-uppercase    { text-transform: uppercase !important; }
-.t-typo-capitalize   { text-transform: capitalize !important; }
+.t-lowercase      { text-transform: lowercase !important; }
+.t-uppercase      { text-transform: uppercase !important; }
+.t-capitalize     { text-transform: capitalize !important; }
 
-.t-typo-nowrap       { white-space: nowrap !important; }
+.t-nowrap         { white-space: nowrap !important; }
 
 .t-typo-hide {
   font: #{0/0} a !important;
@@ -31,9 +47,44 @@ $font-family-monospace-ja: $g-font-family-monospace-ja !default;
   border: 0 !important;
 }
 
-.t-typo-en-sans      { font-family: $font-family-sans-en !important; }
-.t-typo-ja-sans      { font-family: $font-family-sans-ja !important; }
-.t-typo-en-serif     { font-family: $font-family-serif-en !important; }
-.t-typo-ja-serif     { font-family: $font-family-serif-ja !important; }
-.t-typo-en-monospace { font-family: $font-family-monospace-en !important; }
-.t-typo-ja-monospace { font-family: $font-family-monospace-ja !important; }
+.t-en-sans      { font-family: $font-family-sans-en !important; }
+.t-ja-sans      { font-family: $font-family-sans-ja !important; }
+.t-en-serif     { font-family: $font-family-serif-en !important; }
+.t-ja-serif     { font-family: $font-family-serif-ja !important; }
+.t-en-monospace { font-family: $font-family-monospace-en !important; }
+.t-ja-monospace { font-family: $font-family-monospace-ja !important; }
+
+
+.t-ls-xs,
+.t-letter-sapce-xs,
+.t-letterSapce-xs   { letter-spacing:$letter-spacing-xs !important; }
+.t-ls-sm,
+.t-letter-sapce-sm,
+.t-letterSapce-sm,
+.t-LetterSapce-sm   { letter-spacing:$letter-spacing-sm !important; }
+.t-ls-bs,
+.t-letter-sapce-bs,
+.t-letterSapce-bs  { letter-spacing:$letter-spacing-bs !important; }
+.t-ls-lg,
+.t-letter-sapce-lg,
+.t-letterSapce-lg   { letter-spacing:$letter-spacing-lg !important; }
+.t-ls-xl,
+.t-letter-sapce-xl,
+.t-letterSapce-xl   { letter-spacing:$letter-spacing-xl !important; }
+
+
+.t-lh-xs,
+.t-line-height-xs,
+.t-lineHeight-xs   { line-height:$line-height-xs !important; }
+.t-lh-sm,
+.t-line-height-sm,
+.t-lineHeight-sm   { line-height:$line-height-sm !important; }
+.t-lh-bs,
+.t-line-height-bs,
+.t-lineHeight-bs   { line-height:$line-height-bs !important; }
+.t-lh-lg,
+.t-line-height-lg,
+.t-lineHeight-lg   { line-height:$line-height-lg !important; }
+.t-lh-xl,
+.t-line-height-xl,
+.t-lineHeight-xl   { line-height:$line-height-xl !important; }
