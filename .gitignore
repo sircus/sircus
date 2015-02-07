@@ -1,8 +1,12 @@
 # Folders
 bower_components
 node_modules
+vendor
 
 # Folders for Docs
-public
+_public
 docs/static/css/build
 docs/static/js/build
+
+# Guest(vendor)
+scss/guest

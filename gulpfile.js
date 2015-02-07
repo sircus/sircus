@@ -21,13 +21,15 @@ module.exports = {
   'browserSync': {
     notify: true,
     https: false,
-    server: './public',
+    server: './_public',
   },
   'uninstall': {
     files: [
       './dist',
       './public',
-      './docs/static/css/build'
+      './docs/static/css/build',
+      './docs/static/vendor',
+      './scss/guest'
     ]
   },
   'sass': {
@@ -38,7 +40,7 @@ module.exports = {
     headerBanner: true,
     banner:headerBanner,
     staticGenerator: false,
-    staticGeneratorBuild:'./public'
+    staticGeneratorBuild:''
   },
   'csslint': {
     setting:'./.csslintrc',
@@ -83,19 +85,29 @@ gulp.task('default',['server'],function() {
 
 gulp.task('dist',function() {
   return gulp.src('./docs/static/css/build/**')
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('bower-copy',function() {
+gulp.task('bower-html5-reset',function() {
   return gulp.src('./bower_components/HTML5-Reset/assets/css/reset.css')
-    .pipe(rename('./base/_html5-reset.scss'))
-    .pipe(gulp.dest('./scss'));
+    .pipe(rename('html5-reset.css'))
+    .pipe(gulp.dest('./docs/static/vendor/'))
+    .pipe(rename('_html5-reset.scss'))
+    .pipe(gulp.dest('./scss/guest/'));
+});
+
+gulp.task('bower-normalize',function() {
+  return gulp.src('./bower_components/normalize.css/normalize.css')
+    .pipe(rename('normalize.css'))
+    .pipe(gulp.dest('./docs/static/vendor/'))
+    .pipe(rename('_normalize.scss'))
+    .pipe(gulp.dest('./scss/guest/'));
 });
 
 gulp.task('build', function() {
   runSequence(
-    'bower',
-    ['bower-copy','uninstall'],
+    'bower','uninstall',
+    ['bower-html5-reset','bower-normalize'],
     'sass',
     ['csslint','cssmin'],
     'hugo',
