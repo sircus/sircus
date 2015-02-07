@@ -3,7 +3,10 @@
 $img-round-border-radius : $g-border-radius-bs !default;
 
 // ==================================
-.img {
+.img,
+.img-round,
+.img-circle,
+.img-full {
   display: block;
   max-width: 100%;
   height: auto;

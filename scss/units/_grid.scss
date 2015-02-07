@@ -19,6 +19,7 @@ $container-lg:              1140px !default;
   margin-left: -($container-gutter-width / 2);
   margin-right: -($container-gutter-width / 2);
   > .col {
+    box-sizing:border-box;
     font-size: $g-font-size-bs;
   }
 }

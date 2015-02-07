@@ -50,14 +50,25 @@ $btn-link-disabled-color:       $g-color-gray-darker !default;
   border-radius: $border-radius;
 }
 
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
 
-.btn {
-  display: inline-block;
+// button,
+.btn,
+.btn-link,
+.btn-default,
+.btn-primary,
+.btn-border-default,
+.btn-border-primary {
   margin:0;
-  margin-bottom: 0;
   font-weight: normal;
   text-decoration:none;
   text-align: center;
+  box-sizing:border-box;
+  display:inline-block;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
@@ -87,75 +98,9 @@ $btn-link-disabled-color:       $g-color-gray-darker !default;
   }
 }
 
-
-// Alternate btns
-// --------------------------------------------------
-.btn--default {
-  @include button-color(
-    $btn-default-color,
-    $btn-default-bg,
-    $btn-default-border,
-    $btn-default-color,
-    darken($btn-default-bg, 10%),
-    darken($btn-default-bg, 12%)
-  );
-}
-.btn--primary {
-  @include button-color(
-    $btn-primary-color,
-    $btn-primary-bg,
-    $btn-primary-border,
-    $btn-primary-color,
-    darken($btn-primary-bg, 10%),
-    darken($btn-primary-bg, 12%)
-  );
-}
-
-// border btns
-// --------------------------------------------------
-.btn--border-default      {
-  @include button-color(
-    $btn-default-color,
-    #fff,
-    $btn-default-color,
-    #fff,
-    $btn-default-color,
-    $btn-default-color
-  );
-}
-.btn--border-primary   {
-  @include button-color(
-    $btn-primary-bg,
-    #fff,
-    $btn-primary-bg,
-    #fff,
-    $btn-primary-bg,
-    $btn-primary-bg
-  );
-}
-
-
-// btn Sizes
-// --------------------------------------------------
-.btn--xl {
-  $vertical : ($g-padding-xl-vertical - .2);
-  $horizontal : ($g-padding-xl-horizontal - .2);
-  @include button-size($vertical, $horizontal, $g-font-size-xl, $g-border-radius-lg);
-}
-.btn--lg {
-  $vertical : ($g-padding-lg-vertical - .2);
-  $horizontal : ($g-padding-lg-horizontal - .2);
-  @include button-size($vertical, $horizontal, $g-font-size-lg, $g-border-radius-lg);
-}
-.btn--sm {
-  $vertical : ($g-padding-sm-vertical - .15);
-  $horizontal : ($g-padding-sm-horizontal - .15);
-  @include button-size($vertical, $horizontal, $g-font-size-sm, $g-border-radius-sm);
-}
-
 // Link btns
 // -------------------------
-.btn--link {
+.btn-link {
   font-weight: normal;
   color: $g-link-color;
   cursor: pointer;
@@ -185,24 +130,89 @@ $btn-link-disabled-color:       $g-color-gray-darker !default;
     &:focus {
       color: $btn-link-disabled-color;
       text-decoration: none;
-      }
     }
   }
+}
+
+// Alternate btns
+// --------------------------------------------------
+.btn-default {
+  @include button-color(
+    $btn-default-color,
+    $btn-default-bg,
+    $btn-default-border,
+    $btn-default-color,
+    darken($btn-default-bg, 10%),
+    darken($btn-default-bg, 12%)
+  );
+}
+.btn-primary {
+  @include button-color(
+    $btn-primary-color,
+    $btn-primary-bg,
+    $btn-primary-border,
+    $btn-primary-color,
+    darken($btn-primary-bg, 10%),
+    darken($btn-primary-bg, 12%)
+  );
+}
+
+// border btns
+// --------------------------------------------------
+.btn-border-default      {
+  @include button-color(
+    $btn-default-color,
+    #fff,
+    $btn-default-color,
+    #fff,
+    $btn-default-color,
+    $btn-default-color
+  );
+}
+.btn-border-primary   {
+  @include button-color(
+    $btn-primary-bg,
+    #fff,
+    $btn-primary-bg,
+    #fff,
+    $btn-primary-bg,
+    $btn-primary-bg
+  );
+}
+
+
+// btn Sizes
+// --------------------------------------------------
+.btn--xl {
+  $vertical : ($g-padding-xl-vertical - .2);
+  $horizontal : ($g-padding-xl-horizontal - .2);
+  @include button-size($vertical, $horizontal, $g-font-size-xl, $g-border-radius-lg);
+}
+.btn--lg {
+  $vertical : ($g-padding-lg-vertical - .2);
+  $horizontal : ($g-padding-lg-horizontal - .2);
+  @include button-size($vertical, $horizontal, $g-font-size-lg, $g-border-radius-lg);
+}
+.btn--sm {
+  $vertical : ($g-padding-sm-vertical - .15);
+  $horizontal : ($g-padding-sm-horizontal - .15);
+  @include button-size($vertical, $horizontal, $g-font-size-sm, $g-border-radius-sm);
+}
 
 
 // Block btn
 // --------------------------------------------------
-.btn--block {
+.btn--full {
   display: block;
   width: 100%;
 }
-.btn--block + .btn--block {
+.btn--full + .btn--full {
   margin-top: 5px;
 }
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  &.btn--block {
+  &.btn--full {
     width: 100%;
   }
 }

@@ -6,7 +6,6 @@ $font-family-serif-en:     $g-font-family-serif-en !default;
 $font-family-serif-ja:     $g-font-family-serif-ja !default;
 $font-family-monospace-en: $g-font-family-monospace-en !default;
 $font-family-monospace-ja: $g-font-family-monospace-ja !default;
-$text-muted:               $g-text-muted !default;
 
 // ==================================
 
@@ -31,8 +30,6 @@ $text-muted:               $g-text-muted !default;
   background-color: transparent !important;
   border: 0 !important;
 }
-
-.t-typo-muted { color: $text-muted !important; }
 
 .t-typo-en-sans      { font-family: $font-family-sans-en !important; }
 .t-typo-ja-sans      { font-family: $font-family-sans-ja !important; }

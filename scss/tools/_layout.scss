@@ -22,11 +22,10 @@
 
 .t-block        { display:block !important; }
 .t-inline       { display:inline !important; }
-.t-inline-block,
-.t-inlineBlock { display:inline-block !important; }
+.t-inline-block { display:inline-block !important; }
 
 .t-table { display:table !important; }
-.t-table-cell {
+.t-table > .t-table-cell {
   float: none !important;
   display:table-cell !important;
   vertical-align: middle !important;
