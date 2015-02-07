@@ -5,22 +5,74 @@ date: "2015-02-03"
 ---
 
 <div class="container">
+  <h2>Font style</h2>
+  <p class="t-bold test-block">.t-bold</p>
+  <p class="t-italic test-block">.t-italic</p>
+  <p class="t-normal test-block">.t-normal</p>
+
+  <hr>
+
   <h2>Text align</h2>
-  <p class="t-typo-left">t-typo-left</p>
-  <p class="t-typo-center">t-typo-center</p>
-  <p class="t-typo-right">t-typo-right</p>
+  <p class="t-align-left test-block">.t-align-left</p>
+  <p class="t-align-center test-block">.t-align-center</p>
+  <p class="t-align-right test-block">.t-align-right</p>
+
+  <hr>
+
+  <h2>Vertical align</h2>
+  <p class="t-align-top test-block">.t-align-top</p>
+  <p class="t-align-middle test-block">.t-align-middle</p>
+  <p class="t-align-bottom test-block">.t-align-bottom</p>
 
   <hr>
 
   <h2>Text transform</h2>
-  <p class="t-typo-lowercase">t-typo-lowercase</p>
-  <p class="t-typo-uppercase">t-typo-uppercase</p>
-  <p class="t-typo-capitalize">t-typo-capitalize</p>
+  <p class="t-lowercase test-block">.t-lowercase</p>
+  <p class="t-uppercase test-block">.t-uppercase</p>
+  <p class="t-capitalize test-block">.t-capitalize</p>
+
+  <hr>
+
+  <h2>Letter spacing</h2>
+  <p class="t-ls-xs test-block">Sircus `.t-ls-xs`</p>
+  <p class="t-ls-sm test-block">Sircus .t-ls-sm</p>
+  <p class="t-ls-bs test-block">Sircus .t-ls-bs</p>
+  <p class="t-ls-lg test-block">Sircus .t-ls-lg</p>
+  <p class="t-ls-xl test-block">Sircus .t-ls-xl</p>
+
+  <h1 class="t-ls-xs test-block">Sircus `.t-ls-xs`</h1>
+  <h1 class="t-ls-sm test-block">Sircus .t-ls-sm</h1>
+  <h1 class="t-ls-bs test-block">Sircus .t-ls-bs</h1>
+  <h1 class="t-ls-lg test-block">Sircus .t-ls-lg</h1>
+  <h1 class="t-ls-xl test-block">Sircus .t-ls-xl</h1>
+
+  <hr>
+
+  <h2>Line height</h2>
+
+  <h3>.t-lh-xs (.t-lineHeight-xs)</h3>
+  <p class="t-lh-xs test-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
+
+  <h3>.t-lh-sm (.t-lineHeight-sm)</h3>
+
+  <p class="t-lh-sm test-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
+
+  <h3>.t-lh-bs (.t-lineHeight-bs)</h3>
+
+  <p class="t-lh-bs test-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
+
+  <h3>.t-lh-lg (.t-lineHeight-lg)</h3>
+
+  <p class="t-lh-lg test-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
+
+  <h3>.t-lh-xl (.t-lineHeight-xl)</h3>
+
+  <p class="t-lh-xl test-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
 
   <hr>
 
   <h2>White space - nowrap</h2>
-  <p class="t-typo-nowrap">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
+  <p class="t-nowrap">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m.</p>
 
   <hr>
 

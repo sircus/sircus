@@ -1,5 +1,5 @@
 /* carbon */
-.carbon {
+.docs-carbon {
   position:fixed;
   bottom:0px;
   right:0px;
@@ -13,14 +13,14 @@
   margin:0;
   min-height:130px;
 }
-.carbon-img {
+.docs-carbon-img {
   float:left;
   width:145px;
   img {
     margin-bottom:15px;
   }
 }
-.carbon-poweredby{
+.docs-carbon-poweredby{
   margin-top:10px;
   display:block;
 }

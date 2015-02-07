@@ -6,7 +6,7 @@ date: "2015-02-03"
 
 <div class="container">
   <h2>.img</h2>
-  <img class="img" src="http://placehold.it/1280x1024">
+  <img class="img-full" src="http://placehold.it/1280x1024">
 
   <hr>
 

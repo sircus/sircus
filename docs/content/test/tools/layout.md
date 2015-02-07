@@ -4,7 +4,7 @@ description: ""
 date: "2015-02-03"
 ---
 <div class="container">
-  <h2>Quick floats</h2>
+  <h2>floats</h2>
   <div class="t-clear">
     <div class="t-left test-block">.t-left</div>
     <div class="t-right test-block">.t-right</div>

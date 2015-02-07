@@ -76,6 +76,28 @@ date: "2015-02-03"
 
   <hr>
 
+  <h2>inline block list</h2>
+
+  <ul class="list-inlineBlock">
+    <li>list item 1</li>
+    <li>list item 2</li>
+    <li>list item 3</li>
+    <li>list item 4</li>
+  </ul>
+
+  <hr>
+
+  <h2>Reset style</h2>
+
+  <ul class="list-reset">
+    <li>list item 1</li>
+    <li>list item 2</li>
+    <li>list item 3</li>
+    <li>list item 4</li>
+  </ul>
+
+  <hr>
+
   <h2>description list</h2>
 
   <dl>
