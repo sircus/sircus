@@ -29,7 +29,7 @@ module.exports = {
       './public',
       './docs/static/css/build',
       './docs/static/vendor',
-      './scss/guest'
+      './scss/vendor'
     ]
   },
   'sass': {
@@ -93,7 +93,7 @@ gulp.task('bower-html5-reset',function() {
     .pipe(rename('html5-reset.css'))
     .pipe(gulp.dest('./docs/static/vendor/'))
     .pipe(rename('_html5-reset.scss'))
-    .pipe(gulp.dest('./scss/guest/'));
+    .pipe(gulp.dest('./scss/vendor/'));
 });
 
 gulp.task('bower-normalize',function() {
@@ -101,7 +101,7 @@ gulp.task('bower-normalize',function() {
     .pipe(rename('normalize.css'))
     .pipe(gulp.dest('./docs/static/vendor/'))
     .pipe(rename('_normalize.scss'))
-    .pipe(gulp.dest('./scss/guest/'));
+    .pipe(gulp.dest('./scss/vendor/'));
 });
 
 gulp.task('build', function() {

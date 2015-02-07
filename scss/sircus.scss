@@ -1,25 +1,30 @@
-// 1.Gust ( include normalize.css or html5-reset.css )
-// 2.Tent (Base)
-// 3.Performer (Elemetns)
-// 4.Units (Components)
-// 5.Clown (Tools)
-
-//===================================
+// Vendor (Guest)
+// Base (Ground,Tent)
+// Elements (Performer,Actor)
+// Units (Components,Team)
+// Tools (Clown,Jester,Animal)
 
 @import "config";
 
-@import "base/html5-reset";
+// Vendor
+// @import "vendor/normalize";
+// @import "vendor/html5-reset";
+
+// Base
 @import "base/default";
 
+// Elemetns
 @import "elements/typography";
 @import "elements/images";
 @import "elements/tables";
 @import "elements/buttons";
 
+// Units
 @import "units/container";
 @import "units/grid";
 @import "units/embed";
 
+// Tools
 @import "tools/layout";
 @import "tools/typography";
 @import "tools/space";
