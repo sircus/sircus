@@ -26,15 +26,24 @@ module.exports = {
   'uninstall': {
     files: [
       './dist',
-      './public',
-      './docs/static/css/build',
-      './docs/static/vendor',
+      './_public',
+      './docs/static/build',
       './scss/vendor'
     ]
   },
   'sass': {
     src: './scss/sircus.scss',
-    dest: './docs/static/css/build',
+    dest: './docs/static/build',
+    autoprefixer: autoprefixerBrowsers,
+    pkg: pkg,
+    headerBanner: true,
+    banner:headerBanner,
+    staticGenerator: false,
+    staticGeneratorBuild:''
+  },
+  'rubysass': {
+    src: './scss/sircus.scss',
+    dest: './docs/static/build',
     autoprefixer: autoprefixerBrowsers,
     pkg: pkg,
     headerBanner: true,
@@ -44,11 +53,11 @@ module.exports = {
   },
   'csslint': {
     setting:'./.csslintrc',
-    src: './docs/static/css/build/sircus.css'
+    src: './docs/static/build/sircus.css'
   },
   'cssmin': {
-    src: './docs/static/css/build/sircus.css',
-    dest: './docs/static/css/build'
+    src: './docs/static/build/sircus.css',
+    dest: './docs/static/build'
   },
   'ghpage' : {
     src : './_public/**/*',
@@ -56,7 +65,7 @@ module.exports = {
     branch : 'master'
   },
   'hugo' : {
-    buildMessages : '<span style="color: grey">Running:</span> $ hugo'
+    src : './docs'
   },
   'bump': {
     version: pkg.version, // base
@@ -69,6 +78,7 @@ module.exports = {
 };
 
 gulp.task('bower', require('gulptasks/lib/bower'));
+// gulp.task('rubysass', require('gulptasks/lib/rubysass'));
 gulp.task('sass', require('gulptasks/lib/sass'));
 gulp.task('csslint', require('gulptasks/lib/csslint'));
 gulp.task('cssmin', require('gulptasks/lib/cssmin'));
@@ -84,22 +94,18 @@ gulp.task('default',['server'],function() {
 });
 
 gulp.task('dist',function() {
-  return gulp.src('./docs/static/css/build/**')
+  return gulp.src('./docs/static/build/**')
     .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('bower-html5-reset',function() {
   return gulp.src('./bower_components/HTML5-Reset/assets/css/reset.css')
-    .pipe(rename('html5-reset.css'))
-    .pipe(gulp.dest('./docs/static/vendor/'))
     .pipe(rename('_html5-reset.scss'))
     .pipe(gulp.dest('./scss/vendor/'));
 });
 
 gulp.task('bower-normalize',function() {
   return gulp.src('./bower_components/normalize.css/normalize.css')
-    .pipe(rename('normalize.css'))
-    .pipe(gulp.dest('./docs/static/vendor/'))
     .pipe(rename('_normalize.scss'))
     .pipe(gulp.dest('./scss/vendor/'));
 });

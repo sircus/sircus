@@ -2,8 +2,8 @@
 bower_components
 node_modules
 vendor
+.sass-cache
 
 # Folders for Docs
 _public
-docs/static/css/build
-docs/static/js/build
+docs/static/build
