@@ -9,6 +9,7 @@
 }
 
 .t-center-block,
+.t-centerBlock,
 .t-center {
   display: block;
   margin-left: auto;
@@ -21,12 +22,12 @@
 .t-block        { display:block !important; }
 .t-inline       { display:inline !important; }
 .t-inline-block,
-.t-inlineBlock,
-.t-InlineBlock { display:inline-block !important; }
+.t-inlineBlock  { display:inline-block !important; }
 
-// .t-table        { display:table !important; }
-// .t-table > .t-table-cell {
-//   float: none !important;
-//   display:table-cell !important;
-//   vertical-align: middle !important;
-// }
+.t-table        { display:table !important; }
+.t-table > .t-table-cell,
+.t-table > .t-tableCell {
+  float: none !important;
+  display:table-cell !important;
+  vertical-align: middle !important;
+}
