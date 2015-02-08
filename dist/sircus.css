@@ -169,41 +169,6 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5; }
 
-label {
-  display: inline-block;
-  max-width: 100%;
-  margin-bottom: .5rem; }
-
-input[type="search"] {
-  box-sizing: border-box; }
-
-input[type="radio"], input[type="checkbox"] {
-  margin: 4px 0 0;
-  margin-top: 1px \9;
-  line-height: normal; }
-
-input[type="file"] {
-  display: block; }
-
-input[type="range"] {
-  display: block;
-  width: 100%; }
-
-select[multiple], select[size] {
-  height: auto; }
-
-input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px; }
-
-output {
-  display: block;
-  padding-top: 1.6rem;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  color: #AAA; }
-
 .inp, .sct {
   display: block;
   width: 100%;
@@ -243,230 +208,6 @@ output {
 
 textarea.inp, textarea.sct {
   height: auto; }
-
-input[type="search"] {
-  -webkit-appearance: none; }
-
-input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] {
-  line-height: 3.7rem; }
-  input[type="date"].inp--sm, input[type="date"].inp--sm, input[type="time"].inp--sm, input[type="time"].inp--sm, input[type="datetime-local"].inp--sm, input[type="datetime-local"].inp--sm, input[type="month"].inp--sm, input[type="month"].inp--sm {
-    line-height: 3rem; }
-  input[type="date"].inp--lg, input[type="date"].inp--lg, input[type="time"].inp--lg, input[type="time"].inp--lg, input[type="datetime-local"].inp--lg, input[type="datetime-local"].inp--lg, input[type="month"].inp--lg, input[type="month"].inp--lg {
-    line-height: 4.6rem; }
-
-_:-ms-fullscreen, :root input[type="date"], _:-ms-fullscreen, :root input[type="time"], _:-ms-fullscreen, :root input[type="datetime-local"], _:-ms-fullscreen, :root input[type="month"] {
-  line-height: 1.5; }
-  _:-ms-fullscreen.inp--sm, _:-ms-fullscreen.inp--sm, :root input[type="date"].inp--sm, :root input[type="date"].inp--sm, _:-ms-fullscreen.inp--sm, _:-ms-fullscreen.inp--sm, :root input[type="time"].inp--sm, :root input[type="time"].inp--sm, _:-ms-fullscreen.inp--sm, _:-ms-fullscreen.inp--sm, :root input[type="datetime-local"].inp--sm, :root input[type="datetime-local"].inp--sm, _:-ms-fullscreen.inp--sm, _:-ms-fullscreen.inp--sm, :root input[type="month"].inp--sm, :root input[type="month"].inp--sm {
-    line-height: 1.2; }
-  _:-ms-fullscreen.inp--lg, _:-ms-fullscreen.inp--lg, :root input[type="date"].inp--lg, :root input[type="date"].inp--lg, _:-ms-fullscreen.inp--lg, _:-ms-fullscreen.inp--lg, :root input[type="time"].inp--lg, :root input[type="time"].inp--lg, _:-ms-fullscreen.inp--lg, _:-ms-fullscreen.inp--lg, :root input[type="datetime-local"].inp--lg, :root input[type="datetime-local"].inp--lg, _:-ms-fullscreen.inp--lg, _:-ms-fullscreen.inp--lg, :root input[type="month"].inp--lg, :root input[type="month"].inp--lg {
-    line-height: 1.8; }
-
-.inp--sm, .form-group-sm .sct {
-  height: 3rem;
-  padding: 0.4rem 0.8rem;
-  font-size: 1.4rem;
-  line-height: 1.2;
-  border-radius: 0.2rem; }
-
-select.inp--sm, .form-group-sm .sct {
-  height: 3rem;
-  line-height: 3rem; }
-
-textarea.inp--sm, .form-group-sm .sct, select[multiple].inp--sm, .form-group-sm .sct {
-  height: auto; }
-
-.inp--sm, .form-group-sm .inp {
-  height: 3rem;
-  padding: 0.4rem 0.8rem;
-  font-size: 1.4rem;
-  line-height: 1.2;
-  border-radius: 0.2rem; }
-
-select.inp--sm, .form-group-sm .inp {
-  height: 3rem;
-  line-height: 3rem; }
-
-textarea.inp--sm, .form-group-sm .inp, select[multiple].inp--sm, .form-group-sm .inp {
-  height: auto; }
-
-.inp--lg, .form-group-lg .inp {
-  height: 4.6rem;
-  padding: 0.8rem 1.6rem;
-  font-size: 2rem;
-  line-height: 1.8;
-  border-radius: 0.5rem; }
-
-select.inp--lg, .form-group-lg .inp {
-  height: 4.6rem;
-  line-height: 4.6rem; }
-
-textarea.inp--lg, .form-group-lg .inp, select[multiple].inp--lg, .form-group-lg .inp {
-  height: auto; }
-
-.inp--lg, .form-group-lg .sct {
-  height: 4.6rem;
-  padding: 0.8rem 1.6rem;
-  font-size: 2rem;
-  line-height: 1.8;
-  border-radius: 0.5rem; }
-
-select.inp--lg, .form-group-lg .sct {
-  height: 4.6rem;
-  line-height: 4.6rem; }
-
-textarea.inp--lg, .form-group-lg .sct, select[multiple].inp--lg, .form-group-lg .sct {
-  height: auto; }
-
-.inp--minimal, .sct--minimal {
-  border: 0;
-  border-radius: 0;
-  padding-left: 0;
-  padding-right: 0;
-  background-color: transparent; }
-  .inp--minimal:focus, .sct--minimal:focus {
-    box-shadow: none;
-    border-color: #b89e52; }
-
-.inp--underline, .sct--underline {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-radius: 0;
-  padding-left: 0;
-  padding-right: 0;
-  background-color: transparent; }
-  .inp--underline:focus, .sct--underline:focus {
-    box-shadow: none;
-    border-color: #b89e52; }
-
-.form-group {
-  margin-bottom: 1.85rem; }
-
-.radio, .checkbox {
-  position: relative;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-  .radio label, .checkbox label {
-    min-height: 1.5;
-    padding-left: 20px;
-    margin-bottom: 0;
-    font-weight: normal;
-    cursor: pointer; }
-
-.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
-  position: absolute;
-  margin-left: -20px;
-  margin-top: 4px \9; }
-
-.radio + .radio, .checkbox + .checkbox {
-  margin-top: -5px; }
-
-@media (min-width: 768px) {
-  .form-inline .form-group {
-    display: inline-block;
-    margin-bottom: 0;
-    vertical-align: middle; }
-  .form-inline .inp, .form-inline .sct, .form-inline .form-control {
-    display: inline-block;
-    width: auto;
-    vertical-align: middle; }
-  .form-inline .inp-static, .form-inline .sct-static, .form-inline .form-control-static {
-    display: inline-block; }
-  .form-inline .inp-group {
-    display: inline-table;
-    vertical-align: middle; }
-    .form-inline .inp-group .inp-group-addon, .form-inline .inp-group .inp-group-btn, .form-inline .inp-group .inp, .form-inline .inp-group .sct, .form-inline .inp-group .form-control {
-      width: auto; }
-  .form-inline .inp-group > .inp, .form-inline .inp-group > .sct, .form-inline .inp-group > .form-control {
-    width: 100%; }
-  .form-inline .control-label {
-    margin-bottom: 0;
-    vertical-align: middle; }
-  .form-inline .radio, .form-inline .checkbox {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
-    vertical-align: middle; }
-    .form-inline .radio label, .form-inline .checkbox label {
-      padding-left: 0; }
-  .form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] {
-    position: relative;
-    margin-left: 0; } }
-
-.radio-inline, .checkbox-inline {
-  display: inline-block;
-  padding-left: 20px;
-  margin-bottom: 0;
-  vertical-align: middle;
-  font-weight: normal;
-  cursor: pointer; }
-
-.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
-  margin-top: 0;
-  margin-left: 10px; }
-
-input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"], input[type="checkbox"][disabled], input[type="checkbox"].disabled, fieldset[disabled] input[type="checkbox"] {
-  cursor: false; }
-
-.radio-inline.disabled, fieldset[disabled] .radio-inline, .checkbox-inline.disabled, fieldset[disabled] .checkbox-inline {
-  cursor: false; }
-
-.radio.disabled label, fieldset[disabled] .radio label, .checkbox.disabled label, fieldset[disabled] .checkbox label {
-  cursor: false; }
-
-.inp-static, .sct-static {
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
-  margin-bottom: 0; }
-  .inp-static.inp--lg, .inp-static.inp--sm, .inp-static.inp--lg, .inp-static.inp--sm, .sct-static.inp--lg, .sct-static.inp--sm, .sct-static.inp--lg, .sct-static.inp--sm {
-    padding-left: 0;
-    padding-right: 0; }
-
-.is-success .form-help-block, .is-success .control-label, .is-success .radio, .is-success .checkbox, .is-success .radio-inline, .is-success .checkbox-inline, .is-success.radio label, .is-success.checkbox label, .is-success.radio-inline label, .is-success.checkbox-inline label, .frm-success .form-help-block, .frm-success .control-label, .frm-success .radio, .frm-success .checkbox, .frm-success .radio-inline, .frm-success .checkbox-inline, .frm-success.radio label, .frm-success.checkbox label, .frm-success.radio-inline label, .frm-success.checkbox-inline label, .form-success .form-help-block, .form-success .control-label, .form-success .radio, .form-success .checkbox, .form-success .radio-inline, .form-success .checkbox-inline, .form-success.radio label, .form-success.checkbox label, .form-success.radio-inline label, .form-success.checkbox-inline label {
-  color: #3c763d; }
-.is-success .inp, .is-success .sct, .frm-success .inp, .frm-success .sct, .form-success .inp, .form-success .sct {
-  border-color: #3c763d;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .is-success .inp:focus, .is-success .sct:focus, .frm-success .inp:focus, .frm-success .sct:focus, .form-success .inp:focus, .form-success .sct:focus {
-    border-color: #2b542c;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
-.is-success .inp-group-addon, .frm-success .inp-group-addon, .form-success .inp-group-addon {
-  color: #3c763d;
-  border-color: #3c763d;
-  background-color: #dff0d8; }
-
-.is-warning .form-help-block, .is-warning .control-label, .is-warning .radio, .is-warning .checkbox, .is-warning .radio-inline, .is-warning .checkbox-inline, .is-warning.radio label, .is-warning.checkbox label, .is-warning.radio-inline label, .is-warning.checkbox-inline label, .frm-warning .form-help-block, .frm-warning .control-label, .frm-warning .radio, .frm-warning .checkbox, .frm-warning .radio-inline, .frm-warning .checkbox-inline, .frm-warning.radio label, .frm-warning.checkbox label, .frm-warning.radio-inline label, .frm-warning.checkbox-inline label, .form-warning .form-help-block, .form-warning .control-label, .form-warning .radio, .form-warning .checkbox, .form-warning .radio-inline, .form-warning .checkbox-inline, .form-warning.radio label, .form-warning.checkbox label, .form-warning.radio-inline label, .form-warning.checkbox-inline label {
-  color: #8a6d3b; }
-.is-warning .inp, .is-warning .sct, .frm-warning .inp, .frm-warning .sct, .form-warning .inp, .form-warning .sct {
-  border-color: #8a6d3b;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .is-warning .inp:focus, .is-warning .sct:focus, .frm-warning .inp:focus, .frm-warning .sct:focus, .form-warning .inp:focus, .form-warning .sct:focus {
-    border-color: #66512c;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
-.is-warning .inp-group-addon, .frm-warning .inp-group-addon, .form-warning .inp-group-addon {
-  color: #8a6d3b;
-  border-color: #8a6d3b;
-  background-color: #fcf8e3; }
-
-.is-error .form-help-block, .is-error .control-label, .is-error .radio, .is-error .checkbox, .is-error .radio-inline, .is-error .checkbox-inline, .is-error.radio label, .is-error.checkbox label, .is-error.radio-inline label, .is-error.checkbox-inline label, .frm-error .form-help-block, .frm-error .control-label, .frm-error .radio, .frm-error .checkbox, .frm-error .radio-inline, .frm-error .checkbox-inline, .frm-error.radio label, .frm-error.checkbox label, .frm-error.radio-inline label, .frm-error.checkbox-inline label, .form-error .form-help-block, .form-error .control-label, .form-error .radio, .form-error .checkbox, .form-error .radio-inline, .form-error .checkbox-inline, .form-error.radio label, .form-error.checkbox label, .form-error.radio-inline label, .form-error.checkbox-inline label {
-  color: #a94442; }
-.is-error .inp, .is-error .sct, .frm-error .inp, .frm-error .sct, .form-error .inp, .form-error .sct {
-  border-color: #a94442;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .is-error .inp:focus, .is-error .sct:focus, .frm-error .inp:focus, .frm-error .sct:focus, .form-error .inp:focus, .form-error .sct:focus {
-    border-color: #843534;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
-.is-error .inp-group-addon, .frm-error .inp-group-addon, .form-error .inp-group-addon {
-  color: #a94442;
-  border-color: #a94442;
-  background-color: #f2dede; }
-
-.form-help-block {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  color: #626262; }
 
 figure {
   margin: 0; }
@@ -624,7 +365,7 @@ hr {
   height: 0;
   padding: 0;
   overflow: hidden; }
-  .embed .embed-item, .embed iframe, .embed embed, .embed object, .embed video {
+  .embed .embed-item, .embed .embed__item, .embed iframe, .embed embed, .embed object, .embed video {
     position: absolute;
     top: 0;
     left: 0;
@@ -1061,7 +802,7 @@ hr {
 .t-clearfix:after, .t-clear:after {
   clear: both; }
 
-.t-center-block, .t-center {
+.t-center-block, .t-centerBlock, .t-center {
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -1078,8 +819,16 @@ hr {
 .t-inline {
   display: inline !important; }
 
-.t-inline-block, .t-inlineBlock, .t-InlineBlock {
+.t-inline-block, .t-inlineBlock {
   display: inline-block !important; }
+
+.t-table {
+  display: table !important; }
+
+.t-table > .t-table-cell, .t-table > .t-tableCell {
+  float: none !important;
+  display: table-cell !important;
+  vertical-align: middle !important; }
 
 .t-opacity-80 {
   opacity: .8 !important; }
@@ -1346,7 +1095,7 @@ hr {
 .t-ls-xs, .t-letter-sapce-xs, .t-letterSapce-xs {
   letter-spacing: -0.08em !important; }
 
-.t-ls-sm, .t-letter-sapce-sm, .t-letterSapce-sm, .t-LetterSapce-sm {
+.t-ls-sm, .t-letter-sapce-sm, .t-letterSapce-sm {
   letter-spacing: -0.04em !important; }
 
 .t-ls-bs, .t-letter-sapce-bs, .t-letterSapce-bs {
