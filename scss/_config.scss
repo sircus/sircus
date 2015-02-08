@@ -16,6 +16,37 @@ $g-color-primary-light:           lighten($g-color-primary,15%) !default;
 $g-color-primary-lighter:         lighten($g-color-primary,30%) !default;
 $g-color-primary-lightest:        lighten($g-color-primary,45%) !default;
 
+$g-color-secondary:               #0c3c5f !default;
+$g-color-secondary-darkest:       darken($g-color-secondary, 45%) !default;
+$g-color-secondary-darker:        darken($g-color-secondary, 30%) !default;
+$g-color-secondary-dark:          darken($g-color-secondary, 15%) !default;
+$g-color-secondary-light:         lighten($g-color-secondary, 15%) !default;
+$g-color-secondary-lighter:       lighten($g-color-secondary, 30%) !default;
+$g-color-secondary-lightest:      lighten($g-color-secondary, 45%) !default;
+
+// status
+$g-color-success:                 #18be91 !default;
+$g-color-info:                    #7bc1eb !default;
+$g-color-warning:                 #e5cd2f !default;
+$g-color-error:                   #eb5850 !default;
+
+//
+$g-state-success-text:           #3c763d !default;
+$g-state-success-bg:             #dff0d8 !default;
+$g-state-success-border:         darken(adjust-hue($g-state-success-bg, -10), 5%) !default;
+
+$g-state-info-text:              #31708f !default;
+$g-state-info-bg:                #d9edf7 !default;
+$g-state-info-border:            darken(adjust-hue($g-state-info-bg, -10), 7%) !default;
+
+$g-state-warning-text:           #8a6d3b !default;
+$g-state-warning-bg:             #fcf8e3 !default;
+$g-state-warning-border:         darken(adjust-hue($g-state-warning-bg, -10), 5%) !default;
+
+$g-state-danger-text:            #a94442 !default;
+$g-state-danger-bg:              #f2dede !default;
+$g-state-danger-border:          darken(adjust-hue($g-state-danger-bg, -10), 5%) !default;
+
 // Screen size
 // ==========================
 $g-screen-xs-min:         480px !default;

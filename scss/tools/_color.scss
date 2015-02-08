@@ -1,0 +1,72 @@
+// var ------------------------------
+@import "../config";
+
+.t-color-white            { color:#fff !important; }
+.t-bg-white               { background-color:#fff !important;}
+
+.t-color-black            { color:#000 !important; }
+.t-bg-black               { background-color:#000 !important;}
+
+.t-color-gray-darkest     { color:$g-color-gray-darkest !important; }
+.t-color-gray-darker      { color:$g-color-gray-darker !important; }
+.t-color-gray-dark        { color:$g-color-gray-dark !important; }
+.t-color-gray             { color:$g-color-gray !important; }
+.t-color-gray-light       { color:$g-color-gray-light !important; }
+.t-color-gray-lighter     { color:$g-color-gray-lighter !important; }
+.t-color-gray-lightest    { color:$g-color-gray-lightest !important; }
+
+.t-bg-gray-darkest        { background-color:$g-color-gray-darkest !important;}
+.t-bg-gray-darker         { background-color:$g-color-gray-darker !important;}
+.t-bg-gray-dark           { background-color:$g-color-gray-dark !important;}
+.t-bg-gray                { background-color:$g-color-gray !important;}
+.t-bg-gray-light          { background-color:$g-color-gray-light !important;}
+.t-bg-gray-lighter        { background-color:$g-color-gray-lighter !important;}
+.t-bg-gray-lightest       { background-color:$g-color-gray-lightest !important;}
+
+.t-color-primary          { color:$g-color-primary !important;}
+.t-color-secondary        { color:$g-color-secondary !important;}
+.t-color-success          { color:$g-color-success !important;}
+.t-color-info             { color:$g-color-info !important;}
+.t-color-warning          { color:$g-color-warning !important;}
+.t-color-error,
+.t-color-danger           { color:$g-color-error !important;}
+
+.t-bg-primary             { background-color:$g-color-primary !important;}
+.t-bg-secondary           { background-color:$g-color-secondary !important;}
+.t-bg-success             { background-color:$g-color-success !important;}
+.t-bg-info                { background-color:$g-color-info !important;}
+.t-bg-warning             { background-color:$g-color-warning !important;}
+.t-bg-error,
+.t-bg-danger              { background-color:$g-color-error !important;}
+
+.t-color-primary-darkest     { color:$g-color-primary-darkest !important; }
+.t-color-primary-darker      { color:$g-color-primary-darker !important; }
+.t-color-primary-dark        { color:$g-color-primary-dark !important; }
+.t-color-primary             { color:$g-color-primary !important; }
+.t-color-primary-light       { color:$g-color-primary-light !important; }
+.t-color-primary-lighter     { color:$g-color-primary-lighter !important; }
+.t-color-primary-lightest    { color:$g-color-primary-lightest !important; }
+
+.t-color-secondary-darkest     { color:$g-color-secondary-darkest !important; }
+.t-color-secondary-darker      { color:$g-color-secondary-darker !important; }
+.t-color-secondary-dark        { color:$g-color-secondary-dark !important; }
+.t-color-secondary             { color:$g-color-secondary !important; }
+.t-color-secondary-light       { color:$g-color-secondary-light !important; }
+.t-color-secondary-lighter     { color:$g-color-secondary-lighter !important; }
+.t-color-secondary-lightest    { color:$g-color-secondary-lightest !important; }
+
+.t-bg-primary-darkest     { background-color:$g-color-primary-darkest !important; }
+.t-bg-primary-darker      { background-color:$g-color-primary-darker !important; }
+.t-bg-primary-dark        { background-color:$g-color-primary-dark !important; }
+.t-bg-primary             { background-color:$g-color-primary !important; }
+.t-bg-primary-light       { background-color:$g-color-primary-light !important; }
+.t-bg-primary-lighter     { background-color:$g-color-primary-lighter !important; }
+.t-bg-primary-lightest    { background-color:$g-color-primary-lightest !important; }
+
+.t-bg-secondary-darkest     { background-color:$g-color-secondary-darkest !important; }
+.t-bg-secondary-darker      { background-color:$g-color-secondary-darker !important; }
+.t-bg-secondary-dark        { background-color:$g-color-secondary-dark !important; }
+.t-bg-secondary             { background-color:$g-color-secondary !important; }
+.t-bg-secondary-light       { background-color:$g-color-secondary-light !important; }
+.t-bg-secondary-lighter     { background-color:$g-color-secondary-lighter !important; }
+.t-bg-secondary-lightest    { background-color:$g-color-secondary-lightest !important; }
