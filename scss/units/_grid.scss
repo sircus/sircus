@@ -19,7 +19,9 @@ $container-lg:              1140px !default;
   text-align: left;
   margin-left: -($container-gutter-width / 2);
   margin-right: -($container-gutter-width / 2);
-  > .col {
+  > .col,
+  > .row-col,
+  > .row__col {
     box-sizing:border-box;
     font-size: $g-font-size-bs;
   }
@@ -29,7 +31,9 @@ $container-lg:              1140px !default;
 .row-inline-block,
 .row-inlineBlock {
   display: block;
-  > .col {
+  > .col,
+  > .row-col,
+  > .row__col {
     display: inline-block;
     text-align: left;
     vertical-align: top;
@@ -39,19 +43,25 @@ $container-lg:              1140px !default;
 
 .row-float {
   display: block;
-  > .col {
+  > .col,
+  > .row-col,
+  > .row__col {
     float: left;
   }
 }
 
 .row-table {
-  > .col {
+  > .col,
+  > .row-col,
+  > .row__col {
     width:100%;
   }
   @media (min-width: $g-screen-xs-min) {
     display: table;
     table-layout: fixed;
-    > .col {
+    > .col,
+    > .row-col,
+    > .row__col {
       display: table-cell;
     }
   }
@@ -63,21 +73,31 @@ $container-lg:              1140px !default;
 .row--right  { text-align: right; }
 .row--left   { text-align: left; }
 
-.row--top > .col    { vertical-align: top; }
-.row--middle > .col { vertical-align: middle; }
-.row--bottom > .col { vertical-align: bottom; }
+.row--top > .col,
+.row--top > .row-col,
+.row--top > .row__col { vertical-align: top; }
+.row--middle > .col,
+.row--middle > .row-col,
+.row--middle > .row__col { vertical-align: middle; }
+.row--bottom > .col,
+.row--bottom > .row-col,
+.row--bottom > .row__col { vertical-align: bottom; }
 
-// gutter
+// // gutter
 .row--gutter {
   margin: 0 (-0.5 * $grid-gutter-width);
 }
-.row--gutter > .col {
+.row--gutter > .col,
+.row--gutter > .row-col,
+.row--gutter > .row__col {
   padding: 0 (0.5 * $grid-gutter-width);
 }
 
 // Columns
 // =====================================
-.col {
+.col,
+.row-col,
+.row__col {
   min-height: 1px;
   padding-left: ($grid-gutter-width / 2);
   padding-right: ($grid-gutter-width / 2);

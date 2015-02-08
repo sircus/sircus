@@ -1,15 +1,15 @@
 <footer>
   <div class="container">
-    <ul class="social list-inline">
-      <li class="btn-gh">
+    <ul class="list-inline-block">
+      <li>
         <iframe class="github-btn" src="{{ .Site.Params.git_star_btn }}" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
       </li>
-      <li class="btn-tw">
+      <li>
         <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ .Site.Title }} : {{ .Site.Params.description }}" data-url="{{ .Site.Params.sircus_url }}" data-related="{{ .Site.Params.twitter }}" data-count="1" data-hashtags="{{ .Site.Params.tags }}">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
         </script>
       </li>
-      <li class="btn-gg">
+      <li>
         <div class="g-plusone" data-size="medium" data-href="{{ .Site.Params.sircus_url }}"></div>
         <script type="text/javascript">
         (function() {
@@ -21,7 +21,7 @@
       </li>
     </ul>
 
-    <ul class="list-inline">
+    <ul class="list-inline-block">
       <li>Created by {{ .Site.Params.author }}</li>
       <li>Code licensed under the MIT.</li>
     </ul>
@@ -34,6 +34,6 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-59211506-1', 'auto');
+  ga('create', 'UA-59485438-1', 'auto');
   ga('send', 'pageview');
 </script>

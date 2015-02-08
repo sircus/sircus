@@ -160,6 +160,32 @@ date: "2015-02-03"
 <hr>
 
 <div class="container test-container">
+  <h3>.row-inline-block.row--gutter</h3>
+  <div class="row-inline-block row--gutter">
+    <div class=" col test-row-col t-bs-3of12 t-xs-4of12 t-sm-6of12 t-md-2of12 t-lg-2of12">
+      col
+    </div>
+    <div class="col test-row-col t-bs-3of12 t-xs-4of12 t-sm-6of12 t-md-2of12 t-lg-2of12">
+      col
+    </div>
+    <div class="col test-row-col test-row-col--height t-bs-3of12 t-xs-4of12 t-sm-6of12 t-md-2of12 t-lg-2of12">
+      col
+    </div>
+    <div class="col test-row-col t-bs-3of12 t-xs-4of12 t-sm-6of12 t-md-2of12 t-lg-2of12">
+      col
+    </div>
+    <div class="col test-row-col t-bs-3of12 t-xs-4of12 t-sm-6of12 t-md-2of12 t-lg-2of12">
+      col
+    </div>
+    <div class="col test-row-col t-bs-3of12 t-xs-4of12 t-sm-6of12 t-md-2of12 t-lg-2of12">
+      col
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container test-container">
   <h3>row-float</h3>
   <div class="row-float t-clearfix">
     <div class="col test-row-col t-bs-6of12 t-xs-4of12 t-sm-3of12 t-md-2of12 t-lg-2of12">

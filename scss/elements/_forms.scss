@@ -1,5 +1,105 @@
 @import "../config";
 
+// .inp* = input & textarea
+// .sct* = select
+// .checkbox* = checkbox
+// .radio* = tadio
+
+$inp-bg:                       #FAFAFA !default;
+$inp-bg-disabled:              $g-color-gray-lighter !default;
+$inp-color:                    $g-color-gray !default;
+$inp-border:                   #ccc !default;
+$inp-border-radius:             3px !default;
+$inp-border-radius-lg:          $g-border-radius-lg !default;
+$inp-border-radius-sm:          $g-border-radius-sm !default;
+$inp-border-focus:             $g-color-gray-light !default;
+$inp-color-placeholder:        #999 !default;
+
+$inp-height-bs:                $g-sum-height-bs !default;
+$inp-height-lg:                $g-sum-height-lg !default;
+$inp-height-sm:                $g-sum-height-sm !default;
+
+$legend-color:                 $g-color-gray-dark !default;
+$legend-border-color:          #e5e5e5 !default;
+
+$cursor-disabled:              not-allowed !default;
+
+
+@mixin form-focus($color: #DDD) {
+  $color-rgba: rgba(red($color), green($color), blue($color), .6);
+  &:focus {
+    border-color: $color;
+    outline: 0;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px $color-rgba;
+  }
+}
+
+@mixin form-placeholder($color) {
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder { color: $color; }
+  &::-webkit-input-placeholder  { color: $color; }
+}
+
+
+@mixin form-size($parent, $inp-height, $padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+  #{$parent} {
+    height: $inp-height;
+    padding: $padding-vertical $padding-horizontal;
+    font-size: $font-size;
+    line-height: $line-height;
+    border-radius: $border-radius;
+  }
+  select#{$parent} {
+    height: $inp-height;
+    line-height: $inp-height;
+  }
+  textarea#{$parent},
+  select[multiple]#{$parent} {
+    height: auto;
+  }
+}
+
+
+@mixin form-validation($text-color: #555, $border-color: #ccc, $background-color: #f5f5f5) {
+  .form-help-block,
+  .control-label,
+  .radio,
+  .checkbox,
+  .radio-inline,
+  .checkbox-inline,
+  &.radio label,
+  &.checkbox label,
+  &.radio-inline label,
+  &.checkbox-inline label  {
+    color: $text-color;
+  }
+  .inp,
+  .sct {
+    border-color: $border-color;
+    box-shadow :inset 0 1px 1px rgba(0,0,0,.075);
+    &:focus {
+      border-color: darken($border-color, 10%);
+      $shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px lighten($border-color, 20%);
+      box-shadow :$shadow;
+    }
+  }
+  .inp-group-addon {
+    color: $text-color;
+    border-color: $border-color;
+    background-color: $background-color;
+  }
+}
+
+@mixin state-focus() {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+
 input,
 select,
 textarea {
@@ -7,3 +107,353 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: $g-line-height-bs;
+  font-size: ($g-font-size-bs * 1.5);
+  line-height: inherit;
+  color: $legend-color;
+  border: 0;
+  border-bottom: 1px solid $legend-border-color;
+}
+// label {
+//   display: inline-block;
+//   max-width: 100%;
+//   margin-bottom: .5rem;
+// }
+// // Normalize form controls
+// input[type="search"] { box-sizing:border-box; }
+// input[type="radio"],
+// input[type="checkbox"] {
+//   margin: 4px 0 0;
+//   margin-top: 1px \9; // IE8-9
+//   line-height: normal;
+// }
+// input[type="file"] { display: block; }
+// input[type="range"] {
+//   display: block;
+//   width: 100%;
+// }
+// select[multiple],
+// select[size] { height: auto; }
+// input[type="file"]:focus,
+// input[type="radio"]:focus,
+// input[type="checkbox"]:focus {
+//   @include state-focus;
+// }
+// output {
+//   display: block;
+//   padding-top: ($g-padding-bs-vertical + 1);
+//   font-size: $g-font-size-bs;
+//   line-height: $g-line-height-bs;
+//   color: $inp-color;
+// }
+
+
+// Common form controls
+// select,
+// textarea,
+// input[type="text"],
+// input[type="password"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="date"],
+// input[type="month"],
+// input[type="time"],
+// input[type="week"],
+// input[type="number"],
+// input[type="email"],
+// input[type="url"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="color"],
+.inp,
+.sct {
+  display: block;
+  width: 100%;
+  height: $inp-height-bs;
+  padding: $g-padding-bs-vertical $g-padding-bs-horizontal;
+  font-size: $g-font-size-bs;
+  line-height: $g-line-height-bs;
+  color: $inp-color;
+  background-color: $inp-bg;
+  background-image: none;
+  border: 1px solid $inp-border;
+  border-radius: $inp-border-radius;
+  box-shadow: none;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  @include form-focus($inp-border-focus);
+  @include form-placeholder($inp-color-placeholder);
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    background-color: $inp-bg-disabled;
+    opacity: 1;
+  }
+}
+
+.sct {
+  -webkit-appearance: none !important;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-position: 100% center;
+  background-repeat: no-repeat;
+}
+
+textarea.inp,
+textarea.sct {
+  height: auto;
+}
+
+// Search inputs in iOS
+// input[type="search"] { -webkit-appearance: none; }
+
+// Special styles for iOS temporal inputs
+// input[type="date"],
+// input[type="time"],
+// input[type="datetime-local"],
+// input[type="month"] {
+//   line-height: $inp-height-bs;
+//   &.inp--sm,
+//   &.inp--sm {
+//     line-height: $inp-height-sm;
+//   }
+//   &.inp--lg,
+//   &.inp--lg {
+//     line-height: $inp-height-lg;
+//   }
+// }
+
+// IE 11 hack to reverse the iOS temporal input hack.
+// _:-ms-fullscreen, :root input[type="date"],
+// _:-ms-fullscreen, :root input[type="time"],
+// _:-ms-fullscreen, :root input[type="datetime-local"],
+// _:-ms-fullscreen, :root input[type="month"] {
+//   line-height: $g-line-height-bs;
+//   &.inp--sm,
+//   &.inp--sm {
+//     line-height: $g-line-height-sm;
+//   }
+//   &.inp--lg,
+//   &.inp--lg {
+//     line-height: $g-line-height-lg;
+//   }
+// }
+
+// Form control sizing
+// @include form-size('.inp--sm, .form-group-sm .sct', $inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $inp-border-radius-sm);
+// @include form-size('.inp--sm, .form-group-sm .inp', $inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $inp-border-radius-sm);
+// @include form-size('.inp--lg, .form-group-lg .inp', $inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $inp-border-radius-lg);
+// @include form-size('.inp--lg, .form-group-lg .sct', $inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $inp-border-radius-lg);
+
+
+// underline
+// .inp--minimal,
+// .sct--minimal {
+//   border:0;
+//   border-radius: 0;
+//   padding-left:0;
+//   padding-right:0;
+//   background-color: transparent;
+//   &:focus {
+//     box-shadow:none;
+//     border-color:$g-color-primary;
+//   }
+// }
+
+// underline
+// .inp--underline,
+// .sct--underline {
+//   border-top:0;
+//   border-left:0;
+//   border-right:0;
+//   border-radius: 0;
+//   padding-left:0;
+//   padding-right:0;
+//   background-color: transparent;
+//   &:focus {
+//     box-shadow:none;
+//     border-color:$g-color-primary;
+//   }
+// }
+
+// .form-group {
+//   margin-bottom: ($g-sum-height-bs / 2);
+// }
+
+// .radio,
+// .checkbox {
+//   position: relative;
+//   display: block;
+//   margin-top: 10px;
+//   margin-bottom: 10px;
+//   label {
+//     min-height: $g-line-height-bs;
+//     padding-left: 20px;
+//     margin-bottom: 0;
+//     font-weight: normal;
+//     cursor: pointer;
+//   }
+// }
+// .radio input[type="radio"],
+// .radio-inline input[type="radio"],
+// .checkbox input[type="checkbox"],
+// .checkbox-inline input[type="checkbox"] {
+//   position: absolute;
+//   margin-left: -20px;
+//   margin-top: 4px \9;
+// }
+
+// .radio + .radio,
+// .checkbox + .checkbox {
+//   margin-top: -5px;
+// }
+
+
+// .form-inline {
+//   @media (min-width: $g-screen-sm-min) {
+//     .form-group {
+//       display: inline-block;
+//       margin-bottom: 0;
+//       vertical-align: middle;
+//     }
+//     .inp,
+//     .sct,
+//     .form-control {
+//       display: inline-block;
+//       width: auto;
+//       vertical-align: middle;
+//     }
+//     .inp-static,
+//     .sct-static,
+//     .form-control-static {
+//       display: inline-block;
+//     }
+//     .inp-group {
+//       display: inline-table;
+//       vertical-align: middle;
+//       .inp-group-addon,
+//       .inp-group-btn,
+//       .inp,
+//       .sct,
+//       .form-control {
+//         width: auto;
+//       }
+//     }
+//     .inp-group > .inp,
+//     .inp-group > .sct,
+//     .inp-group > .form-control {
+//       width: 100%;
+//     }
+//     .control-label {
+//       margin-bottom: 0;
+//       vertical-align: middle;
+//     }
+//     .radio,
+//     .checkbox {
+//       display: inline-block;
+//       margin-top: 0;
+//       margin-bottom: 0;
+//       vertical-align: middle;
+//       label {
+//         padding-left: 0;
+//       }
+//     }
+//     .radio input[type="radio"],
+//     .checkbox input[type="checkbox"] {
+//       position: relative;
+//       margin-left: 0;
+//     }
+//   }
+// }
+
+
+// .radio-inline,
+// .checkbox-inline {
+//   display: inline-block;
+//   padding-left: 20px;
+//   margin-bottom: 0;
+//   vertical-align: middle;
+//   font-weight: normal;
+//   cursor: pointer;
+// }
+// .radio-inline + .radio-inline,
+// .checkbox-inline + .checkbox-inline {
+//   margin-top: 0;
+//   margin-left: 10px;
+// }
+
+// input[type="radio"],
+// input[type="checkbox"] {
+//   &[disabled],
+//   &.disabled,
+//   fieldset[disabled] & {
+//     cursor: $cursor-disabled;
+//   }
+// }
+
+// .radio-inline,
+// .checkbox-inline {
+//   &.disabled,
+//   fieldset[disabled] & {
+//     cursor: $cursor-disabled;
+//   }
+// }
+
+// .radio,
+// .checkbox {
+//   &.disabled,
+//   fieldset[disabled] & {
+//     label {
+//       cursor: $cursor-disabled;
+//     }
+//   }
+// }
+
+
+// .inp-static,
+// .sct-static {
+//   padding-top: ($g-padding-bs-vertical + 1);
+//   padding-bottom: ($g-padding-bs-vertical + 1);
+//   margin-bottom: 0;
+//   &.inp--lg,
+//   &.inp--sm,
+//   &.inp--lg,
+//   &.inp--sm {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+// }
+
+
+// .is-success,
+// .frm-success,
+// .form-success {
+//   @include form-validation($g-state-success-text, $g-state-success-text, $g-state-success-bg);
+// }
+// .is-warning,
+// .frm-warning,
+// .form-warning {
+//   @include form-validation($g-state-warning-text, $g-state-warning-text, $g-state-warning-bg);
+// }
+// .is-error,
+// .frm-error,
+// .form-error {
+//   @include form-validation($g-state-danger-text, $g-state-danger-text, $g-state-danger-bg);
+// }
+
+
+// .form-help-block {
+//   display: block;
+//   margin-top: 5px;
+//   margin-bottom: 10px;
+//   color: lighten($g-text-color, 25%);
+// }
