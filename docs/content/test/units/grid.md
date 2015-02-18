@@ -187,7 +187,7 @@ date: "2015-02-03"
 
 <div class="container test-container">
   <h3>row-float</h3>
-  <div class="row-float t-clearfix">
+  <div class="row-float">
     <div class="col test-row-col t-bs-6of12 t-xs-4of12 t-sm-3of12 t-md-2of12 t-lg-2of12">
       col
     </div>
@@ -231,7 +231,7 @@ date: "2015-02-03"
 
 <div class="container test-container">
   <h3>row-table</h3>
-  <div class="row-table t-clearfix">
+  <div class="row-table">
     <div class="col test-row-col t-xs-2of12">
       col
     </div>
@@ -257,7 +257,7 @@ date: "2015-02-03"
 
 <div class="container test-container">
   <h3>row-table / middle</h3>
-  <div class="row-table row--middle t-clearfix">
+  <div class="row-table row--middle">
     <div class="col test-row-col t-xs-2of12">
       col
     </div>
@@ -283,7 +283,7 @@ date: "2015-02-03"
 
 <div class="container test-container">
   <h3>row-table / bottom</h3>
-  <div class="row-table row--bottom t-clearfix">
+  <div class="row-table row--bottom">
     <div class="col test-row-col t-xs-2of12">
       col
     </div>

@@ -11,6 +11,7 @@ $link-decoration:         underline !default;
 $link-hover-color:        $g-link-hover-color !default;
 $link-hover-decoration:   none !default;
 
+$headings-space:          .5em !default;
 $headings-weight:         500 !default;
 $headings-lineHeight:     1.1 !default;
 $headings-color:          inherit !default;
@@ -28,6 +29,9 @@ $mark-color:              #fff !default;
 
 $list-inline-margin:      5px !default;
 
+$typo-space-bs: $g-space-bs;
+
+
 // ==================================
 body {
   font-family: $font-family-bs;
@@ -36,9 +40,12 @@ body {
   line-height: $line-height-bs;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6 {
+  margin: $headings-space 0;
+}
+
 p, ul, ol, dd {
-  margin:0 0 $g-space-bs 0;
+  margin:0 0 $typo-space-bs 0;
 }
 
 a {
@@ -91,12 +98,12 @@ mark, .mark {
 // list -------------------------
 ul > li > ul,
 ol > li > ol{
-  padding-left:20px;
+  padding-left:2rem;
   margin:0;
   list-style:inset;
 }
 ul,ol {
-  padding-left:$g-space-bs;
+  padding-left:$typo-space-bs;
 }
 
 // list  -------------------------
@@ -131,9 +138,9 @@ code {
 
 hr {
   display: block;
-  height: 1px;
+  height: .1rem;
   border: 0;
-  border-top: 1px solid #ccc;
-  margin: $g-space-bs 0;
+  border-top: .1rem solid #ccc;
+  margin: $typo-space-bs 0;
   padding: 0;
 }

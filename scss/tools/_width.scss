@@ -1,7 +1,6 @@
 @import "../config";
 
-$grid-columns:              12 !default;
-
+$grid-columns:  $g-grid-columns !default;
 $screen-xs-min: $g-screen-xs-min !default;
 $screen-sm-min: $g-screen-sm-min !default;
 $screen-md-min: $g-screen-md-min !default;
@@ -28,18 +27,18 @@ $screen-lg-min: $g-screen-lg-min !default;
 // ==================================
 @include make-grid(bs, $grid-columns);
 
-@media (min-width: $g-screen-xs-min) {
+@media (min-width: $screen-xs-min) {
   @include make-grid(xs, $grid-columns);
 }
 
-@media (min-width: $g-screen-sm-min) {
+@media (min-width: $screen-sm-min) {
   @include make-grid(sm, $grid-columns);
 }
 
-@media (min-width: $g-screen-md-min) {
+@media (min-width: $screen-md-min) {
   @include make-grid(md, $grid-columns);
 }
 
-@media (min-width: $g-screen-lg-min) {
+@media (min-width: $screen-lg-min) {
   @include make-grid(lg, $grid-columns);
 }

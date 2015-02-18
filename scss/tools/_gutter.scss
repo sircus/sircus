@@ -1,11 +1,13 @@
 @import "../config";
 
+$gutter-width: ($g-container-gutter-width / 2);
+
 .t-gutter-xs-offset,
 .t-gutter-sm-offset,
 .t-gutter-md-offset,
 .t-gutter-lg-offset {
-  margin-left:-($g-container-gutter-width / 2);
-  margin-right:-($g-container-gutter-width / 2);
+  margin-left:-$gutter-width;
+  margin-right:-$gutter-width;
 }
 
 .t-gutter-xs-offset {

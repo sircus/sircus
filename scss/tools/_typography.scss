@@ -7,11 +7,11 @@ $font-family-serif-ja:     $g-font-family-serif-ja !default;
 $font-family-monospace-en: $g-font-family-monospace-en !default;
 $font-family-monospace-ja: $g-font-family-monospace-ja !default;
 
-$letter-spacing-xl : .1em !default;
-$letter-spacing-lg : .05em !default;
-$letter-spacing-bs : 0 !default;
-$letter-spacing-sm : (0 - 0.04em) !default;
-$letter-spacing-xs : (0 - 0.08em) !default;
+$letter-space-xl : $g-letter-space-xl !default;
+$letter-space-lg : $g-letter-space-lg !default;
+$letter-space-bs : $g-letter-space-bs !default;
+$letter-space-sm : $g-letter-space-sm !default;
+$letter-space-xs : $g-letter-space-xs !default;
 
 $line-height-xl : $g-line-height-xl !default;
 $line-height-lg : $g-line-height-lg !default;
@@ -57,19 +57,19 @@ $line-height-xs : $g-line-height-xs !default;
 
 .t-ls-xs,
 .t-letter-sapce-xs,
-.t-letterSapce-xs   { letter-spacing:$letter-spacing-xs !important; }
+.t-letterSapce-xs   { letter-spacing:$letter-space-xs !important; }
 .t-ls-sm,
 .t-letter-sapce-sm,
-.t-letterSapce-sm   { letter-spacing:$letter-spacing-sm !important; }
+.t-letterSapce-sm   { letter-spacing:$letter-space-sm !important; }
 .t-ls-bs,
 .t-letter-sapce-bs,
-.t-letterSapce-bs  { letter-spacing:$letter-spacing-bs !important; }
+.t-letterSapce-bs  { letter-spacing:$letter-space-bs !important; }
 .t-ls-lg,
 .t-letter-sapce-lg,
-.t-letterSapce-lg   { letter-spacing:$letter-spacing-lg !important; }
+.t-letterSapce-lg   { letter-spacing:$letter-space-lg !important; }
 .t-ls-xl,
 .t-letter-sapce-xl,
-.t-letterSapce-xl   { letter-spacing:$letter-spacing-xl !important; }
+.t-letterSapce-xl   { letter-spacing:$letter-space-xl !important; }
 
 
 .t-lh-xs,

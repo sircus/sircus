@@ -1,10 +1,13 @@
 @import "../config";
 
-$grid-gutter-width:         40px !default;
-$container-gutter-width:    $grid-gutter-width !default;
-$container-sm:              720px !default;
-$container-md:              940px !default;
-$container-lg:              1140px !default;
+$grid-gutter-width:    $g-container-gutter-width !default;
+
+$screen-xs-min:        $g-screen-xs-min !default;
+// $screen-sm-min:        $g-screen-sm-min !default;
+// $screen-md-min:        $g-screen-md-min !default;
+// $screen-lg-min:        $g-screen-lg-min !default;
+
+$font-size-bs:         $g-font-size-bs !default;
 
 // Row
 // =====================================
@@ -17,13 +20,12 @@ $container-lg:              1140px !default;
   margin: 0;
   padding: 0;
   text-align: left;
-  margin-left: -($container-gutter-width / 2);
-  margin-right: -($container-gutter-width / 2);
-  > .col,
-  > .row-col,
-  > .row__col {
+  margin-left: -($grid-gutter-width / 2);
+  margin-right: -($grid-gutter-width / 2);
+  @extend .t-clear;
+  > .col {
     box-sizing:border-box;
-    font-size: $g-font-size-bs;
+    font-size: $font-size-bs;
   }
 }
 
@@ -31,9 +33,7 @@ $container-lg:              1140px !default;
 .row-inline-block,
 .row-inlineBlock {
   display: block;
-  > .col,
-  > .row-col,
-  > .row__col {
+  > .col {
     display: inline-block;
     text-align: left;
     vertical-align: top;
@@ -43,20 +43,16 @@ $container-lg:              1140px !default;
 
 .row-float {
   display: block;
-  > .col,
-  > .row-col,
-  > .row__col {
+  > .col {
     float: left;
   }
 }
 
 .row-table {
-  > .col,
-  > .row-col,
-  > .row__col {
+  > .col {
     width:100%;
   }
-  @media (min-width: $g-screen-xs-min) {
+  @media (min-width: $screen-xs-min) {
     display: table;
     table-layout: fixed;
     > .col,
@@ -73,31 +69,23 @@ $container-lg:              1140px !default;
 .row--right  { text-align: right; }
 .row--left   { text-align: left; }
 
-.row--top > .col,
-.row--top > .row-col,
-.row--top > .row__col { vertical-align: top; }
-.row--middle > .col,
-.row--middle > .row-col,
-.row--middle > .row__col { vertical-align: middle; }
-.row--bottom > .col,
-.row--bottom > .row-col,
-.row--bottom > .row__col { vertical-align: bottom; }
+.row--top > .col     { vertical-align: top; }
+.row--middle > .col  { vertical-align: middle; }
+.row--bottom > .col  { vertical-align: bottom; }
 
 // // gutter
-.row--gutter {
-  margin: 0 (-0.5 * $grid-gutter-width);
-}
-.row--gutter > .col,
-.row--gutter > .row-col,
-.row--gutter > .row__col {
-  padding: 0 (0.5 * $grid-gutter-width);
-}
+// .row--gutter {
+//   margin: 0 (-0.5 * $grid-gutter-width);
+// }
+// .row--gutter > .col,
+// .row--gutter > .row-col,
+// .row--gutter > .row__col {
+//   padding: 0 (0.5 * $grid-gutter-width);
+// }
 
 // Columns
 // =====================================
-.col,
-.row-col,
-.row__col {
+.col {
   min-height: 1px;
   padding-left: ($grid-gutter-width / 2);
   padding-right: ($grid-gutter-width / 2);

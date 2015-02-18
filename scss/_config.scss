@@ -94,6 +94,15 @@ $g-line-height-bs:        1.5 !default; // 20/14
 $g-line-height-sm:        1.2 !default;
 $g-line-height-xs:        1.1 !default;
 
+// letter-spacing
+// ==========================
+$g-letter-space-xl : .1em !default;
+$g-letter-space-lg : .05em !default;
+$g-letter-space-bs : 0 !default;
+$g-letter-space-sm : (0 - 0.04em) !default;
+$g-letter-space-xs : (0 - 0.08em) !default;
+
+
 // space (margin & padding)
 // ==========================
 $g-space-mn : 1rem !default;
@@ -140,3 +149,15 @@ $g-border-bs    : $g-border-size $g-border-style $g-border-color;
 $g-border-radius-sm:   .2rem !default;
 $g-border-radius-bs:   .4rem !default;
 $g-border-radius-lg:   .5rem !default;
+
+
+
+// unit
+// container & grid
+// ==========================
+$g-container-gutter-width:    $g-space-bs !default;
+$g-container-sm:              (72rem + $g-container-gutter-width) !default;
+$g-container-md:              (94rem + $g-container-gutter-width )!default;
+$g-container-lg:              (114rem + $g-container-gutter-width ) !default;
+
+$g-grid-columns:              12 !default;
