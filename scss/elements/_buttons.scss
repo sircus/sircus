@@ -18,7 +18,6 @@ $btn-link-disabled-color:       $g-color-gray-darker !default;
   border-color: $border;
   &:hover,
   &:focus,
-  &.is-focus,
   &:active,
   &.is-active {
     color: $color-hover;
@@ -35,7 +34,6 @@ $btn-link-disabled-color:       $g-color-gray-darker !default;
     &,
     &:hover,
     &:focus,
-    &.is-focus,
     &:active,
     &.is-active {
       background-color: $background;
