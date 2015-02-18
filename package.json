@@ -11,12 +11,10 @@
   },
   "devDependencies": {
     "browser-sync": "^1.7.0",
-    "del": "^1.1.1",
     "gulp": "^3.8.10",
     "gulp-rename": "^1.2.0",
-    "gulptasks":"^0.6.0",
+    "gulptasks":"^0.7.0",
     "lodash": "^3.0.1",
-    "psi": "^1.0.4",
     "run-sequence": "^1.0.2"
   }
 }

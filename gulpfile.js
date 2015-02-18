@@ -1,9 +1,7 @@
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
-var del         = require('del');
 var gulp        = require('gulp');
 var rename      = require('gulp-rename');
-var pagespeed   = require('psi');
 var runSequence = require('run-sequence');
 var pkg         = require('./package.json');
 var autoprefixerBrowsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1'];
@@ -74,6 +72,7 @@ module.exports = {
   },
   'psi': {
     production: 'http://sircus.blivesta.com',
+    strategy: 'mobile'
   }
 };
 
@@ -85,7 +84,8 @@ gulp.task('cssmin', require('gulptasks/lib/cssmin'));
 gulp.task('deploy', require('gulptasks/lib/ghpage'));
 gulp.task('bump', require('gulptasks/lib/bump'));
 gulp.task('hugo', require('gulptasks/lib/hugo'));
-gulp.task('uninstall', del.bind(null, module.exports.uninstall.files));
+gulp.task('uninstall', require('gulptasks/lib/uninstall'));
+gulp.task('psi', require('gulptasks/lib/pagespeed'));
 gulp.task('server', function(){ browserSync.init(null, module.exports.browserSync); });
 
 gulp.task('default',['server'],function() {
@@ -119,10 +119,4 @@ gulp.task('build', function() {
     'hugo',
     ['bump','dist','default']
   );
-});
-
-gulp.task('psi', function (cb) {
-  pagespeed.output(module.exports.psi.production, {
-    strategy: 'mobile'
-  }, cb);
 });
