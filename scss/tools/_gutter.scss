@@ -1,0 +1,34 @@
+@import "../config";
+
+.t-gutter-xs-offset,
+.t-gutter-sm-offset,
+.t-gutter-md-offset,
+.t-gutter-lg-offset {
+  margin-left:-($g-container-gutter-width / 2);
+  margin-right:-($g-container-gutter-width / 2);
+}
+
+.t-gutter-xs-offset {
+  @media (min-width: $g-screen-xs-min) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.t-gutter-sm-offset {
+  @media (min-width: $g-screen-sm-min) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.t-gutter-md-offset {
+  @media (min-width: $g-screen-md-min) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.t-gutter-lg-offset {
+  @media (min-width: $g-screen-lg-min) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
