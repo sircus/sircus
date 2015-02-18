@@ -10,15 +10,13 @@
 // @import "vendor/normalize";
 // @import "vendor/html5-reset";
 
-// Base
-@import "base/default";
-
 // Elemetns
+@import "elements/html";
+@import "elements/typography";
+@import "elements/images";
 @import "elements/buttons";
 @import "elements/forms";
-@import "elements/images";
 @import "elements/tables";
-@import "elements/typography";
 
 // Units
 @import "units/container";
