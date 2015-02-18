@@ -96,11 +96,14 @@ $g-line-height-xs:        1.1 !default;
 
 // space (margin & padding)
 // ==========================
-$g-space-bs : 2.4rem!default;
+$g-space-mn : 1rem !default;
 $g-space-xs : 1.2rem !default;
 $g-space-sm : 1.8rem !default;
+$g-space-bs : 2.4rem!default;
 $g-space-lg : 3.6rem !default;
 $g-space-xl : 4.8rem !default;
+$g-space-mg : 6rem !default;
+$g-space-hg : 7.2rem !default;
 
 
 // padding
@@ -137,4 +140,3 @@ $g-border-bs    : $g-border-size $g-border-style $g-border-color;
 $g-border-radius-sm:   .2rem !default;
 $g-border-radius-bs:   .4rem !default;
 $g-border-radius-lg:   .5rem !default;
-
