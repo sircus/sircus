@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * sircus - The scalable css for responsive project.
- * @version v0.1.0
+ * @version v0.1.1
  * @link    http://sircus.blivesta.com
  * @author  blivesta
  * @license MIT
@@ -12,7 +12,7 @@ html, body {
   padding: 0; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 10px; }
 
 body {
   font-family: Raleway, helvetica, arial, sans-serif;
@@ -870,6 +870,9 @@ table {
 .t-ma-00 {
   margin: 0 !important; }
 
+.t-ma-mn {
+  margin: 1rem !important; }
+
 .t-ma-xs {
   margin: 1.2rem !important; }
 
@@ -893,6 +896,9 @@ table {
 
 .t-mt-00 {
   margin-top: 0 !important; }
+
+.t-mt-mn {
+  margin-top: 1rem !important; }
 
 .t-mt-xs {
   margin-top: 1.2rem !important; }
@@ -918,6 +924,9 @@ table {
 .t-mb-00 {
   margin-bottom: 0 !important; }
 
+.t-mb-mn {
+  margin-bottom: 1rem !important; }
+
 .t-mb-xs {
   margin-bottom: 1.2rem !important; }
 
@@ -941,6 +950,9 @@ table {
 
 .t-pa-00 {
   padding: 0 !important; }
+
+.t-pa-mn {
+  padding: 1rem !important; }
 
 .t-pa-xs {
   padding: 1.2rem !important; }
@@ -966,6 +978,9 @@ table {
 .t-pt-00 {
   padding-top: 0 !important; }
 
+.t-pt-mn {
+  padding-top: 1rem !important; }
+
 .t-pt-xs {
   padding-top: 1.2rem !important; }
 
@@ -989,6 +1004,9 @@ table {
 
 .t-pb-00 {
   padding-bottom: 0 !important; }
+
+.t-pb-mn {
+  padding-bottom: 1rem !important; }
 
 .t-pb-xs {
   padding-bottom: 1.2rem !important; }
