@@ -1,35 +1,39 @@
 @import "../config";
 
-$gutter-width: ($g-container-gutter-width / 2);
+$l-gutter-width:           ($g-container-gutter-width / 2);
+$l-gutter-screen-xs-min:   $g-screen-xs-min !default;
+$l-gutter-screen-sm-min:   $g-screen-sm-min !default;
+$l-gutter-screen-md-min:   $g-screen-md-min !default;
+$l-gutter-screen-lg-min:   $g-screen-lg-min !default;
 
 .t-gutter-xs-offset,
 .t-gutter-sm-offset,
 .t-gutter-md-offset,
 .t-gutter-lg-offset {
-  margin-left:-$gutter-width;
-  margin-right:-$gutter-width;
+  margin-left:-$l-gutter-width;
+  margin-right:-$l-gutter-width;
 }
 
 .t-gutter-xs-offset {
-  @media (min-width: $g-screen-xs-min) {
+  @media (min-width: $l-gutter-screen-xs-min) {
     margin-left: 0;
     margin-right: 0;
   }
 }
 .t-gutter-sm-offset {
-  @media (min-width: $g-screen-sm-min) {
+  @media (min-width: $l-gutter-screen-sm-min) {
     margin-left: 0;
     margin-right: 0;
   }
 }
 .t-gutter-md-offset {
-  @media (min-width: $g-screen-md-min) {
+  @media (min-width: $l-gutter-screen-md-min) {
     margin-left: 0;
     margin-right: 0;
   }
 }
 .t-gutter-lg-offset {
-  @media (min-width: $g-screen-lg-min) {
+  @media (min-width: $l-gutter-screen-lg-min) {
     margin-left: 0;
     margin-right: 0;
   }

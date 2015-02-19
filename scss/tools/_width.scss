@@ -1,14 +1,14 @@
 @import "../config";
 
-$grid-columns:  $g-grid-columns !default;
-$screen-xs-min: $g-screen-xs-min !default;
-$screen-sm-min: $g-screen-sm-min !default;
-$screen-md-min: $g-screen-md-min !default;
-$screen-lg-min: $g-screen-lg-min !default;
+$l-width-grid-columns:  $g-grid-columns !default;
+$l-width-screen-xs-min: $g-screen-xs-min !default;
+$l-width-screen-sm-min: $g-screen-sm-min !default;
+$l-width-screen-md-min: $g-screen-md-min !default;
+$l-width-screen-lg-min: $g-screen-lg-min !default;
 
 //=====================
 
-@mixin make-grid($screen: xs , $columns : $grid-columns) {
+@mixin make-grid($screen: xs , $columns : $l-width-grid-columns) {
   @include each-grid-width($screen, $columns);
 }
 @mixin each-grid-width($screen, $columns) {
@@ -25,20 +25,20 @@ $screen-lg-min: $g-screen-lg-min !default;
 }
 
 // ==================================
-@include make-grid(bs, $grid-columns);
+@include make-grid(bs, $l-width-grid-columns);
 
-@media (min-width: $screen-xs-min) {
-  @include make-grid(xs, $grid-columns);
+@media (min-width: $l-width-screen-xs-min) {
+  @include make-grid(xs, $l-width-grid-columns);
 }
 
-@media (min-width: $screen-sm-min) {
-  @include make-grid(sm, $grid-columns);
+@media (min-width: $l-width-screen-sm-min) {
+  @include make-grid(sm, $l-width-grid-columns);
 }
 
-@media (min-width: $screen-md-min) {
-  @include make-grid(md, $grid-columns);
+@media (min-width: $l-width-screen-md-min) {
+  @include make-grid(md, $l-width-grid-columns);
 }
 
-@media (min-width: $screen-lg-min) {
-  @include make-grid(lg, $grid-columns);
+@media (min-width: $l-width-screen-lg-min) {
+  @include make-grid(lg, $l-width-grid-columns);
 }

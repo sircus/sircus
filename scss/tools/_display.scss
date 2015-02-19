@@ -1,5 +1,15 @@
 @import "../config";
 
+$l-display-screen-xs-min:   $g-screen-xs-min !default;
+$l-display-screen-sm-min:   $g-screen-sm-min !default;
+$l-display-screen-md-min:   $g-screen-md-min !default;
+$l-display-screen-lg-min:   $g-screen-lg-min !default;
+
+$l-display-screen-xs-max:   $g-screen-xs-max !default;
+$l-display-screen-sm-max:   $g-screen-sm-max !default;
+$l-display-screen-md-max:   $g-screen-md-max !default;
+
+
 @mixin responsive-invisibility($parent) {
   #{$parent} { display: none !important; }
 }
@@ -45,95 +55,95 @@
   display: none !important;
 }
 
-@media (max-width: $g-screen-xs-max) {
+@media (max-width: $l-display-screen-xs-max) {
   @include responsive-visibility('.t-visible-xs');
 }
 .t-visible-xs-block {
-  @media (max-width: $g-screen-xs-max) {
+  @media (max-width: $l-display-screen-xs-max) {
     display: block !important;
   }
 }
 .t-visible-xs-inline {
-  @media (max-width: $g-screen-xs-max) {
+  @media (max-width: $l-display-screen-xs-max) {
     display: inline !important;
   }
 }
 .t-visible-xs-inline-block {
-  @media (max-width: $g-screen-xs-max) {
+  @media (max-width: $l-display-screen-xs-max) {
     display: inline-block !important;
   }
 }
 
-@media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+@media (min-width: $l-display-screen-sm-min) and (max-width: $l-display-screen-sm-max) {
   @include responsive-visibility('.t-visible-sm');
 }
 .t-visible-sm-block {
-  @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+  @media (min-width: $l-display-screen-sm-min) and (max-width: $l-display-screen-sm-max) {
     display: block !important;
   }
 }
 .t-visible-sm-inline {
-  @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+  @media (min-width: $l-display-screen-sm-min) and (max-width: $l-display-screen-sm-max) {
     display: inline !important;
   }
 }
 .t-visible-sm-inline-block {
-  @media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+  @media (min-width: $l-display-screen-sm-min) and (max-width: $l-display-screen-sm-max) {
     display: inline-block !important;
   }
 }
 
-@media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+@media (min-width: $l-display-screen-md-min) and (max-width: $l-display-screen-md-max) {
   @include responsive-visibility('.t-visible-md');
 }
 .t-visible-md-block {
-  @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+  @media (min-width: $l-display-screen-md-min) and (max-width: $l-display-screen-md-max) {
     display: block !important;
   }
 }
 .t-visible-md-inline {
-  @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+  @media (min-width: $l-display-screen-md-min) and (max-width: $l-display-screen-md-max) {
     display: inline !important;
   }
 }
 .t-visible-md-inline-block {
-  @media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+  @media (min-width: $l-display-screen-md-min) and (max-width: $l-display-screen-md-max) {
     display: inline-block !important;
   }
 }
 
-@media (min-width: $g-screen-lg-min) {
+@media (min-width: $l-display-screen-lg-min) {
   @include responsive-visibility('.t-visible-lg');
 }
 .t-visible-lg-block {
-  @media (min-width: $g-screen-lg-min) {
+  @media (min-width: $l-display-screen-lg-min) {
     display: block !important;
   }
 }
 .t-visible-lg-inline {
-  @media (min-width: $g-screen-lg-min) {
+  @media (min-width: $l-display-screen-lg-min) {
     display: inline !important;
   }
 }
 .t-visible-lg-inline-block {
-  @media (min-width: $g-screen-lg-min) {
+  @media (min-width: $l-display-screen-lg-min) {
     display: inline-block !important;
   }
 }
 
-@media (max-width: $g-screen-xs-max) {
+@media (max-width: $l-display-screen-xs-max) {
   @include responsive-invisibility('.t-hidden-xs');
 }
 
-@media (min-width: $g-screen-sm-min) and (max-width: $g-screen-sm-max) {
+@media (min-width: $l-display-screen-sm-min) and (max-width: $l-display-screen-sm-max) {
   @include responsive-invisibility('.t-hidden-sm');
 }
 
-@media (min-width: $g-screen-md-min) and (max-width: $g-screen-md-max) {
+@media (min-width: $l-display-screen-md-min) and (max-width: $l-display-screen-md-max) {
   @include responsive-invisibility('.t-hidden-md');
 }
 
-@media (min-width: $g-screen-lg-min) {
+@media (min-width: $l-display-screen-lg-min) {
   @include responsive-invisibility('.t-hidden-lg');
 }
 

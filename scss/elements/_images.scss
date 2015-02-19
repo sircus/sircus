@@ -1,6 +1,6 @@
 @import "../config";
 
-$img-round-border-radius : $g-border-radius-bs !default;
+$l-img-round-border-radius : $g-border-radius-bs !default;
 
 // ==================================
 figure {
@@ -20,7 +20,7 @@ img {
 }
 
 .img-round {
-  border-radius: $img-round-border-radius;
+  border-radius: $l-img-round-border-radius;
 }
 
 .img-circle {

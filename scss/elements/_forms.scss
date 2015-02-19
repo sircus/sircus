@@ -5,19 +5,19 @@
 // .checkbox* = checkbox
 // .radio* = tadio
 
-$inp-bg:                       #FAFAFA !default;
-$inp-bg-disabled:              $g-color-gray-lighter !default;
-$inp-color:                    $g-color-gray !default;
-$inp-border:                   #ccc !default;
-$inp-border-radius:             3px !default;
-$inp-border-radius-lg:          $g-border-radius-lg !default;
-$inp-border-radius-sm:          $g-border-radius-sm !default;
-$inp-border-focus:             $g-color-gray-light !default;
-$inp-color-placeholder:        #999 !default;
+$l-inp-bg:                       #FAFAFA !default;
+$l-inp-bg-disabled:              $g-color-gray-lighter !default;
+$l-inp-color:                    $g-color-gray !default;
+$l-inp-border:                   #ccc !default;
+$l-inp-border-radius:             3px !default;
+$l-inp-border-radius-lg:          $g-border-radius-lg !default;
+$l-inp-border-radius-sm:          $g-border-radius-sm !default;
+$l-inp-border-focus:             $g-color-gray-light !default;
+$l-inp-color-placeholder:        #999 !default;
 
-$inp-height-bs:                $g-sum-height-bs !default;
-$inp-height-lg:                $g-sum-height-lg !default;
-$inp-height-sm:                $g-sum-height-sm !default;
+$l-inp-height-bs:                $g-sum-height-bs !default;
+$l-inp-height-lg:                $g-sum-height-lg !default;
+$l-inp-height-sm:                $g-sum-height-sm !default;
 
 $legend-color:                 $g-color-gray-dark !default;
 $legend-border-color:          #e5e5e5 !default;
@@ -44,17 +44,17 @@ $cursor-disabled:              not-allowed !default;
 }
 
 
-@mixin form-size($parent, $inp-height, $padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+@mixin form-size($parent, $l-inp-height, $padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
   #{$parent} {
-    height: $inp-height;
+    height: $l-inp-height;
     padding: $padding-vertical $padding-horizontal;
     font-size: $font-size;
     line-height: $line-height;
     border-radius: $border-radius;
   }
   select#{$parent} {
-    height: $inp-height;
-    line-height: $inp-height;
+    height: $l-inp-height;
+    line-height: $l-inp-height;
   }
   textarea#{$parent},
   select[multiple]#{$parent} {
@@ -154,7 +154,7 @@ legend {
 //   padding-top: ($g-padding-bs-vertical + 1);
 //   font-size: $g-font-size-bs;
 //   line-height: $g-line-height-bs;
-//   color: $inp-color;
+//   color: $l-inp-color;
 // }
 
 
@@ -179,24 +179,24 @@ legend {
 .sct {
   display: block;
   width: 100%;
-  height: $inp-height-bs;
+  height: $l-inp-height-bs;
   padding: $g-padding-bs-vertical $g-padding-bs-horizontal;
   font-size: $g-font-size-bs;
   line-height: $g-line-height-bs;
-  color: $inp-color;
-  background-color: $inp-bg;
+  color: $l-inp-color;
+  background-color: $l-inp-bg;
   background-image: none;
-  border: 1px solid $inp-border;
-  border-radius: $inp-border-radius;
+  border: 1px solid $l-inp-border;
+  border-radius: $l-inp-border-radius;
   box-shadow: none;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  @include form-focus($inp-border-focus);
-  @include form-placeholder($inp-color-placeholder);
+  @include form-focus($l-inp-border-focus);
+  @include form-placeholder($l-inp-color-placeholder);
   &[disabled],
   &[readonly],
   fieldset[disabled] & {
     cursor: $cursor-disabled;
-    background-color: $inp-bg-disabled;
+    background-color: $l-inp-bg-disabled;
     opacity: 1;
   }
 }
@@ -221,14 +221,14 @@ textarea.sct {
 // input[type="time"],
 // input[type="datetime-local"],
 // input[type="month"] {
-//   line-height: $inp-height-bs;
+//   line-height: $l-inp-height-bs;
 //   &.inp--sm,
 //   &.inp--sm {
-//     line-height: $inp-height-sm;
+//     line-height: $l-inp-height-sm;
 //   }
 //   &.inp--lg,
 //   &.inp--lg {
-//     line-height: $inp-height-lg;
+//     line-height: $l-inp-height-lg;
 //   }
 // }
 
@@ -249,10 +249,10 @@ textarea.sct {
 // }
 
 // Form control sizing
-// @include form-size('.inp--sm, .form-group-sm .sct', $inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $inp-border-radius-sm);
-// @include form-size('.inp--sm, .form-group-sm .inp', $inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $inp-border-radius-sm);
-// @include form-size('.inp--lg, .form-group-lg .inp', $inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $inp-border-radius-lg);
-// @include form-size('.inp--lg, .form-group-lg .sct', $inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $inp-border-radius-lg);
+// @include form-size('.inp--sm, .form-group-sm .sct', $l-inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $l-inp-border-radius-sm);
+// @include form-size('.inp--sm, .form-group-sm .inp', $l-inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $l-inp-border-radius-sm);
+// @include form-size('.inp--lg, .form-group-lg .inp', $l-inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $l-inp-border-radius-lg);
+// @include form-size('.inp--lg, .form-group-lg .sct', $l-inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $l-inp-border-radius-lg);
 
 
 // underline

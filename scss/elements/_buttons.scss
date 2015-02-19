@@ -1,14 +1,33 @@
 @import "../config";
 
-$btn-default-color:              $g-color-gray-darker !default;
-$btn-default-bg:                 $g-color-gray-light !default;
-$btn-default-border:             $btn-default-bg !default;
+$l-btn-default-color:              $g-color-gray-darker !default;
+$l-btn-default-bg:                 $g-color-gray-light !default;
+$l-btn-default-border:             $l-btn-default-bg !default;
 
-$btn-primary-color:              #fff !default;
-$btn-primary-bg:                 $g-color-primary !default;
-$btn-primary-border:             $btn-primary-bg !default;
+$l-btn-primary-color:              #fff !default;
+$l-btn-primary-bg:                 $g-color-primary !default;
+$l-btn-primary-border:             $l-btn-primary-bg !default;
 
-$btn-link-disabled-color:       $g-color-gray-darker !default;
+$l-btn-padding-xl-vertical:        $g-padding-xl-vertical !default;
+$l-btn-padding-xl-horizontal:      $g-padding-xl-horizontal !default;
+$l-btn-padding-lg-vertical:        $g-padding-lg-vertical !default;
+$l-btn-padding-lg-horizontal:      $g-padding-lg-horizontal !default;
+$l-btn-padding-bs-vertical:        $g-padding-bs-vertical !default;
+$l-btn-padding-bs-horizontal:      $g-padding-bs-horizontal !default;
+$l-btn-padding-sm-vertical:        $g-padding-sm-vertical !default;
+$l-btn-padding-sm-horizontal:      $g-padding-sm-horizontal !default;
+
+$l-btn-hover-color:               $g-link-hover-color !default;
+$l-btn-border-radius-bs:          $g-border-radius-bs !default;
+$l-btn-font-size-xl:              $g-font-size-xl !default;
+$l-btn-font-size-lg:              $g-font-size-lg !default;
+$l-btn-font-size-bs:              $g-font-size-bs !default;
+$l-btn-font-size-sm:              $g-font-size-sm !default;
+$l-btn-link-disabled-color:       $g-color-gray-darker !default;
+
+$l-btn-border-radius-lg:          $g-border-radius-lg !default;
+$l-btn-border-radius-bs:          $g-border-radius-bs !default;
+$l-btn-border-radius-sm:          $g-border-radius-sm !default;
 
 // ==================================
 
@@ -42,9 +61,9 @@ $btn-link-disabled-color:       $g-color-gray-darker !default;
   }
 }
 
-@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $border-radius) {
-  padding: $padding-vertical $padding-horizontal;
-  font-size: $font-size;
+@mixin button-size($g-padding-vertical, $g-padding-horizontal, $g-font-size, $border-radius) {
+  padding: $g-padding-vertical $g-padding-horizontal;
+  font-size: $g-font-size;
   border-radius: $border-radius;
 }
 
@@ -76,12 +95,12 @@ button {
   border: 2px solid transparent;
   box-shadow: none;
   transition: background-color 200ms ease-out;
-  $vertical : ($g-padding-bs-vertical - .15);
-  $horizontal : ($g-padding-bs-horizontal - .15);
-  @include button-size($vertical, $horizontal, $g-font-size-bs, $g-border-radius-bs);
+  $vertical : ($l-btn-padding-bs-vertical - .15);
+  $horizontal : ($l-btn-padding-bs-horizontal - .15);
+  @include button-size($vertical, $horizontal, $l-btn-font-size-bs, $l-btn-border-radius-bs);
   &:hover,
   &:focus {
-    color: $btn-default-color;
+    color: $l-btn-default-color;
     text-decoration: none;
   }
   &:active,
@@ -120,7 +139,7 @@ button {
     }
   &:hover,
   &:focus {
-    color: $g-link-hover-color;
+    color: $l-btn-hover-color;
     text-decoration: underline;
     background-color: transparent;
     }
@@ -128,7 +147,7 @@ button {
   fieldset[disabled] & {
     &:hover,
     &:focus {
-      color: $btn-link-disabled-color;
+      color: $l-btn-link-disabled-color;
       text-decoration: none;
     }
   }
@@ -138,22 +157,22 @@ button {
 // --------------------------------------------------
 .btn-default {
   @include button-color(
-    $btn-default-color,
-    $btn-default-bg,
-    $btn-default-border,
-    $btn-default-color,
-    darken($btn-default-bg, 10%),
-    darken($btn-default-bg, 12%)
+    $l-btn-default-color,
+    $l-btn-default-bg,
+    $l-btn-default-border,
+    $l-btn-default-color,
+    darken($l-btn-default-bg, 10%),
+    darken($l-btn-default-bg, 12%)
   );
 }
 .btn-primary {
   @include button-color(
-    $btn-primary-color,
-    $btn-primary-bg,
-    $btn-primary-border,
-    $btn-primary-color,
-    darken($btn-primary-bg, 10%),
-    darken($btn-primary-bg, 12%)
+    $l-btn-primary-color,
+    $l-btn-primary-bg,
+    $l-btn-primary-border,
+    $l-btn-primary-color,
+    darken($l-btn-primary-bg, 10%),
+    darken($l-btn-primary-bg, 12%)
   );
 }
 
@@ -162,23 +181,23 @@ button {
 .btn-border-default,
 .btn-borderDefault {
   @include button-color(
-    $btn-default-color,
+    $l-btn-default-color,
     #fff,
-    $btn-default-color,
+    $l-btn-default-color,
     #fff,
-    $btn-default-color,
-    $btn-default-color
+    $l-btn-default-color,
+    $l-btn-default-color
   );
 }
 .btn-border-primary,
 .btn-borderPrimary   {
   @include button-color(
-    $btn-primary-bg,
+    $l-btn-primary-bg,
     #fff,
-    $btn-primary-bg,
+    $l-btn-primary-bg,
     #fff,
-    $btn-primary-bg,
-    $btn-primary-bg
+    $l-btn-primary-bg,
+    $l-btn-primary-bg
   );
 }
 
@@ -186,19 +205,19 @@ button {
 // btn Sizes
 // --------------------------------------------------
 .btn--xl {
-  $vertical : ($g-padding-xl-vertical - .2);
-  $horizontal : ($g-padding-xl-horizontal - .2);
-  @include button-size($vertical, $horizontal, $g-font-size-xl, $g-border-radius-lg);
+  $vertical : ($l-btn-padding-xl-vertical - .2);
+  $horizontal : ($l-btn-padding-xl-horizontal - .2);
+  @include button-size($vertical, $horizontal, $l-btn-font-size-xl, $l-btn-border-radius-lg);
 }
 .btn--lg {
-  $vertical : ($g-padding-lg-vertical - .2);
-  $horizontal : ($g-padding-lg-horizontal - .2);
-  @include button-size($vertical, $horizontal, $g-font-size-lg, $g-border-radius-lg);
+  $vertical : ($l-btn-padding-lg-vertical - .2);
+  $horizontal : ($l-btn-padding-lg-horizontal - .2);
+  @include button-size($vertical, $horizontal, $l-btn-font-size-lg, $l-btn-border-radius-lg);
 }
 .btn--sm {
-  $vertical : ($g-padding-sm-vertical - .15);
-  $horizontal : ($g-padding-sm-horizontal - .15);
-  @include button-size($vertical, $horizontal, $g-font-size-sm, $g-border-radius-sm);
+  $vertical : ($l-btn-padding-sm-vertical - .15);
+  $horizontal : ($l-btn-padding-sm-horizontal - .15);
+  @include button-size($vertical, $horizontal, $l-btn-font-size-sm, $l-btn-border-radius-sm);
 }
 
 

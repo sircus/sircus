@@ -1,61 +1,66 @@
 @import "../config";
 
-$font-family-bs:          $g-font-family-sans-en !default;
-$font-family-monospace:   $g-font-family-monospace-en !default;
-$font-size-bs:            $g-font-size-bs !default;
-$text-color:              $g-text-color !default;
-$line-height-bs:          $g-line-height-bs !default;
+$l-typo-font-family-bs:          $g-font-family-sans-en !default;
+$l-typo-font-family-monospace:   $g-font-family-monospace-en !default;
+$l-typo-font-size-bs:            $g-font-size-bs !default;
+$l-typo-text-color:              $g-text-color !default;
+$l-typo-line-height-bs:          $g-line-height-bs !default;
 
-$link-color:              $g-link-color !default;
-$link-decoration:         underline !default;
-$link-hover-color:        $g-link-hover-color !default;
-$link-hover-decoration:   none !default;
+$l-typo-link-color:              $g-link-color !default;
+$l-typo-link-decoration:         $g-link-decoration !default;
+$l-typo-link-hover-color:        $g-link-hover-color !default;
+$l-typo-link-hover-decoration:   $g-link-hover-decoration !default;
 
-$headings-space:          .5em !default;
-$headings-weight:         500 !default;
-$headings-lineHeight:     1.1 !default;
-$headings-color:          inherit !default;
+$l-typo-headings-space:          $g-headings-space !default;
+$l-typo-headings-weight:         $g-headings-weight !default;
+$l-typo-headings-lineHeight:     $g-headings-lineHeight !default;
+$l-typo-headings-color:          $g-headings-color !default;
 
-$h0-font-size:            $g-font-size-sc !default;
-$h1-font-size:            $g-font-size-hg !default;
-$h2-font-size:            $g-font-size-mg !default;
-$h3-font-size:            $g-font-size-xl !default;
-$h4-font-size:            $g-font-size-lg !default;
-$h5-font-size:            $g-font-size-bs !default;
-$h6-font-size:            $g-font-size-sm !default;
+$l-typo-h0-font-size:            $g-font-size-sc !default;
+$l-typo-h1-font-size:            $g-font-size-hg !default;
+$l-typo-h2-font-size:            $g-font-size-mg !default;
+$l-typo-h3-font-size:            $g-font-size-xl !default;
+$l-typo-h4-font-size:            $g-font-size-lg !default;
+$l-typo-h5-font-size:            $g-font-size-bs !default;
+$l-typo-h6-font-size:            $g-font-size-sm !default;
 
-$mark-bg-color:           $g-color-primary !default;
-$mark-color:              #fff !default;
+$l-typo-mark-bg-color:           $g-color-primary !default;
+$l-typo-mark-color:              #fff !default;
 
-$list-inline-margin:      5px !default;
+$l-typo-list-inline-margin:      5px !default;
 
-$typo-space-bs: $g-space-bs;
+$l-typo-space-bs: $g-space-bs;
 
 
 // ==================================
+html {
+  // font-size: 62.5%; // 10px
+  font-size: 10px;
+}
+
 body {
-  font-family: $font-family-bs;
-  color: $text-color;
-  font-size: $font-size-bs;
-  line-height: $line-height-bs;
+  font-family: $l-typo-font-family-bs;
+  color: $l-typo-text-color;
+  font-size: $l-typo-font-size-bs;
+  line-height: $l-typo-line-height-bs;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: $headings-space 0;
+  margin: $l-typo-headings-space 0;
 }
 
 p, ul, ol, dd {
-  margin:0 0 $typo-space-bs 0;
+  margin:0 0 $l-typo-space-bs 0;
 }
 
 a {
-  color: $link-color;
+  color: $l-typo-link-color;
   text-decoration: underline;
 }
 a:hover,
 a:focus,
 a:active  {
-  color: $link-hover-color;
+  color: $l-typo-link-hover-color;
   text-decoration: none;
 }
 
@@ -63,26 +68,26 @@ a:active  {
 h1, h2, h3, h4, h5, h6,
 .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
-  color: $headings-color;
-  font-weight: $headings-weight;
-  line-height: $headings-lineHeight;
+  color: $l-typo-headings-color;
+  font-weight: $l-typo-headings-weight;
+  line-height: $l-typo-headings-lineHeight;
 }
 
-.h0     { font-size: $h0-font-size; }
-h1, .h1 { font-size: $h1-font-size; }
-h2, .h2 { font-size: $h2-font-size; }
-h3, .h3 { font-size: $h3-font-size; }
-h4, .h4 { font-size: $h4-font-size; }
-h5, .h5 { font-size: $h5-font-size; }
-h6, .h6 { font-size: $h6-font-size; }
+.h0     { font-size: $l-typo-h0-font-size; }
+h1, .h1 { font-size: $l-typo-h1-font-size; }
+h2, .h2 { font-size: $l-typo-h2-font-size; }
+h3, .h3 { font-size: $l-typo-h3-font-size; }
+h4, .h4 { font-size: $l-typo-h4-font-size; }
+h5, .h5 { font-size: $l-typo-h5-font-size; }
+h6, .h6 { font-size: $l-typo-h6-font-size; }
 
 a {
-  color: $link-color;
-  text-decoration: $link-decoration;
+  color: $l-typo-link-color;
+  text-decoration: $l-typo-link-decoration;
   &:hover,
   &:focus {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
+    color: $l-typo-link-hover-color;
+    text-decoration: $l-typo-link-hover-decoration;
   }
 }
 
@@ -91,8 +96,8 @@ small, .small { font-size: 80%; }
 mark, .mark {
   padding-left:.5rem;
   padding-right:.5rem;
-  background-color:$mark-bg-color;
-  color:$mark-color;
+  background-color:$l-typo-mark-bg-color;
+  color:$l-typo-mark-color;
 }
 
 // list -------------------------
@@ -103,7 +108,7 @@ ol > li > ol{
   list-style:inset;
 }
 ul,ol {
-  padding-left:$typo-space-bs;
+  padding-left:$l-typo-space-bs;
 }
 
 // list  -------------------------
@@ -118,11 +123,11 @@ ul,ol {
 .list-inline,
 .list-inline-block,
 .list-inlineBlock {
-  margin-left: (-$list-inline-margin);
+  margin-left: (-$l-typo-list-inline-margin);
   > li {
     display: inline-block;
-    padding-left: $list-inline-margin;
-    padding-right: $list-inline-margin;
+    padding-left: $l-typo-list-inline-margin;
+    padding-right: $l-typo-list-inline-margin;
   }
 }
 
@@ -132,7 +137,7 @@ dd { margin-left: 0; }
 
 pre,
 code {
-  font-family: $font-family-monospace;
+  font-family: $l-typo-font-family-monospace;
   white-space: pre-wrap;
 }
 
@@ -141,6 +146,6 @@ hr {
   height: .1rem;
   border: 0;
   border-top: .1rem solid #ccc;
-  margin: $typo-space-bs 0;
+  margin: $l-typo-space-bs 0;
   padding: 0;
 }

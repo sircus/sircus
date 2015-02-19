@@ -1,15 +1,15 @@
 @import "../config";
 
-$border-bs: $g-border-bs !default;
+$l-border-bs: $g-border-bs !default;
 
 // ==================================
 .t-border-top,
-.t-border-top-bs     { border-top:$border-bs !important; }
+.t-border-top-bs     { border-top:$l-border-bs !important; }
 .t-border-left,
-.t-border-left-bs    { border-left:$border-bs !important; }
+.t-border-left-bs    { border-left:$l-border-bs !important; }
 .t-border-right,
-.t-border-right-bs   { border-right:$border-bs !important; }
+.t-border-right-bs   { border-right:$l-border-bs !important; }
 .t-border-bottom,
-.t-border-bottom-bs  { border-bottom:$border-bs !important; }
+.t-border-bottom-bs  { border-bottom:$l-border-bs !important; }
 .t-border,
-.t-border-bs         { border:$border-bs !important; }
+.t-border-bs         { border:$l-border-bs !important; }

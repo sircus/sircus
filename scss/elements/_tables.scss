@@ -1,7 +1,7 @@
 // var ------------------------------
 @import "../config";
 
-$table-border-color : $g-color-gray-light !default;
+$l-table-border-color : $g-color-gray-light !default;
 
 // ==================================
 table {
@@ -19,13 +19,13 @@ table {
   tr > th,
   tr > td {
     padding:.5rem;
-    border-bottom:1px solid $table-border-color;
+    border-bottom:1px solid $l-table-border-color;
   }
   tr:last-child > td {
     border-bottom:0;
   }
   > thead > tr > th,
   > thead > tr > td {
-    border-bottom:2px solid $table-border-color;
+    border-bottom:2px solid $l-table-border-color;
   }
 }

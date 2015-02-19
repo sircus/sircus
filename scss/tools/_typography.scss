@@ -1,23 +1,23 @@
 @import "../config";
 
-$font-family-sans-en:      $g-font-family-sans-en !default;
-$font-family-sans-ja:      $g-font-family-sans-ja !default;
-$font-family-serif-en:     $g-font-family-serif-en !default;
-$font-family-serif-ja:     $g-font-family-serif-ja !default;
-$font-family-monospace-en: $g-font-family-monospace-en !default;
-$font-family-monospace-ja: $g-font-family-monospace-ja !default;
+$l-ttypo-font-family-sans-en:      $g-font-family-sans-en !default;
+$l-ttypo-font-family-sans-ja:      $g-font-family-sans-ja !default;
+$l-ttypo-font-family-serif-en:     $g-font-family-serif-en !default;
+$l-ttypo-font-family-serif-ja:     $g-font-family-serif-ja !default;
+$l-ttypo-font-family-monospace-en: $g-font-family-monospace-en !default;
+$l-ttypo-font-family-monospace-ja: $g-font-family-monospace-ja !default;
 
-$letter-space-xl : $g-letter-space-xl !default;
-$letter-space-lg : $g-letter-space-lg !default;
-$letter-space-bs : $g-letter-space-bs !default;
-$letter-space-sm : $g-letter-space-sm !default;
-$letter-space-xs : $g-letter-space-xs !default;
+$l-ttypo-letter-space-xl : $g-letter-space-xl !default;
+$l-ttypo-letter-space-lg : $g-letter-space-lg !default;
+$l-ttypo-letter-space-bs : $g-letter-space-bs !default;
+$l-ttypo-letter-space-sm : $g-letter-space-sm !default;
+$l-ttypo-letter-space-xs : $g-letter-space-xs !default;
 
-$line-height-xl : $g-line-height-xl !default;
-$line-height-lg : $g-line-height-lg !default;
-$line-height-bs : $g-line-height-bs !default;
-$line-height-sm : $g-line-height-sm !default;
-$line-height-xs : $g-line-height-xs !default;
+$l-ttypo-line-height-xl : $g-line-height-xl !default;
+$l-ttypo-line-height-lg : $g-line-height-lg !default;
+$l-ttypo-line-height-bs : $g-line-height-bs !default;
+$l-ttypo-line-height-sm : $g-line-height-sm !default;
+$l-ttypo-line-height-xs : $g-line-height-xs !default;
 
 // ==================================
 .t-normal         { font-weight: normal !important; }
@@ -47,43 +47,43 @@ $line-height-xs : $g-line-height-xs !default;
   border: 0 !important;
 }
 
-.t-en-sans      { font-family: $font-family-sans-en !important; }
-.t-ja-sans      { font-family: $font-family-sans-ja !important; }
-.t-en-serif     { font-family: $font-family-serif-en !important; }
-.t-ja-serif     { font-family: $font-family-serif-ja !important; }
-.t-en-monospace { font-family: $font-family-monospace-en !important; }
-.t-ja-monospace { font-family: $font-family-monospace-ja !important; }
+.t-en-sans      { font-family: $l-ttypo-font-family-sans-en !important; }
+.t-ja-sans      { font-family: $l-ttypo-font-family-sans-ja !important; }
+.t-en-serif     { font-family: $l-ttypo-font-family-serif-en !important; }
+.t-ja-serif     { font-family: $l-ttypo-font-family-serif-ja !important; }
+.t-en-monospace { font-family: $l-ttypo-font-family-monospace-en !important; }
+.t-ja-monospace { font-family: $l-ttypo-font-family-monospace-ja !important; }
 
 
 .t-ls-xs,
 .t-letter-sapce-xs,
-.t-letterSapce-xs   { letter-spacing:$letter-space-xs !important; }
+.t-letterSapce-xs   { letter-spacing:$l-ttypo-letter-space-xs !important; }
 .t-ls-sm,
 .t-letter-sapce-sm,
-.t-letterSapce-sm   { letter-spacing:$letter-space-sm !important; }
+.t-letterSapce-sm   { letter-spacing:$l-ttypo-letter-space-sm !important; }
 .t-ls-bs,
 .t-letter-sapce-bs,
-.t-letterSapce-bs  { letter-spacing:$letter-space-bs !important; }
+.t-letterSapce-bs  { letter-spacing:$l-ttypo-letter-space-bs !important; }
 .t-ls-lg,
 .t-letter-sapce-lg,
-.t-letterSapce-lg   { letter-spacing:$letter-space-lg !important; }
+.t-letterSapce-lg   { letter-spacing:$l-ttypo-letter-space-lg !important; }
 .t-ls-xl,
 .t-letter-sapce-xl,
-.t-letterSapce-xl   { letter-spacing:$letter-space-xl !important; }
+.t-letterSapce-xl   { letter-spacing:$l-ttypo-letter-space-xl !important; }
 
 
 .t-lh-xs,
 .t-line-height-xs,
-.t-lineHeight-xs   { line-height:$line-height-xs !important; }
+.t-lineHeight-xs   { line-height:$l-ttypo-line-height-xs !important; }
 .t-lh-sm,
 .t-line-height-sm,
-.t-lineHeight-sm   { line-height:$line-height-sm !important; }
+.t-lineHeight-sm   { line-height:$l-ttypo-line-height-sm !important; }
 .t-lh-bs,
 .t-line-height-bs,
-.t-lineHeight-bs   { line-height:$line-height-bs !important; }
+.t-lineHeight-bs   { line-height:$l-ttypo-line-height-bs !important; }
 .t-lh-lg,
 .t-line-height-lg,
-.t-lineHeight-lg   { line-height:$line-height-lg !important; }
+.t-lineHeight-lg   { line-height:$l-ttypo-line-height-lg !important; }
 .t-lh-xl,
 .t-line-height-xl,
-.t-lineHeight-xl   { line-height:$line-height-xl !important; }
+.t-lineHeight-xl   { line-height:$l-ttypo-line-height-xl !important; }

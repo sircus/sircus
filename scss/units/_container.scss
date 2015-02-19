@@ -1,13 +1,13 @@
 @import "../config";
 
-$container-gutter-width:    $g-container-gutter-width !default;
-$container-sm:              $g-container-sm !default;
-$container-md:              $g-container-md!default;
-$container-lg:              $g-container-lg !default;
-$screen-xs-min:             $g-screen-xs-min !default;
-$screen-sm-min:             $g-screen-sm-min !default;
-$screen-md-min:             $g-screen-md-min !default;
-$screen-lg-min:             $g-screen-lg-min !default;
+$l-container-gutter-width:    $g-container-gutter-width !default;
+$l-container-sm:              $g-container-sm !default;
+$l-container-md:              $g-container-md!default;
+$l-container-lg:              $g-container-lg !default;
+$l-container-screen-xs-min:   $g-screen-xs-min !default;
+$l-container-screen-sm-min:   $g-screen-sm-min !default;
+$l-container-screen-md-min:   $g-screen-md-min !default;
+$l-container-screen-lg-min:   $g-screen-lg-min !default;
 
 // ==================================
 .container-slim,
@@ -16,22 +16,22 @@ $screen-lg-min:             $g-screen-lg-min !default;
   box-sizing:border-box;
   margin-right: auto;
   margin-left: auto;
-  padding-left: ($g-container-gutter-width / 2);
-  padding-right: ($g-container-gutter-width / 2);
+  padding-left: ($l-container-gutter-width / 2);
+  padding-right: ($l-container-gutter-width / 2);
 }
 
 .container {
-  @media (min-width: $g-screen-sm-min) {
-    width: $g-container-sm;
+  @media (min-width: $l-container-screen-sm-min) {
+    width: $l-container-sm;
   }
-  @media (min-width: $g-screen-md-min) {
-    width: $g-container-md;
+  @media (min-width: $l-container-screen-md-min) {
+    width: $l-container-md;
   }
-  @media (min-width: $g-screen-lg-min) {
-    width: $g-container-lg;
+  @media (min-width: $l-container-screen-lg-min) {
+    width: $l-container-lg;
   }
 }
 
 .container-slim {
-  max-width: $g-container-sm;
+  max-width: $l-container-sm;
 }

@@ -1,13 +1,8 @@
 @import "../config";
 
-$grid-gutter-width:    $g-container-gutter-width !default;
-
-$screen-xs-min:        $g-screen-xs-min !default;
-// $screen-sm-min:        $g-screen-sm-min !default;
-// $screen-md-min:        $g-screen-md-min !default;
-// $screen-lg-min:        $g-screen-lg-min !default;
-
-$font-size-bs:         $g-font-size-bs !default;
+$l-grid-gutter-width:       $g-container-gutter-width !default;
+$l-grid-col-font-size-bs:   $g-font-size-bs !default;
+$l-grid-screen-xs-min:      $g-screen-xs-min !default;
 
 // Row
 // =====================================
@@ -20,12 +15,12 @@ $font-size-bs:         $g-font-size-bs !default;
   margin: 0;
   padding: 0;
   text-align: left;
-  margin-left: -($grid-gutter-width / 2);
-  margin-right: -($grid-gutter-width / 2);
+  margin-left: -($l-grid-gutter-width / 2);
+  margin-right: -($l-grid-gutter-width / 2);
   @extend .t-clear;
   > .col {
     box-sizing:border-box;
-    font-size: $font-size-bs;
+    font-size: $l-grid-col-font-size-bs;
   }
 }
 
@@ -52,7 +47,7 @@ $font-size-bs:         $g-font-size-bs !default;
   > .col {
     width:100%;
   }
-  @media (min-width: $screen-xs-min) {
+  @media (min-width: $l-grid-screen-xs-min) {
     display: table;
     table-layout: fixed;
     > .col,
@@ -75,19 +70,19 @@ $font-size-bs:         $g-font-size-bs !default;
 
 // // gutter
 // .row--gutter {
-//   margin: 0 (-0.5 * $grid-gutter-width);
+//   margin: 0 (-0.5 * $l-grid-gutter-width);
 // }
 // .row--gutter > .col,
 // .row--gutter > .row-col,
 // .row--gutter > .row__col {
-//   padding: 0 (0.5 * $grid-gutter-width);
+//   padding: 0 (0.5 * $l-grid-gutter-width);
 // }
 
 // Columns
 // =====================================
 .col {
   min-height: 1px;
-  padding-left: ($grid-gutter-width / 2);
-  padding-right: ($grid-gutter-width / 2);
+  padding-left: ($l-grid-gutter-width / 2);
+  padding-right: ($l-grid-gutter-width / 2);
   position: relative;
 }
