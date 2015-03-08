@@ -43,6 +43,8 @@ body {
   color: $l-typo-text-color;
   font-size: $l-typo-font-size-bs;
   line-height: $l-typo-line-height-bs;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
