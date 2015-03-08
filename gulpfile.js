@@ -1,10 +1,10 @@
-var browserSync = require('browser-sync');
-var reload      = browserSync.reload;
+var browsersync = require('browser-sync');
+var reload      = browsersync.reload;
 var gulp        = require('gulp');
 var rename      = require('gulp-rename');
 var runSequence = require('run-sequence');
 var pkg         = require('./package.json');
-var autoprefixerBrowsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1'];
+var autoprefixerBrowsers = ['> 1%', 'last 2 version', 'Firefox ESR', 'Opera 12.1', 'IE 8', 'IE 9'];
 var headerBanner = [
 '/*!',
 ' * <%= pkg.name %> - <%= pkg.description %>',
@@ -16,10 +16,8 @@ var headerBanner = [
 ''].join('\n');
 
 module.exports = {
-  'browserSync': {
-    notify: true,
-    https: false,
-    server: './_public',
+  'browsersync': {
+    server: './_public'
   },
   'uninstall': {
     files: [
@@ -29,25 +27,24 @@ module.exports = {
       './scss/vendor'
     ]
   },
-  'sass': {
-    src: './scss/sircus.scss',
-    dest: './docs/static/build',
-    autoprefixer: autoprefixerBrowsers,
-    pkg: pkg,
-    headerBanner: true,
-    banner:headerBanner,
-    staticGenerator: false,
-    staticGeneratorBuild:''
-  },
   'rubysass': {
     src: './scss/sircus.scss',
     dest: './docs/static/build',
+    rubySassOptions: {
+      sourcemap: true,
+      noCache: true,
+      // style:''
+    },
     autoprefixer: autoprefixerBrowsers,
-    pkg: pkg,
-    headerBanner: true,
+    fallback:{
+      use:false,
+      colorHexOptions:{rgba: true}
+    },
+    filter:'**/*.css',
+    headerBanner : true,
     banner:headerBanner,
-    staticGenerator: false,
-    staticGeneratorBuild:''
+    pkg: pkg,
+    notify :"Compiled Sass"
   },
   'csslint': {
     setting:'./.csslintrc',
@@ -77,8 +74,7 @@ module.exports = {
 };
 
 gulp.task('bower', require('gulptasks/lib/bower'));
-// gulp.task('rubysass', require('gulptasks/lib/rubysass'));
-gulp.task('sass', require('gulptasks/lib/sass'));
+gulp.task('rubysass', require('gulptasks/lib/rubysass'));
 gulp.task('csslint', require('gulptasks/lib/csslint'));
 gulp.task('cssmin', require('gulptasks/lib/cssmin'));
 gulp.task('deploy', require('gulptasks/lib/ghpage'));
@@ -86,15 +82,16 @@ gulp.task('bump', require('gulptasks/lib/bump'));
 gulp.task('hugo', require('gulptasks/lib/hugo'));
 gulp.task('uninstall', require('gulptasks/lib/uninstall'));
 gulp.task('psi', require('gulptasks/lib/pagespeed'));
-gulp.task('server', function(){ browserSync.init(null, module.exports.browserSync); });
+gulp.task('browsersync', require('gulptasks/lib/browsersync'));
 
-gulp.task('default',['server'],function() {
-  gulp.watch(['./scss/**/*.scss'], ['sass']);
-  gulp.watch(['./docs/**/*.html', './docs/**/*.md', './docs/**/*.css'], ['hugo',reload]);
+gulp.task('default',['browsersync'],function() {
+  gulp.watch(['./scss/**/*.scss'], ['rubysass']);
+  gulp.watch(['./docs/**/*.{html,css,md}'], ['hugo',reload]);
+  gulp.watch(['./_public'], reload);
 });
 
 gulp.task('dist',function() {
-  return gulp.src('./docs/static/build/**')
+  return gulp.src('./docs/static/build/**.css')
     .pipe(gulp.dest('./dist'));
 });
 
@@ -114,8 +111,10 @@ gulp.task('build', function() {
   runSequence(
     'bower','uninstall',
     ['bower-html5-reset','bower-normalize'],
-    'sass',
-    ['csslint','cssmin'],
+    'rubysass',
+    [
+      // 'csslint',
+      'cssmin'],
     'hugo',
     ['bump','dist','default']
   );

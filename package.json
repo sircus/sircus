@@ -10,10 +10,10 @@
     "url": "https://github.com/sircus/sircus.git"
   },
   "devDependencies": {
-    "browser-sync": "^1.7.0",
+    "browser-sync": "^2.2.1",
     "gulp": "^3.8.10",
     "gulp-rename": "^1.2.0",
-    "gulptasks":"^0.7.0",
+    "gulptasks":"^0.9.0",
     "lodash": "^3.0.1",
     "run-sequence": "^1.0.2"
   }
