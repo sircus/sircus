@@ -67,13 +67,15 @@ $l-btn-border-radius-sm:          $g-border-radius-sm !default;
   border-radius: $border-radius;
 }
 
-button {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
 // button,
+.Btn,
+.Btn-link,
+.Btn-default,
+.Btn-primary,
+.Btn-border-default,
+.Btn-borderDefault,
+.Btn-border-primary,
+.Btn-borderPrimary,
 .btn,
 .btn-link,
 .btn-default,
@@ -119,6 +121,7 @@ button {
 
 // Link btns
 // -------------------------
+.Btn-link,
 .btn-link {
   font-weight: normal;
   color: $g-link-color;
@@ -155,6 +158,7 @@ button {
 
 // Alternate btns
 // --------------------------------------------------
+.Btn-default,
 .btn-default {
   @include button-color(
     $l-btn-default-color,
@@ -165,6 +169,7 @@ button {
     darken($l-btn-default-bg, 12%)
   );
 }
+.Btn-primary,
 .btn-primary {
   @include button-color(
     $l-btn-primary-color,
@@ -178,6 +183,7 @@ button {
 
 // border btns
 // --------------------------------------------------
+.Btn-borderDefault,
 .btn-border-default,
 .btn-borderDefault {
   @include button-color(
@@ -189,6 +195,7 @@ button {
     $l-btn-default-color
   );
 }
+.Btn-borderPrimary,
 .btn-border-primary,
 .btn-borderPrimary   {
   @include button-color(
@@ -204,16 +211,19 @@ button {
 
 // btn Sizes
 // --------------------------------------------------
+.Btn--xl,
 .btn--xl {
   $vertical : ($l-btn-padding-xl-vertical - .2);
   $horizontal : ($l-btn-padding-xl-horizontal - .2);
   @include button-size($vertical, $horizontal, $l-btn-font-size-xl, $l-btn-border-radius-lg);
 }
+.Btn--lg,
 .btn--lg {
   $vertical : ($l-btn-padding-lg-vertical - .2);
   $horizontal : ($l-btn-padding-lg-horizontal - .2);
   @include button-size($vertical, $horizontal, $l-btn-font-size-lg, $l-btn-border-radius-lg);
 }
+.Btn--sm,
 .btn--sm {
   $vertical : ($l-btn-padding-sm-vertical - .15);
   $horizontal : ($l-btn-padding-sm-horizontal - .15);
@@ -223,16 +233,19 @@ button {
 
 // Block btn
 // --------------------------------------------------
+.Btn--full,
 .btn--full {
   display: block;
   width: 100%;
 }
+.Btn--full + .Btn--full,
 .btn--full + .btn--full {
   margin-top: 5px;
 }
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  &.Btn--full,
   &.btn--full {
     width: 100%;
   }

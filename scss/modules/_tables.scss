@@ -4,18 +4,8 @@
 $l-table-border-color : $g-color-gray-light !default;
 
 // ==================================
-table {
-  width: 100%;
-  max-width: 100%;
-  padding:0;
-  margin: $g-space-bs 0;
-  border-collapse:collapse;
-  tr > th{
-    text-align: left;
-  }
-}
-
-.tbl {
+.tbl, // Deprecated
+.Table {
   tr > th,
   tr > td {
     padding:.5rem;

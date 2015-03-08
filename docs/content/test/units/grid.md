@@ -284,24 +284,23 @@ date: "2015-02-03"
 <div class="container test-container">
   <h3>row-table / bottom</h3>
   <div class="row-table row--bottom">
-    <div class="col test-row-col t-xs-2of12">
+    <div class="col test-row-col t-sm-2of12">
       col
     </div>
-    <div class="col test-row-col t-xs-2of12">
+    <div class="col test-row-col t-sm-2of12">
       col
     </div>
-    <div class="col test-row-col test-row-col--height t-xs-2of12">
+    <div class="col test-row-col test-row-col--height t-sm-2of12">
       col
     </div>
-    <div class="col test-row-col t-xs-2of12">
+    <div class="col test-row-col t-sm-2of12">
       col
     </div>
-    <div class="col test-row-col t-xs-2of12">
+    <div class="col test-row-col t-sm-2of12">
       col
     </div>
-    <div class="col test-row-col t-xs-2of12">
+    <div class="col test-row-col t-sm-2of12">
       col
     </div>
   </div>
 </div>
-

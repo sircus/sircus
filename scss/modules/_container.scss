@@ -10,9 +10,12 @@ $l-container-screen-md-min:   $g-screen-md-min !default;
 $l-container-screen-lg-min:   $g-screen-lg-min !default;
 
 // ==================================
-.container-slim,
-.container-full,
-.container {
+.container-slim,// Deprecated
+.container-full,// Deprecated
+.container, // Deprecated
+.ContainerSlim,
+.ContainerFull,
+.Container {
   box-sizing:border-box;
   margin-right: auto;
   margin-left: auto;
@@ -20,7 +23,8 @@ $l-container-screen-lg-min:   $g-screen-lg-min !default;
   padding-right: ($l-container-gutter-width / 2);
 }
 
-.container {
+.container, // Deprecated
+.Container {
   @media (min-width: $l-container-screen-sm-min) {
     width: $l-container-sm;
   }
@@ -32,6 +36,7 @@ $l-container-screen-lg-min:   $g-screen-lg-min !default;
   }
 }
 
-.container-slim {
+.container-slim,
+.ContainerSlim {
   max-width: $l-container-sm;
 }

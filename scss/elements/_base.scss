@@ -27,15 +27,19 @@ $l-typo-h6-font-size:            $g-font-size-sm !default;
 $l-typo-mark-bg-color:           $g-color-primary !default;
 $l-typo-mark-color:              #fff !default;
 
-$l-typo-list-inline-margin:      5px !default;
-
-$l-typo-space-bs: $g-space-bs;
-
+$l-typo-space-bs:                $g-space-bs;
 
 // ==================================
 html {
-  // font-size: 62.5%; // 10px
-  font-size: 10px;
+  font-size: 62.5%; // 10px
+  // font-size: 10px;
+}
+
+html,
+body {
+  height: 100%;
+  margin:0;
+  padding:0;
 }
 
 body {
@@ -55,15 +59,16 @@ p, ul, ol, dd {
   margin:0 0 $l-typo-space-bs 0;
 }
 
+// a -------------------------
 a {
   color: $l-typo-link-color;
-  text-decoration: underline;
+  text-decoration: $l-typo-link-decoration;
 }
 a:hover,
 a:focus,
 a:active  {
   color: $l-typo-link-hover-color;
-  text-decoration: none;
+  text-decoration: $l-typo-link-hover-decoration;
 }
 
 //  Headding  -------------------------
@@ -83,23 +88,34 @@ h4, .h4 { font-size: $l-typo-h4-font-size; }
 h5, .h5 { font-size: $l-typo-h5-font-size; }
 h6, .h6 { font-size: $l-typo-h6-font-size; }
 
-a {
-  color: $l-typo-link-color;
-  text-decoration: $l-typo-link-decoration;
-  &:hover,
-  &:focus {
-    color: $l-typo-link-hover-color;
-    text-decoration: $l-typo-link-hover-decoration;
+
+// figure -------------------------
+figure {
+  margin: 0;
+}
+
+// img -------------------------
+img {
+  vertical-align: middle;
+}
+
+// table -------------------------
+table {
+  width: 100%;
+  max-width: 100%;
+  padding:0;
+  margin: $g-space-bs 0;
+  border-collapse:collapse;
+  tr > th{
+    text-align: left;
   }
 }
 
-small, .small { font-size: 80%; }
-
-mark, .mark {
-  padding-left:.5rem;
-  padding-right:.5rem;
-  background-color:$l-typo-mark-bg-color;
-  color:$l-typo-mark-color;
+// button -------------------------
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 // list -------------------------
@@ -113,36 +129,19 @@ ul,ol {
   padding-left:$l-typo-space-bs;
 }
 
-// list  -------------------------
-.list-reset,
-.list-inline,
-.list-inline-block,
-.list-inlineBlock {
-  padding-left: 0;
-  list-style: none;
-}
-
-.list-inline,
-.list-inline-block,
-.list-inlineBlock {
-  margin-left: (-$l-typo-list-inline-margin);
-  > li {
-    display: inline-block;
-    padding-left: $l-typo-list-inline-margin;
-    padding-right: $l-typo-list-inline-margin;
-  }
-}
 
 // Description Lists -------------------------
 dt { font-weight: bold; }
 dd { margin-left: 0; }
 
+// pre,code  -------------------------
 pre,
 code {
   font-family: $l-typo-font-family-monospace;
   white-space: pre-wrap;
 }
 
+// hr -------------------------
 hr {
   display: block;
   height: .1rem;
@@ -150,4 +149,17 @@ hr {
   border-top: .1rem solid #ccc;
   margin: $l-typo-space-bs 0;
   padding: 0;
+}
+
+// small -------------------------
+small,
+.t-small { font-size: 80%; }
+
+// mark -------------------------
+mark,
+.mark {
+  padding-left:.5rem;
+  padding-right:.5rem;
+  background-color:$l-typo-mark-bg-color;
+  color:$l-typo-mark-color;
 }

@@ -6,33 +6,42 @@ $l-gutter-screen-sm-min:   $g-screen-sm-min !default;
 $l-gutter-screen-md-min:   $g-screen-md-min !default;
 $l-gutter-screen-lg-min:   $g-screen-lg-min !default;
 
-.t-gutter-xs-offset,
-.t-gutter-sm-offset,
-.t-gutter-md-offset,
-.t-gutter-lg-offset {
+// ==================================
+.t-gutter-xs-offset, // Deprecated
+.t-gutter-sm-offset, // Deprecated
+.t-gutter-md-offset, // Deprecated
+.t-gutter-lg-offset, // Deprecated
+.t-xs-gutterReset,
+.t-sm-gutterReset,
+.t-md-gutterReset,
+.t-lg-gutterReset {
   margin-left:-$l-gutter-width;
   margin-right:-$l-gutter-width;
 }
 
-.t-gutter-xs-offset {
+.t-gutter-xs-offset, // Deprecated
+.t-xs-gutterReset {
   @media (min-width: $l-gutter-screen-xs-min) {
     margin-left: 0;
     margin-right: 0;
   }
 }
-.t-gutter-sm-offset {
+.t-gutter-sm-offset, // Deprecated
+.t-sm-gutterReset {
   @media (min-width: $l-gutter-screen-sm-min) {
     margin-left: 0;
     margin-right: 0;
   }
 }
-.t-gutter-md-offset {
+.t-gutter-md-offset, // Deprecated
+.t-md-gutterReset {
   @media (min-width: $l-gutter-screen-md-min) {
     margin-left: 0;
     margin-right: 0;
   }
 }
-.t-gutter-lg-offset {
+.t-gutter-lg-offset, // Deprecated 
+.t-lg-gutterReset {
   @media (min-width: $l-gutter-screen-lg-min) {
     margin-left: 0;
     margin-right: 0;

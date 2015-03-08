@@ -24,14 +24,21 @@ $l-ttypo-line-height-xs : $g-line-height-xs !default;
 .t-bold           { font-weight: bold !important; }
 .t-italic         { font-style: italic !important; }
 
-.t-align-left     { text-align: left !important; }
-.t-align-right    { text-align: right !important; }
-.t-align-center   { text-align: center !important; }
-.t-align-justify  { text-align: justify !important; }
+.t-align-left,   // Deprecated
+.t-alignLeft     { text-align: left !important; }
+.t-align-right,  // Deprecated
+.t-alignRight    { text-align: right !important; }
+.t-align-center,  // Deprecated
+.t-alignCenter   { text-align: center !important; }
+.t-align-justify,// Deprecated
+.t-alignJustify  { text-align: justify !important; }
 
-.t-align-top      { vertical-align:top !important; }
-.t-align-middle   { vertical-align:middle !important; }
-.t-align-bottom   { vertical-align:bottom !important; }
+.t-align-top,    // Deprecated
+.t-alignTop      { vertical-align:top !important; }
+.t-align-middle, // Deprecated
+.t-alignMiddle   { vertical-align:middle !important; }
+.t-align-bottom,  // Deprecated
+.t-alignBottom   { vertical-align:bottom !important; }
 
 .t-lowercase      { text-transform: lowercase !important; }
 .t-uppercase      { text-transform: uppercase !important; }
@@ -47,43 +54,57 @@ $l-ttypo-line-height-xs : $g-line-height-xs !default;
   border: 0 !important;
 }
 
-.t-en-sans      { font-family: $l-ttypo-font-family-sans-en !important; }
-.t-ja-sans      { font-family: $l-ttypo-font-family-sans-ja !important; }
-.t-en-serif     { font-family: $l-ttypo-font-family-serif-en !important; }
-.t-ja-serif     { font-family: $l-ttypo-font-family-serif-ja !important; }
-.t-en-monospace { font-family: $l-ttypo-font-family-monospace-en !important; }
-.t-ja-monospace { font-family: $l-ttypo-font-family-monospace-ja !important; }
+.t-en-sans,     // Deprecated
+.t-enSans      { font-family: $l-ttypo-font-family-sans-en !important; }
+.t-ja-sans,     // Deprecated
+.t-jaSans      { font-family: $l-ttypo-font-family-sans-ja !important; }
+.t-en-serif,    // Deprecated
+.t-enSerif     { font-family: $l-ttypo-font-family-serif-en !important; }
+.t-ja-serif,    // Deprecated
+.t-jaSerif     { font-family: $l-ttypo-font-family-serif-ja !important; }
+.t-en-monospace,// Deprecated
+.t-enMonospace { font-family: $l-ttypo-font-family-monospace-en !important; }
+.t-ja-monospace,// Deprecated
+.t-jaMonospace { font-family: $l-ttypo-font-family-monospace-ja !important; }
 
 
-.t-ls-xs,
-.t-letter-sapce-xs,
-.t-letterSapce-xs   { letter-spacing:$l-ttypo-letter-space-xs !important; }
-.t-ls-sm,
-.t-letter-sapce-sm,
-.t-letterSapce-sm   { letter-spacing:$l-ttypo-letter-space-sm !important; }
-.t-ls-bs,
-.t-letter-sapce-bs,
-.t-letterSapce-bs  { letter-spacing:$l-ttypo-letter-space-bs !important; }
-.t-ls-lg,
-.t-letter-sapce-lg,
-.t-letterSapce-lg   { letter-spacing:$l-ttypo-letter-space-lg !important; }
-.t-ls-xl,
-.t-letter-sapce-xl,
-.t-letterSapce-xl   { letter-spacing:$l-ttypo-letter-space-xl !important; }
+.t-letter-sapce-xs, // Deprecated
+.t-letterSapce-xs,  // Deprecated
+.t-ls-xs            { letter-spacing:$l-ttypo-letter-space-xs !important; }
+
+.t-letter-sapce-sm, // Deprecated
+.t-letterSapce-sm,  // Deprecated
+.t-ls-sm            { letter-spacing:$l-ttypo-letter-space-sm !important; }
+
+.t-letter-sapce-bs, // Deprecated
+.t-letterSapce-bs,  // Deprecated
+.t-ls-bs            { letter-spacing:$l-ttypo-letter-space-bs !important; }
+
+.t-letter-sapce-lg, // Deprecated
+.t-letterSapce-lg,  // Deprecated
+.t-ls-lg            { letter-spacing:$l-ttypo-letter-space-lg !important; }
+
+.t-letter-sapce-xl, // Deprecated
+.t-letterSapce-xl,  // Deprecated
+.t-ls-xl            { letter-spacing:$l-ttypo-letter-space-xl !important; }
 
 
-.t-lh-xs,
-.t-line-height-xs,
-.t-lineHeight-xs   { line-height:$l-ttypo-line-height-xs !important; }
-.t-lh-sm,
-.t-line-height-sm,
-.t-lineHeight-sm   { line-height:$l-ttypo-line-height-sm !important; }
-.t-lh-bs,
-.t-line-height-bs,
-.t-lineHeight-bs   { line-height:$l-ttypo-line-height-bs !important; }
-.t-lh-lg,
-.t-line-height-lg,
-.t-lineHeight-lg   { line-height:$l-ttypo-line-height-lg !important; }
-.t-lh-xl,
-.t-line-height-xl,
-.t-lineHeight-xl   { line-height:$l-ttypo-line-height-xl !important; }
+.t-line-height-xs,  // Deprecated
+.t-lineHeight-xs,   // Deprecated
+.t-lh-xs            { line-height:$l-ttypo-line-height-xs !important; }
+
+.t-line-height-sm,  // Deprecated
+.t-lineHeight-sm,   // Deprecated
+.t-lh-sm            { line-height:$l-ttypo-line-height-sm !important; }
+
+.t-line-height-bs,  // Deprecated
+.t-lineHeight-bs,   // Deprecated
+.t-lh-bs            { line-height:$l-ttypo-line-height-bs !important; }
+
+.t-line-height-lg,  // Deprecated
+.t-lineHeight-lg,   // Deprecated
+.t-lh-lg            { line-height:$l-ttypo-line-height-lg !important; }
+
+.t-line-height-xl,  // Deprecated
+.t-lineHeight-xl,   // Deprecated
+.t-lh-xl            { line-height:$l-ttypo-line-height-xl !important; }

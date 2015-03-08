@@ -5,10 +5,10 @@
 [![Build Status](https://img.shields.io/travis/sircus/sircus/master.svg?style=flat)](https://travis-ci.org/sircus/sircus)
 [![devDependency Status](https://david-dm.org/sircus/sircus/dev-status.svg)](https://david-dm.org/sircus/sircus#info=devDependencies)
 
-The scalable css for responsive project.
 
 ## Demo
 WIP: http://sircus.blivesta.com
+
 
 ## Development
 
@@ -35,6 +35,12 @@ And finally, open in your browser.
 
 To contribute to sircus, clone this repo locally and commit your code.
 Please check that everything works before opening a pull-request.
+
+## Acknowledgements
+
+Inspiration and code was taken from many sources, including:
+[suitcss](http://suitcss.github.io/)
+
 
 ## License
 Released under the [MIT license](https://github.com/sircus/sircus/blob/master/LICENCE).

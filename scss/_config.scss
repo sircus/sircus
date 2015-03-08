@@ -16,14 +16,6 @@ $g-color-primary-light:           lighten($g-color-primary,15%) !default;
 $g-color-primary-lighter:         lighten($g-color-primary,30%) !default;
 $g-color-primary-lightest:        lighten($g-color-primary,45%) !default;
 
-$g-color-secondary:               #0c3c5f !default;
-$g-color-secondary-darkest:       darken($g-color-secondary, 45%) !default;
-$g-color-secondary-darker:        darken($g-color-secondary, 30%) !default;
-$g-color-secondary-dark:          darken($g-color-secondary, 15%) !default;
-$g-color-secondary-light:         lighten($g-color-secondary, 15%) !default;
-$g-color-secondary-lighter:       lighten($g-color-secondary, 30%) !default;
-$g-color-secondary-lightest:      lighten($g-color-secondary, 45%) !default;
-
 // status
 $g-color-success:                 #18be91 !default;
 $g-color-info:                    #7bc1eb !default;
@@ -185,4 +177,4 @@ $g-container-sm:              (72rem + $g-container-gutter-width) !default;
 $g-container-md:              (94rem + $g-container-gutter-width )!default;
 $g-container-lg:              (114rem + $g-container-gutter-width ) !default;
 
-$g-grid-columns:              12 !default;
+$g-grid-columns:              10 !default;
