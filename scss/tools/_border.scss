@@ -3,12 +3,12 @@
 $l-border-bs: $g-border-bs !default;
 
 // ==================================
-.t-border-top, // Deprecated
+.t-border-top, //  legacy
 .t-borderTop     { border-top:$l-border-bs !important; }
-.t-border-left, // Deprecated
+.t-border-left, //  legacy
 .t-borderLeft    { border-left:$l-border-bs !important; }
-.t-border-right, // Deprecated
+.t-border-right, //  legacy
 .t-borderRight   { border-right:$l-border-bs !important; }
-.t-border-bottom, // Deprecated
+.t-border-bottom, //  legacy
 .t-borderBottom  { border-bottom:$l-border-bs !important; }
 .t-border        { border:$l-border-bs !important; }

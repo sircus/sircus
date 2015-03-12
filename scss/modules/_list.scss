@@ -1,12 +1,12 @@
-.list-reset, // Deprecated
-.list-inline-block, // Deprecated
+.list-reset, //  legacy
+.list-inline-block, //  legacy
 .ListInline,
 .ListReset {
   padding-left: 0;
   list-style: none;
 }
 
-.list-inline-block, // Deprecated
+.list-inline-block, //  legacy
 .ListInline {
   margin-left: -.5rem;
   > li {

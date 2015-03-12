@@ -4,7 +4,8 @@
 $l-table-border-color : $g-color-gray-light !default;
 
 // ==================================
-.tbl, // Deprecated
+.tbl, //  legacy
+.Tbl,
 .Table {
   tr > th,
   tr > td {

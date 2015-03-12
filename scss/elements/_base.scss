@@ -97,6 +97,9 @@ figure {
 // img -------------------------
 img {
   vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
 }
 
 // table -------------------------
@@ -152,12 +155,10 @@ hr {
 }
 
 // small -------------------------
-small,
-.t-small { font-size: 80%; }
+small { font-size: 80%; }
 
 // mark -------------------------
-mark,
-.mark {
+mark {
   padding-left:.5rem;
   padding-right:.5rem;
   background-color:$l-typo-mark-bg-color;

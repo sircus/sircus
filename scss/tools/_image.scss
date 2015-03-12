@@ -3,7 +3,7 @@
 $l-img-round-border-radius : $g-border-radius-bs !default;
 
 // ==================================
-.img-full, // Deprecated
+.img-full, //  legacy
 .t-imgFull {
   vertical-align: middle;
   display: inline-block;
@@ -15,12 +15,12 @@ $l-img-round-border-radius : $g-border-radius-bs !default;
   display: inline;
 }
 
-.img-round, // Deprecated
+.img-round, //  legacy
 .t-imgRound {
   border-radius: $l-img-round-border-radius;
 }
 
-.img-circle // Deprecated
+.img-circle //  legacy
 .t-imgCircle {
   border-radius: 50%;
 }

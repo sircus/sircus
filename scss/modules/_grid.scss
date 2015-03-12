@@ -6,10 +6,10 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
 
 // Row
 // =====================================
-.row-inline-block,// Deprecated
-.row-float,       // Deprecated
-.RowTable,        // Deprecated
-.row-table,       // Deprecated
+.row-inline-block,//  legacy
+.row-float,       //  legacy
+.RowTable,        //  legacy
+.row-table,       //  legacy
 .Row {
   font-size: 0;
   margin: 0;
@@ -21,7 +21,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   //
   // letter-spacing: -0.4em; //firefox
   // word-spacing: -1em; //opera
-  > .col, // Deprecated
+  > .col, //  legacy
   > .Row-col {
     box-sizing:border-box;
     font-size: $l-grid-col-font-size-bs;
@@ -31,10 +31,10 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   }
 }
 
-.row-inline-block, // Deprecated
+.row-inline-block, //  legacy
 .Row {
   display: block;
-  > .col, // Deprecated
+  > .col, //  legacy
   > .Row-col {
     display: inline-block;
     text-align: left;
@@ -43,7 +43,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   }
 }
 
-.row-float, // Deprecated
+.row-float, //  legacy
 .Row--float {
   > .col,
   > .Row-col {
@@ -51,7 +51,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   }
 }
 
-.row-table, // Deprecated
+.row-table, //  legacy
 .Row--table {
   width:calc(100% + 2.4rem);
   padding:0;
@@ -62,7 +62,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   @media (min-width: $l-grid-screen-xs-min) {
     display: table;
     table-layout: fixed;
-    > .col, // Deprecated
+    > .col, //  legacy
     > .Row-col {
       display: table-cell;
     }
@@ -71,24 +71,24 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
 
 // `.row` Modifier
 // -------------------------------
-.row--center, // Deprecated
+.row--center, //  legacy
 .Row--center { text-align: center; }
-.row--right, // Deprecated
+.row--right, //  legacy
 .Row--right  { text-align: right; }
-.row--left,  // Deprecated
+.row--left,  //  legacy
 .Row--left   { text-align: left; }
 
-.row--top > .col,        // Deprecated
+.row--top > .col,        //  legacy
 .Row--top > .Row-col     { vertical-align: top; }
-.row--middle > .col,     // Deprecated
+.row--middle > .col,     //  legacy
 .Row--middle > .Row-col  { vertical-align: middle; }
-.row--bottom > .col,     // Deprecated
+.row--bottom > .col,     //  legacy
 .Row--bottom > .Row-col  { vertical-align: bottom; }
 
 
 // Columns
 // =====================================
-.col, // Deprecated
+.col, //  legacy
 .Row-col {
   min-height: 1px;
   padding-left: ($l-grid-gutter-width / 2);
