@@ -4,41 +4,42 @@ description: ""
 date: "2015-02-02"
 ---
 
-<div class="container test-container">
-  <h3>.container</h3>
+<div class="Container test-container">
+  <h3>.Container</h3>
 </div>
 
 <hr>
 
-<div class="container-full test-container">
-  <h3>.container-full</h3>
+<div class="ContainerFull test-container">
+  <h3>.ContainerFull</h3>
 </div>
 
 <hr>
 
-<div class="container-slim test-container">
-  <h3>.container-slim</h3>
+<div class="ContainerSlim test-container">
+  <h3>.ContainerSlim</h3>
 </div>
 
 <hr>
 
-<div class="container-full test-container">
-  <p>.container-full</p>
-  <div class="container test-container">
-    <p>.container</p>
-    <div class="container-slim test-container">
-      <p>.container-slim</p>
+<div class="ContainerFull test-container">
+  <p>.ContainerFull</p>
+  <div class="Container-xs-offset test-container">
+    <p>.Container-xs-offset</p>
+    <div class="ContainerSlim test-container">
+      <p>.ContainerSlim</p>
     </div>
   </div>
 </div>
 <hr>
 
 
-<div class="container-slim test-">
-  <h3>.container-slim</h3>
-
-  <p class="container-test-reset">
-    <img class="img-full" src="http://placehold.it/1250x150" alt="" />
-  </p>
-  <h3 class="container-test-reset">.container-slim</h3>
+<div class="ContainerSlim">
+  <h3>.ContainerSlim > .Container-xs-offset</h3>
+  <div class="Container-xs-offset">
+    <p class="Container-xs-offset">
+      .Container-xs-offset
+      <img class="" src="http://placehold.it/1250x800" alt="" />
+    </p>
+  </div>
 </div>
