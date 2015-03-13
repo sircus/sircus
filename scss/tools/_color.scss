@@ -18,7 +18,7 @@ $l-color-primary-lightest:        $g-color-primary-lightest !default;
 
 // status
 $l-color-success:                 $g-color-success !default;
-$l-color-info:                    $g-color-info !default;
+$l-color-notice:                  $g-color-notice !default;
 $l-color-warning:                 $g-color-warning !default;
 $l-color-error:                   $g-color-error !default;
 
@@ -47,14 +47,14 @@ $l-color-error:                   $g-color-error !default;
 
 .t-color-primary          { color:$l-color-primary !important;}
 .t-color-success          { color:$l-color-success !important;}
-.t-color-info             { color:$l-color-info !important;}
+.t-color-notice             { color:$l-color-notice !important;}
 .t-color-warning          { color:$l-color-warning !important;}
 .t-color-error,
 .t-color-danger           { color:$l-color-error !important;}
 
 .t-bg-primary             { background-color:$l-color-primary !important;}
 .t-bg-success             { background-color:$l-color-success !important;}
-.t-bg-info                { background-color:$l-color-info !important;}
+.t-bg-notice                { background-color:$l-color-notice !important;}
 .t-bg-warning             { background-color:$l-color-warning !important;}
 .t-bg-error,
 .t-bg-danger              { background-color:$l-color-error !important;}

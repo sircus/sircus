@@ -18,7 +18,7 @@ $g-color-primary-lightest:        lighten($g-color-primary,45%) !default;
 
 // status
 $g-color-success:                 #18be91 !default;
-$g-color-info:                    #7bc1eb !default;
+$g-color-notice:                  #7bc1eb !default;
 $g-color-warning:                 #e5cd2f !default;
 $g-color-error:                   #eb5850 !default;
 
@@ -27,9 +27,9 @@ $g-state-success-text:           #3c763d !default;
 $g-state-success-bg:             #dff0d8 !default;
 $g-state-success-border:         darken(adjust-hue($g-state-success-bg, -10), 5%) !default;
 
-$g-state-info-text:              #31708f !default;
-$g-state-info-bg:                #d9edf7 !default;
-$g-state-info-border:            darken(adjust-hue($g-state-info-bg, -10), 7%) !default;
+$g-state-notice-text:              #31708f !default;
+$g-state-notice-bg:                #d9edf7 !default;
+$g-state-notice-border:            darken(adjust-hue($g-state-notice-bg, -10), 7%) !default;
 
 $g-state-warning-text:           #8a6d3b !default;
 $g-state-warning-bg:             #fcf8e3 !default;
