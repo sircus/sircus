@@ -1,7 +1,7 @@
 ---
 title: "Tools / Layout"
 description: ""
-date: "2015-02-03"
+date: ""
 ---
 <div class="Container">
   <h2>floats</h2>

@@ -3,19 +3,19 @@
 
 {{ partial "header.html" . }}
 
-<div class="container">
+<div class="ContainerSlim">
   <h2>{{ .Site.Params.description }}</h2>
-  <p class="lead">Experimental Work in Progress</p>
+  <p>Experimental Work in Progress</p>
   <p>
-    <a href="https://github.com/sircus/sircus" class="btn btn-border-primary">Download on GitHub</a>
+    <a href="https://github.com/sircus/sircus" class="Btn Btn--border Btn--primary">Download on GitHub</a>
   </p>
 </div>
 
-<div class="container">
+<div class="ContainerSlim">
   <ul>
       {{ range .Data.Pages }}
       <li>
-        <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon Jan 2, 2006" }}</time></span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
       </li>
       {{ end }}
   </ul>

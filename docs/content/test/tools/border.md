@@ -1,7 +1,7 @@
 ---
 title: "Tools / Border"
 description: ""
-date: "2015-02-03"
+date: ""
 ---
 <div class="Container">
   <h2>Border</h2>

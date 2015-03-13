@@ -1,7 +1,7 @@
 ---
 title: "Tool / Image"
 description: ""
-date: "2015-02-03"
+date: ""
 ---
 
 <div class="Container">

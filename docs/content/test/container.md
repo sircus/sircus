@@ -1,7 +1,7 @@
 ---
 title: "Container"
 description: ""
-date: "2015-02-02"
+date: ""
 ---
 
 <div class="Container test-container">
@@ -24,8 +24,8 @@ date: "2015-02-02"
 
 <div class="ContainerFull test-container">
   <p>.ContainerFull</p>
-  <div class="Container-xs-offset test-container">
-    <p>.Container-xs-offset</p>
+  <div class="Container-xs-fit test-container">
+    <p>.Container-xs-fit</p>
     <div class="ContainerSlim test-container">
       <p>.ContainerSlim</p>
     </div>
@@ -35,10 +35,10 @@ date: "2015-02-02"
 
 
 <div class="ContainerSlim">
-  <h3>.ContainerSlim > .Container-xs-offset</h3>
-  <div class="Container-xs-offset">
-    <p class="Container-xs-offset">
-      .Container-xs-offset
+  <h3>.ContainerSlim > .Container-xs-fit</h3>
+  <div class="Container-xs-fit">
+    <p class="Container-xs-fit">
+      .Container-xs-fit
       <img class="" src="http://placehold.it/1250x800" alt="" />
     </p>
   </div>
