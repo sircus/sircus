@@ -1,0 +1,35 @@
+@import "../config";
+
+// .Btn--primary
+$_Btn-primary-typoColor:       #fff !default;
+$_Btn-primary-bgColor:         $color-primary !default;
+$_Btn-primary-borderColor:     $_Btn-primary-bgColor !default;
+
+
+// .Btn--primary
+// ==================================
+.Btn.Btn--primary {
+  background-color:$_Btn-primary-bgColor;
+  border-color: $_Btn-primary-borderColor;
+  color:$_Btn-primary-typoColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-primary-typoColor;
+    color:$_Btn-primary-bgColor;
+  }
+}
+
+
+.BtnBorder.Btn--primary {
+  border-color: $_Btn-primary-bgColor;
+  color:$_Btn-primary-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-primary-bgColor;
+    color:$_Btn-primary-typoColor;
+  }
+}

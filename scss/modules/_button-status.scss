@@ -1,0 +1,182 @@
+@import "../config";
+
+// .is-success
+$_Btn-success-typoColor:       #fff !default;
+$_Btn-success-bgColor:         $color-success !default;
+$_Btn-success-borderColor:     $_Btn-success-bgColor !default;
+
+// .is-notice
+$_Btn-notice-typoColor:        #fff !default;
+$_Btn-notice-bgColor:          $color-notice !default;
+$_Btn-notice-borderColor:      $_Btn-notice-bgColor !default;
+
+// .is-warning
+$_Btn-warning-typoColor:       #fff !default;
+$_Btn-warning-bgColor:         $color-warning !default;
+$_Btn-warning-borderColor:     $_Btn-warning-bgColor !default;
+
+// .is-error
+$_Btn-error-typoColor:         #fff !default;
+$_Btn-error-bgColor:           $color-error !default;
+$_Btn-error-borderColor:       $_Btn-error-bgColor !default;
+
+
+// .Btn--success
+// ==================================
+.Btn.is-success,
+.Btn.Btn--success {
+  background-color:$_Btn-success-bgColor;
+  border-color: $_Btn-success-borderColor;
+  color:$_Btn-success-typoColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-success-typoColor;
+    color:$_Btn-success-bgColor;
+  }
+}
+
+.BtnBorder.is-success,
+.BtnBorder.Btn--success {
+  border-color: $_Btn-success-bgColor;
+  color:$_Btn-success-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-success-bgColor;
+    color:$_Btn-success-typoColor;
+  }
+}
+
+.BtnSimple.is-success,
+.BtnSimple.Btn--success {
+  color:$_Btn-success-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    color:darken($_Btn-success-bgColor,10);
+  }
+}
+
+// .is-notice
+// ==================================
+.Btn.is-notice,
+.Btn.Btn--notice {
+  background-color:$_Btn-notice-bgColor;
+  border-color: $_Btn-notice-borderColor;
+  color:$_Btn-notice-typoColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-notice-typoColor;
+    color:$_Btn-notice-bgColor;
+  }
+}
+
+.BtnBorder.is-notice,
+.BtnBorder.Btn--notice {
+  border-color: $_Btn-notice-bgColor;
+  color:$_Btn-notice-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-notice-bgColor;
+    color:$_Btn-notice-typoColor;
+  }
+}
+
+.BtnSimple.is-notice,
+.BtnSimple.Btn--notice {
+  color:$_Btn-notice-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    color:darken($_Btn-notice-bgColor,10);
+  }
+}
+
+// .is-warning
+// ==================================
+.Btn.is-warning,
+.Btn.Btn--warning {
+  background-color:$_Btn-warning-bgColor;
+  border-color: $_Btn-warning-borderColor;
+  color:$_Btn-warning-typoColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-warning-typoColor;
+    color:$_Btn-warning-bgColor;
+  }
+}
+
+.BtnBorder.is-warning,
+.BtnBorder.Btn--warning {
+  border-color: $_Btn-warning-bgColor;
+  color:$_Btn-warning-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-warning-bgColor;
+    color:$_Btn-warning-typoColor;
+  }
+}
+
+.BtnSimple.is-warning,
+.BtnSimple.Btn-warning {
+  color:$_Btn-warning-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    color:darken($_Btn-warning-bgColor,10);
+  }
+}
+
+// .is-error
+// ==================================
+.Btn.is-error,
+.Btn.Btn--error {
+  background-color:$_Btn-error-bgColor;
+  border-color: $_Btn-error-borderColor;
+  color:$_Btn-error-typoColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-error-typoColor;
+    color:$_Btn-error-bgColor;
+  }
+}
+
+.BtnBorder.is-error,
+.BtnBorder.Btn-error {
+  border-color: $_Btn-error-bgColor;
+  color:$_Btn-error-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    background-color:$_Btn-error-bgColor;
+    color:$_Btn-error-typoColor;
+  }
+}
+
+.BtnSimple.is-error,
+.BtnSimple.Btn-error {
+  color:$_Btn-error-bgColor;
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active{
+    color:darken($_Btn-error-bgColor,10);
+  }
+}
