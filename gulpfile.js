@@ -70,6 +70,9 @@ module.exports = {
   'psi': {
     production: 'http://sircus.blivesta.com',
     strategy: 'mobile'
+  },
+  'stylestats' :{
+    src:  './dist/sircus.css'
   }
 };
 
@@ -77,6 +80,7 @@ gulp.task('bower', require('gulptasks/lib/bower'));
 gulp.task('rubysass', require('gulptasks/lib/rubysass'));
 gulp.task('csslint', require('gulptasks/lib/csslint'));
 gulp.task('cssmin', require('gulptasks/lib/cssmin'));
+gulp.task('stylestats', require('gulptasks/lib/stylestats'));
 gulp.task('deploy', require('gulptasks/lib/ghpage'));
 gulp.task('bump', require('gulptasks/lib/bump'));
 gulp.task('hugo', require('gulptasks/lib/hugo'));
@@ -116,6 +120,8 @@ gulp.task('build', function() {
       // 'csslint',
       'cssmin'],
     'hugo',
-    ['bump','dist','default']
+    ['bump','dist'],
+    'stylestats',
+    ['default']
   );
 });
