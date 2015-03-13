@@ -20,31 +20,24 @@ $_ttypo-lineHeight-sm : $lineHeight-sm !default;
 $_ttypo-lineHeight-xs : $lineHeight-xs !default;
 
 // ==================================
-.t-normal         { font-weight: normal !important; }
-.t-bold           { font-weight: bold !important; }
-.t-italic         { font-style: italic !important; }
+.t-normal        { font-weight: normal !important; }
+.t-bold          { font-weight: bold !important; }
+.t-italic        { font-style: italic !important; }
 
-.t-align-left,   //  legacy
 .t-alignLeft     { text-align: left !important; }
-.t-align-right,  //  legacy
 .t-alignRight    { text-align: right !important; }
-.t-align-center,  //  legacy
 .t-alignCenter   { text-align: center !important; }
-.t-align-justify,//  legacy
 .t-alignJustify  { text-align: justify !important; }
 
-.t-align-top,    //  legacy
 .t-alignTop      { vertical-align:top !important; }
-.t-align-middle, //  legacy
 .t-alignMiddle   { vertical-align:middle !important; }
-.t-align-bottom,  //  legacy
 .t-alignBottom   { vertical-align:bottom !important; }
 
-.t-lowercase      { text-transform: lowercase !important; }
-.t-uppercase      { text-transform: uppercase !important; }
-.t-capitalize     { text-transform: capitalize !important; }
+.t-lowercase     { text-transform: lowercase !important; }
+.t-uppercase     { text-transform: uppercase !important; }
+.t-capitalize    { text-transform: capitalize !important; }
 
-.t-nowrap         { white-space: nowrap !important; }
+.t-nowrap        { white-space: nowrap !important; }
 
 .t-typo-hide {
   font: #{0/0} a !important;
@@ -54,17 +47,11 @@ $_ttypo-lineHeight-xs : $lineHeight-xs !default;
   border: 0 !important;
 }
 
-.t-en-sans,     //  legacy
 .t-enSans      { font-family: $_ttypo-fontFamily-sans-en !important; }
-.t-ja-sans,     //  legacy
 .t-jaSans      { font-family: $_ttypo-fontFamily-sans-ja !important; }
-.t-en-serif,    //  legacy
 .t-enSerif     { font-family: $_ttypo-fontFamily-serif-en !important; }
-.t-ja-serif,    //  legacy
 .t-jaSerif     { font-family: $_ttypo-fontFamily-serif-ja !important; }
-.t-en-monospace,//  legacy
 .t-enMonospace { font-family: $_ttypo-fontFamily-monospace-en !important; }
-.t-ja-monospace,//  legacy
 .t-jaMonospace { font-family: $_ttypo-fontFamily-monospace-ja !important; }
 
 

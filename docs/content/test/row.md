@@ -22,7 +22,7 @@ description: ""
 
 <div class="Container test-container">
   <h3>Row / align center</h3>
-  <div class="Row row--center">
+  <div class="Row Row--center">
     <div class="Row-col test-row-col t-bs-width6of12 t-xs-width4of12 t-sm-width3of12 t-md-width2of12 t-lg-width2of12">
       col
     </div>
@@ -39,7 +39,7 @@ description: ""
 
 <div class="Container test-container">
   <h3>Row / align right</h3>
-  <div class="Row row--right">
+  <div class="Row Row--right">
     <div class="Row-col test-row-col t-bs-width6of12 t-xs-width4of12 t-sm-width3of12 t-md-width2of12 t-lg-width2of12">
       col
     </div>
@@ -108,7 +108,7 @@ description: ""
 
 <div class="Container test-container">
   <h3>Row / middle</h3>
-  <div class="Row row--middle">
+  <div class="Row Row--middle">
     <div class="Row-col test-row-col t-bs-width6of12 t-xs-width4of12 t-sm-width3of12 t-md-width2of12 t-lg-width2of12">
       col
     </div>
@@ -134,7 +134,7 @@ description: ""
 
 <div class="Container test-container">
   <h3>Row / bottom</h3>
-  <div class="Row row--bottom">
+  <div class="Row Row--bottom">
     <div class="Row-col test-row-col t-bs-width6of12 t-xs-width4of12 t-sm-width3of12 t-md-width2of12 t-lg-width2of12">
       col
     </div>
@@ -232,7 +232,7 @@ description: ""
 
 <div class="Container test-container">
   <h3>Row Row--table / middle</h3>
-  <div class="Row Row--table row--middle">
+  <div class="Row Row--table Row--middle">
     <div class="Row-col test-row-col t-xs-width2of12">
       col
     </div>
@@ -258,7 +258,7 @@ description: ""
 
 <div class="Container test-container">
   <h3>Row Row--table / bottom</h3>
-  <div class="Row Row--table row--bottom">
+  <div class="Row Row--table Row--bottom">
     <div class="Row-col test-row-col t-sm-width2of12">
       col
     </div>

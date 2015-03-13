@@ -19,30 +19,12 @@ $_display-screen-md-max:   $screen-md-max !default;
 
 
 @-ms-viewport { width: device-width; }
-.t-visible-xs, //  legacy
-.t-visible-sm, //  legacy
-.t-visible-md, //  legacy
-.t-visible-lg, //  legacy
-//
+
 .t-xs-visible,
 .t-sm-visible,
 .t-md-visible,
 .t-lg-visible {  display: none !important; }
 
-
-.t-visible-xs-block, //  legacy
-.t-visible-xs-inline, //  legacy
-.t-visible-xs-inline-block, //  legacy
-.t-visible-sm-block, //  legacy
-.t-visible-sm-inline, //  legacy
-.t-visible-sm-inline-block, //  legacy
-.t-visible-md-block, //  legacy
-.t-visible-md-inline, //  legacy
-.t-visible-md-inline-block, //  legacy
-.t-visible-lg-block, //  legacy
-.t-visible-lg-inline, //  legacy
-.t-visible-lg-inline-block, //  legacy
-//
 .t-xs-visible-block,
 .t-xs-visible-inline,
 .t-xs-visible-inlineBlock,
@@ -57,139 +39,105 @@ $_display-screen-md-max:   $screen-md-max !default;
 .t-lg-visible-inlineBlock { display: none !important; }
 
 @media (max-width: $_display-screen-xs-max) {
-  .t-visible-xs, //  legacy
   .t-xs-visible { display: block !important; }
 }
 
 @media (max-width: $_display-screen-xs-max) {
-  .t-visible-xs-block, //  legacy
   .t-xs-visible-block { display: block !important; }
 }
 
 @media (max-width: $_display-screen-xs-max) {
-  .t-visible-xs-inline, //  legacy
   .t-xs-visible-inline { display: inline !important; }
 }
 
 @media (max-width: $_display-screen-xs-max) {
-  .t-visible-xs-inlinBlock, //  legacy
   .t-xs-visible-inlineBlock { display: inline-block !important; }
 }
 
 @media (min-width: $_display-screen-sm-min) and (max-width: $_display-screen-sm-max) {
-  .t-visible-sm, //  legacy
   .t-sm-visible { display: block !important; }
 }
 @media (min-width: $_display-screen-sm-min) and (max-width: $_display-screen-sm-max) {
-  .t-visible-sm-block, //  legacy
   .t-sm-visible-block { display: block !important; }
 }
 
 @media (min-width: $_display-screen-sm-min) and (max-width: $_display-screen-sm-max) {
-  .t-visible-sm-inline, //  legacy
   .t-sm-visible-inline { display: inline !important; }
 }
 
 @media (min-width: $_display-screen-sm-min) and (max-width: $_display-screen-sm-max) {
-  .t-visible-sm-inline-block, //  legacy
   .t-sm-visible-inlineBlock { display: inline-block !important; }
 }
 
 @media (min-width: $_display-screen-md-min) and (max-width: $_display-screen-md-max) {
-  .t-visible-md, //  legacy
   .t-md-visible { display: block !important; }
 }
 
 @media (min-width: $_display-screen-md-min) and (max-width: $_display-screen-md-max) {
-  .t-visible-md-block, //  legacy
   .t-md-visible-block { display: block !important; }
 }
 
 @media (min-width: $_display-screen-md-min) and (max-width: $_display-screen-md-max) {
-  .t-visible-md-inline, //  legacy
   .t-md-visible-inline { display: inline !important; }
 }
 
 @media (min-width: $_display-screen-md-min) and (max-width: $_display-screen-md-max) {
-  .t-visible-md-inline-block, //  legacy
   .t-md-visible-inlineBlock { display: inline-block !important; }
 }
 
 @media (min-width: $_display-screen-lg-min) {
-  .t-visible-lg, //  legacy
   .t-lg-visible { display: block !important; }
 }
 @media (min-width: $_display-screen-lg-min) {
-  .t-visible-lg-block, //  legacy
   .t-lg-visible-block { display: block !important; }
 }
 
 @media (min-width: $_display-screen-lg-min) {
-  .t-visible-lg-inline, //  legacy
   .t-lg-visible-inline { display: inline !important; }
 }
 
 @media (min-width: $_display-screen-lg-min) {
-  .t-visible-lg-inline-block, //  legacy
   .t-lg-visible-inlineBlock { display: inline-block !important; }
 }
 
 @media (max-width: $_display-screen-xs-max) {
-  .t-hidden-xs, //  legacy
   .t-xs-hidden { display: none !important; }
 }
 
 @media (min-width: $_display-screen-sm-min) and (max-width: $_display-screen-sm-max) {
-  .t-hidden-sm, //  legacy
   .t-sm-hidden { display: none !important; }
 }
 
 @media (min-width: $_display-screen-md-min) and (max-width: $_display-screen-md-max) {
-  .t-hidden-md, //  legacy
   .t-md-hidden { display: none !important; }
 }
 
 @media (min-width: $_display-screen-lg-min) {
-  .t-hidden-lg, //  legacy
   .t-lg-hidden { display: none !important; }
 }
 
 
-
-
-.t-visible-print, //  legacy
 .t-print-visible { display: none !important; }
 
 @media print {
-  .t-visible-print, //  legacy
   .t-print-visible { display: block !important; }
 }
-
-.t-print-visible-block, //  legacy
 .t-visible-print-block { display: none !important; }
 
 @media print {
-  .t-print-visible-block, //  legacy
   .t-visible-print-block { display: block !important; }
 }
-
-.t-visible-print-inline, //  legacy
 .t-print-visible-inline { display: none !important; }
 
 @media print {
-  .t-visible-print-inline, //  legacy
   .t-print-visible-inline { display: inline !important; }
 }
-
-.t-visible-print-inline-block, //  legacy
 .t-print-visible-inlineBlock { display: none !important; }
 
 @media print {
-  .t-visible-print-inline-block, //  legacy
   .t-print-visible-inlineBlock { display: inline-block !important; }
 }
 
 @media print {
-  .t-hidden-print, //  legacy
   .t-print-hidden { display: none !important; }
 }

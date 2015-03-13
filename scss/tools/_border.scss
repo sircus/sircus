@@ -3,12 +3,8 @@
 $_border-bs: $border-bs !default;
 
 // ==================================
-.t-border-top, //  legacy
 .t-borderTop     { border-top:$_border-bs !important; }
-.t-border-left, //  legacy
 .t-borderLeft    { border-left:$_border-bs !important; }
-.t-border-right, //  legacy
 .t-borderRight   { border-right:$_border-bs !important; }
-.t-border-bottom, //  legacy
 .t-borderBottom  { border-bottom:$_border-bs !important; }
 .t-border        { border:$_border-bs !important; }

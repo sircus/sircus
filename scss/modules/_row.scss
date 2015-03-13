@@ -7,10 +7,6 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
 
 // Row
 // =====================================
-.row-inline-block,//  legacy
-.row-float,       //  legacy
-.RowTable,        //  legacy
-.row-table,       //  legacy
 .Row {
   font-size: 0;
   margin: 0;
@@ -22,7 +18,6 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
   //
   // letter-spacing: -0.4em; //firefox
   // word-spacing: -1em; //opera
-  > .col, //  legacy
   > .Row-col {
     box-sizing:border-box;
     font-size: $_Row-col-fontSize-bs;
@@ -32,10 +27,8 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
   }
 }
 
-.row-inline-block, //  legacy
 .Row {
   display: block;
-  > .col, //  legacy
   > .Row-col {
     display: inline-block;
     text-align: left;
@@ -44,26 +37,21 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
   }
 }
 
-.row-float, //  legacy
 .Row--float {
-  > .col,
   > .Row-col {
     float: left;
   }
 }
 
-.row-table, //  legacy
 .Row--table {
   width:calc(100% + 2.4rem);
   padding:0;
-  > .col,
   > .Row-col {
     width:100%;
   }
   @media (min-width: $_Row-screen-xs-min) {
     display: table;
     table-layout: fixed;
-    > .col, //  legacy
     > .Row-col {
       display: table-cell;
     }
@@ -72,24 +60,17 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
 
 // `.row` Modifier
 // -------------------------------
-.row--center, //  legacy
 .Row--center { text-align: center; }
-.row--right, //  legacy
 .Row--right  { text-align: right; }
-.row--left,  //  legacy
 .Row--left   { text-align: left; }
 
-.row--top > .col,        //  legacy
 .Row--top > .Row-col     { vertical-align: top; }
-.row--middle > .col,     //  legacy
 .Row--middle > .Row-col  { vertical-align: middle; }
-.row--bottom > .col,     //  legacy
 .Row--bottom > .Row-col  { vertical-align: bottom; }
 
 
 // Columns
 // =====================================
-.col, //  legacy
 .Row-col {
   min-height: 1px;
   padding-left: $_Row-gutter-width;

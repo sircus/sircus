@@ -3,7 +3,6 @@
 $_img-round-borderRadius : $borderRadius-bs !default;
 
 // ==================================
-.img-full, //  legacy
 .t-imgFull {
   vertical-align: middle;
   display: inline-block;
@@ -11,16 +10,6 @@ $_img-round-borderRadius : $borderRadius-bs !default;
   height: auto;
 }
 
-.t-imgInline {
-  display: inline !important;
-}
-
-.img-round, //  legacy
-.t-imgRound {
-  border-radius: $_img-round-borderRadius !important;
-}
-
-.img-circle, //  legacy
-.t-imgCircle {
-  border-radius: 50% !important;
-}
+.t-imgInline { display: inline !important; }
+.t-imgRound  { border-radius: $_img-round-borderRadius !important; }
+.t-imgCircle { border-radius: 50% !important; }
