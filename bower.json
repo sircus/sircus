@@ -5,10 +5,9 @@
   "authors": [
     "blivesta"
   ],
-  "description": "The scalable css for responsive project.",
+  "description": "scalable css for responsive project.",
   "main": [
-    "css",
-    "scss"
+    "dist/sircus.css"
   ],
   "keywords": [
     "scalable css",
@@ -18,6 +17,7 @@
   "ignore": [
     "**/.*",
     "*.yml",
+    ".*",
     "node_modules",
     "gulpfile.js",
     "docs"

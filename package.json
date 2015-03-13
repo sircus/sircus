@@ -1,10 +1,14 @@
 {
   "name": "sircus",
   "version": "0.1.1",
-  "description": "The scalable css for responsive project.",
+  "description": "scalable css for responsive project.",
   "author":"blivesta",
   "homepage":"http://sircus.blivesta.com",
   "license":"MIT",
+  "keywords": [
+    "RESPONSIVE",
+    "CSS"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/sircus/sircus.git"
