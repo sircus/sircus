@@ -1,14 +1,11 @@
-.list-reset, //  legacy
-.list-inline-block, //  legacy
 .ListInline,
 .ListReset {
   padding-left: 0;
   list-style: none;
 }
 
-.list-inline-block, //  legacy
 .ListInline {
-  margin-left: -.5rem;
+  margin-left: -0.5rem;
   > li {
     display: inline-block;
     padding-left: .5rem;
