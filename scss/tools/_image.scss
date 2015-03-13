@@ -1,6 +1,6 @@
 @import "../config";
 
-$_img-round-borderRadius : $border-radius-bs !default;
+$_img-round-borderRadius : $borderRadius-bs !default;
 
 // ==================================
 .img-full, //  legacy
@@ -12,15 +12,15 @@ $_img-round-borderRadius : $border-radius-bs !default;
 }
 
 .t-imgInline {
-  display: inline;
+  display: inline !important;
 }
 
 .img-round, //  legacy
 .t-imgRound {
-  border-radius: $_img-round-borderRadius;
+  border-radius: $_img-round-borderRadius !important;
 }
 
-.img-circle //  legacy
+.img-circle, //  legacy
 .t-imgCircle {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
