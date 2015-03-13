@@ -1,9 +1,9 @@
 @import "../config";
 
-$l-width-screen-xs-min: $g-screen-xs-min !default;
-$l-width-screen-sm-min: $g-screen-sm-min !default;
-$l-width-screen-md-min: $g-screen-md-min !default;
-$l-width-screen-lg-min: $g-screen-lg-min !default;
+$_width-screen-xs-min: $screen-xs-min !default;
+$_width-screen-sm-min: $screen-sm-min !default;
+$_width-screen-md-min: $screen-md-min !default;
+$_width-screen-lg-min: $screen-lg-min !default;
 
 //=====================
 .t-bs-1of12,   //   legacy
@@ -31,7 +31,7 @@ $l-width-screen-lg-min: $g-screen-lg-min !default;
 .t-bs-12of12,   //   legacy
 .t-width12of12 { width: 100% !important; }
 
-@media (min-width: $l-width-screen-xs-min) {
+@media (min-width: $_width-screen-xs-min) {
   .t-xs-1of12,   //   legacy
   .t-xs-width1of12 { width: 8.33333% !important; }
   .t-xs-2of12,   //   legacy
@@ -58,7 +58,7 @@ $l-width-screen-lg-min: $g-screen-lg-min !default;
   .t-xs-width12of12 { width: 100% !important; }
 }
 
-@media (min-width: $l-width-screen-sm-min) {
+@media (min-width: $_width-screen-sm-min) {
   .t-sm-1of12,   //   legacy
   .t-sm-width1of12 { width: 8.33333% !important; }
   .t-sm-2of12,   //   legacy
@@ -85,7 +85,7 @@ $l-width-screen-lg-min: $g-screen-lg-min !default;
   .t-sm-width12of12 { width: 100% !important; }
 }
 
-@media (min-width: $l-width-screen-md-min) {
+@media (min-width: $_width-screen-md-min) {
   .t-md-1of12,   //   legacy
   .t-md-width1of12 { width: 8.33333% !important; }
   .t-md-2of12,   //   legacy
@@ -112,7 +112,7 @@ $l-width-screen-lg-min: $g-screen-lg-min !default;
   .t-md-width12of12 { width: 100% !important; }
 }
 
-@media (min-width: $l-width-screen-lg-min) {
+@media (min-width: $_width-screen-lg-min) {
   .t-lg-1of12,   //   legacy
   .t-lg-width1of12 { width: 8.33333% !important; }
   .t-lg-2of12,   //   legacy

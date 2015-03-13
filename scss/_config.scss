@@ -1,180 +1,167 @@
 // Colors
 // ==========================
-$g-color-gray-darkest:           #222 !default;
-$g-color-gray-darker:            #555 !default;
-$g-color-gray-dark:              #888 !default;
-$g-color-gray:                   #AAA !default;
-$g-color-gray-light:             #DDD !default;
-$g-color-gray-lighter:           #F5F5F5 !default;
-$g-color-gray-lightest:          #FAFAFA !default;
+$color-gray-darkest:           #222 !default;
+$color-gray-darker:            #555 !default;
+$color-gray-dark:              #888 !default;
+$color-gray:                   #AAA !default;
+$color-gray-light:             #DDD !default;
+$color-gray-lighter:           #F5F5F5 !default;
+$color-gray-lightest:          #FAFAFA !default;
 
-$g-color-primary:                 #b89e52 !default;
-$g-color-primary-darkest:         darken($g-color-primary, 45%) !default;
-$g-color-primary-darker:          darken($g-color-primary, 30%) !default;
-$g-color-primary-dark:            darken($g-color-primary, 15%) !default;
-$g-color-primary-light:           lighten($g-color-primary,15%) !default;
-$g-color-primary-lighter:         lighten($g-color-primary,30%) !default;
-$g-color-primary-lightest:        lighten($g-color-primary,45%) !default;
+$color-primary:                 #b89e52 !default;
+$color-primary-darkest:         darken($color-primary, 45%) !default;
+$color-primary-darker:          darken($color-primary, 30%) !default;
+$color-primary-dark:            darken($color-primary, 15%) !default;
+$color-primary-light:           lighten($color-primary,15%) !default;
+$color-primary-lighter:         lighten($color-primary,30%) !default;
+$color-primary-lightest:        lighten($color-primary,45%) !default;
 
 // status
-$g-color-success:                 #18be91 !default;
-$g-color-notice:                  #7bc1eb !default;
-$g-color-warning:                 #e5cd2f !default;
-$g-color-error:                   #eb5850 !default;
+$color-success:                 #18be91 !default;
+$color-notice:                  #7bc1eb !default;
+$color-warning:                 #e5cd2f !default;
+$color-error:                   #eb5850 !default;
 
 //
-$g-state-success-text:           #3c763d !default;
-$g-state-success-bg:             #dff0d8 !default;
-$g-state-success-border:         darken(adjust-hue($g-state-success-bg, -10), 5%) !default;
+$state-success-text:           #3c763d !default;
+$state-success-bg:             #dff0d8 !default;
+$state-success-border:         darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$g-state-notice-text:              #31708f !default;
-$g-state-notice-bg:                #d9edf7 !default;
-$g-state-notice-border:            darken(adjust-hue($g-state-notice-bg, -10), 7%) !default;
+$state-notice-text:              #31708f !default;
+$state-notice-bg:                #d9edf7 !default;
+$state-notice-border:            darken(adjust-hue($state-notice-bg, -10), 7%) !default;
 
-$g-state-warning-text:           #8a6d3b !default;
-$g-state-warning-bg:             #fcf8e3 !default;
-$g-state-warning-border:         darken(adjust-hue($g-state-warning-bg, -10), 5%) !default;
+$state-warning-text:           #8a6d3b !default;
+$state-warning-bg:             #fcf8e3 !default;
+$state-warning-border:         darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
-$g-state-danger-text:            #a94442 !default;
-$g-state-danger-bg:              #f2dede !default;
-$g-state-danger-border:          darken(adjust-hue($g-state-danger-bg, -10), 5%) !default;
+$state-danger-text:            #a94442 !default;
+$state-danger-bg:              #f2dede !default;
+$state-danger-border:          darken(adjust-hue($state-danger-bg, -10), 5%) !default;
 
 
 
 // Screen size
 // ==========================
-$g-screen-xs-min:         480px !default;
-$g-screen-sm-min:         768px !default;
-$g-screen-md-min:         992px !default;
-$g-screen-lg-min:         1200px !default;
+$screen-xs-min:         480px !default;
+$screen-sm-min:         768px !default;
+$screen-md-min:         992px !default;
+$screen-lg-min:         1200px !default;
 
-$g-screen-xs-max:         ($g-screen-sm-min - 1) !default;
-$g-screen-sm-max:         ($g-screen-md-min - 1) !default;
-$g-screen-md-max:         ($g-screen-lg-min - 1) !default;
+$screen-xs-max:         ($screen-sm-min - 1) !default;
+$screen-sm-max:         ($screen-md-min - 1) !default;
+$screen-md-max:         ($screen-lg-min - 1) !default;
 
 
 
 // Typography
 // ==========================
 // Font family -------------------
-$g-font-family-sans-en:      Raleway, helvetica, arial, sans-serif !default;
-$g-font-family-sans-ja:      Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !default;
-$g-font-family-serif-en:     Georgia, "Times New Roman", Times, serif !default;
-$g-font-family-serif-ja:     "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif !default;
-$g-font-family-monospace-en: Menlo, Monaco, Consolas, "Courier New", monospace !default;
-$g-font-family-monospace-ja: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !default;
+$fontFamily-sans-en:      Raleway, helvetica, arial, sans-serif !default;
+$fontFamily-sans-ja:      Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !default;
+$fontFamily-serif-en:     Georgia, "Times New Roman", Times, serif !default;
+$fontFamily-serif-ja:     "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif !default;
+$fontFamily-monospace-en: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$fontFamily-monospace-ja: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !default;
 
 // Font size --------------------
-$g-font-size-bs:            1.6rem !default; // base
-$g-font-size-sc:            ($g-font-size-bs + 3.6) !default; //h0
-$g-font-size-hg:            ($g-font-size-bs + 2.4) !default; //h1
-$g-font-size-mg:            ($g-font-size-bs + 1.6) !default; //h2
-$g-font-size-xl:            ($g-font-size-bs + .8) !default;  //h3
-$g-font-size-lg:            ($g-font-size-bs + .4) !default;  //h4
-$g-font-size-md:            $g-font-size-bs !default;         //h5
-$g-font-size-sm:            ($g-font-size-bs - .2) !default;  //h6
-$g-font-size-xs:            ($g-font-size-bs - .3) !default;
+$fontSize-bs:            1.6rem !default; // base
+$fontSize-sc:            ($fontSize-bs + 3.6) !default; //h0
+$fontSize-hg:            ($fontSize-bs + 2.4) !default; //h1
+$fontSize-mg:            ($fontSize-bs + 1.6) !default; //h2
+$fontSize-xl:            ($fontSize-bs + .8) !default;  //h3
+$fontSize-lg:            ($fontSize-bs + .4) !default;  //h4
+$fontSize-md:            $fontSize-bs !default;         //h5
+$fontSize-sm:            ($fontSize-bs - .2) !default;  //h6
+$fontSize-xs:            ($fontSize-bs - .3) !default;
 
 // text --------------------
-$g-text-color:              $g-color-gray-darkest !default;
-$g-text-muted:              $g-color-gray !default;
+$text-color:              $color-gray-darkest !default;
+$text-muted:              $color-gray !default;
 
 // Link --------------------
-$g-link-color:              $g-color-primary !default;
-$g-link-hover-color:        $g-color-primary-dark !default;
-$g-link-decoration:         underline !default;
-$g-link-hover-decoration:   none !default;
+$link-color:              $color-primary !default;
+$link-hover-color:        $color-primary-dark !default;
+$link-decoration:         underline !default;
+$link-hover-decoration:   none !default;
 
 // Headdings --------------------
-$g-headings-space:          .5em !default;
-$g-headings-weight:         500 !default;
-$g-headings-lineHeight:     1.1 !default;
-$g-headings-color:          inherit !default;
+$headings-space:          .5em !default;
+$headings-weight:         500 !default;
+$headings-lineHeight:     1.1 !default;
+$headings-color:          inherit !default;
 
 
 
-// line-height
+// lineHeight
 // ==========================
-$g-line-height-xl:        2 !default;
-$g-line-height-lg:        1.8 !default;
-$g-line-height-bs:        1.5 !default; // 20/14
-$g-line-height-sm:        1.2 !default;
-$g-line-height-xs:        1.1 !default;
+$lineHeight-xl:        2 !default;
+$lineHeight-lg:        1.8 !default;
+$lineHeight-bs:        1.5 !default; // 20/14
+$lineHeight-sm:        1.2 !default;
+$lineHeight-xs:        1.1 !default;
 
 
 
 // letter-spacing
 // ==========================
-$g-letter-space-xl : .1em !default;
-$g-letter-space-lg : .05em !default;
-$g-letter-space-bs : 0 !default;
-$g-letter-space-sm : (0 - 0.04em) !default;
-$g-letter-space-xs : (0 - 0.08em) !default;
+$letterSpace-xl : .1em !default;
+$letterSpace-lg : .05em !default;
+$letterSpace-bs : 0 !default;
+$letterSpace-sm : (0 - 0.04em) !default;
+$letterSpace-xs : (0 - 0.08em) !default;
 
 
 
 // space (margin & padding)
 // ==========================
-$g-space-mn : 1rem !default;
-$g-space-xs : 1.2rem !default;
-$g-space-sm : 1.8rem !default;
-$g-space-bs : 2.4rem!default;
-$g-space-lg : 3.6rem !default;
-$g-space-xl : 4.8rem !default;
-$g-space-mg : 6rem !default;
-$g-space-hg : 7.2rem !default;
+$space-mn : 1rem !default;
+$space-xs : 1.2rem !default;
+$space-sm : 1.8rem !default;
+$space-bs : 2.4rem!default;
+$space-lg : 3.6rem !default;
+$space-xl : 4.8rem !default;
+$space-mg : 6rem !default;
+$space-hg : 7.2rem !default;
 
 
 
 // padding
 // ==========================
-$g-padding-xl-vertical:       1.4rem !default;
-$g-padding-xl-horizontal:     2rem !default;
+$paddingV-xl: 1.4rem !default;
+$paddingH-xl: 2rem !default;
 
-$g-padding-lg-vertical:       .8rem !default;
-$g-padding-lg-horizontal:     1.6rem !default;
+$paddingV-lg: .8rem !default;
+$paddingH-lg: 1.6rem !default;
 
-$g-padding-bs-vertical:       .6rem !default;
-$g-padding-bs-horizontal:     1.2rem !default;
+$paddingV-bs: .6rem !default;
+$paddingH-bs: 1.2rem !default;
 
-$g-padding-sm-vertical:       .4rem !default;
-$g-padding-sm-horizontal:     .8rem !default;
+$paddingV-sm: .4rem !default;
+$paddingH-sm: .8rem !default;
 
-$g-padding-xs-vertical:       .1rem !default;
-$g-padding-xs-horizontal:     .5rem !default;
+$paddingV-xs: .1rem !default;
+$paddingH-xs: .5rem !default;
 
 
 
 // ==========================
-$g-sum-height-bs:       ($g-font-size-bs + $g-line-height-bs + $g-padding-bs-vertical) !default;
-$g-sum-height-lg:       ($g-font-size-lg + $g-line-height-lg + $g-padding-lg-vertical) !default;
-$g-sum-height-sm:       ($g-font-size-sm + $g-line-height-sm + $g-padding-sm-vertical) !default;
+$sum-height-bs:       ($fontSize-bs + $lineHeight-bs + $paddingV-bs) !default;
+$sum-height-lg:       ($fontSize-lg + $lineHeight-lg + $paddingV-lg) !default;
+$sum-height-sm:       ($fontSize-sm + $lineHeight-sm + $paddingV-sm) !default;
 
 
 
 // border
 // ==========================
-$g-border-color : $g-color-gray-light !default;
-$g-border-style : solid !default;
-$g-border-size  : 1px !default;
-$g-border-bs    : $g-border-size $g-border-style $g-border-color;
+$border-color : $color-gray-light !default;
+$border-style : solid !default;
+$border-size  : 1px !default;
+$border-bs    : $border-size $border-style $border-color;
 
 
-
-// border-radius
+// borderRadius
 // ==========================
-$g-border-radius-sm:   .2rem !default;
-$g-border-radius-bs:   .4rem !default;
-$g-border-radius-lg:   .5rem !default;
-
-
-
-// unit
-// container & grid
-// ==========================
-$g-container-gutter-width:    $g-space-bs !default;
-$g-container-sm:              (72rem + $g-container-gutter-width) !default;
-$g-container-md:              (94rem + $g-container-gutter-width )!default;
-$g-container-lg:              (114rem + $g-container-gutter-width ) !default;
-
-$g-grid-columns:              10 !default;
+$borderRadius-sm:   .2rem !default;
+$borderRadius-bs:   .4rem !default;
+$borderRadius-lg:   .5rem !default;

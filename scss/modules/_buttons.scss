@@ -1,24 +1,24 @@
 @import "../config";
 
 // Size
-$_Btn-paddingV-xl:              $g-padding-xl-vertical !default;
-$_Btn-paddingH-xl:              $g-padding-xl-horizontal !default;
-$_Btn-paddingV-lg:              $g-padding-lg-vertical !default;
-$_Btn-paddingH-lg:              $g-padding-lg-horizontal !default;
-$_Btn-paddingV-bs:              $g-padding-bs-vertical !default;
-$_Btn-paddingH-bs:              $g-padding-bs-horizontal !default;
-$_Btn-paddingV-sm:              $g-padding-sm-vertical !default;
-$_Btn-paddingH-sm:              $g-padding-sm-horizontal !default;
+$_Btn-paddingV-xl:              $paddingV-xl !default;
+$_Btn-paddingH-xl:              $paddingH-xl !default;
+$_Btn-paddingV-lg:              $paddingV-lg !default;
+$_Btn-paddingH-lg:              $paddingH-lg !default;
+$_Btn-paddingV-bs:              $paddingV-bs !default;
+$_Btn-paddingH-bs:              $paddingH-bs !default;
+$_Btn-paddingV-sm:              $paddingV-sm !default;
+$_Btn-paddingH-sm:              $paddingH-sm !default;
 
-$_Btn-fontSize-xl:              $g-font-size-xl !default;
-$_Btn-fontSize-lg:              $g-font-size-lg !default;
-$_Btn-fontSize-bs:              $g-font-size-bs !default;
-$_Btn-fontSize-sm:              $g-font-size-sm !default;
+$_Btn-fontSize-xl:              $fontSize-xl !default;
+$_Btn-fontSize-lg:              $fontSize-lg !default;
+$_Btn-fontSize-bs:              $fontSize-bs !default;
+$_Btn-fontSize-sm:              $fontSize-sm !default;
 
-$_Btn-borderRadius-xl:          $g-border-radius-lg !default;
-$_Btn-borderRadius-lg:          $g-border-radius-lg !default;
-$_Btn-borderRadius-bs:          $g-border-radius-bs !default;
-$_Btn-borderRadius-sm:          $g-border-radius-sm !default;
+$_Btn-borderRadius-xl:          $borderRadius-lg !default;
+$_Btn-borderRadius-lg:          $borderRadius-lg !default;
+$_Btn-borderRadius-bs:          $borderRadius-bs !default;
+$_Btn-borderRadius-sm:          $borderRadius-sm !default;
 
 // .Btn
 $_Btn-typoColor:                #fff !default;
@@ -31,32 +31,32 @@ $_BtnBorder-typoColor:          $_BtnBorder-borderColor !default;
 $_BtnBorder-hover-typoColor:    #fff !default;
 
 // .BtnSimple
-$_BtnLink-typoColor:            $g-color-primary !default;
-$_BtnLink-hover-typoColor:      $g-color-primary-dark !default;
+$_BtnLink-typoColor:            $color-primary !default;
+$_BtnLink-hover-typoColor:      $color-primary-dark !default;
 
 // .Btn--primary
 $_Btn-primary-typoColor:       #fff !default;
-$_Btn-primary-bgColor:         $g-color-primary !default;
+$_Btn-primary-bgColor:         $color-primary !default;
 $_Btn-primary-borderColor:     $_Btn-primary-bgColor !default;
 
 // .is-success
 $_Btn-success-typoColor:       #fff !default;
-$_Btn-success-bgColor:         $g-color-success !default;
+$_Btn-success-bgColor:         $color-success !default;
 $_Btn-success-borderColor:     $_Btn-success-bgColor !default;
 
 // .is-notice
 $_Btn-notice-typoColor:        #fff !default;
-$_Btn-notice-bgColor:          $g-color-notice !default;
+$_Btn-notice-bgColor:          $color-notice !default;
 $_Btn-notice-borderColor:      $_Btn-notice-bgColor !default;
 
 // .is-warning
 $_Btn-warning-typoColor:       #fff !default;
-$_Btn-warning-bgColor:         $g-color-warning !default;
+$_Btn-warning-bgColor:         $color-warning !default;
 $_Btn-warning-borderColor:     $_Btn-warning-bgColor !default;
 
 // .is-error
 $_Btn-error-typoColor:         #fff !default;
-$_Btn-error-bgColor:           $g-color-error !default;
+$_Btn-error-bgColor:           $color-error !default;
 $_Btn-error-borderColor:       $_Btn-error-bgColor !default;
 
 

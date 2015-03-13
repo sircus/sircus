@@ -1,13 +1,17 @@
 @import "../config";
 
-$l-container-gutter-width:    $g-container-gutter-width !default;
-$l-container-sm:              $g-container-sm !default;
-$l-container-md:              $g-container-md!default;
-$l-container-lg:              $g-container-lg !default;
-$l-container-screen-xs-min:   $g-screen-xs-min !default;
-$l-container-screen-sm-min:   $g-screen-sm-min !default;
-$l-container-screen-md-min:   $g-screen-md-min !default;
-$l-container-screen-lg-min:   $g-screen-lg-min !default;
+
+// unit
+// container & grid
+// ==========================
+$_Container-gutter-width:    $space-bs !default;
+$_Container-sm:              (72rem + $_Container-gutter-width) !default;
+$_Container-md:              (94rem + $_Container-gutter-width )!default;
+$_Container-lg:              (114rem + $_Container-gutter-width ) !default;
+$_Container-screen-xs-min:   $screen-xs-min !default;
+$_Container-screen-sm-min:   $screen-sm-min !default;
+$_Container-screen-md-min:   $screen-md-min !default;
+$_Container-screen-lg-min:   $screen-lg-min !default;
 
 // ==================================
 .container-slim,//  legacy
@@ -19,26 +23,26 @@ $l-container-screen-lg-min:   $g-screen-lg-min !default;
   box-sizing:border-box;
   margin-right: auto;
   margin-left: auto;
-  padding-left: ($l-container-gutter-width / 2);
-  padding-right: ($l-container-gutter-width / 2);
+  padding-left: ($_Container-gutter-width / 2);
+  padding-right: ($_Container-gutter-width / 2);
 }
 
 .container, //  legacy
 .Container {
-  @media (min-width: $l-container-screen-sm-min) {
-    width: $l-container-sm;
+  @media (min-width: $_Container-screen-sm-min) {
+    width: $_Container-sm;
   }
-  @media (min-width: $l-container-screen-md-min) {
-    width: $l-container-md;
+  @media (min-width: $_Container-screen-md-min) {
+    width: $_Container-md;
   }
-  @media (min-width: $l-container-screen-lg-min) {
-    width: $l-container-lg;
+  @media (min-width: $_Container-screen-lg-min) {
+    width: $_Container-lg;
   }
 }
 
 .container-slim, //  legacy
 .ContainerSlim {
-  max-width: $l-container-sm;
+  max-width: $_Container-sm;
 }
 
 .Container,
@@ -49,29 +53,29 @@ $l-container-screen-lg-min:   $g-screen-lg-min !default;
   > .Container-sm-fit,
   > .Container-md-fit,
   > .Container-lg-fit {
-    margin-left:-($g-container-gutter-width / 2);
-    margin-right:-($g-container-gutter-width / 2);
+    margin-left:-($_Container-gutter-width / 2);
+    margin-right:-($_Container-gutter-width / 2);
   }
   > .Container-xs-fit {
-    @media (min-width: $l-container-screen-xs-min) {
+    @media (min-width: $_Container-screen-xs-min) {
       margin-left: 0;
       margin-right: 0;
     }
   }
   > .Container-sm-fit {
-    @media (min-width: $l-container-screen-sm-min) {
+    @media (min-width: $_Container-screen-sm-min) {
       margin-left: 0;
       margin-right: 0;
     }
   }
   > .Container-md-fit {
-    @media (min-width: $l-container-screen-md-min) {
+    @media (min-width: $_Container-screen-md-min) {
       margin-left: 0;
       margin-right: 0;
     }
   }
   > .Container-lg-fit {
-    @media (min-width: $l-container-screen-lg-min) {
+    @media (min-width: $_Container-screen-lg-min) {
       margin-left: 0;
       margin-right: 0;
     }

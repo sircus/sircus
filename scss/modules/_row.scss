@@ -1,8 +1,9 @@
 @import "../config";
+@import "../modules/container";
 
-$l-grid-gutter-width:       $g-container-gutter-width !default;
-$l-grid-col-font-size-bs:   $g-font-size-bs !default;
-$l-grid-screen-xs-min:      $g-screen-xs-min !default;
+$_Row-gutter-width:       ($_Container-gutter-width / 2) !default;
+$_Row-col-fontSize-bs:    $fontSize-bs !default;
+$_Row-screen-xs-min:      $screen-xs-min !default;
 
 // Row
 // =====================================
@@ -15,8 +16,8 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   margin: 0;
   padding: 0;
   text-align: left;
-  margin-left: -($l-grid-gutter-width / 2);
-  margin-right: -($l-grid-gutter-width / 2);
+  margin-left: -$_Row-gutter-width;
+  margin-right: -$_Row-gutter-width;
   @extend .t-clear;
   //
   // letter-spacing: -0.4em; //firefox
@@ -24,7 +25,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   > .col, //  legacy
   > .Row-col {
     box-sizing:border-box;
-    font-size: $l-grid-col-font-size-bs;
+    font-size: $_Row-col-fontSize-bs;
     //
     // letter-spacing: normal;//firefox
     // word-spacing: normal; //opera
@@ -59,7 +60,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
   > .Row-col {
     width:100%;
   }
-  @media (min-width: $l-grid-screen-xs-min) {
+  @media (min-width: $_Row-screen-xs-min) {
     display: table;
     table-layout: fixed;
     > .col, //  legacy
@@ -91,7 +92,7 @@ $l-grid-screen-xs-min:      $g-screen-xs-min !default;
 .col, //  legacy
 .Row-col {
   min-height: 1px;
-  padding-left: ($l-grid-gutter-width / 2);
-  padding-right: ($l-grid-gutter-width / 2);
+  padding-left: $_Row-gutter-width;
+  padding-right: $_Row-gutter-width;
   position: relative;
 }

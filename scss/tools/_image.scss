@@ -1,6 +1,6 @@
 @import "../config";
 
-$l-img-round-border-radius : $g-border-radius-bs !default;
+$_img-round-borderRadius : $border-radius-bs !default;
 
 // ==================================
 .img-full, //  legacy
@@ -17,7 +17,7 @@ $l-img-round-border-radius : $g-border-radius-bs !default;
 
 .img-round, //  legacy
 .t-imgRound {
-  border-radius: $l-img-round-border-radius;
+  border-radius: $_img-round-borderRadius;
 }
 
 .img-circle //  legacy

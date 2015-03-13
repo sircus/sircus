@@ -6,20 +6,20 @@
 // .radio* = tadio
 
 $l-inp-bg:                       #FAFAFA !default;
-$l-inp-bg-disabled:              $g-color-gray-lighter !default;
-$l-inp-color:                    $g-color-gray !default;
+$l-inp-bg-disabled:              $color-gray-lighter !default;
+$l-inp-color:                    $color-gray !default;
 $l-inp-border:                   #ccc !default;
 $l-inp-border-radius:             3px !default;
-$l-inp-border-radius-lg:          $g-border-radius-lg !default;
-$l-inp-border-radius-sm:          $g-border-radius-sm !default;
-$l-inp-border-focus:             $g-color-gray-light !default;
+$l-inp-border-radius-lg:          $border-radius-lg !default;
+$l-inp-border-radius-sm:          $border-radius-sm !default;
+$l-inp-border-focus:             $color-gray-light !default;
 $l-inp-color-placeholder:        #999 !default;
 
-$l-inp-height-bs:                $g-sum-height-bs !default;
-$l-inp-height-lg:                $g-sum-height-lg !default;
-$l-inp-height-sm:                $g-sum-height-sm !default;
+$l-inp-height-bs:                $sum-height-bs !default;
+$l-inp-height-lg:                $sum-height-lg !default;
+$l-inp-height-sm:                $sum-height-sm !default;
 
-$legend-color:                 $g-color-gray-dark !default;
+$legend-color:                 $color-gray-dark !default;
 $legend-border-color:          #e5e5e5 !default;
 
 $cursor-disabled:              not-allowed !default;
@@ -117,8 +117,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: $g-line-height-bs;
-  font-size: ($g-font-size-bs * 1.5);
+  margin-bottom: $line-height-bs;
+  font-size: ($font-size-bs * 1.5);
   line-height: inherit;
   color: $legend-color;
   border: 0;
@@ -151,9 +151,9 @@ legend {
 // }
 // output {
 //   display: block;
-//   padding-top: ($g-padding-bs-vertical + 1);
-//   font-size: $g-font-size-bs;
-//   line-height: $g-line-height-bs;
+//   padding-top: ($paddingV-bs + 1);
+//   font-size: $font-size-bs;
+//   line-height: $line-height-bs;
 //   color: $l-inp-color;
 // }
 
@@ -180,9 +180,9 @@ legend {
   display: block;
   width: 100%;
   height: $l-inp-height-bs;
-  padding: $g-padding-bs-vertical $g-padding-bs-horizontal;
-  font-size: $g-font-size-bs;
-  line-height: $g-line-height-bs;
+  padding: $paddingV-bs $paddingH-bs;
+  font-size: $font-size-bs;
+  line-height: $line-height-bs;
   color: $l-inp-color;
   background-color: $l-inp-bg;
   background-image: none;
@@ -237,22 +237,22 @@ textarea.sct {
 // _:-ms-fullscreen, :root input[type="time"],
 // _:-ms-fullscreen, :root input[type="datetime-local"],
 // _:-ms-fullscreen, :root input[type="month"] {
-//   line-height: $g-line-height-bs;
+//   line-height: $line-height-bs;
 //   &.inp--sm,
 //   &.inp--sm {
-//     line-height: $g-line-height-sm;
+//     line-height: $line-height-sm;
 //   }
 //   &.inp--lg,
 //   &.inp--lg {
-//     line-height: $g-line-height-lg;
+//     line-height: $line-height-lg;
 //   }
 // }
 
 // Form control sizing
-// @include form-size('.inp--sm, .form-group-sm .sct', $l-inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $l-inp-border-radius-sm);
-// @include form-size('.inp--sm, .form-group-sm .inp', $l-inp-height-sm, $g-padding-sm-vertical, $g-padding-sm-horizontal, $g-font-size-sm, $g-line-height-sm, $l-inp-border-radius-sm);
-// @include form-size('.inp--lg, .form-group-lg .inp', $l-inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $l-inp-border-radius-lg);
-// @include form-size('.inp--lg, .form-group-lg .sct', $l-inp-height-lg, $g-padding-lg-vertical, $g-padding-lg-horizontal, $g-font-size-lg, $g-line-height-lg, $l-inp-border-radius-lg);
+// @include form-size('.inp--sm, .form-group-sm .sct', $l-inp-height-sm, $paddingV-sm, $paddingH-sm, $font-size-sm, $line-height-sm, $l-inp-border-radius-sm);
+// @include form-size('.inp--sm, .form-group-sm .inp', $l-inp-height-sm, $paddingV-sm, $paddingH-sm, $font-size-sm, $line-height-sm, $l-inp-border-radius-sm);
+// @include form-size('.inp--lg, .form-group-lg .inp', $l-inp-height-lg, $paddingV-lg, $paddingH-lg, $font-size-lg, $line-height-lg, $l-inp-border-radius-lg);
+// @include form-size('.inp--lg, .form-group-lg .sct', $l-inp-height-lg, $paddingV-lg, $paddingH-lg, $font-size-lg, $line-height-lg, $l-inp-border-radius-lg);
 
 
 // underline
@@ -265,7 +265,7 @@ textarea.sct {
 //   background-color: transparent;
 //   &:focus {
 //     box-shadow:none;
-//     border-color:$g-color-primary;
+//     border-color:$color-primary;
 //   }
 // }
 
@@ -281,12 +281,12 @@ textarea.sct {
 //   background-color: transparent;
 //   &:focus {
 //     box-shadow:none;
-//     border-color:$g-color-primary;
+//     border-color:$color-primary;
 //   }
 // }
 
 // .form-group {
-//   margin-bottom: ($g-sum-height-bs / 2);
+//   margin-bottom: ($sum-height-bs / 2);
 // }
 
 // .radio,
@@ -296,7 +296,7 @@ textarea.sct {
 //   margin-top: 10px;
 //   margin-bottom: 10px;
 //   label {
-//     min-height: $g-line-height-bs;
+//     min-height: $line-height-bs;
 //     padding-left: 20px;
 //     margin-bottom: 0;
 //     font-weight: normal;
@@ -319,7 +319,7 @@ textarea.sct {
 
 
 // .form-inline {
-//   @media (min-width: $g-screen-sm-min) {
+//   @media (min-width: $screen-sm-min) {
 //     .form-group {
 //       display: inline-block;
 //       margin-bottom: 0;
@@ -421,8 +421,8 @@ textarea.sct {
 
 // .inp-static,
 // .sct-static {
-//   padding-top: ($g-padding-bs-vertical + 1);
-//   padding-bottom: ($g-padding-bs-vertical + 1);
+//   padding-top: ($paddingV-bs + 1);
+//   padding-bottom: ($paddingV-bs + 1);
 //   margin-bottom: 0;
 //   &.inp--lg,
 //   &.inp--sm,
@@ -437,17 +437,17 @@ textarea.sct {
 // .is-success,
 // .frm-success,
 // .form-success {
-//   @include form-validation($g-state-success-text, $g-state-success-text, $g-state-success-bg);
+//   @include form-validation($state-success-text, $state-success-text, $state-success-bg);
 // }
 // .is-warning,
 // .frm-warning,
 // .form-warning {
-//   @include form-validation($g-state-warning-text, $g-state-warning-text, $g-state-warning-bg);
+//   @include form-validation($state-warning-text, $state-warning-text, $state-warning-bg);
 // }
 // .is-error,
 // .frm-error,
 // .form-error {
-//   @include form-validation($g-state-danger-text, $g-state-danger-text, $g-state-danger-bg);
+//   @include form-validation($state-danger-text, $state-danger-text, $state-danger-bg);
 // }
 
 
@@ -455,5 +455,5 @@ textarea.sct {
 //   display: block;
 //   margin-top: 5px;
 //   margin-bottom: 10px;
-//   color: lighten($g-text-color, 25%);
+//   color: lighten($text-color, 25%);
 // }
