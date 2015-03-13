@@ -10,7 +10,78 @@
 WIP: http://sircus.blivesta.com
 
 
-## Development
+## Naming things
+
+### Modules
+
+> [namespace-]ComponentName[--modifierName|-descendentName]
+
+
+```html
+<div class="FullEmbed FullEmbed--16by9">
+  <div class="FullEmbed-item"></div>
+</div>
+
+```
+
+> namespace (optional)
+
+```css
+.sc-FullEmbed { }
+```
+
+> ComponentName
+
+```css
+.FullEmbed { }
+```
+
+> ComponentName--modifierName
+
+```css
+.FullEmbed--16by9 { }
+```
+
+> ComponentName-descendentName
+
+```css
+.FullEmbed-item { }
+```
+
+> ComponentName.is-stateOfComponent
+
+```css
+.Btn { }
+.Btn.is-active { }
+```
+
+```html
+<a class="Btn is-active"> </a>
+```
+
+
+### Tools
+> t-[sm|md|lg-]utilityName
+
+#### t-utilityName
+
+```css
+.t-clear { }
+.t-sm-block { }
+```
+
+```html
+<div class="t-clear">
+  <div class="t-left t-xs-hidden"></div>
+  <p class="t-uppercase"></p>
+</div>
+```
+
+
+## Contributing
+
+To contribute to sircus, clone this repo locally and commit your code.
+Please check that everything works before opening a pull-request.
 
 Install : `nodejs` `npm` `gulp` `bower` `hugo`
 ```bash
@@ -31,10 +102,6 @@ $ gulp
 ```
 And finally, open in your browser.
 
-## Contributing
-
-To contribute to sircus, clone this repo locally and commit your code.
-Please check that everything works before opening a pull-request.
 
 ## Acknowledgements
 
