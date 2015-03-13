@@ -23,13 +23,13 @@ module.exports = {
     files: [
       './dist',
       './_public',
-      './docs/static/build',
+      './test/static/build',
       './scss/vendor'
     ]
   },
   'rubysass': {
     src: './scss/sircus.scss',
-    dest: './docs/static/build',
+    dest: './test/static/build',
     rubySassOptions: {
       sourcemap: true,
       noCache: true,
@@ -48,11 +48,11 @@ module.exports = {
   },
   'csslint': {
     setting:'./.csslintrc',
-    src: './docs/static/build/sircus.css'
+    src: './test/static/build/sircus.css'
   },
   'cssmin': {
-    src: './docs/static/build/sircus.css',
-    dest: './docs/static/build'
+    src: './test/static/build/sircus.css',
+    dest: './test/static/build'
   },
   'ghpage' : {
     src : './_public/**/*',
@@ -60,7 +60,7 @@ module.exports = {
     branch : 'master'
   },
   'hugo' : {
-    src : './docs'
+    src : './test'
   },
   'bump': {
     version: pkg.version, // base
@@ -90,12 +90,12 @@ gulp.task('browsersync', require('gulptasks/lib/browsersync'));
 
 gulp.task('default',['browsersync'],function() {
   gulp.watch(['./scss/**/*.scss'], ['rubysass']);
-  gulp.watch(['./docs/**/*.{html,css,md}'], ['hugo',reload]);
+  gulp.watch(['./test/**/*.{html,css,md}'], ['hugo',reload]);
   gulp.watch(['./_public'], reload);
 });
 
 gulp.task('dist',function() {
-  return gulp.src('./docs/static/build/**.css')
+  return gulp.src('./test/static/build/**.css')
     .pipe(gulp.dest('./dist'));
 });
 

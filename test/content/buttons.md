@@ -4,11 +4,6 @@ description: ""
 ---
 
 <div class="Container">
-  <h2>Normal</h2>
-  <p>
-    <button>button</button>
-    <input type="button" name="" value="input type=button">
-  </p>
 
   <hr>
 

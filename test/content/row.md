@@ -54,7 +54,7 @@ description: ""
 
 <hr>
 
-<div class="Container-full test-container">
+<div class="ContainerFull test-container">
   <h3>Row / top</h3>
   <div class="Row">
     <div class="Row-col test-row-col t-bs-width6of12 t-xs-width4of12 t-sm-width3of12 t-md-width2of12 t-lg-width2of12">
