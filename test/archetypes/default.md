@@ -1,3 +1,3 @@
 ---
-Description = "The scalable css for responsive project."
+Description = "scalable css for responsive project."
 ---

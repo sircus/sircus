@@ -1,99 +1,101 @@
 ---
-title: "Tools / Display"
+title: "Tools / Display(WIP)"
 description: ""
 ---
 <div class="Container">
-  <h2>Show and Hide</h2>
-  <code>
-  <div class="t-hide">...</div>
-  <div class="t-show">...</div>
-  <div class="t-invisible">...</div>
-  <div class="t-hidden">...</div>
-  </code>
+  <h3>Show and Hide</h3>
+  <ul>
+    <li>.t-show</li>
+    <li>.t-hide</li>
+    <li>.t-hidden</li>
+    <li>.t-hide</li>
+    <li>.t-invisible</li>
+  </ul>
 
-<table class="Table">
-  <thead>
-    <tr>
-      <th></th>
-      <th>
-        Extra small devices
-        <small>Phones (&lt;768px)</small>
-      </th>
-      <th>
-        Small devices
-        <small>Tablets (≥768px)</small>
-      </th>
-      <th>
-        Medium devices
-        <small>Desktops (≥992px)</small>
-      </th>
-      <th>
-        Large devices
-        <small>Desktops (≥1200px)</small>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th><code>.t-visible-xs-*</code></th>
-      <td class="t-visible-">Visible</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-hidden">Hidden</td>
-    </tr>
-    <tr>
-      <th><code>.t-visible-sm-*</code></th>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-hidden">Hidden</td>
-    </tr>
-    <tr>
-      <th><code>.t-visible-md-*</code></th>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-hidden">Hidden</td>
-    </tr>
-    <tr>
-      <th><code>.t-visible-lg-*</code></th>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-visible">Visible</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <th><code>.t-hidden-xs</code></th>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-visible">Visible</td>
-    </tr>
-    <tr>
-      <th><code>.t-hidden-sm</code></th>
-      <td class="is-visible">Visible</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-visible">Visible</td>
-    </tr>
-    <tr>
-      <th><code>.t-hidden-md</code></th>
-      <td class="is-visible">Visible</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-hidden">Hidden</td>
-      <td class="is-visible">Visible</td>
-    </tr>
-    <tr>
-      <th><code>.t-hidden-lg</code></th>
-      <td class="is-visible">Visible</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-visible">Visible</td>
-      <td class="is-hidden">Hidden</td>
-    </tr>
-  </tbody>
-</table>
+
+<table class="Table table-striped responsive-utilities">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            Extra small devices
+            <small>Phones (&lt;768px)</small>
+          </th>
+          <th>
+            Small devices
+            <small>Tablets (≥768px)</small>
+          </th>
+          <th>
+            Medium devices
+            <small>Desktops (≥992px)</small>
+          </th>
+          <th>
+            Large devices
+            <small>Desktops (≥1200px)</small>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><code>.t-xs-visible-*</code></th>
+          <td class="is-visible">Visible</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-hidden">Hidden</td>
+        </tr>
+        <tr>
+          <th scope="row"><code>.t-sm-visible-*</code></th>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-hidden">Hidden</td>
+        </tr>
+        <tr>
+          <th scope="row"><code>.t-md-visible-*</code></th>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-hidden">Hidden</td>
+        </tr>
+        <tr>
+          <th scope="row"><code>.t-lg-visible-*</code></th>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-visible">Visible</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th scope="row"><code>.t-xs-hidden</code></th>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-visible">Visible</td>
+        </tr>
+        <tr>
+          <th scope="row"><code>.t-sm-hidden</code></th>
+          <td class="is-visible">Visible</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-visible">Visible</td>
+        </tr>
+        <tr>
+          <th scope="row"><code>.t-md-hidden</code></th>
+          <td class="is-visible">Visible</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-hidden">Hidden</td>
+          <td class="is-visible">Visible</td>
+        </tr>
+        <tr>
+          <th scope="row"><code>.t-lg-hidden</code></th>
+          <td class="is-visible">Visible</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-visible">Visible</td>
+          <td class="is-hidden">Hidden</td>
+        </tr>
+      </tbody>
+    </table>
 
 
 <table class="tbl">

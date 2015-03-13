@@ -1,5 +1,5 @@
 ---
-title: "Base Elements"
+title: "Base Typography"
 description: ""
 ---
 
