@@ -37,9 +37,10 @@ $_BtnLink-hover-typoColor:      $color-primary-dark !default;
 
 // ==================================
 button {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  // font-family: inherit;
+  // font-size: inherit;
+  // line-height: inherit;
+  // outline:0;
 }
 
 // ==================================
@@ -48,26 +49,34 @@ button,
 .BtnSimple,
 .BtnBorder {
   box-sizing: border-box;
+  box-shadow: none;
   display: inline-block;
+  height: auto;
   margin: 0;
   padding: $_Btn-paddingV-bs $_Btn-paddingH-bs;
   border-radius: $_Btn-borderRadius-bs;
   border: $_BtnBorder-borderSize solid transparent;
   background-image: none;
+  font-family: inherit;
   font-size: $_Btn-fontSize-bs;
   font-weight:bold;
   text-decoration: none;
   text-align: center;
+  line-height: inherit;
   vertical-align: middle;
   white-space: nowrap;
   cursor: pointer;
-  box-shadow: none;
   transition: all 200ms ease-out;
+  -webkit-appearance: none;
   &.is-disabled,
   &[disabled] {
     pointer-events: none;
     cursor: not-allowed;
     opacity: .65;
+  }
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
   }
 }
 
