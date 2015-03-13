@@ -14,7 +14,7 @@ WIP: http://sircus.blivesta.com
 
 ### Modules
 
-> [namespace-]ComponentName[--modifierName|-descendentName]
+> [namespace-]ModuleName[--modifierName|-descendentName]
 
 
 ```html
@@ -30,25 +30,25 @@ WIP: http://sircus.blivesta.com
 .sc-FullEmbed { }
 ```
 
-> ComponentName
+> ModuleName
 
 ```css
 .FullEmbed { }
 ```
 
-> ComponentName--modifierName
+> ModuleName--modifierName
 
 ```css
 .FullEmbed--16by9 { }
 ```
 
-> ComponentName-descendentName
+> ModuleName-descendentName
 
 ```css
 .FullEmbed-item { }
 ```
 
-> ComponentName.is-stateOfComponent
+> ModuleName.is-stateOfModule
 
 ```css
 .Btn { }
@@ -61,9 +61,9 @@ WIP: http://sircus.blivesta.com
 
 
 ### Tools
-> t-[sm|md|lg-]utilityName
+> t-[sm|md|lg-]toolName
 
-#### t-utilityName
+#### t-toolName
 
 ```css
 .t-clear { }
