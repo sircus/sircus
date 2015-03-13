@@ -1,39 +1,4 @@
-@import "../config";
-
-$_base-fontFamily-bs:          $fontFamily-sans-en !default;
-$_base-fontFamily-monospace:   $fontFamily-monospace-en !default;
-$_base-fontSize-bs:            $fontSize-bs !default;
-$_base-text-color:              $text-color !default;
-$_base-lineHeight-bs:          $lineHeight-bs !default;
-
-$_base-link-color:              $link-color !default;
-$_base-link-decoration:         $link-decoration !default;
-$_base-link-hover-color:        $link-hover-color !default;
-$_base-link-hover-decoration:   $link-hover-decoration !default;
-
-$_base-headings-space:          $headings-space !default;
-$_base-headings-weight:         $headings-weight !default;
-$_base-headings-lineHeight:     $headings-lineHeight !default;
-$_base-headings-color:          $headings-color !default;
-
-$_base-h0-fontSize:            $fontSize-sc !default;
-$_base-h1-fontSize:            $fontSize-hg !default;
-$_base-h2-fontSize:            $fontSize-mg !default;
-$_base-h3-fontSize:            $fontSize-xl !default;
-$_base-h4-fontSize:            $fontSize-lg !default;
-$_base-h5-fontSize:            $fontSize-bs !default;
-$_base-h6-fontSize:            $fontSize-sm !default;
-
-$_base-mark-bg-color:           $color-primary !default;
-$_base-mark-color:              #fff !default;
-
-$_base-space-bs:                $space-bs;
-
-// ==================================
-html {
-  font-size: 62.5%; // 10px
-  // font-size: 10px;
-}
+html { font-size: 62.5%; } // 10px
 
 html,
 body {
@@ -42,132 +7,15 @@ body {
   padding:0;
 }
 
-body {
-  fontFamily: $_base-fontFamily-bs;
-  color: $_base-text-color;
-  font-size: $_base-fontSize-bs;
-  lineHeight: $_base-lineHeight-bs;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: $_base-headings-space 0;
-}
-
-p, ul, ol, dd {
-  margin:0 0 $_base-space-bs 0;
-}
-
-// a -------------------------
-a {
-  color: $_base-link-color;
-  text-decoration: $_base-link-decoration;
-}
-a:hover,
-a:focus,
-a:active  {
-  color: $_base-link-hover-color;
-  text-decoration: $_base-link-hover-decoration;
-}
-
-//  Headding  -------------------------
-h1, h2, h3, h4, h5, h6,
-.h0, .h1, .h2, .h3, .h4, .h5, .h6 {
-  fontFamily: inherit;
-  color: $_base-headings-color;
-  font-weight: $_base-headings-weight;
-  lineHeight: $_base-headings-lineHeight;
-}
-
-.h0     { font-size: $_base-h0-fontSize; }
-h1, .h1 { font-size: $_base-h1-fontSize; }
-h2, .h2 { font-size: $_base-h2-fontSize; }
-h3, .h3 { font-size: $_base-h3-fontSize; }
-h4, .h4 { font-size: $_base-h4-fontSize; }
-h5, .h5 { font-size: $_base-h5-fontSize; }
-h6, .h6 { font-size: $_base-h6-fontSize; }
-
-
-// figure -------------------------
-figure {
-  margin: 0;
-}
-
-// img -------------------------
+// ==================================
 img {
   vertical-align: middle;
   display: inline-block;
   max-width: 100%;
   height: auto;
-}
-
-// table -------------------------
-table {
-  width: 100%;
-  max-width: 100%;
-  padding:0;
-  margin: $space-bs 0;
-  border-collapse:collapse;
-  tr > th{
-    text-align: left;
-  }
-}
-
-// button -------------------------
-button {
-  fontFamily: inherit;
-  font-size: inherit;
-  lineHeight: inherit;
-}
-
-// list -------------------------
-ul > li > ul,
-ol > li > ol{
-  padding-left:2rem;
   margin:0;
-  list-style:inset;
-}
-ul,ol {
-  padding-left:$_base-space-bs;
 }
 
-
-// Description Lists -------------------------
-dt { font-weight: bold; }
-dd { margin-left: 0; }
-
-// pre,code  -------------------------
-pre,
-code {
-  fontFamily: $_base-fontFamily-monospace;
-  white-space: pre-wrap;
-}
-
-// hr -------------------------
-hr {
-  display: block;
-  height: .1rem;
-  border: 0;
-  border-top: .1rem solid #ccc;
-  margin: $_base-space-bs 0;
-  padding: 0;
-}
-
-// small -------------------------
-small { font-size: 80%; }
-
-// mark -------------------------
-mark {
-  padding-left:.5rem;
-  padding-right:.5rem;
-  background-color:$_base-mark-bg-color;
-  color:$_base-mark-color;
-}
-
-// button -------------------------
-button {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+svg {
+  max-height: 100%;
 }

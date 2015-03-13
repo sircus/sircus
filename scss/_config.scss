@@ -81,9 +81,9 @@ $text-muted:              $color-gray !default;
 
 // Link --------------------
 $link-color:              $color-primary !default;
-$link-hover-color:        $color-primary-dark !default;
+$link-colorHover:        $color-primary-dark !default;
 $link-decoration:         underline !default;
-$link-hover-decoration:   none !default;
+$link-decorationHover:   none !default;
 
 // Headdings --------------------
 $headings-space:          .5em !default;
@@ -124,14 +124,17 @@ $space-hg : 7.2rem !default;
 
 // padding
 // ==========================
-$paddingV-xl: 1.6rem !default;
+$paddingV-xl: 1.2rem !default;
 $paddingH-xl: 4.8rem !default;
-$paddingV-lg: 1.2rem !default;
-$paddingH-lg: 3.6rem !default;
-$paddingV-bs: 0.8rem  !default;
-$paddingH-bs: 2.4rem !default;
-$paddingV-sm: 0.4rem  !default;
-$paddingH-sm: 1.2rem !default;
+
+$paddingV-lg: 0.8rem !default;
+$paddingH-lg: 3.2rem !default;
+
+$paddingV-bs: 0.4rem  !default;
+$paddingH-bs: 1.6rem !default;
+
+$paddingV-sm: 0.2rem  !default;
+$paddingH-sm: 0.8rem !default;
 
 
 // ==========================
