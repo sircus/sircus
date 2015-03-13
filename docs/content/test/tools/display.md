@@ -1,7 +1,6 @@
 ---
 title: "Tools / Display"
 description: ""
-date: ""
 ---
 <div class="Container">
   <h2>Show and Hide</h2>

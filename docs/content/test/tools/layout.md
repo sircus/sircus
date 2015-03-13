@@ -1,7 +1,6 @@
 ---
 title: "Tools / Layout"
 description: ""
-date: ""
 ---
 <div class="Container">
   <h2>floats</h2>

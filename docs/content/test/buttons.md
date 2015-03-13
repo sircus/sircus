@@ -1,7 +1,6 @@
 ---
 title: "Buttons"
 description: ""
-date: ""
 ---
 
 <div class="Container">

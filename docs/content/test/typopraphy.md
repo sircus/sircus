@@ -1,7 +1,6 @@
 ---
 title: "Typography"
 description: ""
-date: ""
 ---
 
 <div class="Container">

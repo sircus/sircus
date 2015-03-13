@@ -1,7 +1,6 @@
 ---
 title: "Tools / Color"
 description: ""
-date: ""
 ---
 <div class="Container">
   <h2>Back ground color</h2>

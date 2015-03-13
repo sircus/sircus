@@ -1,7 +1,6 @@
 ---
 title: "FullEmbed"
 description: ""
-date: ""
 ---
 
 <div class="Container">

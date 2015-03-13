@@ -1,7 +1,6 @@
 ---
 title: "Row"
 description: ""
-date: ""
 ---
 
 <div class="Container test-container">

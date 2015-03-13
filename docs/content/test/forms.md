@@ -1,7 +1,6 @@
 ---
 title: "Forms(dev)"
 description: ""
-date: ""
 ---
 
 <div class="Container">
