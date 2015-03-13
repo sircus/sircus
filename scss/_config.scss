@@ -92,7 +92,6 @@ $headings-lineHeight:     1.1 !default;
 $headings-color:          inherit !default;
 
 
-
 // lineHeight
 // ==========================
 $lineHeight-xl:        2 !default;
@@ -102,7 +101,6 @@ $lineHeight-sm:        1.2 !default;
 $lineHeight-xs:        1.1 !default;
 
 
-
 // letter-spacing
 // ==========================
 $letterSpace-xl : .1em !default;
@@ -110,7 +108,6 @@ $letterSpace-lg : .05em !default;
 $letterSpace-bs : 0 !default;
 $letterSpace-sm : (0 - 0.04em) !default;
 $letterSpace-xs : (0 - 0.08em) !default;
-
 
 
 // space (margin & padding)
@@ -125,31 +122,22 @@ $space-mg : 6rem !default;
 $space-hg : 7.2rem !default;
 
 
-
 // padding
 // ==========================
-$paddingV-xl: 1.4rem !default;
-$paddingH-xl: 2rem !default;
-
-$paddingV-lg: .8rem !default;
-$paddingH-lg: 1.6rem !default;
-
-$paddingV-bs: .6rem !default;
-$paddingH-bs: 1.2rem !default;
-
-$paddingV-sm: .4rem !default;
-$paddingH-sm: .8rem !default;
-
-$paddingV-xs: .1rem !default;
-$paddingH-xs: .5rem !default;
-
+$paddingV-xl: 1.6rem !default;
+$paddingH-xl: 4.8rem !default;
+$paddingV-lg: 1.2rem !default;
+$paddingH-lg: 3.6rem !default;
+$paddingV-bs: 0.8rem  !default;
+$paddingH-bs: 2.4rem !default;
+$paddingV-sm: 0.4rem  !default;
+$paddingH-sm: 1.2rem !default;
 
 
 // ==========================
 $sum-height-bs:       ($fontSize-bs + $lineHeight-bs + $paddingV-bs) !default;
 $sum-height-lg:       ($fontSize-lg + $lineHeight-lg + $paddingV-lg) !default;
 $sum-height-sm:       ($fontSize-sm + $lineHeight-sm + $paddingV-sm) !default;
-
 
 
 // border

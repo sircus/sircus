@@ -25,27 +25,38 @@ date: ""
     <button class="Btn" disabled>button.Btn[disabled]</button>
   </p>
 
-  <h2>.Btn.Btn--border</h2>
+  <h2>.BtnBorder</h2>
 
   <p>
-    <button class="Btn Btn--border">button.Btn.Btn--border</button>
-    <a href="#" class="Btn Btn--border">a.Btn.Btn--border</a>
-    <a href="#" class="Btn Btn--border is-active">a.Btn.Btn--border.is-active</a>
-    <button class="Btn Btn--border is-active">button.Btn.Btn--border.is-active</button>
-    <a class="Btn Btn--border is-disabled" href="#">a.Btn.Btn--border.is-disabled</a>
-    <button class="Btn Btn--border is-disabled">button.Btn.Btn--border.is-disabled</button>
-    <button class="Btn Btn--border" disabled>button.Btn.Btn--border[disabled]</button>
+    <button class="BtnBorder">button.BtnBorder</button>
+    <a href="#" class="BtnBorder">a.BtnBorder</a>
+    <a href="#" class="BtnBorder is-active">a.BtnBorder.is-active</a>
+    <button class="BtnBorder is-active">button.BtnBorder.is-active</button>
+    <a class="BtnBorder is-disabled" href="#">a.BtnBorder.is-disabled</a>
+    <button class="BtnBorder is-disabled">button.BtnBorder.is-disabled</button>
+    <button class="BtnBorder" disabled>button.BtnBorder[disabled]</button>
   </p>
 
-  <h2>.Btn.Btn--simple</h2>
+  <h2>.BtnSimple</h2>
   <p>
-    <button class="Btn Btn--simple">button.Btn.Btn--simple</button>
-    <a href="#" class="Btn Btn--simple">a.Btn.Btn--simple</a>
-    <a href="#" class="Btn Btn--simple is-active">a.Btn.Btn--simple.is-active</a>
-    <button class="Btn Btn--simple is-active">button.Btn.Btn--simple.is-active</button>
-    <a class="Btn Btn--simple is-disabled" href="#">a.Btn.Btn--simple.is-disabled</a>
-    <button class="Btn Btn--simple is-disabled">button.Btn.Btn--simple.is-disabled</button>
-    <button class="Btn Btn--simple" disabled>button.Btn.Btn--simple[disabled]</button>
+    <button class="BtnSimple">button.BtnSimple</button>
+    <a href="#" class="BtnSimple">a.BtnSimple</a>
+    <a href="#" class="BtnSimple is-active">a.BtnSimple.is-active</a>
+    <button class="BtnSimple is-active">button.BtnSimple.is-active</button>
+    <a class="BtnSimple is-disabled" href="#">a.BtnSimple.is-disabled</a>
+    <button class="BtnSimple is-disabled">button.BtnSimple.is-disabled</button>
+    <button class="BtnSimple" disabled>button.BtnSimple[disabled]</button>
+  </p>
+
+  <hr>
+
+  <h2>.Btn.Btn--pill</h2>
+
+  <p>
+    <button class="Btn Btn--pill">button.Btn.Btn--pill</button>
+    <a href="#" class="BtnBorder Btn--pill">a.BtnBorder.Btn--pill</a>
+    <a href="#" class="Btn Btn--pill is-notice">a.Btn.Btn--pill.Btn--primary</a>
+    <a href="#" class="BtnBorder Btn--pill is-notice">a.BtnBorder.Btn--pill</a>
   </p>
 
   <hr>
@@ -54,22 +65,21 @@ date: ""
 
   <p>
     <button class="Btn Btn--primary">button.Btn.Btn--primary</button>
-    <a href="#" class="Btn Btn--primary">a.BtnLink</a>
-    <a href="#" class="Btn Btn--primary is-active">a.BtnLink.is-active</a>
-    <button class="Btn Btn--primary is-active">button.BtnLink.is-active</button>
-    <a class="Btn Btn--primary is-disabled" href="#">a.BtnLink.is-disabled</a>
-    <button class="Btn Btn--primary is-disabled">button.BtnLink.is-disabled</button>
-    <button class="Btn Btn--primary" disabled>button.BtnLink[disabled]</button>
+    <a href="#" class="Btn Btn--primary">a.Btn--primary</a>
+    <a href="#" class="Btn Btn--primary is-active">a.Btn--primary.is-active</a>
+    <button class="Btn Btn--primary is-active">button.Btn--primary.is-active</button>
+    <a class="Btn Btn--primary is-disabled" href="#">a.Btn--primary.is-disabled</a>
+    <button class="Btn Btn--primary is-disabled">button.Btn--primary.is-disabled</button>
   </p>
 
   <p>
-    <button class="Btn Btn--border Btn--primary">button.Btn.Btn--primary</button>
-    <a href="#" class="Btn Btn--border Btn--primary">a.BtnLink</a>
-    <a href="#" class="Btn Btn--border Btn--primary is-active">a.BtnLink.is-active</a>
-    <button class="Btn Btn--border Btn--primary is-active">button.BtnLink.is-active</button>
-    <a class="Btn Btn--border Btn--primary is-disabled" href="#">a.BtnLink.is-disabled</a>
-    <button class="Btn Btn--border Btn--primary is-disabled">button.BtnLink.is-disabled</button>
-    <button class="Btn Btn--border Btn--primary" disabled>button.BtnLink[disabled]</button>
+    <button class="BtnBorder Btn--primary">button.Btn.Btn--primary</button>
+    <a href="#" class="BtnBorder Btn--primary">a.BtnLink</a>
+    <a href="#" class="BtnBorder Btn--primary is-active">a.BtnLink.is-active</a>
+    <button class="BtnBorder Btn--primary is-active">button.BtnLink.is-active</button>
+    <a class="BtnBorder Btn--primary is-disabled" href="#">a.BtnLink.is-disabled</a>
+    <button class="BtnBorder Btn--primary is-disabled">button.BtnLink.is-disabled</button>
+    <button class="BtnBorder Btn--primary" disabled>button.BtnLink[disabled]</button>
   </p>
 
   <hr>
@@ -84,20 +94,20 @@ date: ""
   </p>
 
 
-  <h2>.Btn.Btn--border.is-[StateColor]</h2>
+  <h2>.BtnBorder.is-[StateColor]</h2>
   <p>
-    <a href="#" class="Btn Btn--border is-success">a.Btn.Btn--border.is-success</a>
-    <a href="#" class="Btn Btn--border is-notice">a.Btn.Btn--border.is-success</a>
-    <a href="#" class="Btn Btn--border is-warning">a.Btn.Btn--border.is-success</a>
-    <a href="#" class="Btn Btn--border is-error">a.Btn.Btn--border.is-success</a>
+    <a href="#" class="BtnBorder is-success">a.BtnBorder.is-success</a>
+    <a href="#" class="BtnBorder is-notice">a.BtnBorder.is-success</a>
+    <a href="#" class="BtnBorder is-warning">a.BtnBorder.is-success</a>
+    <a href="#" class="BtnBorder is-error">a.BtnBorder.is-success</a>
   </p>
 
-  <h2>.Btn.Btn--simple.is-[StateColor]</h2>
+  <h2>.BtnSimple.is-[StateColor]</h2>
   <p>
-    <a href="#" class="Btn Btn--simple is-success">a.Btn.Btn--simple.is-success</a>
-    <button class="Btn Btn--simple is-notice">button.Btn.Btn--simple.is-active</button>
-    <a class="Btn Btn--simple is-warning" href="#">a.Btn.Btn--simple.is-disabled</a>
-    <button class="Btn Btn--simple is-error">button.Btn.Btn--simple[disabled]</button>
+    <a href="#" class="BtnSimple is-success">a.BtnSimple.is-success</a>
+    <button class="BtnSimple is-notice">button.BtnSimple.is-active</button>
+    <a class="BtnSimple is-warning" href="#">a.BtnSimple.is-disabled</a>
+    <button class="BtnSimple is-error">button.BtnSimple[disabled]</button>
   </p>
 
   <hr>
@@ -113,16 +123,16 @@ date: ""
     <button class="Btn Btn--xl">.Btn.Btn--xl</button>
   </p>
   <p>
-    <a href="#" class="Btn Btn--border Btn--sm">.Btn.Btn--border.Btn--sm</a>
-    <button class="Btn Btn--border">.Btn.Btn--border(Normal)</button>
-    <a href="#" class="Btn Btn--border Btn--lg">.Btn.Btn--border.Btn--lg</a>
-    <button class="Btn Btn--border Btn--xl">.Btn.Btn--border.Btn--xl</button>
+    <a href="#" class="BtnBorder Btn--sm">.BtnBorder.Btn--sm</a>
+    <button class="BtnBorder">.BtnBorder(Normal)</button>
+    <a href="#" class="BtnBorder Btn--lg">.BtnBorder.Btn--lg</a>
+    <button class="BtnBorder Btn--xl">.BtnBorder.Btn--xl</button>
   </p>
   <p>
-    <a href="#" class="Btn Btn--simple Btn--sm">.Btn.Btn--simple.Btn--sm</a>
-    <button class="Btn Btn--simple">.Btn.Btn--simple(Normal)</button>
-    <a href="#" class="Btn Btn--simple Btn--lg">.Btn.Btn--simple.Btn--lg</a>
-    <button class="Btn Btn--simple Btn--xl">.Btn.Btn--simple.Btn--xl</button>
+    <a href="#" class="BtnSimple Btn--sm">.BtnSimple.Btn--sm</a>
+    <button class="BtnSimple">.BtnSimple(Normal)</button>
+    <a href="#" class="BtnSimple Btn--lg">.BtnSimple.Btn--lg</a>
+    <button class="BtnSimple Btn--xl">.BtnSimple.Btn--xl</button>
   </p>
 
   <hr>
@@ -131,7 +141,7 @@ date: ""
 
   <p>
     <a href="#" class="Btn Btn--full">a.Btn.Btn--full</a>
-    <button href="#" class="Btn Btn--border Btn--full Btn--xl">button.Btn.Btn--border.Btn--lg.Btn--full</button>
+    <button href="#" class="BtnBorder Btn--full Btn--xl">button.BtnBorder.Btn--lg.Btn--full</button>
   </p>
 
 

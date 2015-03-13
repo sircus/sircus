@@ -62,8 +62,6 @@ $_Btn-error-borderColor:       $_Btn-error-bgColor !default;
 
 // ==================================
 button,
-.btn,      //legacy
-.btn-link, //legacy
 .Btn,
 .BtnSimple,
 .BtnBorder {
@@ -92,7 +90,6 @@ button,
 
 
 // ==================================
-.btn, //legacy
 .Btn {
   background-color:$_Btn-bgColor;
   color:$_Btn-typoColor;
@@ -108,7 +105,6 @@ button,
 }
 
 // ==================================
-.btn-border,
 .BtnBorder {
   background-color:transparent;
   border-color: $_BtnBorder-borderColor;
@@ -125,7 +121,6 @@ button,
 
 
 // ==================================
-.btn-link,
 .BtnSimple {
   background-color:transparent;
   color:$_BtnLink-typoColor;
@@ -141,22 +136,22 @@ button,
 
 
 // ==================================
-.btn--xl,
+.Btn--pill {
+  border-radius: 5rem;
+}
+
+
+// ==================================
 .Btn--xl {
   padding: ($_Btn-paddingV-xl - .2) ($_Btn-paddingH-xl - .2);
   font-size: $_Btn-fontSize-xl;
   border-radius: $_Btn-borderRadius-xl;
 }
-
-.btn--lg,
 .Btn--lg {
   padding: ($_Btn-paddingV-lg - .2) ($_Btn-paddingH-lg - .2);
   font-size: $_Btn-fontSize-lg;
   border-radius: $_Btn-borderRadius-lg;
 }
-
-
-.btn--sm,
 .Btn--sm{
   padding: ($_Btn-paddingV-sm - .2) ($_Btn-paddingH-sm - .2);
   font-size: $_Btn-fontSize-sm;
@@ -165,12 +160,10 @@ button,
 
 
 // ==================================
-.btn--full,
 .Btn--full {
   display: block;
   width: 100%;
 }
-.btn--full + .btn--full,
 .Btn--full + .Btn--full {
   margin-top: 5px;
 }
