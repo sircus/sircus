@@ -1,10 +1,10 @@
 ---
-title: "Elements / Forms(dev)"
+title: "Forms(dev)"
 description: ""
 date: "2015-02-03"
 ---
 
-<div class="container">
+<div class="Container">
 
 
 <h1>Forms</h1>

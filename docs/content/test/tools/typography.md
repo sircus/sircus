@@ -4,7 +4,7 @@ description: ""
 date: "2015-02-03"
 ---
 
-<div class="container">
+<div class="Container">
   <h2>Font style</h2>
   <p class="t-bold test-block">.t-bold</p>
   <p class="t-italic test-block">.t-italic</p>

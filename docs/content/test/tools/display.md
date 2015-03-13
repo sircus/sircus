@@ -3,7 +3,7 @@ title: "Tools / Display"
 description: ""
 date: "2015-02-03"
 ---
-<div class="container">
+<div class="Container">
   <h2>Show and Hide</h2>
   <code>
   <div class="t-hide">...</div>
@@ -12,7 +12,7 @@ date: "2015-02-03"
   <div class="t-hidden">...</div>
   </code>
 
-<table class="tbl">
+<table class="Table">
   <thead>
     <tr>
       <th></th>

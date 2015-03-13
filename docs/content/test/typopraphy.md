@@ -1,10 +1,10 @@
 ---
-title: "Elements / Typography"
+title: "Typography"
 description: ""
 date: "2015-02-03"
 ---
 
-<div class="container">
+<div class="Container">
   <h2>Haddings</h2>
 
   <h1>Heading 1</h1>

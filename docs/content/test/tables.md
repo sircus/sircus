@@ -1,13 +1,13 @@
 ---
-title: "Elements / Tables"
+title: "Tables"
 description: ""
 date: "2015-02-03"
 ---
 
-<div class="container">
-  <h2>table.tbl</h2>
+<div class="Container">
+  <h2>table.Table</h2>
 
-  <table class="tbl">
+  <table class="Table">
     <thead>
       <tr>
         <th>Dashi</th>

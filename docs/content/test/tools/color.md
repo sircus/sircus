@@ -3,7 +3,7 @@ title: "Tools / Color"
 description: ""
 date: "2015-02-03"
 ---
-<div class="container">
+<div class="Container">
   <h2>Back ground color</h2>
 
   <h3>Gray</h3>

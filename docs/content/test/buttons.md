@@ -1,10 +1,10 @@
 ---
-title: "Elements / Buttons"
+title: "Buttons"
 description: ""
 date: "2015-02-03"
 ---
 
-<div class="container">
+<div class="Container">
   <h2>Normal</h2>
   <p>
     <button>button</button>

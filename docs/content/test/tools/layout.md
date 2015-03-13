@@ -3,7 +3,7 @@ title: "Tools / Layout"
 description: ""
 date: "2015-02-03"
 ---
-<div class="container">
+<div class="Container">
   <h2>floats</h2>
   <div class="t-clear">
     <div class="t-left test-block">.t-left</div>

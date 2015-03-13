@@ -3,7 +3,7 @@ title: "Tools / Border"
 description: ""
 date: "2015-02-03"
 ---
-<div class="container">
+<div class="Container">
   <h2>Border</h2>
 
   <p class="t-border">.t-border</p>
