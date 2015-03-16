@@ -1,26 +1,26 @@
 @import "../config";
 
-$_color-gray-darkest:           $color-gray-darkest !default;
-$_color-gray-darker:            $color-gray-darker !default;
-$_color-gray-dark:              $color-gray-dark !default;
-$_color-gray:                   $color-gray !default;
-$_color-gray-light:             $color-gray-light !default;
-$_color-gray-lighter:           $color-gray-lighter !default;
-$_color-gray-lightest:          $color-gray-lightest !default;
+$sl-color-gray-darkest:           $sg-color-gray-darkest !default;
+$sl-color-gray-darker:            $sg-color-gray-darker !default;
+$sl-color-gray-dark:              $sg-color-gray-dark !default;
+$sl-color-gray:                   $sg-color-gray !default;
+$sl-color-gray-light:             $sg-color-gray-light !default;
+$sl-color-gray-lighter:           $sg-color-gray-lighter !default;
+$sl-color-gray-lightest:          $sg-color-gray-lightest !default;
 
-$_color-primary:                 $color-primary !default;
-$_color-primary-darkest:         $color-primary-darkest !default;
-$_color-primary-darker:          $color-primary-darker !default;
-$_color-primary-dark:            $color-primary-dark !default;
-$_color-primary-light:           $color-primary-light !default;
-$_color-primary-lighter:         $color-primary-lighter !default;
-$_color-primary-lightest:        $color-primary-lightest !default;
+$sl-color-primary:                 $sg-color-primary !default;
+$sl-color-primary-darkest:         $sg-color-primary-darkest !default;
+$sl-color-primary-darker:          $sg-color-primary-darker !default;
+$sl-color-primary-dark:            $sg-color-primary-dark !default;
+$sl-color-primary-light:           $sg-color-primary-light !default;
+$sl-color-primary-lighter:         $sg-color-primary-lighter !default;
+$sl-color-primary-lightest:        $sg-color-primary-lightest !default;
 
 // status
-$_color-success:                 $color-success !default;
-$_color-notice:                  $color-notice !default;
-$_color-warning:                 $color-warning !default;
-$_color-error:                   $color-error !default;
+$sl-color-success:                 $sg-color-success !default;
+$sl-color-notice:                  $sg-color-notice !default;
+$sl-color-warning:                 $sg-color-warning !default;
+$sl-color-error:                   $sg-color-error !default;
 
 
 .t-color-white            { color:#fff !important; }
@@ -29,46 +29,46 @@ $_color-error:                   $color-error !default;
 .t-color-black            { color:#000 !important; }
 .t-bg-black               { background-color:#000 !important;}
 
-.t-color-gray-darkest     { color:$_color-gray-darkest !important; }
-.t-color-gray-darker      { color:$_color-gray-darker !important; }
-.t-color-gray-dark        { color:$_color-gray-dark !important; }
-.t-color-gray             { color:$_color-gray !important; }
-.t-color-gray-light       { color:$_color-gray-light !important; }
-.t-color-gray-lighter     { color:$_color-gray-lighter !important; }
-.t-color-gray-lightest    { color:$_color-gray-lightest !important; }
+.t-color-gray-darkest     { color:$sl-color-gray-darkest !important; }
+.t-color-gray-darker      { color:$sl-color-gray-darker !important; }
+.t-color-gray-dark        { color:$sl-color-gray-dark !important; }
+.t-color-gray             { color:$sl-color-gray !important; }
+.t-color-gray-light       { color:$sl-color-gray-light !important; }
+.t-color-gray-lighter     { color:$sl-color-gray-lighter !important; }
+.t-color-gray-lightest    { color:$sl-color-gray-lightest !important; }
 
-.t-bg-gray-darkest        { background-color:$_color-gray-darkest !important;}
-.t-bg-gray-darker         { background-color:$_color-gray-darker !important;}
-.t-bg-gray-dark           { background-color:$_color-gray-dark !important;}
-.t-bg-gray                { background-color:$_color-gray !important;}
-.t-bg-gray-light          { background-color:$_color-gray-light !important;}
-.t-bg-gray-lighter        { background-color:$_color-gray-lighter !important;}
-.t-bg-gray-lightest       { background-color:$_color-gray-lightest !important;}
+.t-bg-gray-darkest        { background-color:$sl-color-gray-darkest !important;}
+.t-bg-gray-darker         { background-color:$sl-color-gray-darker !important;}
+.t-bg-gray-dark           { background-color:$sl-color-gray-dark !important;}
+.t-bg-gray                { background-color:$sl-color-gray !important;}
+.t-bg-gray-light          { background-color:$sl-color-gray-light !important;}
+.t-bg-gray-lighter        { background-color:$sl-color-gray-lighter !important;}
+.t-bg-gray-lightest       { background-color:$sl-color-gray-lightest !important;}
 
-.t-color-primary          { color:$_color-primary !important;}
-.t-color-success          { color:$_color-success !important;}
-.t-color-notice           { color:$_color-notice !important;}
-.t-color-warning          { color:$_color-warning !important;}
-.t-color-error            { color:$_color-error !important;}
+.t-color-primary          { color:$sl-color-primary !important;}
+.t-color-success          { color:$sl-color-success !important;}
+.t-color-notice           { color:$sl-color-notice !important;}
+.t-color-warning          { color:$sl-color-warning !important;}
+.t-color-error            { color:$sl-color-error !important;}
 
-.t-bg-primary             { background-color:$_color-primary !important;}
-.t-bg-success             { background-color:$_color-success !important;}
-.t-bg-notice              { background-color:$_color-notice !important;}
-.t-bg-warning             { background-color:$_color-warning !important;}
-.t-bg-error               { background-color:$_color-error !important;}
+.t-bg-primary             { background-color:$sl-color-primary !important;}
+.t-bg-success             { background-color:$sl-color-success !important;}
+.t-bg-notice              { background-color:$sl-color-notice !important;}
+.t-bg-warning             { background-color:$sl-color-warning !important;}
+.t-bg-error               { background-color:$sl-color-error !important;}
 
-.t-color-primary-darkest     { color:$_color-primary-darkest !important; }
-.t-color-primary-darker      { color:$_color-primary-darker !important; }
-.t-color-primary-dark        { color:$_color-primary-dark !important; }
-.t-color-primary             { color:$_color-primary !important; }
-.t-color-primary-light       { color:$_color-primary-light !important; }
-.t-color-primary-lighter     { color:$_color-primary-lighter !important; }
-.t-color-primary-lightest    { color:$_color-primary-lightest !important; }
+.t-color-primary-darkest     { color:$sl-color-primary-darkest !important; }
+.t-color-primary-darker      { color:$sl-color-primary-darker !important; }
+.t-color-primary-dark        { color:$sl-color-primary-dark !important; }
+.t-color-primary             { color:$sl-color-primary !important; }
+.t-color-primary-light       { color:$sl-color-primary-light !important; }
+.t-color-primary-lighter     { color:$sl-color-primary-lighter !important; }
+.t-color-primary-lightest    { color:$sl-color-primary-lightest !important; }
 
-.t-bg-primary-darkest     { background-color:$_color-primary-darkest !important; }
-.t-bg-primary-darker      { background-color:$_color-primary-darker !important; }
-.t-bg-primary-dark        { background-color:$_color-primary-dark !important; }
-.t-bg-primary             { background-color:$_color-primary !important; }
-.t-bg-primary-light       { background-color:$_color-primary-light !important; }
-.t-bg-primary-lighter     { background-color:$_color-primary-lighter !important; }
-.t-bg-primary-lightest    { background-color:$_color-primary-lightest !important; }
+.t-bg-primary-darkest     { background-color:$sl-color-primary-darkest !important; }
+.t-bg-primary-darker      { background-color:$sl-color-primary-darker !important; }
+.t-bg-primary-dark        { background-color:$sl-color-primary-dark !important; }
+.t-bg-primary             { background-color:$sl-color-primary !important; }
+.t-bg-primary-light       { background-color:$sl-color-primary-light !important; }
+.t-bg-primary-lighter     { background-color:$sl-color-primary-lighter !important; }
+.t-bg-primary-lightest    { background-color:$sl-color-primary-lightest !important; }

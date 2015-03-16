@@ -1,23 +1,23 @@
 @import "../config";
 
-$_ttypo-fontFamily-sans-en:      $fontFamily-sans-en !default;
-$_ttypo-fontFamily-sans-ja:      $fontFamily-sans-ja !default;
-$_ttypo-fontFamily-serif-en:     $fontFamily-serif-en !default;
-$_ttypo-fontFamily-serif-ja:     $fontFamily-serif-ja !default;
-$_ttypo-fontFamily-monospace-en: $fontFamily-monospace-en !default;
-$_ttypo-fontFamily-monospace-ja: $fontFamily-monospace-ja !default;
+$sl-ttypo-fontFamily-sans-en:      $sg-fontFamily-sans-en !default;
+$sl-ttypo-fontFamily-sans-ja:      $sg-fontFamily-sans-ja !default;
+$sl-ttypo-fontFamily-serif-en:     $sg-fontFamily-serif-en !default;
+$sl-ttypo-fontFamily-serif-ja:     $sg-fontFamily-serif-ja !default;
+$sl-ttypo-fontFamily-monospace-en: $sg-fontFamily-monospace-en !default;
+$sl-ttypo-fontFamily-monospace-ja: $sg-fontFamily-monospace-ja !default;
 
-$_ttypo-letterSpace-xl : $letterSpace-xl !default;
-$_ttypo-letterSpace-lg : $letterSpace-lg !default;
-$_ttypo-letterSpace-bs : $letterSpace-bs !default;
-$_ttypo-letterSpace-sm : $letterSpace-sm !default;
-$_ttypo-letterSpace-xs : $letterSpace-xs !default;
+$sl-ttypo-letterSpace-xl : $sg-letterSpace-xl !default;
+$sl-ttypo-letterSpace-lg : $sg-letterSpace-lg !default;
+$sl-ttypo-letterSpace-bs : $sg-letterSpace-bs !default;
+$sl-ttypo-letterSpace-sm : $sg-letterSpace-sm !default;
+$sl-ttypo-letterSpace-xs : $sg-letterSpace-xs !default;
 
-$_ttypo-lineHeight-xl : $lineHeight-xl !default;
-$_ttypo-lineHeight-lg : $lineHeight-lg !default;
-$_ttypo-lineHeight-bs : $lineHeight-bs !default;
-$_ttypo-lineHeight-sm : $lineHeight-sm !default;
-$_ttypo-lineHeight-xs : $lineHeight-xs !default;
+$sl-ttypo-lineHeight-xl : $sg-lineHeight-xl !default;
+$sl-ttypo-lineHeight-lg : $sg-lineHeight-lg !default;
+$sl-ttypo-lineHeight-bs : $sg-lineHeight-bs !default;
+$sl-ttypo-lineHeight-sm : $sg-lineHeight-sm !default;
+$sl-ttypo-lineHeight-xs : $sg-lineHeight-xs !default;
 
 // ==================================
 .t-normal        { font-weight: normal !important; }
@@ -47,22 +47,22 @@ $_ttypo-lineHeight-xs : $lineHeight-xs !default;
   border: 0 !important;
 }
 
-.t-enSans      { font-family: $_ttypo-fontFamily-sans-en !important; }
-.t-jaSans      { font-family: $_ttypo-fontFamily-sans-ja !important; }
-.t-enSerif     { font-family: $_ttypo-fontFamily-serif-en !important; }
-.t-jaSerif     { font-family: $_ttypo-fontFamily-serif-ja !important; }
-.t-enMonospace { font-family: $_ttypo-fontFamily-monospace-en !important; }
-.t-jaMonospace { font-family: $_ttypo-fontFamily-monospace-ja !important; }
+.t-enSans      { font-family: $sl-ttypo-fontFamily-sans-en !important; }
+.t-jaSans      { font-family: $sl-ttypo-fontFamily-sans-ja !important; }
+.t-enSerif     { font-family: $sl-ttypo-fontFamily-serif-en !important; }
+.t-jaSerif     { font-family: $sl-ttypo-fontFamily-serif-ja !important; }
+.t-enMonospace { font-family: $sl-ttypo-fontFamily-monospace-en !important; }
+.t-jaMonospace { font-family: $sl-ttypo-fontFamily-monospace-ja !important; }
 
 
-.t-ls-xs            { letter-spacing:$_ttypo-letterSpace-xs !important; }
-.t-ls-sm            { letter-spacing:$_ttypo-letterSpace-sm !important; }
-.t-ls-bs            { letter-spacing:$_ttypo-letterSpace-bs !important; }
-.t-ls-lg            { letter-spacing:$_ttypo-letterSpace-lg !important; }
-.t-ls-xl            { letter-spacing:$_ttypo-letterSpace-xl !important; }
+.t-ls-xs            { letter-spacing:$sl-ttypo-letterSpace-xs !important; }
+.t-ls-sm            { letter-spacing:$sl-ttypo-letterSpace-sm !important; }
+.t-ls-bs            { letter-spacing:$sl-ttypo-letterSpace-bs !important; }
+.t-ls-lg            { letter-spacing:$sl-ttypo-letterSpace-lg !important; }
+.t-ls-xl            { letter-spacing:$sl-ttypo-letterSpace-xl !important; }
 
-.t-lh-xs            { line-height:$_ttypo-lineHeight-xs !important; }
-.t-lh-sm            { line-height:$_ttypo-lineHeight-sm !important; }
-.t-lh-bs            { line-height:$_ttypo-lineHeight-bs !important; }
-.t-lh-lg            { line-height:$_ttypo-lineHeight-lg !important; }
-.t-lh-xl            { line-height:$_ttypo-lineHeight-xl !important; }
+.t-lh-xs            { line-height:$sl-ttypo-lineHeight-xs !important; }
+.t-lh-sm            { line-height:$sl-ttypo-lineHeight-sm !important; }
+.t-lh-bs            { line-height:$sl-ttypo-lineHeight-bs !important; }
+.t-lh-lg            { line-height:$sl-ttypo-lineHeight-lg !important; }
+.t-lh-xl            { line-height:$sl-ttypo-lineHeight-xl !important; }

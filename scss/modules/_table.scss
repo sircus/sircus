@@ -1,7 +1,7 @@
 // var ------------------------------
 @import "../config";
 
-$_Table-border-color : $color-gray-light !default;
+$sl-Table-border-color : $sg-color-gray-light !default;
 
 // ==================================
 table,
@@ -10,19 +10,19 @@ table,
   width: 100%;
   max-width: 100%;
   padding:0;
-  margin: $space-bs 0;
+  margin: $sg-space-bs 0;
   border-collapse:collapse;
   tr > th,
   tr > td {
     text-align: left;
     padding:.5rem;
-    border-bottom:1px solid $_Table-border-color;
+    border-bottom:1px solid $sl-Table-border-color;
   }
   tr:last-child > td {
     border-bottom:0;
   }
   > thead > tr > th,
   > thead > tr > td {
-    border-bottom:2px solid $_Table-border-color;
+    border-bottom:2px solid $sl-Table-border-color;
   }
 }

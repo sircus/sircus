@@ -1,9 +1,9 @@
 @import "../config";
 @import "../modules/container";
 
-$_Row-gutter-width:       ($_Container-gutter-width / 2) !default;
-$_Row-col-fontSize-bs:    $fontSize-bs !default;
-$_Row-screen-xs-min:      $screen-xs-min !default;
+$sl-Row-gutter-width:       ($sl-Container-gutter-width / 2) !default;
+$sl-Row-col-fontSize-bs:    $sg-fontSize-bs !default;
+$sl-Row-screen-xs-min:      $sg-screen-xs-min !default;
 
 // Row
 // =====================================
@@ -12,15 +12,15 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
   margin: 0;
   padding: 0;
   text-align: left;
-  margin-left: -$_Row-gutter-width;
-  margin-right: -$_Row-gutter-width;
+  margin-left: -$sl-Row-gutter-width;
+  margin-right: -$sl-Row-gutter-width;
   @extend .t-clear;
   //
   // letter-spacing: -0.4em; //firefox
   // word-spacing: -1em; //opera
   > .Row-col {
     box-sizing:border-box;
-    font-size: $_Row-col-fontSize-bs;
+    font-size: $sl-Row-col-fontSize-bs;
     //
     // letter-spacing: normal;//firefox
     // word-spacing: normal; //opera
@@ -49,7 +49,7 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
   > .Row-col {
     width:100%;
   }
-  @media (min-width: $_Row-screen-xs-min) {
+  @media (min-width: $sl-Row-screen-xs-min) {
     display: table;
     table-layout: fixed;
     > .Row-col {
@@ -73,7 +73,7 @@ $_Row-screen-xs-min:      $screen-xs-min !default;
 // =====================================
 .Row-col {
   min-height: 1px;
-  padding-left: $_Row-gutter-width;
-  padding-right: $_Row-gutter-width;
+  padding-left: $sl-Row-gutter-width;
+  padding-right: $sl-Row-gutter-width;
   position: relative;
 }

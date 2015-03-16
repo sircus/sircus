@@ -1,80 +1,80 @@
 @import "../config";
 
-$_baseTypo-fontFamily-bs:          $fontFamily-sans-en !default;
-$_baseTypo-fontFamily-monospace:   $fontFamily-monospace-en !default;
-$_baseTypo-fontSize-bs:            $fontSize-bs !default;
-$_baseTypo-textColor:              $text-color !default;
-$_baseTypo-lineHeight-bs:          $lineHeight-bs !default;
+$sl-baseTypo-fontFamily-bs:          $sg-fontFamily-sans-en !default;
+$sl-baseTypo-fontFamily-monospace:   $sg-fontFamily-monospace-en !default;
+$sl-baseTypo-fontSize-bs:            $sg-fontSize-bs !default;
+$sl-baseTypo-textColor:              $sg-textColor !default;
+$sl-baseTypo-lineHeight-bs:          $sg-lineHeight-bs !default;
 
-$_baseTypo-link-color:             $link-color !default;
-$_baseTypo-link-decoration:        $link-decoration !default;
-$_baseTypo-link-colorHover:        $link-colorHover !default;
-$_baseTypo-link-decorationHover:   $link-decorationHover !default;
+$sl-baseTypo-link-color:             $sg-linkColor !default;
+$sl-baseTypo-link-decoration:        $sg-linkDecoration !default;
+$sl-baseTypo-link-colorHover:        $sg-linkColorHover !default;
+$sl-baseTypo-link-decorationHover:   $sg-linkDecorationHover !default;
 
-$_baseTypo-headings-space:         $headings-space !default;
-$_baseTypo-headings-weight:        $headings-weight !default;
-$_baseTypo-headings-lineHeight:    $headings-lineHeight !default;
-$_baseTypo-headings-color:         $headings-color !default;
+$sl-baseTypo-headings-space:         $sg-headings-space !default;
+$sl-baseTypo-headings-weight:        $sg-headings-weight !default;
+$sl-baseTypo-headings-lineHeight:    $sg-headings-lineHeight !default;
+$sl-baseTypo-headings-color:         $sg-headings-color !default;
 
-$_baseTypo-fontSize-h0:            $fontSize-sc !default;
-$_baseTypo-fontSize-h1:            $fontSize-hg !default;
-$_baseTypo-fontSize-h2:            $fontSize-mg !default;
-$_baseTypo-fontSize-h3:            $fontSize-xl !default;
-$_baseTypo-fontSize-h4:            $fontSize-lg !default;
-$_baseTypo-fontSize-h5:            $fontSize-bs !default;
-$_baseTypo-fontSize-h6:            $fontSize-sm !default;
+$sl-baseTypo-fontSize-h0:            $sg-fontSize-sc !default;
+$sl-baseTypo-fontSize-h1:            $sg-fontSize-hg !default;
+$sl-baseTypo-fontSize-h2:            $sg-fontSize-mg !default;
+$sl-baseTypo-fontSize-h3:            $sg-fontSize-xl !default;
+$sl-baseTypo-fontSize-h4:            $sg-fontSize-lg !default;
+$sl-baseTypo-fontSize-h5:            $sg-fontSize-bs !default;
+$sl-baseTypo-fontSize-h6:            $sg-fontSize-sm !default;
 
-$_baseTypo-mark-bgColor:          $color-primary !default;
-$_baseTypo-mark-color:             #fff !default;
+$sl-baseTypo-mark-bgColor:           $sg-color-primary !default;
+$sl-baseTypo-mark-color:             #fff !default;
 
-$_baseTypo-space-bs:               $space-bs;
+$sl-baseTypo-space-bs:               $sg-space-bs;
 
 // ==================================
 body {
-  font-family: $_baseTypo-fontFamily-bs;
-  color: $_baseTypo-textColor;
-  font-size: $_baseTypo-fontSize-bs;
-  line-height: $_baseTypo-lineHeight-bs;
+  font-family: $sl-baseTypo-fontFamily-bs;
+  color: $sl-baseTypo-textColor;
+  font-size: $sl-baseTypo-fontSize-bs;
+  line-height: $sl-baseTypo-lineHeight-bs;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: $_baseTypo-headings-space 0;
+  margin: $sl-baseTypo-headings-space 0;
 }
 
 p, ul, ol, dd {
-  margin:0 0 $_baseTypo-space-bs 0;
+  margin:0 0 $sl-baseTypo-space-bs 0;
 }
 
 // a -------------------------
 a {
-  color: $_baseTypo-link-color;
-  text-decoration: $_baseTypo-link-decoration;
+  color: $sl-baseTypo-link-color;
+  text-decoration: $sl-baseTypo-link-decoration;
 }
 a:hover,
 a:focus,
 a:active  {
-  color: $_baseTypo-link-colorHover;
-  text-decoration: $_baseTypo-link-decorationHover;
+  color: $sl-baseTypo-link-colorHover;
+  text-decoration: $sl-baseTypo-link-decorationHover;
 }
 
 //  Headding  -------------------------
 h1, h2, h3, h4, h5, h6,
 .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
-  color: $_baseTypo-headings-color;
-  font-weight: $_baseTypo-headings-weight;
-  line-height: $_baseTypo-headings-lineHeight;
+  color: $sl-baseTypo-headings-color;
+  font-weight: $sl-baseTypo-headings-weight;
+  line-height: $sl-baseTypo-headings-lineHeight;
 }
 
-.h0     { font-size: $_baseTypo-fontSize-h0; }
-h1, .h1 { font-size: $_baseTypo-fontSize-h1; }
-h2, .h2 { font-size: $_baseTypo-fontSize-h2; }
-h3, .h3 { font-size: $_baseTypo-fontSize-h3; }
-h4, .h4 { font-size: $_baseTypo-fontSize-h4; }
-h5, .h5 { font-size: $_baseTypo-fontSize-h5; }
-h6, .h6 { font-size: $_baseTypo-fontSize-h6; }
+.h0     { font-size: $sl-baseTypo-fontSize-h0; }
+h1, .h1 { font-size: $sl-baseTypo-fontSize-h1; }
+h2, .h2 { font-size: $sl-baseTypo-fontSize-h2; }
+h3, .h3 { font-size: $sl-baseTypo-fontSize-h3; }
+h4, .h4 { font-size: $sl-baseTypo-fontSize-h4; }
+h5, .h5 { font-size: $sl-baseTypo-fontSize-h5; }
+h6, .h6 { font-size: $sl-baseTypo-fontSize-h6; }
 
 
 // list -------------------------
@@ -85,7 +85,7 @@ ol > li > ol{
   list-style:inset;
 }
 ul,ol {
-  padding-left:$_baseTypo-space-bs;
+  padding-left:$sl-baseTypo-space-bs;
 }
 
 .ListInline,
@@ -111,7 +111,7 @@ dd { margin-left: 0; }
 // pre,code  -------------------------
 pre,
 code {
-  font-family: $_baseTypo-fontFamily-monospace;
+  font-family: $sl-baseTypo-fontFamily-monospace;
   white-space: pre-wrap;
 }
 
@@ -121,7 +121,7 @@ hr {
   height: .1rem;
   border: 0;
   border-top: .1rem solid #ccc;
-  margin: $_baseTypo-space-bs 0;
+  margin: $sl-baseTypo-space-bs 0;
   padding: 0;
 }
 
@@ -132,6 +132,6 @@ small { font-size: 80%; }
 mark {
   padding-left:.5rem;
   padding-right:.5rem;
-  background-color:$_baseTypo-mark-bgColor;
-  color:$_baseTypo-mark-color;
+  background-color:$sl-baseTypo-mark-bgColor;
+  color:$sl-baseTypo-mark-color;
 }

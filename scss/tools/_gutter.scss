@@ -5,10 +5,10 @@
 // unit
 // container & grid
 // ==========================
-$_gutterReset-screen-xs-min:   $screen-xs-min !default;
-$_gutterReset-screen-sm-min:   $screen-sm-min !default;
-$_gutterReset-screen-md-min:   $screen-md-min !default;
-$_gutterReset-screen-lg-min:   $screen-lg-min !default;
+$sl-gutterReset-screen-xs-min:   $sg-screen-xs-min !default;
+$sl-gutterReset-screen-sm-min:   $sg-screen-sm-min !default;
+$sl-gutterReset-screen-md-min:   $sg-screen-md-min !default;
+$sl-gutterReset-screen-lg-min:   $sg-screen-lg-min !default;
 
 // ==================================
 .t-gutterReset,
@@ -16,32 +16,32 @@ $_gutterReset-screen-lg-min:   $screen-lg-min !default;
 .t-sm-gutterReset,
 .t-md-gutterReset,
 .t-lg-gutterReset {
-  margin-left:-($_Container-gutter-width / 2);
-  margin-right:-($_Container-gutter-width / 2);
+  margin-left:-($sl-Container-gutter-width / 2);
+  margin-right:-($sl-Container-gutter-width / 2);
 }
 
-@media (min-width: $_gutterReset-screen-xs-min) {
+@media (min-width: $sl-gutterReset-screen-xs-min) {
   .t-xs-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-@media (min-width: $_gutterReset-screen-sm-min) {
+@media (min-width: $sl-gutterReset-screen-sm-min) {
   .t-sm-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-@media (min-width: $_gutterReset-screen-md-min) {
+@media (min-width: $sl-gutterReset-screen-md-min) {
   .t-md-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-@media (min-width: $_gutterReset-screen-lg-min) {
+@media (min-width: $sl-gutterReset-screen-lg-min) {
   .t-lg-gutterReset {
     margin-left: 0;
     margin-right: 0;

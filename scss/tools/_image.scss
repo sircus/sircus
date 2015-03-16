@@ -1,6 +1,6 @@
 @import "../config";
 
-$_img-round-borderRadius : $borderRadius-bs !default;
+$sl-img-round-borderRadius : $sg-borderRadius-bs !default;
 
 // ==================================
 .t-imgFull {
@@ -11,5 +11,5 @@ $_img-round-borderRadius : $borderRadius-bs !default;
 }
 
 .t-imgInline { display: inline !important; }
-.t-imgRound  { border-radius: $_img-round-borderRadius !important; }
+.t-imgRound  { border-radius: $sl-img-round-borderRadius !important; }
 .t-imgCircle { border-radius: 50% !important; }

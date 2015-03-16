@@ -1,35 +1,35 @@
 @import "../config";
 
 // .Btn--primary
-$_Btn-primary-typoColor:       #fff !default;
-$_Btn-primary-bgColor:         $color-primary !default;
-$_Btn-primary-borderColor:     $_Btn-primary-bgColor !default;
+$sl-Btn-primary-typoColor:       #fff !default;
+$sl-Btn-primary-bgColor:         $sg-color-primary !default;
+$sl-Btn-primary-borderColor:     $sl-Btn-primary-bgColor !default;
 
 
 // .Btn--primary
 // ==================================
 .Btn.Btn--primary {
-  background-color:$_Btn-primary-bgColor;
-  border-color: $_Btn-primary-borderColor;
-  color:$_Btn-primary-typoColor;
+  background-color:$sl-Btn-primary-bgColor;
+  border-color: $sl-Btn-primary-borderColor;
+  color:$sl-Btn-primary-typoColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$_Btn-primary-typoColor;
-    color:$_Btn-primary-bgColor;
+    background-color:$sl-Btn-primary-typoColor;
+    color:$sl-Btn-primary-bgColor;
   }
 }
 
 
 .BtnBorder.Btn--primary {
-  border-color: $_Btn-primary-bgColor;
-  color:$_Btn-primary-bgColor;
+  border-color: $sl-Btn-primary-bgColor;
+  color:$sl-Btn-primary-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$_Btn-primary-bgColor;
-    color:$_Btn-primary-typoColor;
+    background-color:$sl-Btn-primary-bgColor;
+    color:$sl-Btn-primary-typoColor;
   }
 }

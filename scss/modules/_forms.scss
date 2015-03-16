@@ -6,31 +6,31 @@
 // .radio* = tadio
 
 $l-inp-bg:                       #FAFAFA !default;
-$l-inp-bg-disabled:              $color-gray-lighter !default;
-$l-inp-color:                    $color-gray !default;
+$l-inp-bg-disabled:              $sg-color-gray-lighter !default;
+$l-inp-color:                    $sg-color-gray !default;
 $l-inp-border:                   #ccc !default;
 $l-inp-border-radius:             3px !default;
-$l-inp-border-radius-lg:          $border-radius-lg !default;
-$l-inp-border-radius-sm:          $border-radius-sm !default;
-$l-inp-border-focus:             $color-gray-light !default;
+$l-inp-border-radius-lg:          $sg-border-radius-lg !default;
+$l-inp-border-radius-sm:          $sg-border-radius-sm !default;
+$l-inp-border-focus:             $sg-color-gray-light !default;
 $l-inp-color-placeholder:        #999 !default;
 
-$l-inp-height-bs:                $sum-height-bs !default;
-$l-inp-height-lg:                $sum-height-lg !default;
-$l-inp-height-sm:                $sum-height-sm !default;
+$l-inp-height-bs:                $sg-sumHeight-bs !default;
+$l-inp-height-lg:                $sg-sumHeight-lg !default;
+$l-inp-height-sm:                $sg-sumHeight-sm !default;
 
-$legend-color:                 $color-gray-dark !default;
+$legend-color:                 $sg-color-gray-dark !default;
 $legend-border-color:          #e5e5e5 !default;
 
 $cursor-disabled:              not-allowed !default;
 
 
 @mixin form-focus($color: #DDD) {
-  $color-rgba: rgba(red($color), green($color), blue($color), .6);
+  $sg-color-rgba: rgba(red($color), green($color), blue($color), .6);
   &:focus {
     border-color: $color;
     outline: 0;
-    box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px $color-rgba;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px $sg-color-rgba;
   }
 }
 
@@ -44,13 +44,13 @@ $cursor-disabled:              not-allowed !default;
 }
 
 
-@mixin form-size($parent, $l-inp-height, $padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+@mixin form-size($parent, $l-inp-height, $sg-padding-vertical, $sg-padding-horizontal, $font-size, $line-height, $sg-border-radius) {
   #{$parent} {
     height: $l-inp-height;
-    padding: $padding-vertical $padding-horizontal;
+    padding: $sg-padding-vertical $sg-padding-horizontal;
     font-size: $font-size;
     line-height: $line-height;
-    border-radius: $border-radius;
+    border-radius: $sg-border-radius;
   }
   select#{$parent} {
     height: $l-inp-height;
@@ -63,7 +63,7 @@ $cursor-disabled:              not-allowed !default;
 }
 
 
-@mixin form-validation($text-color: #555, $border-color: #ccc, $background-color: #f5f5f5) {
+@mixin form-validation($sg-textColor: #555, $sg-border-color: #ccc, $background-color: #f5f5f5) {
   .form-help-block,
   .control-label,
   .radio,
@@ -74,21 +74,21 @@ $cursor-disabled:              not-allowed !default;
   &.checkbox label,
   &.radio-inline label,
   &.checkbox-inline label  {
-    color: $text-color;
+    color: $sg-textColor;
   }
   .inp,
   .sct {
-    border-color: $border-color;
+    border-color: $sg-border-color;
     box-shadow :inset 0 1px 1px rgba(0,0,0,.075);
     &:focus {
-      border-color: darken($border-color, 10%);
-      $shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px lighten($border-color, 20%);
+      border-color: darken($sg-border-color, 10%);
+      $shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px lighten($sg-border-color, 20%);
       box-shadow :$shadow;
     }
   }
   .inp-group-addon {
-    color: $text-color;
-    border-color: $border-color;
+    color: $sg-textColor;
+    border-color: $sg-border-color;
     background-color: $background-color;
   }
 }
@@ -151,7 +151,7 @@ legend {
 // }
 // output {
 //   display: block;
-//   padding-top: ($paddingV-bs + 1);
+//   padding-top: ($sg-paddingV-bs + 1);
 //   font-size: $font-size-bs;
 //   line-height: $line-height-bs;
 //   color: $l-inp-color;
@@ -180,7 +180,7 @@ legend {
   display: block;
   width: 100%;
   height: $l-inp-height-bs;
-  padding: $paddingV-bs $paddingH-bs;
+  padding: $sg-paddingV-bs $sg-paddingH-bs;
   font-size: $font-size-bs;
   line-height: $line-height-bs;
   color: $l-inp-color;
@@ -249,10 +249,10 @@ textarea.sct {
 // }
 
 // Form control sizing
-// @include form-size('.inp--sm, .form-group-sm .sct', $l-inp-height-sm, $paddingV-sm, $paddingH-sm, $font-size-sm, $line-height-sm, $l-inp-border-radius-sm);
-// @include form-size('.inp--sm, .form-group-sm .inp', $l-inp-height-sm, $paddingV-sm, $paddingH-sm, $font-size-sm, $line-height-sm, $l-inp-border-radius-sm);
-// @include form-size('.inp--lg, .form-group-lg .inp', $l-inp-height-lg, $paddingV-lg, $paddingH-lg, $font-size-lg, $line-height-lg, $l-inp-border-radius-lg);
-// @include form-size('.inp--lg, .form-group-lg .sct', $l-inp-height-lg, $paddingV-lg, $paddingH-lg, $font-size-lg, $line-height-lg, $l-inp-border-radius-lg);
+// @include form-size('.inp--sm, .form-group-sm .sct', $l-inp-height-sm, $sg-paddingV-sm, $sg-paddingH-sm, $font-size-sm, $line-height-sm, $l-inp-border-radius-sm);
+// @include form-size('.inp--sm, .form-group-sm .inp', $l-inp-height-sm, $sg-paddingV-sm, $sg-paddingH-sm, $font-size-sm, $line-height-sm, $l-inp-border-radius-sm);
+// @include form-size('.inp--lg, .form-group-lg .inp', $l-inp-height-lg, $sg-paddingV-lg, $sg-paddingH-lg, $font-size-lg, $line-height-lg, $l-inp-border-radius-lg);
+// @include form-size('.inp--lg, .form-group-lg .sct', $l-inp-height-lg, $sg-paddingV-lg, $sg-paddingH-lg, $font-size-lg, $line-height-lg, $l-inp-border-radius-lg);
 
 
 // underline
@@ -265,7 +265,7 @@ textarea.sct {
 //   background-color: transparent;
 //   &:focus {
 //     box-shadow:none;
-//     border-color:$color-primary;
+//     border-color:$sg-color-primary;
 //   }
 // }
 
@@ -281,12 +281,12 @@ textarea.sct {
 //   background-color: transparent;
 //   &:focus {
 //     box-shadow:none;
-//     border-color:$color-primary;
+//     border-color:$sg-color-primary;
 //   }
 // }
 
 // .form-group {
-//   margin-bottom: ($sum-height-bs / 2);
+//   margin-bottom: ($sg-sumHeight-bs / 2);
 // }
 
 // .radio,
@@ -319,7 +319,7 @@ textarea.sct {
 
 
 // .form-inline {
-//   @media (min-width: $screen-sm-min) {
+//   @media (min-width: $sg-screen-sm-min) {
 //     .form-group {
 //       display: inline-block;
 //       margin-bottom: 0;
@@ -421,8 +421,8 @@ textarea.sct {
 
 // .inp-static,
 // .sct-static {
-//   padding-top: ($paddingV-bs + 1);
-//   padding-bottom: ($paddingV-bs + 1);
+//   padding-top: ($sg-paddingV-bs + 1);
+//   padding-bottom: ($sg-paddingV-bs + 1);
 //   margin-bottom: 0;
 //   &.inp--lg,
 //   &.inp--sm,
@@ -437,17 +437,17 @@ textarea.sct {
 // .is-success,
 // .frm-success,
 // .form-success {
-//   @include form-validation($state-success-text, $state-success-text, $state-success-bg);
+//   @include form-validation($sg-state-success-text, $sg-state-success-text, $sg-state-success-bg);
 // }
 // .is-warning,
 // .frm-warning,
 // .form-warning {
-//   @include form-validation($state-warning-text, $state-warning-text, $state-warning-bg);
+//   @include form-validation($sg-state-warning-text, $sg-state-warning-text, $sg-state-warning-bg);
 // }
 // .is-error,
 // .frm-error,
 // .form-error {
-//   @include form-validation($state-danger-text, $state-danger-text, $state-danger-bg);
+//   @include form-validation($sg-state-danger-text, $sg-state-danger-text, $sg-state-danger-bg);
 // }
 
 
@@ -455,5 +455,5 @@ textarea.sct {
 //   display: block;
 //   margin-top: 5px;
 //   margin-bottom: 10px;
-//   color: lighten($text-color, 25%);
+//   color: lighten($sg-textColor, 25%);
 // }

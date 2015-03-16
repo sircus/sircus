@@ -2,14 +2,14 @@
 
 // container & grid
 // ==========================
-$_Container-gutter-width:    $space-bs !default;
-$_Container-sm:              (72rem + $_Container-gutter-width) !default;
-$_Container-md:              (94rem + $_Container-gutter-width )!default;
-$_Container-lg:              (114rem + $_Container-gutter-width ) !default;
-$_Container-screen-xs-min:   $screen-xs-min !default;
-$_Container-screen-sm-min:   $screen-sm-min !default;
-$_Container-screen-md-min:   $screen-md-min !default;
-$_Container-screen-lg-min:   $screen-lg-min !default;
+$sl-Container-gutter-width:    $sg-Container-gutter-width !default;
+$sl-Container-sm:              $sg-Container-sm !default;
+$sl-Container-md:              $sg-Container-md !default;
+$sl-Container-lg:              $sg-Container-lg !default;
+$sl-Container-screen-xs-min:   $sg-Container-screen-xs-min !default;
+$sl-Container-screen-sm-min:   $sg-Container-screen-sm-min !default;
+$sl-Container-screen-md-min:   $sg-Container-screen-md-min !default;
+$sl-Container-screen-lg-min:   $sg-Container-screen-lg-min !default;
 
 // ==================================
 .ContainerSlim,
@@ -18,22 +18,22 @@ $_Container-screen-lg-min:   $screen-lg-min !default;
   box-sizing:border-box;
   margin-right: auto;
   margin-left: auto;
-  padding-left: ($_Container-gutter-width / 2);
-  padding-right: ($_Container-gutter-width / 2);
+  padding-left: $sl-Container-gutter-width;
+  padding-right: $sl-Container-gutter-width;
 }
 
 .Container {
-  @media (min-width: $_Container-screen-sm-min) {
-    width: $_Container-sm;
+  @media (min-width: $sl-Container-screen-sm-min) {
+    width: $sl-Container-sm;
   }
-  @media (min-width: $_Container-screen-md-min) {
-    width: $_Container-md;
+  @media (min-width: $sl-Container-screen-md-min) {
+    width: $sl-Container-md;
   }
-  @media (min-width: $_Container-screen-lg-min) {
-    width: $_Container-lg;
+  @media (min-width: $sl-Container-screen-lg-min) {
+    width: $sl-Container-lg;
   }
 }
 
 .ContainerSlim {
-  max-width: $_Container-sm;
+  max-width: $sl-Container-sm;
 }

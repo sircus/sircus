@@ -1,9 +1,9 @@
 @import "../config";
 
-$_width-screen-xs-min: $screen-xs-min !default;
-$_width-screen-sm-min: $screen-sm-min !default;
-$_width-screen-md-min: $screen-md-min !default;
-$_width-screen-lg-min: $screen-lg-min !default;
+$sl-width-screen-xs-min: $sg-screen-xs-min !default;
+$sl-width-screen-sm-min: $sg-screen-sm-min !default;
+$sl-width-screen-md-min: $sg-screen-md-min !default;
+$sl-width-screen-lg-min: $sg-screen-lg-min !default;
 
 //====================
 .t-width1of10  { width: 10% !important;
@@ -17,7 +17,7 @@ $_width-screen-lg-min: $screen-lg-min !default;
 .t-width9of10  { width: 90% !important;
 .t-width10of10 { width: 100% !important; }
 
-@media (min-width: $_width-screen-xs-min) {
+@media (min-width: $sl-width-screen-xs-min) {
   .t-xs-width1of10  { width: 10% !important; }
   .t-xs-width2of10  { width: 20% !important; }
   .t-xs-width3of10  { width: 30% !important; }
@@ -30,7 +30,7 @@ $_width-screen-lg-min: $screen-lg-min !default;
   .t-xs-width10of10 { width: 100% !important; }
 }
 
-@media (min-width: $_width-screen-sm-min) {
+@media (min-width: $sl-width-screen-sm-min) {
   .t-sm-width1of10  { width: 10% !important; }
   .t-sm-width2of10  { width: 20% !important; }
   .t-sm-width3of10  { width: 30% !important; }
@@ -43,7 +43,7 @@ $_width-screen-lg-min: $screen-lg-min !default;
   .t-sm-width10of10 { width: 100% !important; }
 }
 
-@media (min-width: $_width-screen-md-min) {
+@media (min-width: $sl-width-screen-md-min) {
   .t-md-width1of10  { width: 10% !important; }
   .t-md-width2of10  { width: 20% !important; }
   .t-md-width3of10  { width: 30% !important; }
@@ -56,7 +56,7 @@ $_width-screen-lg-min: $screen-lg-min !default;
   .t-md-width10of10 { width: 100% !important; }
 }
 
-@media (min-width: $_width-screen-lg-min) {
+@media (min-width: $sl-width-screen-lg-min) {
   .t-lg-width1of10  { width: 10% !important; }
   .t-lg-width2of10  { width: 20% !important; }
   .t-lg-width3of10  { width: 30% !important; }
