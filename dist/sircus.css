@@ -1,6 +1,6 @@
 /*!
  * sircus - scalable css for responsive project.
- * @version v0.1.1
+ * @version v0.2.1
  * @link    http://sircus.blivesta.com
  * @author  blivesta
  * @license MIT
@@ -24,6 +24,9 @@ img {
 
 svg {
   max-height: 100%; }
+
+figure {
+  margin: 0; }
 
 body {
   font-family: Raleway, helvetica, arial, sans-serif;
@@ -150,7 +153,8 @@ button,
   cursor: pointer;
   -webkit-transition: all 200ms ease-out;
           transition: all 200ms ease-out;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  outline: none; }
   button.is-disabled, button[disabled],
   .Btn.is-disabled,
   .Btn[disabled],
