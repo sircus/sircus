@@ -1,7 +1,7 @@
 @import "../config";
 @import "../modules/container";
 
-$sl-Row-gutter-width:       ($sl-Container-gutter-width / 2) !default;
+$sl-Row-gutter-width:       $sg-Container-gutter-width !default;
 $sl-Row-col-fontSize-bs:    $sg-fontSize-bs !default;
 $sl-Row-screen-xs-min:      $sg-screen-xs-min !default;
 

@@ -160,9 +160,9 @@ $sg-borderRadius-lg:   .5rem !default;
 // Container
 // ==========================
 $sg-Container-gutter-width:    ($sg-space-bs / 2) !default;
-$sg-Container-sm:              (72rem + $sg-Container-gutter-width) !default;
-$sg-Container-md:              (94rem + $sg-Container-gutter-width )!default;
-$sg-Container-lg:              (114rem + $sg-Container-gutter-width ) !default;
+$sg-Container-sm:              (72rem + $sg-space-bs) !default;
+$sg-Container-md:              (94rem + $sg-space-bs )!default;
+$sg-Container-lg:              (114rem + $sg-space-bs ) !default;
 $sg-Container-screen-xs-min:   $sg-screen-xs-min !default;
 $sg-Container-screen-sm-min:   $sg-screen-sm-min !default;
 $sg-Container-screen-md-min:   $sg-screen-md-min !default;

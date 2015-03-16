@@ -16,8 +16,8 @@ $sl-gutterReset-screen-lg-min:   $sg-screen-lg-min !default;
 .t-sm-gutterReset,
 .t-md-gutterReset,
 .t-lg-gutterReset {
-  margin-left:-($sl-Container-gutter-width / 2);
-  margin-right:-($sl-Container-gutter-width / 2);
+  margin-left:-$sg-Container-gutter-width;
+  margin-right:-$sg-Container-gutter-width;
 }
 
 @media (min-width: $sl-gutterReset-screen-xs-min) {
