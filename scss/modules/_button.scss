@@ -36,14 +36,6 @@ $sl-BtnLink-hover-typoColor:      $sg-color-primary-dark !default;
 
 
 // ==================================
-button {
-  // font-family: inherit;
-  // font-size: inherit;
-  // line-height: inherit;
-  // outline:0;
-}
-
-// ==================================
 button,
 .Btn,
 .BtnSimple,
@@ -68,6 +60,7 @@ button,
   cursor: pointer;
   transition: all 200ms ease-out;
   -webkit-appearance: none;
+  outline: none;
   &.is-disabled,
   &[disabled] {
     pointer-events: none;
@@ -93,6 +86,7 @@ button,
     border-color: $sl-Btn-bgColor;
     color: $sl-Btn-bgColor;
     text-decoration: none;
+    box-shadow:none;
   }
 }
 
