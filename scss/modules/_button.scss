@@ -25,7 +25,7 @@ $sl-Btn-typoColor:                #fff !default;
 $sl-Btn-bgColor:                  #ccc !default;
 
 // .BtnBorder
-$sl-BtnBorder-borderSize:         2px !default;
+$sl-BtnBorder-borderSize:         .2rem !default;
 $sl-BtnBorder-borderColor:        $sl-Btn-bgColor !default;
 $sl-BtnBorder-typoColor:          $sl-BtnBorder-borderColor !default;
 $sl-BtnBorder-hover-typoColor:    #fff !default;
@@ -80,7 +80,6 @@ button,
   color:$sl-Btn-typoColor;
   &:hover,
   &:focus,
-  &:active,
   &.is-active{
     background-color:transparent;
     border-color: $sl-Btn-bgColor;
@@ -96,7 +95,6 @@ button,
   color: $sl-BtnBorder-typoColor;
   &:hover,
   &:focus,
-  &:active,
   &.is-active{
     background-color:$sl-BtnBorder-typoColor;
     color: $sl-BtnBorder-hover-typoColor;
@@ -111,7 +109,6 @@ button,
   color:$sl-BtnLink-typoColor;
   &:hover,
   &:focus,
-  &:active,
   &.is-active {
     border-color: transparent;
     color:$sl-BtnLink-hover-typoColor;
@@ -128,17 +125,17 @@ button,
 
 // ==================================
 .Btn--xl {
-  padding: ($sl-Btn-paddingV-xl - .2) ($sl-Btn-paddingH-xl - .2);
+  padding: $sl-Btn-paddingV-xl $sl-Btn-paddingH-xl;
   font-size: $sl-Btn-fontSize-xl;
   border-radius: $sl-Btn-borderRadius-xl;
 }
 .Btn--lg {
-  padding: ($sl-Btn-paddingV-lg - .2) ($sl-Btn-paddingH-lg - .2);
+  padding: $sl-Btn-paddingV-lg $sl-Btn-paddingH-lg;
   font-size: $sl-Btn-fontSize-lg;
   border-radius: $sl-Btn-borderRadius-lg;
 }
 .Btn--sm{
-  padding: ($sl-Btn-paddingV-sm - .2) ($sl-Btn-paddingH-sm - .2);
+  padding: $sl-Btn-paddingV-sm $sl-Btn-paddingH-sm;
   font-size: $sl-Btn-fontSize-sm;
   border-radius: $sl-Btn-borderRadius-sm;
 }
