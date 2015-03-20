@@ -61,20 +61,20 @@ a:active  {
 
 //  Headding  -------------------------
 h1, h2, h3, h4, h5, h6,
-.h0, .h1, .h2, .h3, .h4, .h5, .h6 {
+.H0, .H1, .H2, .H3, .H4, .H5, .H6 {
   font-family: inherit;
   color: $sl-baseTypo-headings-color;
   font-weight: $sl-baseTypo-headings-weight;
   line-height: $sl-baseTypo-headings-lineHeight;
 }
 
-.h0     { font-size: $sl-baseTypo-fontSize-h0; }
-h1, .h1 { font-size: $sl-baseTypo-fontSize-h1; }
-h2, .h2 { font-size: $sl-baseTypo-fontSize-h2; }
-h3, .h3 { font-size: $sl-baseTypo-fontSize-h3; }
-h4, .h4 { font-size: $sl-baseTypo-fontSize-h4; }
-h5, .h5 { font-size: $sl-baseTypo-fontSize-h5; }
-h6, .h6 { font-size: $sl-baseTypo-fontSize-h6; }
+.H0     { font-size: $sl-baseTypo-fontSize-h0; }
+h1, .H1 { font-size: $sl-baseTypo-fontSize-h1; }
+h2, .H2 { font-size: $sl-baseTypo-fontSize-h2; }
+h3, .H3 { font-size: $sl-baseTypo-fontSize-h3; }
+h4, .H4 { font-size: $sl-baseTypo-fontSize-h4; }
+h5, .H5 { font-size: $sl-baseTypo-fontSize-h5; }
+h6, .H6 { font-size: $sl-baseTypo-fontSize-h6; }
 
 
 // list -------------------------
