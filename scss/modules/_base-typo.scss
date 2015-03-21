@@ -27,7 +27,9 @@ $sl-baseTypo-fontSize-h6:            $sg-fontSize-sm !default;
 $sl-baseTypo-mark-bgColor:           $sg-color-primary !default;
 $sl-baseTypo-mark-color:             #fff !default;
 
-$sl-baseTypo-space-bs:               $sg-space-bs;
+$sl-baseTypo-space-bs:               $sg-space-bs ;
+
+$sl-baseTypo-selection-bgColor:      $sg-color-primary !default;
 
 // ==================================
 body {
@@ -40,11 +42,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: $sl-baseTypo-headings-space 0;
+  margin:0 0 $sl-baseTypo-headings-space 0;
 }
 
 p, ul, ol, dd {
   margin:0 0 $sl-baseTypo-space-bs 0;
+}
+
+::selection {
+  background: $sl-baseTypo-selection-bgColor;
 }
 
 // a -------------------------
@@ -60,8 +66,7 @@ a:active  {
 }
 
 //  Headding  -------------------------
-h1, h2, h3, h4, h5, h6,
-.H0, .H1, .H2, .H3, .H4, .H5, .H6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   color: $sl-baseTypo-headings-color;
   font-weight: $sl-baseTypo-headings-weight;
@@ -75,6 +80,7 @@ h3, .H3 { font-size: $sl-baseTypo-fontSize-h3; }
 h4, .H4 { font-size: $sl-baseTypo-fontSize-h4; }
 h5, .H5 { font-size: $sl-baseTypo-fontSize-h5; }
 h6, .H6 { font-size: $sl-baseTypo-fontSize-h6; }
+
 
 
 // list -------------------------
