@@ -1,13 +1,13 @@
 @import "../config";
 
-$sl-display-screen-xs-min:   $sg-screen-xs-min !default;
-$sl-display-screen-sm-min:   $sg-screen-sm-min !default;
-$sl-display-screen-md-min:   $sg-screen-md-min !default;
-$sl-display-screen-lg-min:   $sg-screen-lg-min !default;
+$sl-display-screen-wxs-min:   $sg-screen-wxs-min !default;
+$sl-display-screen-wsm-min:   $sg-screen-wsm-min !default;
+$sl-display-screen-wmd-min:   $sg-screen-wmd-min !default;
+$sl-display-screen-wlg-min:   $sg-screen-wlg-min !default;
 
-$sl-display-screen-xs-max:   $sg-screen-xs-max !default;
-$sl-display-screen-sm-max:   $sg-screen-sm-max !default;
-$sl-display-screen-md-max:   $sg-screen-md-max !default;
+$sl-display-screen-wxs-max:   $sg-screen-wxs-max !default;
+$sl-display-screen-wsm-max:   $sg-screen-wsm-max !default;
+$sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 
 // ==================================
 .t-hide { display: none !important; }
@@ -20,100 +20,100 @@ $sl-display-screen-md-max:   $sg-screen-md-max !default;
 
 @-ms-viewport { width: device-width; }
 
-.t-xs-visible,
-.t-sm-visible,
-.t-md-visible,
-.t-lg-visible {  display: none !important; }
+.t-wxs-visible,
+.t-wsm-visible,
+.t-wmd-visible,
+.t-wlg-visible {  display: none !important; }
 
-.t-xs-visible-block,
-.t-xs-visible-inline,
-.t-xs-visible-inlineBlock,
-.t-sm-visible-block,
-.t-sm-visible-inline,
-.t-sm-visible-inlineBlock,
-.t-md-visible-block,
-.t-md-visible-inline,
-.t-md-visible-inlineBlock,
-.t-lg-visible-block,
-.t-lg-visible-inline,
-.t-lg-visible-inlineBlock { display: none !important; }
+.t-wxs-visible-block,
+.t-wxs-visible-inline,
+.t-wxs-visible-inlineBlock,
+.t-wsm-visible-block,
+.t-wsm-visible-inline,
+.t-wsm-visible-inlineBlock,
+.t-wmd-visible-block,
+.t-wmd-visible-inline,
+.t-wmd-visible-inlineBlock,
+.t-wlg-visible-block,
+.t-wlg-visible-inline,
+.t-wlg-visible-inlineBlock { display: none !important; }
 
-@media (max-width: $sl-display-screen-xs-max) {
-  .t-xs-visible { display: block !important; }
+@media (max-width: $sl-display-screen-wxs-max) {
+  .t-wxs-visible { display: block !important; }
 }
 
-@media (max-width: $sl-display-screen-xs-max) {
-  .t-xs-visible-block { display: block !important; }
+@media (max-width: $sl-display-screen-wxs-max) {
+  .t-wxs-visible-block { display: block !important; }
 }
 
-@media (max-width: $sl-display-screen-xs-max) {
-  .t-xs-visible-inline { display: inline !important; }
+@media (max-width: $sl-display-screen-wxs-max) {
+  .t-wxs-visible-inline { display: inline !important; }
 }
 
-@media (max-width: $sl-display-screen-xs-max) {
-  .t-xs-visible-inlineBlock { display: inline-block !important; }
+@media (max-width: $sl-display-screen-wxs-max) {
+  .t-wxs-visible-inlineBlock { display: inline-block !important; }
 }
 
-@media (min-width: $sl-display-screen-sm-min) and (max-width: $sl-display-screen-sm-max) {
-  .t-sm-visible { display: block !important; }
+@media (min-width: $sl-display-screen-wsm-min) and (max-width: $sl-display-screen-wsm-max) {
+  .t-wsm-visible { display: block !important; }
 }
-@media (min-width: $sl-display-screen-sm-min) and (max-width: $sl-display-screen-sm-max) {
-  .t-sm-visible-block { display: block !important; }
-}
-
-@media (min-width: $sl-display-screen-sm-min) and (max-width: $sl-display-screen-sm-max) {
-  .t-sm-visible-inline { display: inline !important; }
+@media (min-width: $sl-display-screen-wsm-min) and (max-width: $sl-display-screen-wsm-max) {
+  .t-wsm-visible-block { display: block !important; }
 }
 
-@media (min-width: $sl-display-screen-sm-min) and (max-width: $sl-display-screen-sm-max) {
-  .t-sm-visible-inlineBlock { display: inline-block !important; }
+@media (min-width: $sl-display-screen-wsm-min) and (max-width: $sl-display-screen-wsm-max) {
+  .t-wsm-visible-inline { display: inline !important; }
 }
 
-@media (min-width: $sl-display-screen-md-min) and (max-width: $sl-display-screen-md-max) {
-  .t-md-visible { display: block !important; }
+@media (min-width: $sl-display-screen-wsm-min) and (max-width: $sl-display-screen-wsm-max) {
+  .t-wsm-visible-inlineBlock { display: inline-block !important; }
 }
 
-@media (min-width: $sl-display-screen-md-min) and (max-width: $sl-display-screen-md-max) {
-  .t-md-visible-block { display: block !important; }
+@media (min-width: $sl-display-screen-wmd-min) and (max-width: $sl-display-screen-wmd-max) {
+  .t-wmd-visible { display: block !important; }
 }
 
-@media (min-width: $sl-display-screen-md-min) and (max-width: $sl-display-screen-md-max) {
-  .t-md-visible-inline { display: inline !important; }
+@media (min-width: $sl-display-screen-wmd-min) and (max-width: $sl-display-screen-wmd-max) {
+  .t-wmd-visible-block { display: block !important; }
 }
 
-@media (min-width: $sl-display-screen-md-min) and (max-width: $sl-display-screen-md-max) {
-  .t-md-visible-inlineBlock { display: inline-block !important; }
+@media (min-width: $sl-display-screen-wmd-min) and (max-width: $sl-display-screen-wmd-max) {
+  .t-wmd-visible-inline { display: inline !important; }
 }
 
-@media (min-width: $sl-display-screen-lg-min) {
-  .t-lg-visible { display: block !important; }
-}
-@media (min-width: $sl-display-screen-lg-min) {
-  .t-lg-visible-block { display: block !important; }
+@media (min-width: $sl-display-screen-wmd-min) and (max-width: $sl-display-screen-wmd-max) {
+  .t-wmd-visible-inlineBlock { display: inline-block !important; }
 }
 
-@media (min-width: $sl-display-screen-lg-min) {
-  .t-lg-visible-inline { display: inline !important; }
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-visible { display: block !important; }
+}
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-visible-block { display: block !important; }
 }
 
-@media (min-width: $sl-display-screen-lg-min) {
-  .t-lg-visible-inlineBlock { display: inline-block !important; }
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-visible-inline { display: inline !important; }
 }
 
-@media (max-width: $sl-display-screen-xs-max) {
-  .t-xs-hidden { display: none !important; }
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-visible-inlineBlock { display: inline-block !important; }
 }
 
-@media (min-width: $sl-display-screen-sm-min) and (max-width: $sl-display-screen-sm-max) {
-  .t-sm-hidden { display: none !important; }
+@media (max-width: $sl-display-screen-wxs-max) {
+  .t-wxs-hidden { display: none !important; }
 }
 
-@media (min-width: $sl-display-screen-md-min) and (max-width: $sl-display-screen-md-max) {
-  .t-md-hidden { display: none !important; }
+@media (min-width: $sl-display-screen-wsm-min) and (max-width: $sl-display-screen-wsm-max) {
+  .t-wsm-hidden { display: none !important; }
 }
 
-@media (min-width: $sl-display-screen-lg-min) {
-  .t-lg-hidden { display: none !important; }
+@media (min-width: $sl-display-screen-wmd-min) and (max-width: $sl-display-screen-wmd-max) {
+  .t-wmd-hidden { display: none !important; }
+}
+
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-hidden { display: none !important; }
 }
 
 

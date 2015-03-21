@@ -15,30 +15,32 @@ $sl-Btn-fontSize-lg:              $sg-fontSize-lg !default;
 $sl-Btn-fontSize-bs:              $sg-fontSize-bs !default;
 $sl-Btn-fontSize-sm:              $sg-fontSize-sm !default;
 
-$sl-Btn-borderRadius-xl:          $sg-borderRadius-lg !default;
+$sl-Btn-borderRadius-xl:          $sg-borderRadius-xl !default;
 $sl-Btn-borderRadius-lg:          $sg-borderRadius-lg !default;
 $sl-Btn-borderRadius-bs:          $sg-borderRadius-bs !default;
 $sl-Btn-borderRadius-sm:          $sg-borderRadius-sm !default;
 
 // .Btn
 $sl-Btn-typoColor:                #fff !default;
-$sl-Btn-bgColor:                  #ccc !default;
+$sl-Btn-bgColor:                  #b8b8bb !default;
+$sl-Btn-borderColor:              darken($sl-Btn-bgColor, 5) !default;
 
 // .BtnBorder
-$sl-BtnBorder-borderSize:         .2rem !default;
+$sl-BtnBorder-borderSize:         $sg-BtnAndFrm-borderSize !default;
 $sl-BtnBorder-borderColor:        $sl-Btn-bgColor !default;
 $sl-BtnBorder-typoColor:          $sl-BtnBorder-borderColor !default;
 $sl-BtnBorder-hover-typoColor:    #fff !default;
+$sl-BtnBorder-hover-borderColor:  darken($sl-Btn-bgColor, 5) !default;
 
-// .BtnSimple
-$sl-BtnLink-typoColor:            $sg-color-primary !default;
-$sl-BtnLink-hover-typoColor:      $sg-color-primary-dark !default;
+// .BtnReset
+$sl-BtnReset-typoColor:           $sg-color-primary !default;
+$sl-BtnReset-hover-typoColor:     $sg-color-primary-dark !default;
 
 
 // ==================================
 button,
 .Btn,
-.BtnSimple,
+.BtnReset,
 .BtnBorder {
   box-sizing: border-box;
   box-shadow: none;
@@ -47,7 +49,7 @@ button,
   margin: 0;
   padding: $sl-Btn-paddingV-bs $sl-Btn-paddingH-bs;
   border-radius: $sl-Btn-borderRadius-bs;
-  border: $sl-BtnBorder-borderSize solid transparent;
+  border: $sl-BtnBorder-borderSize solid $sl-Btn-borderColor;
   background-image: none;
   font-family: inherit;
   font-size: $sl-Btn-fontSize-bs;
@@ -80,6 +82,7 @@ button,
   color:$sl-Btn-typoColor;
   &:hover,
   &:focus,
+  &:active,
   &.is-active{
     background-color:transparent;
     border-color: $sl-Btn-bgColor;
@@ -95,46 +98,68 @@ button,
   color: $sl-BtnBorder-typoColor;
   &:hover,
   &:focus,
+  &:active,
   &.is-active{
     background-color:$sl-BtnBorder-typoColor;
     color: $sl-BtnBorder-hover-typoColor;
+    border-color:$sl-BtnBorder-hover-borderColor;
     text-decoration: none;
   }
 }
 
 
 // ==================================
-.BtnSimple {
+.BtnReset {
   background-color:transparent;
-  color:$sl-BtnLink-typoColor;
+  border-color: transparent;
+  color:$sl-BtnReset-typoColor;
   &:hover,
   &:focus,
+  &:active,
   &.is-active {
     border-color: transparent;
-    color:$sl-BtnLink-hover-typoColor;
+    color:$sl-BtnReset-hover-typoColor;
     text-decoration: underline;
   }
 }
 
 
 // ==================================
-.Btn--pill {
+.Btn--pill,
+.BtnBorder--pill {
   border-radius: 5rem;
+}
+
+// ==================================
+.Btn--roundOff,
+.BtnBorder--roundOff {
+  border-radius: 0 !important;
+}
+
+.Btn--roundOn,
+.BtnBorder--roundOn {
+  border-radius: $sl-Btn-borderRadius-bs !important;
 }
 
 
 // ==================================
-.Btn--xl {
+.Btn--xl,
+.BtnBorder--xl,
+.BtnReset--xl {
   padding: $sl-Btn-paddingV-xl $sl-Btn-paddingH-xl;
   font-size: $sl-Btn-fontSize-xl;
   border-radius: $sl-Btn-borderRadius-xl;
 }
-.Btn--lg {
+.Btn--lg,
+.BtnBorder--lg,
+.BtnReset--lg {
   padding: $sl-Btn-paddingV-lg $sl-Btn-paddingH-lg;
   font-size: $sl-Btn-fontSize-lg;
   border-radius: $sl-Btn-borderRadius-lg;
 }
-.Btn--sm{
+.Btn--sm,
+.BtnBorder--sm,
+.BtnReset--sm{
   padding: $sl-Btn-paddingV-sm $sl-Btn-paddingH-sm;
   font-size: $sl-Btn-fontSize-sm;
   border-radius: $sl-Btn-borderRadius-sm;
@@ -142,10 +167,14 @@ button,
 
 
 // ==================================
-.Btn--full {
+.Btn--full,
+.BtnBorder--full,
+.BtnReset--full {
   display: block;
   width: 100%;
 }
-.Btn--full + .Btn--full {
+.Btn--full + .Btn--full,
+.BtnBorder--full + .BtnBorder--full,
+.BtnReset--full + .BtnReset--full {
   margin-top: 5px;
 }

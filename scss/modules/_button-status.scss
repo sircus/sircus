@@ -3,28 +3,28 @@
 // .is-success
 $sl-Btn-success-typoColor:       #fff !default;
 $sl-Btn-success-bgColor:         $sg-color-success !default;
-$sl-Btn-success-borderColor:     $sl-Btn-success-bgColor !default;
+$sl-Btn-success-borderColor:     darken($sl-Btn-success-bgColor, 5) !default;
 
 // .is-notice
 $sl-Btn-notice-typoColor:        #fff !default;
 $sl-Btn-notice-bgColor:          $sg-color-notice !default;
-$sl-Btn-notice-borderColor:      $sl-Btn-notice-bgColor !default;
+$sl-Btn-notice-borderColor:      darken($sl-Btn-notice-bgColor, 5) !default;
 
 // .is-warning
 $sl-Btn-warning-typoColor:       #fff !default;
 $sl-Btn-warning-bgColor:         $sg-color-warning !default;
-$sl-Btn-warning-borderColor:     $sl-Btn-warning-bgColor !default;
+$sl-Btn-warning-borderColor:     darken($sl-Btn-warning-bgColor, 5) !default;
 
 // .is-error
 $sl-Btn-error-typoColor:         #fff !default;
 $sl-Btn-error-bgColor:           $sg-color-error !default;
-$sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
+$sl-Btn-error-borderColor:       darken($sl-Btn-error-bgColor, 5) !default;
 
 
 // .Btn--success
 // ==================================
 .Btn.is-success,
-.Btn.Btn--success {
+.Btn--success {
   background-color:$sl-Btn-success-bgColor;
   border-color: $sl-Btn-success-borderColor;
   color:$sl-Btn-success-typoColor;
@@ -38,7 +38,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 }
 
 .BtnBorder.is-success,
-.BtnBorder.Btn--success {
+.BtnBorder--success {
   border-color: $sl-Btn-success-bgColor;
   color:$sl-Btn-success-bgColor;
   &:hover,
@@ -47,11 +47,12 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
   &.is-active{
     background-color:$sl-Btn-success-bgColor;
     color:$sl-Btn-success-typoColor;
+    border-color: $sl-Btn-success-borderColor;
   }
 }
 
-.BtnSimple.is-success,
-.BtnSimple.Btn--success {
+.BtnReset.is-success,
+.BtnReset--success {
   color:$sl-Btn-success-bgColor;
   &:hover,
   &:focus,
@@ -64,7 +65,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 // .is-notice
 // ==================================
 .Btn.is-notice,
-.Btn.Btn--notice {
+.Btn--notice {
   background-color:$sl-Btn-notice-bgColor;
   border-color: $sl-Btn-notice-borderColor;
   color:$sl-Btn-notice-typoColor;
@@ -78,7 +79,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 }
 
 .BtnBorder.is-notice,
-.BtnBorder.Btn--notice {
+.BtnBorder--notice {
   border-color: $sl-Btn-notice-bgColor;
   color:$sl-Btn-notice-bgColor;
   &:hover,
@@ -87,11 +88,12 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
   &.is-active{
     background-color:$sl-Btn-notice-bgColor;
     color:$sl-Btn-notice-typoColor;
+    border-color: $sl-Btn-notice-borderColor;
   }
 }
 
-.BtnSimple.is-notice,
-.BtnSimple.Btn--notice {
+.BtnReset.is-notice,
+.BtnReset--notice {
   color:$sl-Btn-notice-bgColor;
   &:hover,
   &:focus,
@@ -104,7 +106,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 // .is-warning
 // ==================================
 .Btn.is-warning,
-.Btn.Btn--warning {
+.Btn--warning {
   background-color:$sl-Btn-warning-bgColor;
   border-color: $sl-Btn-warning-borderColor;
   color:$sl-Btn-warning-typoColor;
@@ -118,7 +120,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 }
 
 .BtnBorder.is-warning,
-.BtnBorder.Btn--warning {
+.BtnBorder--warning {
   border-color: $sl-Btn-warning-bgColor;
   color:$sl-Btn-warning-bgColor;
   &:hover,
@@ -127,11 +129,12 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
   &.is-active{
     background-color:$sl-Btn-warning-bgColor;
     color:$sl-Btn-warning-typoColor;
+    border-color: $sl-Btn-warning-borderColor;
   }
 }
 
-.BtnSimple.is-warning,
-.BtnSimple.Btn-warning {
+.BtnReset.is-warning,
+.BtnReset--warning {
   color:$sl-Btn-warning-bgColor;
   &:hover,
   &:focus,
@@ -144,7 +147,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 // .is-error
 // ==================================
 .Btn.is-error,
-.Btn.Btn--error {
+.Btn--error {
   background-color:$sl-Btn-error-bgColor;
   border-color: $sl-Btn-error-borderColor;
   color:$sl-Btn-error-typoColor;
@@ -158,7 +161,7 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
 }
 
 .BtnBorder.is-error,
-.BtnBorder.Btn-error {
+.BtnBorder--error {
   border-color: $sl-Btn-error-bgColor;
   color:$sl-Btn-error-bgColor;
   &:hover,
@@ -167,11 +170,12 @@ $sl-Btn-error-borderColor:       $sl-Btn-error-bgColor !default;
   &.is-active{
     background-color:$sl-Btn-error-bgColor;
     color:$sl-Btn-error-typoColor;
+    border-color: $sl-Btn-error-borderColor;
   }
 }
 
-.BtnSimple.is-error,
-.BtnSimple.Btn-error {
+.BtnReset.is-error,
+.BtnReset--error {
   color:$sl-Btn-error-bgColor;
   &:hover,
   &:focus,

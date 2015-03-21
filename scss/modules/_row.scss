@@ -3,7 +3,7 @@
 
 $sl-Row-gutter-width:       $sg-Container-gutter-width !default;
 $sl-Row-col-fontSize-bs:    $sg-fontSize-bs !default;
-$sl-Row-screen-xs-min:      $sg-screen-xs-min !default;
+$sl-Row-screen-wxs-min:     $sg-screen-wxs-min !default;
 
 // Row
 // =====================================
@@ -49,7 +49,7 @@ $sl-Row-screen-xs-min:      $sg-screen-xs-min !default;
   > .Row-col {
     width:100%;
   }
-  @media (min-width: $sl-Row-screen-xs-min) {
+  @media (min-width: $sl-Row-screen-wxs-min) {
     display: table;
     table-layout: fixed;
     > .Row-col {

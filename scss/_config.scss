@@ -1,3 +1,28 @@
+// Responsive window size
+// ------------------
+// $[sg\sl]-*-[wxs\wsm\wmd\wlg-]*
+// ------------------
+// wxs = window x-small
+// wsm = window small
+// wmd = window medium
+// wlg = window large
+
+// ==========================
+
+// Base size
+// ------------------
+// sc = space
+// hg = huge
+// mg = mega
+// xl = x-large
+// lg = large
+// bs = base
+// sm = small
+// xs = x-small
+// mn = mini
+// mc = micro
+
+
 // Colors
 // ==========================
 $sg-color-gray-darkest:           #222 !default;
@@ -8,7 +33,7 @@ $sg-color-gray-light:             #DDD !default;
 $sg-color-gray-lighter:           #F5F5F5 !default;
 $sg-color-gray-lightest:          #FAFAFA !default;
 
-$sg-color-primary:                 #b89e52 !default;
+$sg-color-primary:                 #6c7b88 !default;
 $sg-color-primary-darkest:         darken($sg-color-primary, 45%) !default;
 $sg-color-primary-darker:          darken($sg-color-primary, 30%) !default;
 $sg-color-primary-dark:            darken($sg-color-primary, 15%) !default;
@@ -43,14 +68,14 @@ $sg-state-danger-border:          darken(adjust-hue($sg-state-danger-bg, -10), 5
 
 // Screen size
 // ==========================
-$sg-screen-xs-min:         480px !default;
-$sg-screen-sm-min:         768px !default;
-$sg-screen-md-min:         992px !default;
-$sg-screen-lg-min:         1200px !default;
+$sg-screen-wxs-min:         480px !default;
+$sg-screen-wsm-min:         768px !default;
+$sg-screen-wmd-min:         992px !default;
+$sg-screen-wlg-min:         1200px !default;
 
-$sg-screen-xs-max:         ($sg-screen-sm-min - 1) !default;
-$sg-screen-sm-max:         ($sg-screen-md-min - 1) !default;
-$sg-screen-md-max:         ($sg-screen-lg-min - 1) !default;
+$sg-screen-wxs-max:         ($sg-screen-wsm-min - 1) !default;
+$sg-screen-wsm-max:         ($sg-screen-wmd-min - 1) !default;
+$sg-screen-wmd-max:         ($sg-screen-wlg-min - 1) !default;
 
 
 
@@ -71,19 +96,24 @@ $sg-fontSize-hg:            ($sg-fontSize-bs + 2.4) !default; //h1
 $sg-fontSize-mg:            ($sg-fontSize-bs + 1.6) !default; //h2
 $sg-fontSize-xl:            ($sg-fontSize-bs + .8) !default;  //h3
 $sg-fontSize-lg:            ($sg-fontSize-bs + .4) !default;  //h4
-$sg-fontSize-md:            $sg-fontSize-bs !default;         //h5
+// base
 $sg-fontSize-sm:            ($sg-fontSize-bs - .2) !default;  //h6
 $sg-fontSize-xs:            ($sg-fontSize-bs - .3) !default;
 
 // text --------------------
 $sg-textColor:              $sg-color-gray-darkest !default;
-// $text-muted:              $sg-color-gray !default;
+// $text-muted:             $sg-color-gray !default;
 
 // Link --------------------
 $sg-linkColor:              $sg-color-primary !default;
-$sg-linkColorHover:        $sg-color-primary-dark !default;
+$sg-linkColorHover:         $sg-color-primary-dark !default;
 $sg-linkDecoration:         underline !default;
-$sg-linkDecorationHover:   none !default;
+$sg-linkDecorationHover:    none !default;
+
+// :focus --------------------
+$sg-focusColor:             #6c7b88 !default;
+$sg-focusBorderColor:       $sg-focusColor !default;
+
 
 // Headdings --------------------
 $sg-headings-space:          .5em !default;
@@ -101,6 +131,7 @@ $sg-lineHeight-sm:        1.2 !default;
 $sg-lineHeight-xs:        1.1 !default;
 
 
+
 // letter-spacing
 // ==========================
 $sg-letterSpace-xl : .1em !default;
@@ -112,14 +143,14 @@ $sg-letterSpace-xs : (0 - 0.08em) !default;
 
 // space (margin & padding)
 // ==========================
-$sg-space-mn : 1rem !default;
-$sg-space-xs : 1.2rem !default;
-$sg-space-sm : 1.8rem !default;
-$sg-space-bs : 2.4rem!default;
-$sg-space-lg : 3.6rem !default;
-$sg-space-xl : 4.8rem !default;
-$sg-space-mg : 6rem !default;
 $sg-space-hg : 7.2rem !default;
+$sg-space-mg : 6rem !default;
+$sg-space-xl : 4.8rem !default;
+$sg-space-lg : 3.6rem !default;
+$sg-space-bs : 2.4rem!default;
+$sg-space-sm : 1.8rem !default;
+$sg-space-xs : 1.2rem !default;
+$sg-space-mn : .6rem !default;
 
 
 // padding
@@ -138,8 +169,8 @@ $sg-paddingH-sm: 0.8rem !default;
 
 
 // ==========================
-$sg-sumHeight-bs:       ($sg-fontSize-bs + $sg-lineHeight-bs + $sg-paddingV-bs) !default;
 $sg-sumHeight-lg:       ($sg-fontSize-lg + $sg-lineHeight-lg + $sg-paddingV-lg) !default;
+$sg-sumHeight-bs:       ($sg-fontSize-bs + $sg-lineHeight-bs + $sg-paddingV-bs) !default;
 $sg-sumHeight-sm:       ($sg-fontSize-sm + $sg-lineHeight-sm + $sg-paddingV-sm) !default;
 
 
@@ -153,17 +184,26 @@ $sg-border-bs    : $sg-border-size $sg-border-style $sg-border-color;
 
 // borderRadius
 // ==========================
-$sg-borderRadius-sm:   .2rem !default;
-$sg-borderRadius-bs:   .4rem !default;
+$sg-borderRadius-xl:   .5rem !default;
 $sg-borderRadius-lg:   .5rem !default;
+$sg-borderRadius-bs:   .4rem !default;
+$sg-borderRadius-sm:   .3rem !default;
+
+
+
+// Button and form
+// ==========================
+$sg-BtnAndFrm-borderSize:         .2rem !default;
+$sg-BtnAndFrm-borderSizeRadius:   $sg-borderRadius-bs !default;
+
 
 // Container
 // ==========================
-$sg-Container-gutter-width:    ($sg-space-bs / 2) !default;
-$sg-Container-sm:              (72rem + $sg-space-bs) !default;
-$sg-Container-md:              (94rem + $sg-space-bs )!default;
-$sg-Container-lg:              (114rem + $sg-space-bs ) !default;
-$sg-Container-screen-xs-min:   $sg-screen-xs-min !default;
-$sg-Container-screen-sm-min:   $sg-screen-sm-min !default;
-$sg-Container-screen-md-min:   $sg-screen-md-min !default;
-$sg-Container-screen-lg-min:   $sg-screen-lg-min !default;
+$sg-Container-gutter-width:     ($sg-space-bs / 2) !default;
+$sg-Container-wsm-width:        (72rem + $sg-space-bs) !default;
+$sg-Container-wmd-width:        (94rem + $sg-space-bs )!default;
+$sg-Container-wlg-width:        (114rem + $sg-space-bs ) !default;
+$sg-Container-screen-wxs-min:   $sg-screen-wxs-min !default;
+$sg-Container-screen-wsm-min:   $sg-screen-wsm-min !default;
+$sg-Container-screen-wmd-min:   $sg-screen-wmd-min !default;
+$sg-Container-screen-wlg-min:   $sg-screen-wlg-min !default;

@@ -3,13 +3,13 @@
 // container & grid
 // ==========================
 $sl-Container-gutter-width:    $sg-Container-gutter-width !default;
-$sl-Container-sm:              $sg-Container-sm !default;
-$sl-Container-md:              $sg-Container-md !default;
-$sl-Container-lg:              $sg-Container-lg !default;
-$sl-Container-screen-xs-min:   $sg-Container-screen-xs-min !default;
-$sl-Container-screen-sm-min:   $sg-Container-screen-sm-min !default;
-$sl-Container-screen-md-min:   $sg-Container-screen-md-min !default;
-$sl-Container-screen-lg-min:   $sg-Container-screen-lg-min !default;
+$sl-Container-wsm-width:        $sg-Container-wsm-width !default;
+$sl-Container-wmd-width:        $sg-Container-wmd-width !default;
+$sl-Container-wlg-width:        $sg-Container-wlg-width !default;
+$sl-Container-screen-wxs-min:   $sg-Container-screen-wxs-min !default;
+$sl-Container-screen-wsm-min:   $sg-Container-screen-wsm-min !default;
+$sl-Container-screen-wmd-min:   $sg-Container-screen-wmd-min !default;
+$sl-Container-screen-wlg-min:   $sg-Container-screen-wlg-min !default;
 
 // ==================================
 .ContainerSlim,
@@ -23,17 +23,17 @@ $sl-Container-screen-lg-min:   $sg-Container-screen-lg-min !default;
 }
 
 .Container {
-  @media (min-width: $sl-Container-screen-sm-min) {
-    width: $sl-Container-sm;
+  @media (min-width: $sl-Container-screen-wsm-min) {
+    width: $sl-Container-wsm-width;
   }
-  @media (min-width: $sl-Container-screen-md-min) {
-    width: $sl-Container-md;
+  @media (min-width: $sl-Container-screen-wmd-min) {
+    width: $sl-Container-wmd-width;
   }
-  @media (min-width: $sl-Container-screen-lg-min) {
-    width: $sl-Container-lg;
+  @media (min-width: $sl-Container-screen-wlg-min) {
+    width: $sl-Container-wlg-width;
   }
 }
 
 .ContainerSlim {
-  max-width: $sl-Container-sm;
+  max-width: $sl-Container-wsm-width;
 }

@@ -61,13 +61,13 @@ WIP: http://sircus.blivesta.com
 
 
 ### Tools
-> t-[sm|md|lg-]toolName
+> t-[wsm|wmd|wlg-]toolName
 
 #### t-toolName
 
 ```css
 .t-clear { }
-.t-sm-block { }
+.t-wsm-block { }
 ```
 
 ```html

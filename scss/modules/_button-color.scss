@@ -3,12 +3,12 @@
 // .Btn--primary
 $sl-Btn-primary-typoColor:       #fff !default;
 $sl-Btn-primary-bgColor:         $sg-color-primary !default;
-$sl-Btn-primary-borderColor:     $sl-Btn-primary-bgColor !default;
+$sl-Btn-primary-borderColor:     darken($sl-Btn-primary-bgColor, 5) !default;
 
 
 // .Btn--primary
 // ==================================
-.Btn.Btn--primary {
+.Btn--primary {
   background-color:$sl-Btn-primary-bgColor;
   border-color: $sl-Btn-primary-borderColor;
   color:$sl-Btn-primary-typoColor;
@@ -18,11 +18,12 @@ $sl-Btn-primary-borderColor:     $sl-Btn-primary-bgColor !default;
   &.is-active{
     background-color:$sl-Btn-primary-typoColor;
     color:$sl-Btn-primary-bgColor;
+    border-color: $sl-Btn-primary-borderColor;
   }
 }
 
 
-.BtnBorder.Btn--primary {
+.BtnBorder--primary {
   border-color: $sl-Btn-primary-bgColor;
   color:$sl-Btn-primary-bgColor;
   &:hover,
@@ -31,5 +32,6 @@ $sl-Btn-primary-borderColor:     $sl-Btn-primary-bgColor !default;
   &.is-active{
     background-color:$sl-Btn-primary-bgColor;
     color:$sl-Btn-primary-typoColor;
+    border-color: $sl-Btn-primary-borderColor;
   }
 }

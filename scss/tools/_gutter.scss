@@ -5,44 +5,44 @@
 // unit
 // container & grid
 // ==========================
-$sl-gutterReset-screen-xs-min:   $sg-screen-xs-min !default;
-$sl-gutterReset-screen-sm-min:   $sg-screen-sm-min !default;
-$sl-gutterReset-screen-md-min:   $sg-screen-md-min !default;
-$sl-gutterReset-screen-lg-min:   $sg-screen-lg-min !default;
+$sl-gutterReset-screen-wxs-min:   $sg-screen-wxs-min !default;
+$sl-gutterReset-screen-wsm-min:   $sg-screen-wsm-min !default;
+$sl-gutterReset-screen-wmd-min:   $sg-screen-wmd-min !default;
+$sl-gutterReset-screen-wlg-min:   $sg-screen-wlg-min !default;
 
 // ==================================
 .t-gutterReset,
-.t-xs-gutterReset,
-.t-sm-gutterReset,
-.t-md-gutterReset,
-.t-lg-gutterReset {
+.t-wxs-gutterReset,
+.t-wsm-gutterReset,
+.t-wmd-gutterReset,
+.t-wlg-gutterReset {
   margin-left:-$sg-Container-gutter-width;
   margin-right:-$sg-Container-gutter-width;
 }
 
-@media (min-width: $sl-gutterReset-screen-xs-min) {
-  .t-xs-gutterReset {
+@media (min-width: $sl-gutterReset-screen-wxs-min) {
+  .t-wxs-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-@media (min-width: $sl-gutterReset-screen-sm-min) {
-  .t-sm-gutterReset {
+@media (min-width: $sl-gutterReset-screen-wsm-min) {
+  .t-wsm-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-@media (min-width: $sl-gutterReset-screen-md-min) {
-  .t-md-gutterReset {
+@media (min-width: $sl-gutterReset-screen-wmd-min) {
+  .t-wmd-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-@media (min-width: $sl-gutterReset-screen-lg-min) {
-  .t-lg-gutterReset {
+@media (min-width: $sl-gutterReset-screen-wlg-min) {
+  .t-wlg-gutterReset {
     margin-left: 0;
     margin-right: 0;
   }
