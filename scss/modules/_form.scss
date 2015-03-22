@@ -1,120 +1,130 @@
-@import "../config";
+@import '../config';
 
 // Size
-$sl-Frm-paddingV-xl:              $sg-paddingV-xl !default;
-$sl-Frm-paddingH-xl:              $sg-paddingH-xl !default;
-$sl-Frm-paddingV-lg:              $sg-paddingV-lg !default;
-$sl-Frm-paddingH-lg:              $sg-paddingH-lg !default;
-$sl-Frm-paddingV-bs:              $sg-paddingV-bs !default;
-$sl-Frm-paddingH-bs:              $sg-paddingH-bs !default;
-$sl-Frm-paddingV-sm:              $sg-paddingV-sm !default;
-$sl-Frm-paddingH-sm:              $sg-paddingH-sm !default;
+$sl-Form-paddingV-xl:     $sg-paddingV-xl !default;
+$sl-Form-paddingH-xl:     $sg-paddingH-xl !default;
+$sl-Form-paddingV-lg:     $sg-paddingV-lg !default;
+$sl-Form-paddingH-lg:     $sg-paddingH-lg !default;
+$sl-Form-paddingV-bs:     $sg-paddingV-bs !default;
+$sl-Form-paddingH-bs:     $sg-paddingH-bs !default;
+$sl-Form-paddingV-sm:     $sg-paddingV-sm !default;
+$sl-Form-paddingH-sm:     $sg-paddingH-sm !default;
 
-$sl-Frm-fontSize-xl:              $sg-fontSize-xl !default;
-$sl-Frm-fontSize-lg:              $sg-fontSize-lg !default;
-$sl-Frm-fontSize-bs:              $sg-fontSize-bs !default;
-$sl-Frm-fontSize-sm:              $sg-fontSize-sm !default;
+$sl-Form-fontSize-xl:     $sg-fontSize-xl !default;
+$sl-Form-fontSize-lg:     $sg-fontSize-lg !default;
+$sl-Form-fontSize-bs:     $sg-fontSize-bs !default;
+$sl-Form-fontSize-sm:     $sg-fontSize-sm !default;
 
-$sl-Frm-borderRadius-xl:          $sg-borderRadius-lg !default;
-$sl-Frm-borderRadius-lg:          $sg-borderRadius-lg !default;
-$sl-Frm-borderRadius-bs:          $sg-borderRadius-bs !default;
-$sl-Frm-borderRadius-sm:          $sg-borderRadius-sm !default;
+$sl-Form-borderRadius-xl: $sg-borderRadius-lg !default;
+$sl-Form-borderRadius-lg: $sg-borderRadius-lg !default;
+$sl-Form-borderRadius-bs: $sg-borderRadius-bs !default;
+$sl-Form-borderRadius-sm: $sg-borderRadius-sm !default;
 
-// .Frm
-$sl-Frm-bgColor:                  transparent !default;
-$sl-Frm-borderSize:               $sg-BtnAndFrm-borderSize !default;
-$sl-Frm-borderColor:              #ccc !default;
+$sl-Form-bgColor:         transparent !default;
+$sl-Form-borderSize:      $sg-ButtonAndForm-borderSize !default;
+$sl-Form-borderColor:     $sg-ButtonAndForm-baseColor !default;
 
-$sl-Frm-color-focus:              $sg-focusColor !default;
-$sl-Frm-color-disabled:           $sl-Frm-borderColor !default;
+$sl-Form-color-focus:     $sg-focusColor !default;
+$sl-Form-color-disabled:  $sl-Form-borderColor !default;
+
+$sl-Form-height-xl:       $sg-ButtonAndForm-height-xl !default;
+$sl-Form-height-lg:       $sg-ButtonAndForm-height-lg !default;
+$sl-Form-height-bs:       $sg-ButtonAndForm-height-bs !default;
+$sl-Form-height-sm:       $sg-ButtonAndForm-height-sm !default;
 
 
 // ==================================
+input {
+  -webkit-appearance: none;
+}
+
+.Input,
+.Form,
+.Select,
 select,
 textarea,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"],
-.input,
-.inp,
-.Frm,
-.FrmSimple,
-.FrmUnderline {
-  box-sizing: border-box;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.08);
-  background-color:$sl-Frm-bgColor;
-  display: inline-block;
-  height: auto;
-  margin: 0;
-  padding: $sl-Frm-paddingV-bs $sl-Frm-paddingH-bs;
-  border-radius: $sl-Frm-borderRadius-bs;
-  border: $sl-Frm-borderSize solid $sl-Frm-borderColor;
-  background-image: none;
+// input
+input[type='text'],
+input[type='password'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='date'],
+input[type='month'],
+input[type='time'],
+input[type='week'],
+input[type='number'],
+input[type='email'],
+input[type='url'],
+input[type='search'],
+input[type='tel'],
+input[type='color'] {
   font-family: inherit;
-  font-size: $sl-Frm-fontSize-bs;
+  font-size: $sl-Form-fontSize-bs;
+  display: inline-block;
+  box-sizing: border-box;
+  height: $sl-Form-height-bs;
+  padding: $sl-Form-paddingV-bs $sl-Form-paddingH-bs;
   line-height: inherit;
   vertical-align: middle;
-  -webkit-appearance: none;
+  border: $sl-Form-borderSize solid $sl-Form-borderColor;
+  border-radius: $sl-Form-borderRadius-bs;
+  background-color: $sl-Form-bgColor;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.08);
   transition: border ease-in-out .15s,box-shadow ease-in-out .15s;
   &.is-focus,
   &:focus {
+    border: $sl-Form-borderSize solid $sl-Form-color-focus;
     outline: 0;
-    border: $sl-Frm-borderSize solid $sl-Frm-color-focus;
-    box-shadow: inset 0 1px 1px rgba($sl-Frm-color-focus,.4),0 0 8px rgba($sl-Frm-color-focus,.4);
+    box-shadow: inset 0 1px 1px rgba($sl-Form-color-focus,.4),0 0 8px rgba($sl-Form-color-focus,.4);
   }
   &.is-disabled,
   &[disabled] {
-    background-color:lighten($sl-Frm-color-disabled,10);
-    pointer-events: none;
     cursor: not-allowed;
-    opacity: .65;
+    pointer-events: none;
+    opacity: 0.65;
+    background-color: lighten($sl-Form-color-disabled,10);
   }
 }
 
-// ==================================
-select,
-.select {
-  // 画像変える
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgNiAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwICIvPjwvc3ZnPg==");
-  background-position: 90% center;
-  background-repeat: no-repeat;
-  padding-right: $sl-Frm-paddingH-bs * 2;
-}
 
 // ==================================
-.Frm--xl {
-  padding: $sl-Frm-paddingV-xl $sl-Frm-paddingH-xl !important;
-  font-size: $sl-Frm-fontSize-xl !important;
-  border-radius: $sl-Frm-borderRadius-xl !important;
+.Input--xl,
+.Select--xl,
+.Form--xl {
+  font-size: $sl-Form-fontSize-xl !important;
+  padding: $sl-Form-paddingV-xl $sl-Form-paddingH-bs !important;
+  border-radius: $sl-Form-borderRadius-xl !important;
+  height:$sl-Form-height-xl !important;
 }
-.Frm--lg {
-  padding: $sl-Frm-paddingV-lg $sl-Frm-paddingH-lg !important;
-  font-size: $sl-Frm-fontSize-lg !important;
-  border-radius: $sl-Frm-borderRadius-lg !important;
+
+.Input--lg,
+.Select--lg,
+.Form--lg {
+  font-size: $sl-Form-fontSize-lg !important;
+  padding: $sl-Form-paddingV-lg $sl-Form-paddingH-bs !important;
+  border-radius: $sl-Form-borderRadius-lg !important;
+  height:$sl-Form-height-lg !important;
 }
-.Frm--sm{
-  padding: $sl-Frm-paddingV-sm $sl-Frm-paddingH-sm !important;
-  font-size: $sl-Frm-fontSize-sm !important;
-  border-radius: $sl-Frm-borderRadius-sm !important;
+
+.Input--sm,
+.Select--sm,
+.Form--sm {
+  font-size: $sl-Form-fontSize-sm !important;
+  padding: $sl-Form-paddingV-sm $sl-Form-paddingH-bs !important;
+  border-radius: $sl-Form-borderRadius-sm !important;
+  height:$sl-Form-height-sm !important;
 }
 
 
 // ==================================
-.Frm--full {
+.Input--full,
+.Select--full,
+.Form--full {
   display: block;
   width: 100%;
 }
-.Frm--full + .Frm--full {
+.Input--full + .Input--full,
+.Select--full + .Select--full,
+.Form--full + .Form--full {
   margin-top: 5px;
 }

@@ -1,186 +1,186 @@
 @import "../config";
 
 // .is-success
-$sl-Btn-success-typoColor:       #fff !default;
-$sl-Btn-success-bgColor:         $sg-color-success !default;
-$sl-Btn-success-borderColor:     darken($sl-Btn-success-bgColor, 5) !default;
+$sl-Button-success-typoColor:       #fff !default;
+$sl-Button-success-bgColor:         $sg-color-success !default;
+$sl-Button-success-borderColor:     darken($sl-Button-success-bgColor, 5) !default;
 
 // .is-notice
-$sl-Btn-notice-typoColor:        #fff !default;
-$sl-Btn-notice-bgColor:          $sg-color-notice !default;
-$sl-Btn-notice-borderColor:      darken($sl-Btn-notice-bgColor, 5) !default;
+$sl-Button-notice-typoColor:        #fff !default;
+$sl-Button-notice-bgColor:          $sg-color-notice !default;
+$sl-Button-notice-borderColor:      darken($sl-Button-notice-bgColor, 5) !default;
 
 // .is-warning
-$sl-Btn-warning-typoColor:       #fff !default;
-$sl-Btn-warning-bgColor:         $sg-color-warning !default;
-$sl-Btn-warning-borderColor:     darken($sl-Btn-warning-bgColor, 5) !default;
+$sl-Button-warning-typoColor:       #fff !default;
+$sl-Button-warning-bgColor:         $sg-color-warning !default;
+$sl-Button-warning-borderColor:     darken($sl-Button-warning-bgColor, 5) !default;
 
 // .is-error
-$sl-Btn-error-typoColor:         #fff !default;
-$sl-Btn-error-bgColor:           $sg-color-error !default;
-$sl-Btn-error-borderColor:       darken($sl-Btn-error-bgColor, 5) !default;
+$sl-Button-error-typoColor:         #fff !default;
+$sl-Button-error-bgColor:           $sg-color-error !default;
+$sl-Button-error-borderColor:       darken($sl-Button-error-bgColor, 5) !default;
 
 
-// .Btn--success
+// .Button--success
 // ==================================
-.Btn.is-success,
-.Btn--success {
-  background-color:$sl-Btn-success-bgColor;
-  border-color: $sl-Btn-success-borderColor;
-  color:$sl-Btn-success-typoColor;
+.Button.is-success,
+.Button--success {
+  background-color:$sl-Button-success-bgColor;
+  border-color: $sl-Button-success-borderColor;
+  color:$sl-Button-success-typoColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-success-typoColor;
-    color:$sl-Btn-success-bgColor;
+    background-color:$sl-Button-success-typoColor;
+    color:$sl-Button-success-bgColor;
   }
 }
 
-.BtnBorder.is-success,
-.BtnBorder--success {
-  border-color: $sl-Btn-success-bgColor;
-  color:$sl-Btn-success-bgColor;
+.ButtonBorder.is-success,
+.ButtonBorder--success {
+  border-color: $sl-Button-success-bgColor;
+  color:$sl-Button-success-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-success-bgColor;
-    color:$sl-Btn-success-typoColor;
-    border-color: $sl-Btn-success-borderColor;
+    background-color:$sl-Button-success-bgColor;
+    color:$sl-Button-success-typoColor;
+    border-color: $sl-Button-success-borderColor;
   }
 }
 
-.BtnReset.is-success,
-.BtnReset--success {
-  color:$sl-Btn-success-bgColor;
+.ButtonReset.is-success,
+.ButtonReset--success {
+  color:$sl-Button-success-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    color:darken($sl-Btn-success-bgColor,10);
+    color:darken($sl-Button-success-bgColor,10);
   }
 }
 
 // .is-notice
 // ==================================
-.Btn.is-notice,
-.Btn--notice {
-  background-color:$sl-Btn-notice-bgColor;
-  border-color: $sl-Btn-notice-borderColor;
-  color:$sl-Btn-notice-typoColor;
+.Button.is-notice,
+.Button--notice {
+  background-color:$sl-Button-notice-bgColor;
+  border-color: $sl-Button-notice-borderColor;
+  color:$sl-Button-notice-typoColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-notice-typoColor;
-    color:$sl-Btn-notice-bgColor;
+    background-color:$sl-Button-notice-typoColor;
+    color:$sl-Button-notice-bgColor;
   }
 }
 
-.BtnBorder.is-notice,
-.BtnBorder--notice {
-  border-color: $sl-Btn-notice-bgColor;
-  color:$sl-Btn-notice-bgColor;
+.ButtonBorder.is-notice,
+.ButtonBorder--notice {
+  border-color: $sl-Button-notice-bgColor;
+  color:$sl-Button-notice-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-notice-bgColor;
-    color:$sl-Btn-notice-typoColor;
-    border-color: $sl-Btn-notice-borderColor;
+    background-color:$sl-Button-notice-bgColor;
+    color:$sl-Button-notice-typoColor;
+    border-color: $sl-Button-notice-borderColor;
   }
 }
 
-.BtnReset.is-notice,
-.BtnReset--notice {
-  color:$sl-Btn-notice-bgColor;
+.ButtonReset.is-notice,
+.ButtonReset--notice {
+  color:$sl-Button-notice-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    color:darken($sl-Btn-notice-bgColor,10);
+    color:darken($sl-Button-notice-bgColor,10);
   }
 }
 
 // .is-warning
 // ==================================
-.Btn.is-warning,
-.Btn--warning {
-  background-color:$sl-Btn-warning-bgColor;
-  border-color: $sl-Btn-warning-borderColor;
-  color:$sl-Btn-warning-typoColor;
+.Button.is-warning,
+.Button--warning {
+  background-color:$sl-Button-warning-bgColor;
+  border-color: $sl-Button-warning-borderColor;
+  color:$sl-Button-warning-typoColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-warning-typoColor;
-    color:$sl-Btn-warning-bgColor;
+    background-color:$sl-Button-warning-typoColor;
+    color:$sl-Button-warning-bgColor;
   }
 }
 
-.BtnBorder.is-warning,
-.BtnBorder--warning {
-  border-color: $sl-Btn-warning-bgColor;
-  color:$sl-Btn-warning-bgColor;
+.ButtonBorder.is-warning,
+.ButtonBorder--warning {
+  border-color: $sl-Button-warning-bgColor;
+  color:$sl-Button-warning-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-warning-bgColor;
-    color:$sl-Btn-warning-typoColor;
-    border-color: $sl-Btn-warning-borderColor;
+    background-color:$sl-Button-warning-bgColor;
+    color:$sl-Button-warning-typoColor;
+    border-color: $sl-Button-warning-borderColor;
   }
 }
 
-.BtnReset.is-warning,
-.BtnReset--warning {
-  color:$sl-Btn-warning-bgColor;
+.ButtonReset.is-warning,
+.ButtonReset--warning {
+  color:$sl-Button-warning-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    color:darken($sl-Btn-warning-bgColor,10);
+    color:darken($sl-Button-warning-bgColor,10);
   }
 }
 
 // .is-error
 // ==================================
-.Btn.is-error,
-.Btn--error {
-  background-color:$sl-Btn-error-bgColor;
-  border-color: $sl-Btn-error-borderColor;
-  color:$sl-Btn-error-typoColor;
+.Button.is-error,
+.Button--error {
+  background-color:$sl-Button-error-bgColor;
+  border-color: $sl-Button-error-borderColor;
+  color:$sl-Button-error-typoColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-error-typoColor;
-    color:$sl-Btn-error-bgColor;
+    background-color:$sl-Button-error-typoColor;
+    color:$sl-Button-error-bgColor;
   }
 }
 
-.BtnBorder.is-error,
-.BtnBorder--error {
-  border-color: $sl-Btn-error-bgColor;
-  color:$sl-Btn-error-bgColor;
+.ButtonBorder.is-error,
+.ButtonBorder--error {
+  border-color: $sl-Button-error-bgColor;
+  color:$sl-Button-error-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    background-color:$sl-Btn-error-bgColor;
-    color:$sl-Btn-error-typoColor;
-    border-color: $sl-Btn-error-borderColor;
+    background-color:$sl-Button-error-bgColor;
+    color:$sl-Button-error-typoColor;
+    border-color: $sl-Button-error-borderColor;
   }
 }
 
-.BtnReset.is-error,
-.BtnReset--error {
-  color:$sl-Btn-error-bgColor;
+.ButtonReset.is-error,
+.ButtonReset--error {
+  color:$sl-Button-error-bgColor;
   &:hover,
   &:focus,
   &:active,
   &.is-active{
-    color:darken($sl-Btn-error-bgColor,10);
+    color:darken($sl-Button-error-bgColor,10);
   }
 }

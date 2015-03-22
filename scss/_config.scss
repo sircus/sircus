@@ -22,6 +22,9 @@
 // mn = mini
 // mc = micro
 
+// variables prefix
+// $sg-* = sircus global
+// $sl-* = sircus local
 
 // Colors
 // ==========================
@@ -161,14 +164,15 @@ $sg-paddingH-xl: 4.8rem !default;
 $sg-paddingV-lg: 0.8rem !default;
 $sg-paddingH-lg: 3.2rem !default;
 
-$sg-paddingV-bs: 0.4rem  !default;
+$sg-paddingV-bs: 0.4rem !default;
 $sg-paddingH-bs: 1.6rem !default;
 
-$sg-paddingV-sm: 0.2rem  !default;
+$sg-paddingV-sm: 0.2rem !default;
 $sg-paddingH-sm: 0.8rem !default;
 
 
 // ==========================
+$sg-sumHeight-xl:       ($sg-fontSize-xl + $sg-lineHeight-xl + $sg-paddingV-xl) !default;
 $sg-sumHeight-lg:       ($sg-fontSize-lg + $sg-lineHeight-lg + $sg-paddingV-lg) !default;
 $sg-sumHeight-bs:       ($sg-fontSize-bs + $sg-lineHeight-bs + $sg-paddingV-bs) !default;
 $sg-sumHeight-sm:       ($sg-fontSize-sm + $sg-lineHeight-sm + $sg-paddingV-sm) !default;
@@ -193,8 +197,13 @@ $sg-borderRadius-sm:   .3rem !default;
 
 // Button and form
 // ==========================
-$sg-BtnAndFrm-borderSize:         .2rem !default;
-$sg-BtnAndFrm-borderSizeRadius:   $sg-borderRadius-bs !default;
+$sg-ButtonAndForm-borderSize:         .1rem !default;
+$sg-ButtonAndForm-borderSizeRadius:   $sg-borderRadius-bs !default;
+$sg-ButtonAndForm-height-bs:          3.6rem - $sg-ButtonAndForm-borderSize !default;
+$sg-ButtonAndForm-height-sm:          2.4rem - $sg-ButtonAndForm-borderSize !default;
+$sg-ButtonAndForm-height-lg:          4.8rem - $sg-ButtonAndForm-borderSize !default;
+$sg-ButtonAndForm-height-xl:          6rem !default;
+$sg-ButtonAndForm-baseColor:          #c8c8c8 !default;
 
 
 // Container

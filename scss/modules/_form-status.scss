@@ -1,82 +1,98 @@
 @import "../config";
 
 // .is-success
-$sl-Frm-success-typoColor:       $sg-color-success !default;
-$sl-Frm-success-bgColor:         $sg-color-success !default;
-$sl-Frm-success-borderColor:     $sg-color-success !default;
-$sl-Frm-success-focus:           $sg-color-success !default;
+$sl-Form-success-typoColor:       $sg-color-success !default;
+$sl-Form-success-bgColor:         $sg-color-success !default;
+$sl-Form-success-borderColor:     $sg-color-success !default;
+$sl-Form-success-focus:           $sg-color-success !default;
 
 // .is-notice
-$sl-Frm-notice-typoColor:        $sg-color-notice !default;
-$sl-Frm-notice-bgColor:          $sg-color-notice !default;
-$sl-Frm-notice-borderColor:      $sg-color-notice !default;
-$sl-Frm-notice-focus:            $sg-color-notice !default;
+$sl-Form-notice-typoColor:        $sg-color-notice !default;
+$sl-Form-notice-bgColor:          $sg-color-notice !default;
+$sl-Form-notice-borderColor:      $sg-color-notice !default;
+$sl-Form-notice-focus:            $sg-color-notice !default;
 
 // .is-warning
-$sl-Frm-warning-typoColor:       $sg-color-warning !default;
-$sl-Frm-warning-bgColor:         $sg-color-warning !default;
-$sl-Frm-warning-borderColor:     $sg-color-warning !default;
-$sl-Frm-warning-focus:           $sg-color-warning !default;
+$sl-Form-warning-typoColor:       $sg-color-warning !default;
+$sl-Form-warning-bgColor:         $sg-color-warning !default;
+$sl-Form-warning-borderColor:     $sg-color-warning !default;
+$sl-Form-warning-focus:           $sg-color-warning !default;
 
 // .is-error
-$sl-Frm-error-typoColor:         $sg-color-error !default;
-$sl-Frm-error-bgColor:           $sg-color-error !default;
-$sl-Frm-error-borderColor:       $sg-color-error !default;
-$sl-Frm-error-focus:             $sg-color-error !default;
+$sl-Form-error-typoColor:         $sg-color-error !default;
+$sl-Form-error-bgColor:           $sg-color-error !default;
+$sl-Form-error-borderColor:       $sg-color-error !default;
+$sl-Form-error-focus:             $sg-color-error !default;
 
 
-// .Frm--success
+// .is-success
 // ==================================
-.Frm.is-success,
-.Frm.Frm--success {
-  background-color:lighten($sl-Frm-success-bgColor,55);
-  border-color: $sl-Frm-success-borderColor;
-  color:$sl-Frm-success-typoColor;
+.Input.is-success,
+.Input--success,
+.Select.is-success,
+.Select--success,
+.Form.is-success,
+.Form--success {
+  background-color:lighten($sl-Form-success-bgColor,55);
+  border-color: $sl-Form-success-borderColor;
+  color:$sl-Form-success-typoColor;
   &.is-focus,
   &:focus {
-    border: $sl-Frm-borderSize solid $sl-Frm-success-focus;
-    box-shadow: inset 0 1px 1px rgba($sl-Frm-success-focus,.4),0 0 8px rgba($sl-Frm-success-focus,.4);
+    border: $sl-Form-borderSize solid $sl-Form-success-focus;
+    box-shadow: inset 0 1px 1px rgba($sl-Form-success-focus,.4),0 0 8px rgba($sl-Form-success-focus,.4);
   }
 }
 
 // .is-notice
 // ==================================
-.Frm.is-notice,
-.Frm.Frm--notice {
-  background-color:lighten($sl-Frm-notice-bgColor,25);
-  border-color: $sl-Frm-notice-borderColor;
-  color:$sl-Frm-notice-typoColor;
+.Input.is-notice,
+.Input--notice,
+.Select.is-notice,
+.Select--notice,
+.Form.is-notice,
+.Form--notice {
+  background-color:lighten($sl-Form-notice-bgColor,25);
+  border-color: $sl-Form-notice-borderColor;
+  color:$sl-Form-notice-typoColor;
   &.is-focus,
   &:focus {
-    border: $sl-Frm-borderSize solid $sl-Frm-notice-focus;
-    box-shadow: inset 0 1px 1px rgba($sl-Frm-notice-focus,.6),0 0 8px rgba($sl-Frm-notice-focus,.6);
+    border: $sl-Form-borderSize solid $sl-Form-notice-focus;
+    box-shadow: inset 0 1px 1px rgba($sl-Form-notice-focus,.6),0 0 8px rgba($sl-Form-notice-focus,.6);
   }
 }
 
 // .is-warning
 // ==================================
-.Frm.is-warning,
-.Frm.Frm--warning {
-  background-color:lighten($sl-Frm-warning-bgColor,40);
-  border-color: $sl-Frm-warning-borderColor;
-  color:$sl-Frm-warning-typoColor;
+.Input.is-warning,
+.Input--warning,
+.Select.is-warning,
+.Select--warning,
+.Form.is-warning,
+.Form--warning {
+  background-color:lighten($sl-Form-warning-bgColor,40);
+  border-color: $sl-Form-warning-borderColor;
+  color:$sl-Form-warning-typoColor;
   &.is-focus,
   &:focus {
-    border: $sl-Frm-borderSize solid $sl-Frm-warning-focus;
-    box-shadow: inset 0 1px 1px rgba($sl-Frm-warning-focus,.6),0 0 8px rgba($sl-Frm-warning-focus,.6);
+    border: $sl-Form-borderSize solid $sl-Form-warning-focus;
+    box-shadow: inset 0 1px 1px rgba($sl-Form-warning-focus,.6),0 0 8px rgba($sl-Form-warning-focus,.6);
   }
 }
 
 // .is-error
 // ==================================
-.Frm.is-error,
-.Frm.Frm--error {
-  background-color:lighten($sl-Frm-error-bgColor,35);
-  border-color: $sl-Frm-error-borderColor;
-  color:$sl-Frm-error-typoColor;
+.Input.is-error,
+.Input--error,
+.Select.is-error,
+.Select--error,
+.Form.is-error,
+.Form--error {
+  background-color:lighten($sl-Form-error-bgColor,35);
+  border-color: $sl-Form-error-borderColor;
+  color:$sl-Form-error-typoColor;
   &.is-focus,
   &:focus {
-    border: $sl-Frm-borderSize solid $sl-Frm-error-focus;
-    box-shadow: inset 0 1px 1px rgba($sl-Frm-error-focus,.4),0 0 8px rgba($sl-Frm-error-focus,.4);
+    border: $sl-Form-borderSize solid $sl-Form-error-focus;
+    box-shadow: inset 0 1px 1px rgba($sl-Form-error-focus,.4),0 0 8px rgba($sl-Form-error-focus,.4);
   }
 }
