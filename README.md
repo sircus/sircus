@@ -51,12 +51,12 @@ WIP: http://sircus.blivesta.com
 > ModuleName.is-stateOfModule
 
 ```css
-.Btn { }
-.Btn.is-active { }
+.Button { }
+.Button.is-active { }
 ```
 
 ```html
-<a class="Btn is-active"> </a>
+<a class="Button is-active"> </a>
 ```
 
 

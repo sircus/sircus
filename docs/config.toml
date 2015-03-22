@@ -5,14 +5,14 @@ layoutdir = "layouts"
 publishdir = "../_public"
 title = "sircus"
 copyright = "Copyright (c) 2015 blivesta and ungki. all rights reserved."
+pygmentsuseclasses = true
 
 [params]
-  description = "The scalable css for responsive project."
+  description = "Scalable css for responsive project."
   author = "blivesta"
   maintainer = "ungki"
   tags = "sircus, scalable css"
   sircus_url = "http://sircus.blivesta.com"
   github_url = "https://github.com/sircus/sircus"
   twitter = "blivesta"
-  git_fork_btn = "http://ghbtns.com/github-btn.html?user=sircus&amp;repo=sircus&amp;type=fork&amp;count=true"
-  git_star_btn = "http://ghbtns.com/github-btn.html?user=sircus&amp;repo=sircus&amp;type=watch&amp;count=true"
+  git_star_btn = "http://ghbtns.com/github-btn.html?user=sircus&repo=sircus&type=watch&count=true"

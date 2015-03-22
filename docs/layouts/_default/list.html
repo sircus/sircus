@@ -1,21 +1,18 @@
 {{ partial "head.html" . }}
 <body>
 
-{{ partial "header.html" . }}
-
-<div class="container">
+<section class="ContainerSlim t-pt-lg">
+  <h1>Test</h1>
   <ul>
-      {{ range .Data.Pages }}
+        {{ range .Data.Pages}}
+
       <li>
         <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
       </li>
       {{ end }}
   </ul>
-</div>
+</section>
 
 {{ partial "footer.html" . }}
-<div class="test-carbon t-hidden-xs">
-  {{ partial "carbon-ads.html" . }}
-</div>
 </body>
 </html>

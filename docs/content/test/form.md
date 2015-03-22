@@ -1,12 +1,155 @@
 ---
-title: "Forms(WIP)"
+title: "Forms"
 description: ""
 ---
 
-<div class="Container">
+<div class="ContainerFull">
+
+
+
+
 
 
 <h1>Forms</h1>
+
+
+<p>
+<label class="t-width1of6 t-inlineBlock">Small</label>
+<input class="Input--sm t-width1of6" type="text" placeholder="nomal">
+<select class="Select--sm t-width1of6">
+<option>select</option>
+<option>2</option>
+</select>
+<button class="ButtonBorder Button--sm">button</button>
+<a class="ButtonBorder Button--sm">a.Button</a>
+<input class="" type="checkbox" placeholder="nomal">
+<input class="" type="radio" placeholder="nomal">
+</p>
+
+<p>
+<label class="t-width1of6 t-inlineBlock">Base</label>
+<input class="t-width1of6" type="text" placeholder="nomal">
+<select class="t-width1of6">
+<option>select</option>
+<option>2</option>
+</select>
+<button class="ButtonBorder">button</button>
+<a class="ButtonBorder">a.Button</a>
+<input class="" type="checkbox" placeholder="nomal">
+<input class="" type="radio" placeholder="nomal">
+</p>
+
+
+
+
+<p>
+<label class="t-width1of6 t-inlineBlock">Large</label>
+<input class="Input--lg t-width1of6" type="text" placeholder="nomal">
+<select class="Select--lg t-width1of6">
+<option>select</option>
+<option>2</option>
+</select>
+<button class="ButtonBorder Button--lg">button</button>
+<a class="ButtonBorder Button--lg">a.Button</a>
+<input class="" type="checkbox" placeholder="nomal">
+<input class="" type="radio" placeholder="nomal">
+</p>
+
+
+<p>
+<label class="t-width1of6 t-inlineBlock">X-Large</label>
+<input class="Input--xl t-width1of6" type="text" placeholder="nomal">
+<select class="Select--xl t-width1of6">
+<option>select</option>
+<option>2</option>
+</select>
+<button class="ButtonBorder Button--xl">button</button>
+<a class="ButtonBorder Button--xl">a.Button</a>
+<input class="" type="checkbox" placeholder="nomal">
+<input class="" type="radio" placeholder="nomal">
+</p>
+
+
+
+
+
+
+
+
+<h2>Input & Select </h2>
+<p>
+  <input class="Input t-width2of6" type="text" placeholder="nomal">
+  <select class="Select t-width2of6">
+    <option>select</option>
+    <option>2</option>
+  </select>
+</p>
+
+<h3>Focus</h3>
+<p>
+  <input class="Input t-width2of6 is-focus" type="text" placeholder="nomal">
+  <select class="is-focus Select t-width2of6">
+    <option>select</option>
+    <option>2</option>
+  </select>
+</p>
+
+<h3>Focus</h3>
+<p>
+  <input class="Input t-width2of6 is-disabled" type="text" placeholder="nomal">
+  <select class="is-disabled Select t-width2of6">
+    <option>select</option>
+    <option>2</option>
+  </select>
+</p>
+
+
+
+<h2>Full width</h2>
+<p>
+<input class="Input--full" type="text" placeholder=".Input--full">
+</p>
+
+
+
+<h2>Size</h2>
+<p>
+<input class="Input Input--sm" type="text" value=".Input--full">
+</p>
+<p>
+<input class="" type="text" placeholder=".Input--full">
+</p>
+<p>
+<input class="Input--lg" type="text" value=".Input--full">
+</p>
+<p>
+<input class="Input--xl" type="text" placeholder=".Input--full">
+</p>
+
+<h2>State color</h2>
+<p>
+<input class="Input is-success" type="text" value=".Input.is-success">
+</p>
+<p>
+<input class="Input is-notice" type="text" value=".Input.is-notice">
+</p>
+<p>
+<input class="Input is-warning" type="text" value=".Input.is-warning">
+</p>
+<p>
+<input class="Input is-error" type="text" value=".Input.is-error">
+</p>
+
+
+
+
+
+
+
+
+
+
+
 
 <form>
   <fieldset>
@@ -95,5 +238,7 @@ description: ""
     <div><button type="submit">Submit (button)</button></div>
   </fieldset>
 </form>
+
+
 
 </div>

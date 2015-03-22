@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'TeXGyreAdventor-Bold';
+  src: url('font/TeXGyreAdventor-Bold.eot?#iefix') format('embedded-opentype'),
+       url('font/TeXGyreAdventor-Bold.otf')  format('opentype'),
+	     url('font/TeXGyreAdventor-Bold.woff') format('woff'), url('font/TeXGyreAdventor-Bold.ttf')  format('truetype'), url('font/TeXGyreAdventor-Bold.svg#TeXGyreAdventor-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'TeXGyreAdventor-Bold' !important;
+}
