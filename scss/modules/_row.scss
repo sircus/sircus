@@ -14,7 +14,15 @@ $sl-Row-screen-wxs-min:     $sg-screen-wxs-min !default;
   text-align: left;
   margin-left: -$sl-Row-gutter-width;
   margin-right: -$sl-Row-gutter-width;
-  @extend .t-clear;
+  // clear
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
   //
   // letter-spacing: -0.4em; //firefox
   // word-spacing: -1em; //opera
