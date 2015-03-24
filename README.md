@@ -6,9 +6,7 @@
 [![devDependency Status](https://david-dm.org/sircus/sircus/dev-status.svg)](https://david-dm.org/sircus/sircus#info=devDependencies)
 
 
-## Demo
-WIP: http://sircus.blivesta.com
-
+### [Test page](http://sircus.blivesta.com/test)
 
 ## Naming things
 
