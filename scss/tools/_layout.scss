@@ -19,10 +19,12 @@
 .t-inline       { display:inline !important; }
 .t-inlineBlock  { display:inline-block !important; }
 
-.t-table        { display:table !important; }
-.t-table > .t-table-cell,
-.t-table > .t-tableCell {
-  float: none !important;
-  display:table-cell !important;
-  vertical-align: middle !important;
+.t-overfllow  { overflow: auto !important; }
+.t-overfllowX {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+.t-overfllowY {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
 }
