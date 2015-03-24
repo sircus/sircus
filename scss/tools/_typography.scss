@@ -39,7 +39,7 @@ $sl-ttypo-lineHeight-xs : $sg-lineHeight-xs !default;
 
 .t-nowrap        { white-space: nowrap !important; }
 
-.t-typo-hide {
+.t-typoHide {
   font: #{0/0} a !important;
   color: transparent !important;
   text-shadow: none !important;
