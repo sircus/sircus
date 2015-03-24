@@ -67,7 +67,7 @@ module.exports = {
     src:  './bower.json', //
     dest: '.'
   },
-  'psi': {
+  'pagespeed': {
     production: 'http://sircus.blivesta.com',
     strategy: 'mobile'
   },
@@ -85,7 +85,7 @@ gulp.task('deploy', require('gulptasks/lib/ghpage'));
 gulp.task('bump', require('gulptasks/lib/bump'));
 gulp.task('hugo', require('gulptasks/lib/hugo'));
 gulp.task('uninstall', require('gulptasks/lib/uninstall'));
-gulp.task('psi', require('gulptasks/lib/pagespeed'));
+gulp.task('pagespeed', require('gulptasks/lib/pagespeed'));
 gulp.task('browsersync', require('gulptasks/lib/browsersync'));
 
 gulp.task('default',['browsersync'],function() {
