@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="/build/sircus.css">
   <!-- Docs css -->
   <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/carbon.css">
 
   <!-- RSS -->
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -27,20 +28,19 @@
 </head>
 <body>
 
+<header class="docs-Masthead">
+  <div class="ContainerSlim">
+    <h1 class="docs-Masthead-title">Sircus</h1>
+    <h2 class="docs-Masthead-lead">{{ .Site.Params.description }}</h2>
+    <p class="t-mb-mn"><a href="/test" style="text-decoration:none;">Experimental Work in Progress</a></p>
+    <p class="docs-Masthead-author">Created by <i class="icon-blivesta"></i> <a href="http://blivesta.com">blivesta</a></p>
+    <p>
+      <a href="https://github.com/sircus/sircus" class="ButtonBorder ButtonBorder--primary">Download on GitHub</a>
+    </p>
+  </div>
+</header>
+
 <main role="main">
-
-  <section class="docs-Masthead">
-    <div class="ContainerSlim">
-      <h1 class="docs-Masthead-title">Sircus</h1>
-      <h2 class="docs-Masthead-lead">{{ .Site.Params.description }}</h2>
-      <p class="t-mb-mn">Experimental Work in Progress</p>
-      <p class="docs-Masthead-author">Created by <i class="icon-blivesta"></i> <a href="http://blivesta.com">blivesta</a></p>
-      <p>
-        <a href="https://github.com/sircus/sircus" class="ButtonBorder ButtonBorder--primary">Download on GitHub</a>
-      </p>
-    </div>
-  </section>
-
 
   <section class="docs-Section">
     <div class="ContainerSlim">
@@ -79,12 +79,10 @@
       <hr class="docs-hr">
       <ul class="ListInline">
         <li class="H4"><s>Border</s></li>
-        <li class="H4"><s>Color</s></li>
         <li class="H4"><s>Display</s></li>
         <li class="H4"><s>Gutter</s></li>
-        <li class="H4"><s>Images</s></li>
+        <li class="H4"><s>Image</s></li>
         <li class="H4"><s>Layout</s></li>
-        <li class="H4"><s>Space</s></li>
         <li class="H4"><s>Space</s></li>
         <li class="H4"><s>Typography</s></li>
         <li class="H4"><s>Width</s></li>

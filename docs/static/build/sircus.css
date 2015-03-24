@@ -1184,14 +1184,16 @@ table,
 .t-inlineBlock {
   display: inline-block !important; }
 
-.t-table {
-  display: table !important; }
+.t-overfllow {
+  overflow: auto !important; }
 
-.t-table > .t-table-cell,
-.t-table > .t-tableCell {
-  float: none !important;
-  display: table-cell !important;
-  vertical-align: middle !important; }
+.t-overfllowX {
+  overflow-x: auto !important;
+  overflow-y: hidden !important; }
+
+.t-overfllowY {
+  overflow-x: hidden !important;
+  overflow-y: auto !important; }
 
 .t-ma-00 {
   margin: 0 !important; }
@@ -1397,7 +1399,7 @@ table,
 .t-nowrap {
   white-space: nowrap !important; }
 
-.t-typo-hide {
+.t-typoHide {
   font: 0/0 a !important;
   color: transparent !important;
   text-shadow: none !important;

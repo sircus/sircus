@@ -23,8 +23,8 @@ description: ""
 
 <div class="ContainerFull test-container">
   <p>.ContainerFull</p>
-  <div class="t-xs-gutterReset test-container">
-    <p>.t-xs-gutterReset</p>
+  <div class="t-wxs-gutterReset test-container">
+    <p>.t-wxs-gutterReset</p>
     <div class="ContainerSlim test-container">
       <p>.ContainerSlim</p>
     </div>
@@ -34,9 +34,9 @@ description: ""
 
 
 <div class="ContainerSlim">
-  <h3>.ContainerSlim > .t-xs-gutterReset</h3>
-  <div class="t-xs-gutterReset">
-    <code>.t-xs-gutterReset</code>
+  <h3>.ContainerSlim > .t-wxs-gutterReset</h3>
+  <div class="t-wxs-gutterReset">
+    <code>.t-wxs-gutterReset</code>
     <img class="" src="http://placehold.it/1250x800" alt="" />
   </div>
 </div>

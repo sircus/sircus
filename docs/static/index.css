@@ -22,6 +22,7 @@ s {
   color:rgba(108,123,126, .5);
 }
 section,
+header,
 footer {
   padding-top:6rem;
   padding-bottom:3.6rem;
@@ -57,7 +58,9 @@ footer {
 
 /**/
 .docs-Masthead {
-  padding-bottom:8rem;
+  padding-top:12rem;
+  padding-bottom:10rem;
+  width:100%;
 }
 .docs-Masthead-title {
   font-size:8.6rem;
@@ -96,36 +99,4 @@ footer {
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%09%3Cpath%20d%3D%22M8.773%2C0L4.781%2C3.991l3.993%2C3.991l-4.01%2C4.009L8.773%2C16H16V0H8.773z%20M12.398%2C13.703l-2.017-2.016l2.017-2.016l2.016%2C2.016%0A%09L12.398%2C13.703z%20M12.398%2C6.259l-2.017-2.016l2.017-2.016l2.016%2C2.016L12.398%2C6.259z%22/%3E%0A%3C/svg%3E");
   background-size: 1.2rem;
-}
-
-
-/* carbon */
-.docs-Carbon {
-  position:fixed;
-  right:0;
-  bottom:0;
-  box-sizing:border-box;
-  float: right;
-  background-color: rgba(0,0,0,.05);
-  padding: 1.5rem;
-  width: 16rem;
-  text-align: left !important;
-  font-size:1.1rem;
-  margin:0;
-  min-height:1.3rem;
-}
-.docs-Carbon .carbon-img {
-  float:left;
-  width:14.5rem;
-  img {
-    margin-bottom:1.5rem;
-  }
-}
-.docs-Carbon .carbon-poweredby{
-  margin-top:1rem;
-  display:block;
-}
-
-.highlight {
-  font-size:1.4rem;
 }

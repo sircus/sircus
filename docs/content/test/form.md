@@ -1,17 +1,11 @@
 ---
-title: "Forms"
+title: "Form"
 description: ""
 ---
 
 <div class="ContainerFull">
 
-
-
-
-
-
 <h1>Forms</h1>
-
 
 <p>
 <label class="t-width1of6 t-inlineBlock">Small</label>
@@ -71,11 +65,6 @@ description: ""
 
 
 
-
-
-
-
-
 <h2>Input & Select </h2>
 <p>
   <input class="Input t-width2of6" type="text" placeholder="nomal">
@@ -114,16 +103,16 @@ description: ""
 
 <h2>Size</h2>
 <p>
-<input class="Input Input--sm" type="text" value=".Input--full">
+<input class="Input Input--sm" type="text" value=".Input--sm">
 </p>
 <p>
-<input class="" type="text" placeholder=".Input--full">
+<input class="" type="text" placeholder="Base">
 </p>
 <p>
-<input class="Input--lg" type="text" value=".Input--full">
+<input class="Input--lg" type="text" value=".Input--lg">
 </p>
 <p>
-<input class="Input--xl" type="text" placeholder=".Input--full">
+<input class="Input--xl" type="text" placeholder=".Input--xl">
 </p>
 
 <h2>State color</h2>

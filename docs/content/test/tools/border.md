@@ -6,12 +6,9 @@ description: ""
   <h2>Border</h2>
 
   <p class="t-border">.t-border</p>
-  <p class="t-border-top">.t-border-top</p>
-  <p class="t-border-bottom">.t-border-bottom</p>
-  <p class="t-border-left">.t-border-left</p>
-  <p class="t-border-right">.t-border-right</p>
-
-
-
+  <p class="t-borderTop">.t-border-top</p>
+  <p class="t-borderBottom">.t-border-bottom</p>
+  <p class="t-borderLeft">.t-border-left</p>
+  <p class="t-borderRight">.t-border-right</p>
 
 </div>
