@@ -1,14 +1,9 @@
 @import '../config';
 
-// Size
-$sl-Form-paddingV-xl:     $sg-paddingV-xl !default;
-$sl-Form-paddingH-xl:     $sg-paddingH-xl !default;
-$sl-Form-paddingV-lg:     $sg-paddingV-lg !default;
-$sl-Form-paddingH-lg:     $sg-paddingH-lg !default;
-$sl-Form-paddingV-bs:     $sg-paddingV-bs !default;
-$sl-Form-paddingH-bs:     $sg-paddingH-bs !default;
-$sl-Form-paddingV-sm:     $sg-paddingV-sm !default;
-$sl-Form-paddingH-sm:     $sg-paddingH-sm !default;
+$sl-Form-padding-xl:      $sg-paddingV-xl 1.2rem !default;
+$sl-Form-padding-lg:      $sg-paddingV-lg 1.2rem !default;
+$sl-Form-padding-bs:      $sg-paddingV-bs 1.2rem !default;
+$sl-Form-padding-sm:      $sg-paddingV-sm 1.2rem !default;
 
 $sl-Form-fontSize-xl:     $sg-fontSize-xl !default;
 $sl-Form-fontSize-lg:     $sg-fontSize-lg !default;
@@ -32,18 +27,8 @@ $sl-Form-height-lg:       $sg-ButtonAndForm-height-lg !default;
 $sl-Form-height-bs:       $sg-ButtonAndForm-height-bs !default;
 $sl-Form-height-sm:       $sg-ButtonAndForm-height-sm !default;
 
-
 // ==================================
-input {
-  -webkit-appearance: none;
-}
-
-.Input,
-.Form,
-.Select,
 select,
-textarea,
-// input
 input[type='text'],
 input[type='password'],
 input[type='datetime'],
@@ -58,14 +43,18 @@ input[type='url'],
 input[type='search'],
 input[type='tel'],
 input[type='color'] {
-  font-family: inherit;
-  font-size: $sl-Form-fontSize-bs;
-  display: inline-block;
-  box-sizing: border-box;
-  height: $sl-Form-height-bs;
-  padding: $sl-Form-paddingV-bs $sl-Form-paddingH-bs;
   line-height: inherit;
   vertical-align: middle;
+  box-sizing: border-box;
+  height: $sl-Form-height-bs;
+  padding: $sl-Form-padding-bs;
+  font-size: $sl-Form-fontSize-bs;
+  display: inline-block;
+}
+
+.Input,
+.Textarea,
+.Select {
   border: $sl-Form-borderSize solid $sl-Form-borderColor;
   border-radius: $sl-Form-borderRadius-bs;
   background-color: $sl-Form-bgColor;
@@ -81,38 +70,44 @@ input[type='color'] {
   &[disabled] {
     cursor: not-allowed;
     pointer-events: none;
-    opacity: 0.65;
+    opacity: .65;
     background-color: lighten($sl-Form-color-disabled,10);
   }
 }
 
+.Input,
+.Textarea {
+  -webkit-appearance: none;
+}
+
+.Select {}
 
 // ==================================
 .Input--xl,
 .Select--xl,
 .Form--xl {
   font-size: $sl-Form-fontSize-xl !important;
-  padding: $sl-Form-paddingV-xl $sl-Form-paddingH-bs !important;
+  padding: $sl-Form-padding-xl !important;
   border-radius: $sl-Form-borderRadius-xl !important;
-  height:$sl-Form-height-xl !important;
+  height: $sl-Form-height-xl !important;
 }
 
 .Input--lg,
 .Select--lg,
 .Form--lg {
   font-size: $sl-Form-fontSize-lg !important;
-  padding: $sl-Form-paddingV-lg $sl-Form-paddingH-bs !important;
+  padding: $sl-Form-padding-lg !important;
   border-radius: $sl-Form-borderRadius-lg !important;
-  height:$sl-Form-height-lg !important;
+  height: $sl-Form-height-lg !important;
 }
 
 .Input--sm,
 .Select--sm,
 .Form--sm {
   font-size: $sl-Form-fontSize-sm !important;
-  padding: $sl-Form-paddingV-sm $sl-Form-paddingH-bs !important;
+  padding: $sl-Form-padding-sm !important;
   border-radius: $sl-Form-borderRadius-sm !important;
-  height:$sl-Form-height-sm !important;
+  height: $sl-Form-height-sm !important;
 }
 
 

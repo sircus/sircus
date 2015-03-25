@@ -24,8 +24,19 @@ figure {
   margin:0;
 }
 
+
+// ==================================
 pre {
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+// ==================================
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: 100%;
 }
