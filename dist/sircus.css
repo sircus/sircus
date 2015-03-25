@@ -1,6 +1,6 @@
 /*!
  * sircus - scalable css for responsive project.
- * @version v0.3.0
+ * @version v0.3.1
  * @link    http://sircus.blivesta.com
  * @author  blivesta
  * @license MIT
@@ -32,6 +32,13 @@ pre {
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word; }
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: 100%; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -153,7 +160,6 @@ button,
   border-radius: 0.4rem;
   border: 0.1rem solid #bbbbbb;
   background-image: none;
-  font-family: inherit;
   font-size: 1.6rem;
   text-decoration: none;
   text-align: center;
@@ -422,14 +428,7 @@ button,
   .ButtonReset--error.is-active {
     color: #e62c22; }
 
-input {
-  -webkit-appearance: none; }
-
-.Input,
-.Form,
-.Select,
 select,
-textarea,
 input[type='text'],
 input[type='password'],
 input[type='datetime'],
@@ -444,14 +443,17 @@ input[type='url'],
 input[type='search'],
 input[type='tel'],
 input[type='color'] {
-  font-family: inherit;
-  font-size: 1.6rem;
-  display: inline-block;
-  box-sizing: border-box;
-  height: 3.5rem;
-  padding: 0.4rem 1.6rem;
   line-height: inherit;
   vertical-align: middle;
+  box-sizing: border-box;
+  height: 3.5rem;
+  padding: 0.4rem 1.2rem;
+  font-size: 1.6rem;
+  display: inline-block; }
+
+.Input,
+.Textarea,
+.Select {
   border: 0.1rem solid #c8c8c8;
   border-radius: 0.4rem;
   background-color: transparent;
@@ -459,92 +461,32 @@ input[type='color'] {
   -webkit-transition: border ease-in-out .15s,box-shadow ease-in-out .15s;
           transition: border ease-in-out .15s,box-shadow ease-in-out .15s; }
   .Input.is-focus, .Input:focus,
-  .Form.is-focus,
-  .Form:focus,
+  .Textarea.is-focus,
+  .Textarea:focus,
   .Select.is-focus,
-  .Select:focus,
-  select.is-focus,
-  select:focus,
-  textarea.is-focus,
-  textarea:focus,
-  input[type='text'].is-focus,
-  input[type='text']:focus,
-  input[type='password'].is-focus,
-  input[type='password']:focus,
-  input[type='datetime'].is-focus,
-  input[type='datetime']:focus,
-  input[type='datetime-local'].is-focus,
-  input[type='datetime-local']:focus,
-  input[type='date'].is-focus,
-  input[type='date']:focus,
-  input[type='month'].is-focus,
-  input[type='month']:focus,
-  input[type='time'].is-focus,
-  input[type='time']:focus,
-  input[type='week'].is-focus,
-  input[type='week']:focus,
-  input[type='number'].is-focus,
-  input[type='number']:focus,
-  input[type='email'].is-focus,
-  input[type='email']:focus,
-  input[type='url'].is-focus,
-  input[type='url']:focus,
-  input[type='search'].is-focus,
-  input[type='search']:focus,
-  input[type='tel'].is-focus,
-  input[type='tel']:focus,
-  input[type='color'].is-focus,
-  input[type='color']:focus {
+  .Select:focus {
     border: 0.1rem solid #6c7b88;
     outline: 0;
     box-shadow: inset 0 1px 1px rgba(108, 123, 136, 0.4), 0 0 8px rgba(108, 123, 136, 0.4); }
   .Input.is-disabled, .Input[disabled],
-  .Form.is-disabled,
-  .Form[disabled],
+  .Textarea.is-disabled,
+  .Textarea[disabled],
   .Select.is-disabled,
-  .Select[disabled],
-  select.is-disabled,
-  select[disabled],
-  textarea.is-disabled,
-  textarea[disabled],
-  input[type='text'].is-disabled,
-  input[type='text'][disabled],
-  input[type='password'].is-disabled,
-  input[type='password'][disabled],
-  input[type='datetime'].is-disabled,
-  input[type='datetime'][disabled],
-  input[type='datetime-local'].is-disabled,
-  input[type='datetime-local'][disabled],
-  input[type='date'].is-disabled,
-  input[type='date'][disabled],
-  input[type='month'].is-disabled,
-  input[type='month'][disabled],
-  input[type='time'].is-disabled,
-  input[type='time'][disabled],
-  input[type='week'].is-disabled,
-  input[type='week'][disabled],
-  input[type='number'].is-disabled,
-  input[type='number'][disabled],
-  input[type='email'].is-disabled,
-  input[type='email'][disabled],
-  input[type='url'].is-disabled,
-  input[type='url'][disabled],
-  input[type='search'].is-disabled,
-  input[type='search'][disabled],
-  input[type='tel'].is-disabled,
-  input[type='tel'][disabled],
-  input[type='color'].is-disabled,
-  input[type='color'][disabled] {
+  .Select[disabled] {
     cursor: not-allowed;
     pointer-events: none;
-    opacity: 0.65;
+    opacity: .65;
     background-color: #e2e2e2; }
+
+.Input,
+.Textarea {
+  -webkit-appearance: none; }
 
 .Input--xl,
 .Select--xl,
 .Form--xl {
   font-size: 2.4rem !important;
-  padding: 1.2rem 1.6rem !important;
+  padding: 1.2rem 1.2rem !important;
   border-radius: 0.5rem !important;
   height: 6rem !important; }
 
@@ -552,7 +494,7 @@ input[type='color'] {
 .Select--lg,
 .Form--lg {
   font-size: 2rem !important;
-  padding: 0.8rem 1.6rem !important;
+  padding: 0.8rem 1.2rem !important;
   border-radius: 0.5rem !important;
   height: 4.7rem !important; }
 
@@ -560,7 +502,7 @@ input[type='color'] {
 .Select--sm,
 .Form--sm {
   font-size: 1.4rem !important;
-  padding: 0.2rem 1.6rem !important;
+  padding: 0.2rem 1.2rem !important;
   border-radius: 0.3rem !important;
   height: 2.3rem !important; }
 
@@ -848,132 +790,6 @@ table,
 
 .t-border {
   border: 1px solid #DDD !important; }
-
-.t-color-white {
-  color: #fff !important; }
-
-.t-bg-white {
-  background-color: #fff !important; }
-
-.t-color-black {
-  color: #000 !important; }
-
-.t-bg-black {
-  background-color: #000 !important; }
-
-.t-color-gray-darkest {
-  color: #222 !important; }
-
-.t-color-gray-darker {
-  color: #555 !important; }
-
-.t-color-gray-dark {
-  color: #888 !important; }
-
-.t-color-gray {
-  color: #AAA !important; }
-
-.t-color-gray-light {
-  color: #DDD !important; }
-
-.t-color-gray-lighter {
-  color: #F5F5F5 !important; }
-
-.t-color-gray-lightest {
-  color: #FAFAFA !important; }
-
-.t-bg-gray-darkest {
-  background-color: #222 !important; }
-
-.t-bg-gray-darker {
-  background-color: #555 !important; }
-
-.t-bg-gray-dark {
-  background-color: #888 !important; }
-
-.t-bg-gray {
-  background-color: #AAA !important; }
-
-.t-bg-gray-light {
-  background-color: #DDD !important; }
-
-.t-bg-gray-lighter {
-  background-color: #F5F5F5 !important; }
-
-.t-bg-gray-lightest {
-  background-color: #FAFAFA !important; }
-
-.t-color-primary {
-  color: #6c7b88 !important; }
-
-.t-color-success {
-  color: #18be91 !important; }
-
-.t-color-notice {
-  color: #7bc1eb !important; }
-
-.t-color-warning {
-  color: #e5cd2f !important; }
-
-.t-color-error {
-  color: #eb5850 !important; }
-
-.t-bg-primary {
-  background-color: #6c7b88 !important; }
-
-.t-bg-success {
-  background-color: #18be91 !important; }
-
-.t-bg-notice {
-  background-color: #7bc1eb !important; }
-
-.t-bg-warning {
-  background-color: #e5cd2f !important; }
-
-.t-bg-error {
-  background-color: #eb5850 !important; }
-
-.t-color-primary-darkest {
-  color: #060708 !important; }
-
-.t-color-primary-darker {
-  color: #282e33 !important; }
-
-.t-color-primary-dark {
-  color: #4a545d !important; }
-
-.t-color-primary {
-  color: #6c7b88 !important; }
-
-.t-color-primary-light {
-  color: #95a1ab !important; }
-
-.t-color-primary-lighter {
-  color: #c0c7cd !important; }
-
-.t-color-primary-lightest {
-  color: #ebedef !important; }
-
-.t-bg-primary-darkest {
-  background-color: #060708 !important; }
-
-.t-bg-primary-darker {
-  background-color: #282e33 !important; }
-
-.t-bg-primary-dark {
-  background-color: #4a545d !important; }
-
-.t-bg-primary {
-  background-color: #6c7b88 !important; }
-
-.t-bg-primary-light {
-  background-color: #95a1ab !important; }
-
-.t-bg-primary-lighter {
-  background-color: #c0c7cd !important; }
-
-.t-bg-primary-lightest {
-  background-color: #ebedef !important; }
 
 .t-hide {
   display: none !important; }
