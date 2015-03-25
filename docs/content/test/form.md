@@ -8,13 +8,29 @@ description: ""
 <h1>Forms</h1>
 
 <p>
-<label class="t-width1of6 t-inlineBlock">Small</label>
-<input class="Input--sm t-width1of6" type="text" placeholder="nomal">
-<select class="Select--sm t-width1of6">
+<label class="">Base</label>
+<input class="" type="text" placeholder="nomal">
+<select class="">
 <option>select</option>
 <option>2</option>
 </select>
-<button class="ButtonBorder Button--sm">button</button>
+<button class="">button</button>
+<a class="">a.Button</a>
+<input class="" type="checkbox" placeholder="nomal">
+<input class="" type="radio" placeholder="nomal">
+</p>
+
+
+
+
+<p>
+<label class="t-width1of6 t-inlineBlock">Small</label>
+<input class="Input Input--sm t-width1of6" type="text" placeholder="nomal">
+<select class="Select Select--sm t-width1of6">
+<option>select</option>
+<option>2</option>
+</select>
+<button class="Button Button--sm">button</button>
 <a class="ButtonBorder Button--sm">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
@@ -22,12 +38,12 @@ description: ""
 
 <p>
 <label class="t-width1of6 t-inlineBlock">Base</label>
-<input class="t-width1of6" type="text" placeholder="nomal">
-<select class="t-width1of6">
+<input class="Input t-width1of6" type="text" placeholder="nomal">
+<select class="Select t-width1of6">
 <option>select</option>
 <option>2</option>
 </select>
-<button class="ButtonBorder">button</button>
+<button class="Button">button</button>
 <a class="ButtonBorder">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
@@ -38,12 +54,12 @@ description: ""
 
 <p>
 <label class="t-width1of6 t-inlineBlock">Large</label>
-<input class="Input--lg t-width1of6" type="text" placeholder="nomal">
-<select class="Select--lg t-width1of6">
+<input class="Input Input--lg t-width1of6" type="text" placeholder="nomal">
+<select class="Select Select--lg t-width1of6">
 <option>select</option>
 <option>2</option>
 </select>
-<button class="ButtonBorder Button--lg">button</button>
+<button class="Button Button--lg">button</button>
 <a class="ButtonBorder Button--lg">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
@@ -52,8 +68,8 @@ description: ""
 
 <p>
 <label class="t-width1of6 t-inlineBlock">X-Large</label>
-<input class="Input--xl t-width1of6" type="text" placeholder="nomal">
-<select class="Select--xl t-width1of6">
+<input class="Input Input--xl t-width1of6" type="text" placeholder="nomal">
+<select class="Select Select--xl t-width1of6">
 <option>select</option>
 <option>2</option>
 </select>
