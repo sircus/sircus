@@ -114,7 +114,7 @@ gulp.task('bower-normalize',function() {
 gulp.task('build', function() {
   runSequence(
     'bower','uninstall',
-    ['bower-html5-reset','bower-normalize'],
+    // ['bower-html5-reset','bower-normalize'],
     'rubysass',
     [
       // 'csslint',
