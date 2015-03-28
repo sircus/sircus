@@ -31,7 +31,7 @@ description: ""
 <option>2</option>
 </select>
 <button class="Button Button--sm">button</button>
-<a class="ButtonBorder Button--sm">a.Button</a>
+<a class="Button Button--border Button--sm">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
 </p>
@@ -44,7 +44,7 @@ description: ""
 <option>2</option>
 </select>
 <button class="Button">button</button>
-<a class="ButtonBorder">a.Button</a>
+<a class="Button Button--border">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
 </p>
@@ -60,7 +60,7 @@ description: ""
 <option>2</option>
 </select>
 <button class="Button Button--lg">button</button>
-<a class="ButtonBorder Button--lg">a.Button</a>
+<a class="Button Button--border Button--lg">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
 </p>
@@ -73,8 +73,8 @@ description: ""
 <option>select</option>
 <option>2</option>
 </select>
-<button class="ButtonBorder Button--xl">button</button>
-<a class="ButtonBorder Button--xl">a.Button</a>
+<button class="Button Button--border Button--xl">button</button>
+<a class="Button Button--border Button--xl">a.Button</a>
 <input class="" type="checkbox" placeholder="nomal">
 <input class="" type="radio" placeholder="nomal">
 </p>
@@ -125,10 +125,10 @@ description: ""
 <input class="" type="text" placeholder="Base">
 </p>
 <p>
-<input class="Input--lg" type="text" value=".Input--lg">
+<input class="Input Input--lg" type="text" value="Input.Input--lg">
 </p>
 <p>
-<input class="Input--xl" type="text" placeholder=".Input--xl">
+<input class="Input Input--xl" type="text" placeholder="Input.Input--xl">
 </p>
 
 <h2>State color</h2>

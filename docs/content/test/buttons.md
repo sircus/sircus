@@ -2,43 +2,83 @@
 title: "Buttons"
 description: ""
 ---
-<div class="ContainerFull">
+<section class="ContainerFull">
+
+  <h2>Base button element</h2>
   <p>
-    <button class="Button">button.Button</button>
-    <a href="#" class="Button">a.Button</a>
+    <button>button</button>
   </p>
 
+
+  <h2>button.Button</h2>
   <p>
     <button class="Button">button.Button</button>
-    <a href="#" class="Button">a.Button</a>
-    <a href="#" class="Button is-active">a.Button.is-active</a>
     <button class="Button is-active">button.Button.is-active</button>
-    <a class="Button is-disabled" href="#">a.Button.is-disabled</a>
     <button class="Button is-disabled">button.Button.is-disabled</button>
     <button class="Button" disabled>button.Button[disabled]</button>
   </p>
-
-  <h2>.ButtonBorder</h2>
-
+  <h2>input.Button type="submit"</h2>
   <p>
-    <button class="ButtonBorder">button.ButtonBorder</button>
-    <a href="#" class="ButtonBorder">a.ButtonBorder</a>
-    <a href="#" class="ButtonBorder is-active">a.ButtonBorder.is-active</a>
-    <button class="ButtonBorder is-active">button.ButtonBorder.is-active</button>
-    <a class="ButtonBorder is-disabled" href="#">a.ButtonBorder.is-disabled</a>
-    <button class="ButtonBorder is-disabled">button.ButtonBorder.is-disabled</button>
-    <button class="ButtonBorder" disabled>button.ButtonBorder[disabled]</button>
+    <input type="submit" class="Button" value="input.Button">
+    <input type="submit" class="Button is-active" value="input.Button.is-active">
+    <input type="submit" class="Button is-disabled" value="input.Button.is-disabled">
+    <input type="submit" class="Button" value="input.Button[disabled]" disabled>
   </p>
 
-  <h2>.ButtonReset</h2>
+  <h2>a.Button</h2>
   <p>
-    <button class="ButtonReset">button.ButtonReset</button>
-    <a href="#" class="ButtonReset">a.ButtonReset</a>
-    <a href="#" class="ButtonReset is-active">a.ButtonReset.is-active</a>
-    <button class="ButtonReset is-active">button.ButtonReset.is-active</button>
-    <a class="ButtonReset is-disabled" href="#">a.ButtonReset.is-disabled</a>
-    <button class="ButtonReset is-disabled">button.ButtonReset.is-disabled</button>
-    <button class="ButtonReset" disabled>button.ButtonReset[disabled]</button>
+    <a class="Button">a.Button</a>
+    <a class="Button is-active">a.Button.is-active</a>
+    <a class="Button is-disabled">a.Button.is-disabled</a>
+  </p>
+
+  <hr>
+
+  <h2>button.Button.Button--border</h2>
+  <p>
+    <button class="Button Button--border">button.Button.Button--border</button>
+    <button class="Button Button--border is-active">button.Button.Button--border.is-active</button>
+    <button class="Button Button--border is-disabled">button.Button.Button--border.is-disabled</button>
+    <button class="Button Button--border" disabled>button.Button.Button--border[disabled]</button>
+  </p>
+  <h2>input.Button.Button--border type="submit"</h2>
+  <p>
+    <input type="submit" class="Button Button--border" value="input.Button.Button--border">
+    <input type="submit" class="Button Button--border is-active" value="input.Button.Button--border.is-active">
+    <input type="submit" class="Button Button--border is-disabled" value="input.Button.Button--border.is-disabled">
+    <input type="submit" class="Button Button--border" value="input.Button.Button--border[disabled]" disabled>
+  </p>
+
+  <h2>a.Button.Button--border</h2>
+  <p>
+    <a class="Button Button--border">a.Button.Button--border</a>
+    <a class="Button Button--border is-active">a.Button.Button--border.is-active</a>
+    <a class="Button Button--border is-disabled">a.Button.Button--border.is-disabled</a>
+  </p>
+
+  <hr>
+
+
+  <h2>button.Button.Button--reset</h2>
+  <p>
+    <button class="Button Button--reset">button.Button.Button--reset</button>
+    <button class="Button Button--reset is-active">button.Button.Button--reset.is-active</button>
+    <button class="Button Button--reset is-disabled">button.Button.Button--reset.is-disabled</button>
+    <button class="Button Button--reset" disabled>button.Button.Button--reset[disabled]</button>
+  </p>
+  <h2>input.Button.Button--reset type="submit"</h2>
+  <p>
+    <input type="submit" class="Button Button--reset" value="input.Button.Button--reset">
+    <input type="submit" class="Button Button--reset is-active" value="input.Button.Button--reset.is-active">
+    <input type="submit" class="Button Button--reset is-disabled" value="input.Button.Button--reset.is-disabled">
+    <input type="submit" class="Button Button--reset" value="input.Button.Button--reset[disabled]" disabled>
+  </p>
+
+  <h2>a.Button.Button--reset</h2>
+  <p>
+    <a class="Button Button--reset">a.Button.Button--reset</a>
+    <a class="Button Button--reset is-active">a.Button.Button--reset.is-active</a>
+    <a class="Button Button--reset is-disabled">a.Button.Button--reset.is-disabled</a>
   </p>
 
   <hr>
@@ -47,9 +87,9 @@ description: ""
 
   <p>
     <button class="Button Button--pill">button.Button.Button--pill</button>
-    <a href="#" class="ButtonBorder Button--pill">a.ButtonBorder.Button--pill</a>
+    <a href="#" class="Button Button--border Button--pill">a.Button Button--border.Button--pill</a>
     <a href="#" class="Button Button--pill is-notice">a.Button.Button--pill.is-notice</a>
-    <a href="#" class="ButtonBorder ButtonBorder--pill is-notice">a.ButtonBorder.ButtonBorder--pill</a>
+    <a href="#" class="Button Button--border Button--pill is-warning">a.Button Button--border.Button--pill.is-warning</a>
   </p>
 
   <hr>
@@ -57,22 +97,18 @@ description: ""
   <h2>.Button.Button--primary</h2>
 
   <p>
-    <button class="Button Button--primary">button.Button.Button--primary</button>
     <a href="#" class="Button Button--primary">a.Button--primary</a>
     <a href="#" class="Button Button--primary is-active">a.Button--primary.is-active</a>
     <button class="Button Button--primary is-active">button.Button--primary.is-active</button>
     <a class="Button Button--primary is-disabled" href="#">a.Button--primary.is-disabled</a>
-    <button class="Button Button--primary is-disabled">button.Button--primary.is-disabled</button>
   </p>
 
   <p>
-    <button class="ButtonBorder ButtonBorder--primary">button.ButtonBorder.ButtonBorder--primary</button>
-    <a href="#" class="ButtonBorder ButtonBorder--primary">a.ButtonReset</a>
-    <a href="#" class="ButtonBorder ButtonBorder--primary is-active">a.ButtonReset.is-active</a>
-    <button class="ButtonBorder ButtonBorder--primary is-active">button.ButtonReset.is-active</button>
-    <a class="ButtonBorder ButtonBorder--primary is-disabled" href="#">a.ButtonReset.is-disabled</a>
-    <button class="ButtonBorder Button--primary is-disabled">button.ButtonReset.is-disabled</button>
-    <button class="ButtonBorder Button--primary" disabled>button.ButtonReset[disabled]</button>
+    <button class="Button Button--border Button--primary">button.Button Button--border.Button--primary</button>
+    <a href="#" class="Button Button--border Button Button--primary">a.Button--border.Button-primary</a>
+    <a href="#" class="Button Button--border Button--primary is-active">a.Button--border.Button--primary.is-active</a>
+    <button class="Button Button--border Button--primary is-active">button.Button--border.Button--primary.is-active</button>
+    <button class="Button Button--border Button--primary is-disabled">button.Button--border.Button--primary.is-disabled</button>
   </p>
 
   <hr>
@@ -87,20 +123,20 @@ description: ""
   </p>
 
 
-  <h2>.ButtonBorder.is-[StateColor]</h2>
+  <h2>.Button Button--border.is-[StateColor]</h2>
   <p>
-    <a href="#" class="ButtonBorder is-success">a.ButtonBorder.is-success</a>
-    <a href="#" class="ButtonBorder is-notice">a.ButtonBorder.is-success</a>
-    <a href="#" class="ButtonBorder is-warning">a.ButtonBorder.is-success</a>
-    <a href="#" class="ButtonBorder is-error">a.ButtonBorder.is-success</a>
+    <a href="#" class="Button Button--border is-success">a.Button Button--border.is-success</a>
+    <a href="#" class="Button Button--border is-notice">a.Button Button--border.is-success</a>
+    <a href="#" class="Button Button--border is-warning">a.Button Button--border.is-success</a>
+    <a href="#" class="Button Button--border is-error">a.Button Button--border.is-success</a>
   </p>
 
-  <h2>.ButtonReset.is-[StateColor]</h2>
+  <h2>.Button--reset.is-[StateColor]</h2>
   <p>
-    <a href="#" class="ButtonReset is-success">a.ButtonReset.is-success</a>
-    <button class="ButtonReset is-notice">button.ButtonReset.is-active</button>
-    <a class="ButtonReset is-warning" href="#">a.ButtonReset.is-disabled</a>
-    <button class="ButtonReset is-error">button.ButtonReset[disabled]</button>
+    <a href="#" class="Button--reset is-success">a.Button--reset.is-success</a>
+    <button class="Button--reset is-notice">button.Button--reset.is-active</button>
+    <a class="Button--reset is-warning" href="#">a.Button--reset.is-disabled</a>
+    <button class="Button--reset is-error">button.Button--reset[disabled]</button>
   </p>
 
   <hr>
@@ -116,16 +152,16 @@ description: ""
     <button class="Button Button--xl">.Button.Button--xl</button>
   </p>
   <p>
-    <a href="#" class="ButtonBorder Button--sm">.ButtonBorder.Button--sm</a>
-    <button class="ButtonBorder">.ButtonBorder(Normal)</button>
-    <a href="#" class="ButtonBorder Button--lg">.ButtonBorder.Button--lg</a>
-    <button class="ButtonBorder Button--xl">.ButtonBorder.Button--xl</button>
+    <a href="#" class="Button Button--border Button--sm">.Button Button--border.Button--sm</a>
+    <button class="Button Button--border">.Button Button--border(Normal)</button>
+    <a href="#" class="Button Button--border Button--lg">.Button Button--border.Button--lg</a>
+    <button class="Button Button--border Button--xl">.Button Button--border.Button--xl</button>
   </p>
   <p>
-    <a href="#" class="ButtonReset Button--sm">.ButtonReset.Button--sm</a>
-    <button class="ButtonReset">.ButtonReset(Normal)</button>
-    <a href="#" class="ButtonReset Button--lg">.ButtonReset.Button--lg</a>
-    <button class="ButtonReset Button--xl">.ButtonReset.Button--xl</button>
+    <a href="#" class="Button--reset Button--sm">.Button--reset.Button--sm</a>
+    <button class="Button--reset">.Button--reset(Normal)</button>
+    <a href="#" class="Button--reset Button--lg">.Button--reset.Button--lg</a>
+    <button class="Button--reset Button--xl">.Button--reset.Button--xl</button>
   </p>
 
   <hr>
@@ -134,7 +170,7 @@ description: ""
 
   <p>
     <a href="#" class="Button Button--full">a.Button.Button--full</a>
-    <button href="#" class="ButtonBorder Button--full Button--xl">button.ButtonBorder.Button--lg.Button--full</button>
+    <button href="#" class="Button Button--border Button--full Button--xl">button.Button Button--border.Button--lg.Button--full</button>
   </p>
 
-</div>
+</section>
