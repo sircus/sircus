@@ -17,7 +17,8 @@ var headerBanner = [
 
 module.exports = {
   'browsersync': {
-    server: './_public'
+    server: './_public',
+    open: 'external'
   },
   'uninstall': {
     files: [
@@ -91,7 +92,7 @@ gulp.task('browsersync', require('gulptasks/lib/browsersync'));
 gulp.task('default',['browsersync'],function() {
   gulp.watch(['./scss/**/*.scss'], ['rubysass']);
   gulp.watch(['./docs/**/*.{html,css,md}'], ['hugo',reload]);
-  gulp.watch(['./_public'], reload);
+  // gulp.watch(['./_public'], reload);
 });
 
 gulp.task('dist',function() {
@@ -99,22 +100,10 @@ gulp.task('dist',function() {
     .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('bower-html5-reset',function() {
-  return gulp.src('./bower_components/HTML5-Reset/assets/css/reset.css')
-    .pipe(rename('_html5-reset.scss'))
-    .pipe(gulp.dest('./scss/vendor/'));
-});
-
-gulp.task('bower-normalize',function() {
-  return gulp.src('./bower_components/normalize.css/normalize.css')
-    .pipe(rename('_normalize.scss'))
-    .pipe(gulp.dest('./scss/vendor/'));
-});
 
 gulp.task('build', function() {
   runSequence(
     'bower','uninstall',
-    // ['bower-html5-reset','bower-normalize'],
     'rubysass',
     [
       // 'csslint',
