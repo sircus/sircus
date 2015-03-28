@@ -102,11 +102,11 @@ ul,ol {
 
 .ListInline {
   margin-left: -0.5rem;
-  > li {
-    display: inline-block;
-    padding-left: .5rem;
-    padding-right: .5rem;
-  }
+}
+.ListInline > li {
+  display: inline-block;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 

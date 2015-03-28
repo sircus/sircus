@@ -22,18 +22,14 @@ $sl-Container-screen-wlg-min:   $sg-Container-screen-wlg-min !default;
   padding-right: $sl-Container-gutter-width;
 }
 
-.Container {
-  @media (min-width: $sl-Container-screen-wsm-min) {
-    width: $sl-Container-wsm-width;
-  }
-  @media (min-width: $sl-Container-screen-wmd-min) {
-    width: $sl-Container-wmd-width;
-  }
-  @media (min-width: $sl-Container-screen-wlg-min) {
-    width: $sl-Container-wlg-width;
-  }
-}
+.ContainerSlim { max-width: $sl-Container-wsm-width; }
 
-.ContainerSlim {
-  max-width: $sl-Container-wsm-width;
+@media (min-width: $sl-Container-screen-wsm-min) {
+  .Container { width: $sl-Container-wsm-width; }
+}
+@media (min-width: $sl-Container-screen-wmd-min) {
+  .Container { width: $sl-Container-wmd-width; }
+}
+@media (min-width: $sl-Container-screen-wlg-min) {
+  .Container { width: $sl-Container-wlg-width; }
 }

@@ -4,25 +4,24 @@
 $sl-Table-border-color : $sg-color-gray-light !default;
 
 // ==================================
-table,
-.Tbl,
+// table,
 .Table {
   width: 100%;
   max-width: 100%;
   padding:0;
   margin: $sg-space-bs 0;
   border-collapse:collapse;
-  tr > th,
-  tr > td {
-    text-align: left;
-    padding:.5rem;
-    border-bottom:1px solid $sl-Table-border-color;
-  }
-  tr:last-child > td {
-    border-bottom:0;
-  }
-  > thead > tr > th,
-  > thead > tr > td {
-    border-bottom:2px solid $sl-Table-border-color;
-  }
+}
+.Table > tr > th,
+.Table > tr > td {
+  text-align: left;
+  padding:.5rem;
+  border-bottom:1px solid $sl-Table-border-color;
+}
+.Table > tr:last-child > td {
+  border-bottom:0;
+}
+.Table > thead > tr > th,
+.Table > thead > tr > td {
+  border-bottom:2px solid $sl-Table-border-color;
 }

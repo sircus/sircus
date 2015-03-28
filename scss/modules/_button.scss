@@ -40,9 +40,7 @@ $sl-Button-height-sm:                $sg-ButtonAndForm-height-sm !default;
 
 // ==================================
 button,
-.Button,
-.ButtonBorder,
-.ButtonReset {
+.Button {
   box-sizing: border-box;
   box-shadow: none;
   display: inline-block;
@@ -64,107 +62,90 @@ button,
   appearance: none;
   line-height: $sl-Button-height-bs - ($sl-ButtonBorder-borderSize * 2);
   outline: none;
-  &.is-disabled,
-  &[disabled] {
-    pointer-events: none;
-    cursor: not-allowed;
-    opacity: .65;
-  }
-  &::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-  }
 }
 
+.Button.is-disabled,
+.Button[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: .65;
+}
+.Button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
 
 // ==================================
 .Button {
   background-color:$sl-Button-bgColor;
   color:$sl-Button-typoColor;
-  &:hover,
-  &:focus,
-  &:active,
-  &.is-active{
-    background-color:transparent;
-    border-color: $sl-Button-bgColor;
-    color: $sl-Button-bgColor;
-    text-decoration: none;
-  }
+}
+.Button:hover,
+.Button:focus,
+.Button:active,
+.Button.is-active {
+  background-color:transparent;
+  border-color: $sl-Button-bgColor;
+  color: $sl-Button-bgColor;
+  text-decoration: none;
 }
 
 // ==================================
-.ButtonBorder {
+.Button--border {
   background-color:transparent;
   border-color: $sl-ButtonBorder-borderColor;
   color: $sl-ButtonBorder-typoColor;
-  &:hover,
-  &:focus,
-  &:active,
-  &.is-active{
-    background-color:$sl-ButtonBorder-typoColor;
-    color: $sl-ButtonBorder-hover-typoColor;
-    border-color:$sl-ButtonBorder-hover-borderColor;
-    text-decoration: none;
-  }
+}
+.Button--border:hover,
+.Button--border:focus,
+.Button--border:active,
+.Button--border.is-active{
+  background-color:$sl-ButtonBorder-typoColor;
+  color: $sl-ButtonBorder-hover-typoColor;
+  border-color:$sl-ButtonBorder-hover-borderColor;
+  text-decoration: none;
 }
 
 
 // ==================================
-.ButtonReset {
+.Button--reset {
   background-color:transparent;
   border-color: transparent;
   color:$sl-ButtonReset-typoColor;
-  &:hover,
-  &:focus,
-  &:active,
-  &.is-active {
-    border-color: transparent;
-    color:$sl-ButtonReset-hover-typoColor;
-    text-decoration: underline;
-  }
 }
-
-
-// ==================================
-.Button--pill,
-.ButtonBorder--pill {
-  border-radius: 5rem;
+.Button--reset:hover,
+.Button--reset:focus,
+.Button--reset:active,
+.Button--reset.is-active {
+  border-color: transparent;
+  color:$sl-ButtonReset-hover-typoColor;
+  text-decoration: underline;
 }
 
 // ==================================
-.Button--roundOff,
-.ButtonBorder--roundOff {
-  border-radius: 0 !important;
-}
+.Button--pill { border-radius: 5rem; }
 
-.Button--roundOn,
-.ButtonBorder--roundOn {
-  border-radius: $sl-Button-borderRadius-bs !important;
-}
+// ==================================
+.Button--roundOff { border-radius: 0 !important; }
+.Button--roundOn  { border-radius: $sl-Button-borderRadius-bs !important; }
 
 
 // ==================================
-.Button--xl,
-.ButtonBorder--xl,
-.ButtonReset--xl {
+.Button--xl {
   height: $sl-Button-height-xl;
   padding: 0 $sl-Button-paddingH-xl;
   line-height: $sl-Button-height-xl - ($sl-ButtonBorder-borderSize * 2);
   font-size: $sl-Button-fontSize-xl;
   border-radius: $sl-Button-borderRadius-xl;
 }
-.Button--lg,
-.ButtonBorder--lg,
-.ButtonReset--lg {
+.Button--lg {
   height: $sl-Button-height-lg;
   padding: 0 $sl-Button-paddingH-lg;
   line-height: $sl-Button-height-lg - ($sl-ButtonBorder-borderSize * 2);
   font-size: $sl-Button-fontSize-lg;
   border-radius: $sl-Button-borderRadius-lg;
 }
-.Button--sm,
-.ButtonBorder--sm,
-.ButtonReset--sm {
+.Button--sm {
   height: $sl-Button-height-sm;
   padding: 0 $sl-Button-paddingH-sm;
   line-height: $sl-Button-height-sm - ($sl-ButtonBorder-borderSize * 2);
@@ -174,14 +155,10 @@ button,
 
 
 // ==================================
-.Button--full,
-.ButtonBorder--full,
-.ButtonReset--full {
+.Button--full {
   display: block;
   width: 100%;
 }
-.Button--full + .Button--full,
-.ButtonBorder--full + .ButtonBorder--full,
-.ButtonReset--full + .ButtonReset--full {
+.Button--full + .Button--full {
   margin-top: 5px;
 }

@@ -113,10 +113,11 @@ ul, ol {
 
 .ListInline {
   margin-left: -0.5rem; }
-  .ListInline > li {
-    display: inline-block;
-    padding-left: .5rem;
-    padding-right: .5rem; }
+
+.ListInline > li {
+  display: inline-block;
+  padding-left: .5rem;
+  padding-right: .5rem; }
 
 dt {
   font-weight: bold; }
@@ -147,9 +148,7 @@ mark {
   color: #fff; }
 
 button,
-.Button,
-.ButtonBorder,
-.ButtonReset {
+.Button {
   box-sizing: border-box;
   box-shadow: none;
   display: inline-block;
@@ -172,263 +171,236 @@ button,
   appearance: none;
   line-height: 3.3rem;
   outline: none; }
-  button.is-disabled, button[disabled],
-  .Button.is-disabled,
-  .Button[disabled],
-  .ButtonBorder.is-disabled,
-  .ButtonBorder[disabled],
-  .ButtonReset.is-disabled,
-  .ButtonReset[disabled] {
-    pointer-events: none;
-    cursor: not-allowed;
-    opacity: .65; }
-  button::-moz-focus-inner,
-  .Button::-moz-focus-inner,
-  .ButtonBorder::-moz-focus-inner,
-  .ButtonReset::-moz-focus-inner {
-    border: 0;
-    padding: 0; }
+
+.Button.is-disabled,
+.Button[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: .65; }
+
+.Button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
 
 .Button {
   background-color: #c8c8c8;
   color: #fff; }
-  .Button:hover, .Button:focus, .Button:active, .Button.is-active {
-    background-color: transparent;
-    border-color: #c8c8c8;
-    color: #c8c8c8;
-    text-decoration: none; }
 
-.ButtonBorder {
+.Button:hover,
+.Button:focus,
+.Button:active,
+.Button.is-active {
+  background-color: transparent;
+  border-color: #c8c8c8;
+  color: #c8c8c8;
+  text-decoration: none; }
+
+.Button--border {
   background-color: transparent;
   border-color: #c8c8c8;
   color: #c8c8c8; }
-  .ButtonBorder:hover, .ButtonBorder:focus, .ButtonBorder:active, .ButtonBorder.is-active {
-    background-color: #c8c8c8;
-    color: #fff;
-    border-color: #bbbbbb;
-    text-decoration: none; }
 
-.ButtonReset {
+.Button--border:hover,
+.Button--border:focus,
+.Button--border:active,
+.Button--border.is-active {
+  background-color: #c8c8c8;
+  color: #fff;
+  border-color: #bbbbbb;
+  text-decoration: none; }
+
+.Button--reset {
   background-color: transparent;
   border-color: transparent;
   color: #6c7b88; }
-  .ButtonReset:hover, .ButtonReset:focus, .ButtonReset:active, .ButtonReset.is-active {
-    border-color: transparent;
-    color: #4a545d;
-    text-decoration: underline; }
 
-.Button--pill,
-.ButtonBorder--pill {
+.Button--reset:hover,
+.Button--reset:focus,
+.Button--reset:active,
+.Button--reset.is-active {
+  border-color: transparent;
+  color: #4a545d;
+  text-decoration: underline; }
+
+.Button--pill {
   border-radius: 5rem; }
 
-.Button--roundOff,
-.ButtonBorder--roundOff {
+.Button--roundOff {
   border-radius: 0 !important; }
 
-.Button--roundOn,
-.ButtonBorder--roundOn {
+.Button--roundOn {
   border-radius: 0.4rem !important; }
 
-.Button--xl,
-.ButtonBorder--xl,
-.ButtonReset--xl {
+.Button--xl {
   height: 6rem;
   padding: 0 4.8rem;
   line-height: 5.8rem;
   font-size: 2.4rem;
   border-radius: 0.5rem; }
 
-.Button--lg,
-.ButtonBorder--lg,
-.ButtonReset--lg {
+.Button--lg {
   height: 4.7rem;
   padding: 0 3.2rem;
   line-height: 4.5rem;
   font-size: 2rem;
   border-radius: 0.5rem; }
 
-.Button--sm,
-.ButtonBorder--sm,
-.ButtonReset--sm {
+.Button--sm {
   height: 2.3rem;
   padding: 0 0.8rem;
   line-height: 2.1rem;
   font-size: 1.3rem;
   border-radius: 0.3rem; }
 
-.Button--full,
-.ButtonBorder--full,
-.ButtonReset--full {
+.Button--full {
   display: block;
   width: 100%; }
 
-.Button--full + .Button--full,
-.ButtonBorder--full + .ButtonBorder--full,
-.ButtonReset--full + .ButtonReset--full {
+.Button--full + .Button--full {
   margin-top: 5px; }
 
 .Button--primary {
   background-color: #6c7b88;
   border-color: #616e7a;
   color: #fff; }
-  .Button--primary:hover, .Button--primary:focus, .Button--primary:active, .Button--primary.is-active {
-    background-color: #fff;
-    color: #6c7b88;
-    border-color: #616e7a; }
 
-.ButtonBorder--primary {
+.Button--primary:hover,
+.Button--primary:focus,
+.Button--primary:active,
+.Button--primary.is-active {
+  background-color: #fff;
+  color: #6c7b88;
+  border-color: #616e7a; }
+
+.Button--border.Button--primary {
+  background-color: transparent;
   border-color: #6c7b88;
   color: #6c7b88; }
-  .ButtonBorder--primary:hover, .ButtonBorder--primary:focus, .ButtonBorder--primary:active, .ButtonBorder--primary.is-active {
-    background-color: #6c7b88;
-    color: #fff;
-    border-color: #616e7a; }
 
-.Button.is-success,
-.Button--success {
+.Button--border.Button--primary:hover,
+.Button--border.Button--primary:focus,
+.Button--border.Button--primary:active,
+.Button--border.Button--primary.is-active {
+  background-color: #6c7b88;
+  color: #fff;
+  border-color: #616e7a; }
+
+.Button.is-success {
   background-color: #18be91;
   border-color: #15a780;
   color: #fff; }
-  .Button.is-success:hover, .Button.is-success:focus, .Button.is-success:active, .Button.is-success.is-active,
-  .Button--success:hover,
-  .Button--success:focus,
-  .Button--success:active,
-  .Button--success.is-active {
-    background-color: #fff;
-    color: #18be91; }
 
-.ButtonBorder.is-success,
-.ButtonBorder--success {
-  border-color: #18be91;
+.Button.is-success:hover,
+.Button.is-success:focus {
+  background-color: #fff;
   color: #18be91; }
-  .ButtonBorder.is-success:hover, .ButtonBorder.is-success:focus, .ButtonBorder.is-success:active, .ButtonBorder.is-success.is-active,
-  .ButtonBorder--success:hover,
-  .ButtonBorder--success:focus,
-  .ButtonBorder--success:active,
-  .ButtonBorder--success.is-active {
-    background-color: #18be91;
-    color: #fff;
-    border-color: #15a780; }
 
-.ButtonReset.is-success,
-.ButtonReset--success {
-  color: #18be91; }
-  .ButtonReset.is-success:hover, .ButtonReset.is-success:focus, .ButtonReset.is-success:active, .ButtonReset.is-success.is-active,
-  .ButtonReset--success:hover,
-  .ButtonReset--success:focus,
-  .ButtonReset--success:active,
-  .ButtonReset--success.is-active {
-    color: #12916e; }
-
-.Button.is-notice,
-.Button--notice {
+.Button.is-notice {
   background-color: #7bc1eb;
   border-color: #65b7e8;
   color: #fff; }
-  .Button.is-notice:hover, .Button.is-notice:focus, .Button.is-notice:active, .Button.is-notice.is-active,
-  .Button--notice:hover,
-  .Button--notice:focus,
-  .Button--notice:active,
-  .Button--notice.is-active {
-    background-color: #fff;
-    color: #7bc1eb; }
 
-.ButtonBorder.is-notice,
-.ButtonBorder--notice {
-  border-color: #7bc1eb;
+.Button.is-notice:hover,
+.Button.is-notice:focus {
+  background-color: #fff;
   color: #7bc1eb; }
-  .ButtonBorder.is-notice:hover, .ButtonBorder.is-notice:focus, .ButtonBorder.is-notice:active, .ButtonBorder.is-notice.is-active,
-  .ButtonBorder--notice:hover,
-  .ButtonBorder--notice:focus,
-  .ButtonBorder--notice:active,
-  .ButtonBorder--notice.is-active {
-    background-color: #7bc1eb;
-    color: #fff;
-    border-color: #65b7e8; }
 
-.ButtonReset.is-notice,
-.ButtonReset--notice {
-  color: #7bc1eb; }
-  .ButtonReset.is-notice:hover, .ButtonReset.is-notice:focus, .ButtonReset.is-notice:active, .ButtonReset.is-notice.is-active,
-  .ButtonReset--notice:hover,
-  .ButtonReset--notice:focus,
-  .ButtonReset--notice:active,
-  .ButtonReset--notice.is-active {
-    color: #4face4; }
-
-.Button.is-warning,
-.Button--warning {
+.Button.is-warning {
   background-color: #e5cd2f;
   border-color: #dfc51c;
   color: #fff; }
-  .Button.is-warning:hover, .Button.is-warning:focus, .Button.is-warning:active, .Button.is-warning.is-active,
-  .Button--warning:hover,
-  .Button--warning:focus,
-  .Button--warning:active,
-  .Button--warning.is-active {
-    background-color: #fff;
-    color: #e5cd2f; }
 
-.ButtonBorder.is-warning,
-.ButtonBorder--warning {
-  border-color: #e5cd2f;
+.Button.is-warning:hover,
+.Button.is-warning:focus {
+  background-color: #fff;
   color: #e5cd2f; }
-  .ButtonBorder.is-warning:hover, .ButtonBorder.is-warning:focus, .ButtonBorder.is-warning:active, .ButtonBorder.is-warning.is-active,
-  .ButtonBorder--warning:hover,
-  .ButtonBorder--warning:focus,
-  .ButtonBorder--warning:active,
-  .ButtonBorder--warning.is-active {
-    background-color: #e5cd2f;
-    color: #fff;
-    border-color: #dfc51c; }
 
-.ButtonReset.is-warning,
-.ButtonReset--warning {
-  color: #e5cd2f; }
-  .ButtonReset.is-warning:hover, .ButtonReset.is-warning:focus, .ButtonReset.is-warning:active, .ButtonReset.is-warning.is-active,
-  .ButtonReset--warning:hover,
-  .ButtonReset--warning:focus,
-  .ButtonReset--warning:active,
-  .ButtonReset--warning.is-active {
-    color: #c8b119; }
-
-.Button.is-error,
-.Button--error {
+.Button.is-error {
   background-color: #eb5850;
   border-color: #e84239;
   color: #fff; }
-  .Button.is-error:hover, .Button.is-error:focus, .Button.is-error:active, .Button.is-error.is-active,
-  .Button--error:hover,
-  .Button--error:focus,
-  .Button--error:active,
-  .Button--error.is-active {
-    background-color: #fff;
-    color: #eb5850; }
 
-.ButtonBorder.is-error,
-.ButtonBorder--error {
+.Button.is-error:hover,
+.Button.is-error:focus {
+  background-color: #fff;
+  color: #eb5850; }
+
+.Button--border.is-success,
+.Button--border.is-notice,
+.Button--border.is-warning,
+.Button--border.is-error {
+  background-color: transparent; }
+
+.Button--border.is-success {
+  border-color: #18be91;
+  color: #18be91; }
+
+.Button--border.is-success:hover,
+.Button--border.is-success:focus {
+  background-color: #18be91;
+  color: #fff;
+  border-color: #15a780; }
+
+.Button--border.is-notice {
+  border-color: #7bc1eb;
+  color: #7bc1eb; }
+
+.Button--border.is-notice:hover,
+.Button--border.is-notice:focus {
+  background-color: #7bc1eb;
+  color: #fff;
+  border-color: #65b7e8; }
+
+.Button--border.is-warning {
+  border-color: #e5cd2f;
+  color: #e5cd2f; }
+
+.Button--border.is-warning:hover,
+.Button--border.is-warning:focus {
+  background-color: #e5cd2f;
+  color: #fff;
+  border-color: #dfc51c; }
+
+.Button--border.is-error {
   border-color: #eb5850;
   color: #eb5850; }
-  .ButtonBorder.is-error:hover, .ButtonBorder.is-error:focus, .ButtonBorder.is-error:active, .ButtonBorder.is-error.is-active,
-  .ButtonBorder--error:hover,
-  .ButtonBorder--error:focus,
-  .ButtonBorder--error:active,
-  .ButtonBorder--error.is-active {
-    background-color: #eb5850;
-    color: #fff;
-    border-color: #e84239; }
 
-.ButtonReset.is-error,
-.ButtonReset--error {
+.Button--border.is-error:hover,
+.Button--border.is-error:focus {
+  background-color: #eb5850;
+  color: #fff;
+  border-color: #e84239; }
+
+.Button--reset.is-success {
+  color: #18be91; }
+
+.Button--reset.is-success:hover,
+.Button--reset.is-success:focus {
+  color: #12916e; }
+
+.Button--reset.is-notice {
+  color: #7bc1eb; }
+
+.Button--reset.is-notice:hover,
+.Button--reset.is-notice:focus {
+  color: #4face4; }
+
+.Button--reset.is-warning {
+  color: #e5cd2f; }
+
+.Button--reset.is-warning:hover,
+.Button--reset.is-warning:focus {
+  color: #c8b119; }
+
+.Button--reset.is-error {
   color: #eb5850; }
-  .ButtonReset.is-error:hover, .ButtonReset.is-error:focus, .ButtonReset.is-error:active, .ButtonReset.is-error.is-active,
-  .ButtonReset--error:hover,
-  .ButtonReset--error:focus,
-  .ButtonReset--error:active,
-  .ButtonReset--error.is-active {
-    color: #e62c22; }
+
+.Button--reset.is-error:hover,
+.Button--reset.is-error:focus {
+  color: #e62c22; }
 
 select,
+textarea,
 input[type='text'],
 input[type='password'],
 input[type='datetime'],
@@ -446,7 +418,6 @@ input[type='color'] {
   line-height: inherit;
   vertical-align: middle;
   box-sizing: border-box;
-  height: 3.5rem;
   padding: 0.4rem 1.2rem;
   font-size: 1.6rem;
   display: inline-block; }
@@ -455,52 +426,56 @@ input[type='color'] {
 .Textarea,
 .Select {
   border: 0.1rem solid #c8c8c8;
-  border-radius: 0.4rem;
   background-color: transparent;
+  border-radius: 0.4rem;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
   -webkit-transition: border ease-in-out .15s,box-shadow ease-in-out .15s;
           transition: border ease-in-out .15s,box-shadow ease-in-out .15s; }
-  .Input.is-focus, .Input:focus,
-  .Textarea.is-focus,
-  .Textarea:focus,
-  .Select.is-focus,
-  .Select:focus {
-    border: 0.1rem solid #6c7b88;
-    outline: 0;
-    box-shadow: inset 0 1px 1px rgba(108, 123, 136, 0.4), 0 0 8px rgba(108, 123, 136, 0.4); }
-  .Input.is-disabled, .Input[disabled],
-  .Textarea.is-disabled,
-  .Textarea[disabled],
-  .Select.is-disabled,
-  .Select[disabled] {
-    cursor: not-allowed;
-    pointer-events: none;
-    opacity: .65;
-    background-color: #e2e2e2; }
 
 .Input,
-.Textarea {
+.Select {
+  height: 3.5rem; }
+
+.Input {
   -webkit-appearance: none; }
 
+.Input.is-focus,
+.Textarea.is-focus,
+.Select.is-focus,
+.Input:focus,
+.Textarea:focus,
+.Select:focus {
+  border: 0.1rem solid #6c7b88;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(108, 123, 136, 0.4), 0 0 8px rgba(108, 123, 136, 0.4); }
+
+.Input.is-disabled,
+.Textarea.is-disabled,
+.Select.is-disabled,
+.Input[disabled],
+.Textarea[disabled],
+.Select[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: .65;
+  background-color: #e2e2e2; }
+
 .Input--xl,
-.Select--xl,
-.Form--xl {
+.Select--xl {
   font-size: 2.4rem !important;
   padding: 1.2rem 1.2rem !important;
   border-radius: 0.5rem !important;
   height: 6rem !important; }
 
 .Input--lg,
-.Select--lg,
-.Form--lg {
+.Select--lg {
   font-size: 2rem !important;
   padding: 0.8rem 1.2rem !important;
   border-radius: 0.5rem !important;
   height: 4.7rem !important; }
 
 .Input--sm,
-.Select--sm,
-.Form--sm {
+.Select--sm {
   font-size: 1.4rem !important;
   padding: 0.2rem 1.2rem !important;
   border-radius: 0.3rem !important;
@@ -508,135 +483,86 @@ input[type='color'] {
 
 .Input--full,
 .Select--full,
-.Form--full {
+.Textarea--full {
   display: block;
   width: 100%; }
 
 .Input--full + .Input--full,
 .Select--full + .Select--full,
-.Form--full + .Form--full {
+.Textarea--full + .Textarea--full {
   margin-top: 5px; }
 
 .Input.is-success,
-.Input--success,
-.Select.is-success,
-.Select--success,
-.Form.is-success,
-.Form--success {
+.Select.is-success {
   background-color: #f1fdfa;
   border-color: #18be91;
   color: #18be91; }
-  .Input.is-success.is-focus, .Input.is-success:focus,
-  .Input--success.is-focus,
-  .Input--success:focus,
-  .Select.is-success.is-focus,
-  .Select.is-success:focus,
-  .Select--success.is-focus,
-  .Select--success:focus,
-  .Form.is-success.is-focus,
-  .Form.is-success:focus,
-  .Form--success.is-focus,
-  .Form--success:focus {
-    border: 0.1rem solid #18be91;
-    box-shadow: inset 0 1px 1px rgba(24, 190, 145, 0.4), 0 0 8px rgba(24, 190, 145, 0.4); }
+
+.Input.is-success.is-focus,
+.Select.is-success.is-focus,
+.Input.is-success:focus,
+.Select.is-success:focus {
+  border: 0.1rem solid #18be91;
+  box-shadow: inset 0 1px 1px rgba(24, 190, 145, 0.4), 0 0 8px rgba(24, 190, 145, 0.4); }
 
 .Input.is-notice,
-.Input--notice,
-.Select.is-notice,
-.Select--notice,
-.Form.is-notice,
-.Form--notice {
+.Select.is-notice {
   background-color: #eaf5fc;
   border-color: #7bc1eb;
   color: #7bc1eb; }
-  .Input.is-notice.is-focus, .Input.is-notice:focus,
-  .Input--notice.is-focus,
-  .Input--notice:focus,
-  .Select.is-notice.is-focus,
-  .Select.is-notice:focus,
-  .Select--notice.is-focus,
-  .Select--notice:focus,
-  .Form.is-notice.is-focus,
-  .Form.is-notice:focus,
-  .Form--notice.is-focus,
-  .Form--notice:focus {
-    border: 0.1rem solid #7bc1eb;
-    box-shadow: inset 0 1px 1px rgba(123, 193, 235, 0.6), 0 0 8px rgba(123, 193, 235, 0.6); }
+
+.Input.is-notice.is-focus,
+.Select.is-notice.is-focus,
+.Input.is-notice:focus,
+.Select.is-notice:focus {
+  border: 0.1rem solid #7bc1eb;
+  box-shadow: inset 0 1px 1px rgba(123, 193, 235, 0.6), 0 0 8px rgba(123, 193, 235, 0.6); }
 
 .Input.is-warning,
-.Input--warning,
-.Select.is-warning,
-.Select--warning,
-.Form.is-warning,
-.Form--warning {
+.Select.is-warning {
   background-color: #fcf9e4;
   border-color: #e5cd2f;
   color: #e5cd2f; }
-  .Input.is-warning.is-focus, .Input.is-warning:focus,
-  .Input--warning.is-focus,
-  .Input--warning:focus,
-  .Select.is-warning.is-focus,
-  .Select.is-warning:focus,
-  .Select--warning.is-focus,
-  .Select--warning:focus,
-  .Form.is-warning.is-focus,
-  .Form.is-warning:focus,
-  .Form--warning.is-focus,
-  .Form--warning:focus {
-    border: 0.1rem solid #e5cd2f;
-    box-shadow: inset 0 1px 1px rgba(229, 205, 47, 0.6), 0 0 8px rgba(229, 205, 47, 0.6); }
+
+.Input.is-warning.is-focus,
+.Select.is-warning.is-focus,
+.Input.is-warning:focus,
+.Select.is-warning:focus {
+  border: 0.1rem solid #e5cd2f;
+  box-shadow: inset 0 1px 1px rgba(229, 205, 47, 0.6), 0 0 8px rgba(229, 205, 47, 0.6); }
 
 .Input.is-error,
-.Input--error,
-.Select.is-error,
-.Select--error,
-.Form.is-error,
-.Form--error {
+.Select.is-error {
   background-color: #fdf1f0;
   border-color: #eb5850;
   color: #eb5850; }
-  .Input.is-error.is-focus, .Input.is-error:focus,
-  .Input--error.is-focus,
-  .Input--error:focus,
-  .Select.is-error.is-focus,
-  .Select.is-error:focus,
-  .Select--error.is-focus,
-  .Select--error:focus,
-  .Form.is-error.is-focus,
-  .Form.is-error:focus,
-  .Form--error.is-focus,
-  .Form--error:focus {
-    border: 0.1rem solid #eb5850;
-    box-shadow: inset 0 1px 1px rgba(235, 88, 80, 0.4), 0 0 8px rgba(235, 88, 80, 0.4); }
 
-table,
-.Tbl,
+.Input.is-error.is-focus,
+.Select.is-error.is-focus,
+.Input.is-error:focus,
+.Select.is-error:focus {
+  border: 0.1rem solid #eb5850;
+  box-shadow: inset 0 1px 1px rgba(235, 88, 80, 0.4), 0 0 8px rgba(235, 88, 80, 0.4); }
+
 .Table {
   width: 100%;
   max-width: 100%;
   padding: 0;
   margin: 2.4rem 0;
   border-collapse: collapse; }
-  table tr > th,
-  table tr > td,
-  .Tbl tr > th,
-  .Tbl tr > td,
-  .Table tr > th,
-  .Table tr > td {
-    text-align: left;
-    padding: .5rem;
-    border-bottom: 1px solid #DDD; }
-  table tr:last-child > td,
-  .Tbl tr:last-child > td,
-  .Table tr:last-child > td {
-    border-bottom: 0; }
-  table > thead > tr > th,
-  table > thead > tr > td,
-  .Tbl > thead > tr > th,
-  .Tbl > thead > tr > td,
-  .Table > thead > tr > th,
-  .Table > thead > tr > td {
-    border-bottom: 2px solid #DDD; }
+
+.Table > tr > th,
+.Table > tr > td {
+  text-align: left;
+  padding: .5rem;
+  border-bottom: 1px solid #DDD; }
+
+.Table > tr:last-child > td {
+  border-bottom: 0; }
+
+.Table > thead > tr > th,
+.Table > thead > tr > td {
+  border-bottom: 2px solid #DDD; }
 
 .ContainerSlim,
 .ContainerFull,
@@ -647,6 +573,9 @@ table,
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
 
+.ContainerSlim {
+  max-width: 74.4rem; }
+
 @media (min-width: 768px) {
   .Container {
     width: 74.4rem; } }
@@ -656,10 +585,6 @@ table,
 @media (min-width: 1200px) {
   .Container {
     width: 116.4rem; } }
-
-.ContainerSlim {
-  max-width: 74.4rem; }
-
 .ContainerSlim,
 .ContainerFull,
 .Container {
@@ -669,6 +594,9 @@ table,
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
 
+.ContainerSlim {
+  max-width: 74.4rem; }
+
 @media (min-width: 768px) {
   .Container {
     width: 74.4rem; } }
@@ -678,49 +606,52 @@ table,
 @media (min-width: 1200px) {
   .Container {
     width: 116.4rem; } }
-
-.ContainerSlim {
-  max-width: 74.4rem; }
-
 .Row {
   font-size: 0;
+  display: block;
   margin: 0;
-  padding: 0;
-  text-align: left;
+  margin-right: -1.2rem;
   margin-left: -1.2rem;
-  margin-right: -1.2rem; }
-  .Row:before, .Row:after {
-    content: " ";
-    display: table; }
-  .Row:after {
-    clear: both; }
-  .Row > .Row-col {
-    box-sizing: border-box;
-    font-size: 1.6rem; }
+  padding: 0;
+  text-align: left; }
 
-.Row {
-  display: block; }
-  .Row > .Row-col {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    width: 100%; }
+.Row:before,
+.Row:after {
+  content: " ";
+  display: table; }
+
+.Row:after {
+  clear: both; }
+
+.Row > .Row-col {
+  font-size: 1.6rem;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  text-align: left;
+  vertical-align: top; }
 
 .Row--float > .Row-col {
   float: left; }
 
 .Row--table {
-  width: calc(100% + 2.4rem);
+  width: calc(100% + $sl-Row-gutter-width);
   padding: 0; }
-  .Row--table > .Row-col {
-    width: 100%; }
-  @media (min-width: 480px) {
-    .Row--table {
-      display: table;
-      table-layout: fixed; }
-      .Row--table > .Row-col {
-        display: table-cell; } }
 
+.Row--table > .Row-col {
+  width: 100%; }
+
+@media (min-width: 480px) {
+  .Row--table {
+    display: table;
+    table-layout: fixed; }
+
+  .Row--table > .Row-col {
+    display: table-cell; } }
 .Row--center {
   text-align: center; }
 
@@ -739,30 +670,25 @@ table,
 .Row--bottom > .Row-col {
   vertical-align: bottom; }
 
-.Row-col {
-  min-height: 1px;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
-  position: relative; }
-
 .FullEmbed {
   position: relative;
   display: block;
   height: 0;
   padding: 0;
   overflow: hidden; }
-  .FullEmbed .FullEmbed-item,
-  .FullEmbed iframe,
-  .FullEmbed embed,
-  .FullEmbed object,
-  .FullEmbed video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    border: 0; }
+
+.FullEmbed > .FullEmbed-item,
+.FullEmbed > iframe,
+.FullEmbed > embed,
+.FullEmbed > object,
+.FullEmbed > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0; }
 
 .FullEmbed--16by9 {
   padding-bottom: 56.25%; }
@@ -922,6 +848,9 @@ table,
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
 
+.ContainerSlim {
+  max-width: 74.4rem; }
+
 @media (min-width: 768px) {
   .Container {
     width: 74.4rem; } }
@@ -931,10 +860,6 @@ table,
 @media (min-width: 1200px) {
   .Container {
     width: 116.4rem; } }
-
-.ContainerSlim {
-  max-width: 74.4rem; }
-
 .t-gutterReset,
 .t-wxs-gutterReset,
 .t-wsm-gutterReset,
