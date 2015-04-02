@@ -98,7 +98,6 @@ browserSync, watch
 ```bash
 $ gulp
 ```
-And finally, open in your browser.
 
 
 ## Acknowledgements
