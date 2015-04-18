@@ -8,7 +8,7 @@ copyright = "Copyright (c) 2015 blivesta and ungki. all rights reserved."
 pygmentsuseclasses = true
 
 [params]
-  description = "Scalable css for responsive project."
+  description = "A scalable css for people who make web together"
   author = "blivesta"
   maintainer = "ungki"
   tags = "sircus, scalable css"
