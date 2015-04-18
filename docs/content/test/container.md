@@ -7,30 +7,28 @@ description: ""
   <h3>.Container</h3>
 </div>
 
-<hr>
 
 <div class="ContainerFull test-container">
   <h3>.ContainerFull</h3>
 </div>
 
-<hr>
 
 <div class="ContainerSlim test-container">
   <h3>.ContainerSlim</h3>
 </div>
 
-<hr>
 
-<div class="ContainerFull test-container">
+
+<div class="ContainerFull test-container-nest">
   <p>.ContainerFull</p>
-  <div class="t-wxs-gutterReset test-container">
+  <div class="t-wxs-gutterReset test-container-nest">
     <p>.t-wxs-gutterReset</p>
-    <div class="ContainerSlim test-container">
+    <div class="ContainerSlim test-container-nest">
       <p>.ContainerSlim</p>
     </div>
   </div>
 </div>
-<hr>
+
 
 
 <div class="ContainerSlim">
