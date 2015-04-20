@@ -27,6 +27,9 @@ $sl-baseTypo-fontSize-h6:            $sg-fontSize-sm !default;
 $sl-baseTypo-mark-bgColor:           $sg-color-primary !default;
 $sl-baseTypo-mark-color:             #fff !default;
 
+$sl-baseTypo-blockquote-bgColor:     $sg-color-gray-lighter !default;
+$sl-baseTypo-blockquote-borderColor: $sg-color-gray-light !default;
+
 $sl-baseTypo-space-bs:               $sg-space-bs ;
 
 $sl-baseTypo-selection-bgColor:      $sg-color-primary !default;
@@ -45,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 $sl-baseTypo-headings-space 0;
 }
 
-p, ul, ol, dd {
+p, ul, ol, dd, blockquote {
   margin:0 0 $sl-baseTypo-space-bs 0;
 }
 
@@ -140,4 +143,16 @@ mark {
   padding-right:.5rem;
   background-color:$sl-baseTypo-mark-bgColor;
   color:$sl-baseTypo-mark-color;
+}
+
+// blockquote -------------------------
+blockquote {
+  padding:$sg-space-bs;
+  border-left:.6rem solid $sl-baseTypo-blockquote-borderColor;
+  background: $sl-baseTypo-blockquote-bgColor;
+  font-style: italic;
+  display: block;
+}
+blockquote p:last-child {
+  margin-bottom:0;
 }

@@ -6,6 +6,7 @@ description: ""
 <div class="Container">
   <h2>Haddings</h2>
 
+  <h1 class="H0">Heading 0</h1>
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
   <h3>Heading 3</h3>
@@ -13,12 +14,15 @@ description: ""
   <h5>Heading 5</h5>
   <h6>Heading 6</h6>
 
-  <span class="h1">Heading 1</span>
-  <span class="h2">Heading 2</span>
-  <span class="h3">Heading 3</span>
-  <span class="h4">Heading 4</span>
-  <span class="h5">Heading 5</span>
-  <span class="h6">Heading 6</span>
+  <ul class="ListInline">
+    <li class="H0">Heading 0</li>
+    <li class="H1">Heading 1</li>
+    <li class="H2">Heading 2</li>
+    <li class="H3">Heading 3</li>
+    <li class="H4">Heading 4</li>
+    <li class="H5">Heading 5</li>
+    <li class="H6">Heading 6</li>
+  </ul>
 
   <hr>
 
@@ -143,9 +147,12 @@ description: ""
   <hr>
 
   <h2>blockquote</h2>
-  <blockquote>
+  <blockquote class="t-clea">
+    <p>Some sort of famous witty quote marked up with a &lt;blockquote> and a child &lt;p> element.</p>
     <p>Some sort of famous witty quote marked up with a &lt;blockquote> and a child &lt;p> element.</p>
   </blockquote>
 
-  <blockquote>Even better philosophical quote marked up with just a &lt;blockquote> element.</blockquote>
+  <blockquote>
+  Even better philosophical quote marked up with just a &lt;blockquote> element.
+  </blockquote>
 </div>
