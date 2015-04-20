@@ -1,11 +1,10 @@
-.t-clear {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after { clear: both; }
+.t-clear:before,
+.t-clear:after {
+  content: " ";
+  display: table;
 }
+.t-clear:after { clear: both; }
+
 
 .t-center {
   display: block !important;
