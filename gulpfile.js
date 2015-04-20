@@ -25,11 +25,11 @@ module.exports = {
       './dist',
       './_public',
       './docs/static/build',
-      './scss/vendor'
+      './src/scss/vendor'
     ]
   },
   'rubysass': {
-    src: './scss/sircus.scss',
+    src: './src/scss/sircus.scss',
     dest: './docs/static/build',
     rubySassOptions: {
       sourcemap: true,
@@ -90,7 +90,7 @@ gulp.task('pagespeed', require('gulptasks/lib/pagespeed'));
 gulp.task('browsersync', require('gulptasks/lib/browsersync'));
 
 gulp.task('default',['browsersync'],function() {
-  gulp.watch(['./scss/**/*.scss'], ['rubysass']);
+  gulp.watch(['./src/scss/**/*.scss'], ['rubysass']);
   gulp.watch(['./docs/**/*.{html,css,md}'], ['hugo',reload]);
   // gulp.watch(['./_public'], reload);
 });
