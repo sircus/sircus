@@ -6,7 +6,7 @@
 [![devDependency Status](https://david-dm.org/sircus/sircus/dev-status.svg)](https://david-dm.org/sircus/sircus#info=devDependencies)
 
 
-### [Test page](http://sircus.blivesta.com/test)
+### [Test pages](http://sircus.blivesta.com/test)
 
 ## Naming things
 
@@ -25,6 +25,7 @@
 > namespace (optional)
 
 ```css
+.namespace-FullEmbed { }
 .sc-FullEmbed { }
 ```
 
@@ -32,18 +33,23 @@
 
 ```css
 .FullEmbed { }
+.Row { }
+.Container { }
+.ContainerFull { }
 ```
 
 > ModuleName--modifierName
 
 ```css
 .FullEmbed--16by9 { }
+.Row--middle { }
 ```
 
 > ModuleName-descendentName
 
 ```css
 .FullEmbed-item { }
+.Row-col { }
 ```
 
 > ModuleName.is-stateOfModule
@@ -59,18 +65,19 @@
 
 
 ### Tools
-> t-[wsm|wmd|wlg-]toolName
+> t-[ wxs | wsm | wmd | wlg- ]toolName
 
 #### t-toolName
 
 ```css
 .t-clear { }
 .t-wsm-block { }
+.t-wxs-width2of4 { }
 ```
 
 ```html
 <div class="t-clear">
-  <div class="t-left t-xs-hidden"></div>
+  <div class="t-left t-wxs-hidden"></div>
   <p class="t-uppercase"></p>
 </div>
 ```
@@ -108,3 +115,5 @@ Inspiration and code was taken from many sources, including:
 
 ## License
 Released under the [MIT license](https://github.com/sircus/sircus/blob/master/LICENCE).
+
+Copyright &copy; 2015 [@blivesta](https://github.com/blivesta) and [@ungki](https://github.com/ungki)

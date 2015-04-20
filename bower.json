@@ -5,7 +5,7 @@
   "authors": [
     "blivesta"
   ],
-  "description": "scalable css for responsive project.",
+  "description": "A Scalable CSS For People Who Make Web Together.",
   "main": [
     "dist/sircus.css"
   ],
