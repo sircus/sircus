@@ -559,20 +559,22 @@ input[type='color'] {
   max-width: 100%;
   padding: 0;
   margin: 2.4rem 0;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  text-align: left; }
 
-.Table > tr > th,
-.Table > tr > td {
-  text-align: left;
-  padding: .5rem;
-  border-bottom: 1px solid #DDD; }
-
-.Table > tr:last-child > td {
-  border-bottom: 0; }
+.Table tr > th,
+.Table tr > td {
+  padding: 1rem;
+  border-top: 0.1rem solid #DDD; }
 
 .Table > thead > tr > th,
 .Table > thead > tr > td {
-  border-bottom: 2px solid #DDD; }
+  border-top: 0;
+  border-bottom: 0.2rem solid #DDD; }
+
+.Table > tfoot > tr > th,
+.Table > tfoot > tr > td {
+  border-top: 0.2rem solid #DDD; }
 
 .ContainerSlim,
 .ContainerFull,
