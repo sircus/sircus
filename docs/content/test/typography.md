@@ -3,7 +3,7 @@ title: "Typography"
 description: ""
 ---
 
-<div class="Container">
+<div class="ContainerFull">
   <h2>Haddings</h2>
 
   <h1 class="H0">Heading 0</h1>
@@ -81,7 +81,7 @@ description: ""
 
   <h2>inline block list</h2>
 
-  <ul class="list-inlineBlock">
+  <ul class="ListInline">
     <li>list item 1</li>
     <li>list item 2</li>
     <li>list item 3</li>
@@ -92,7 +92,7 @@ description: ""
 
   <h2>Reset style</h2>
 
-  <ul class="list-reset">
+  <ul class="ListReset">
     <li>list item 1</li>
     <li>list item 2</li>
     <li>list item 3</li>
