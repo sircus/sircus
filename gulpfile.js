@@ -33,14 +33,10 @@ module.exports = {
     dest: './docs/static/build',
     rubySassOptions: {
       sourcemap: true,
-      noCache: true,
-      // style:''
+      noCache: true
     },
     autoprefixer: autoprefixerBrowsers,
-    fallback:{
-      use:false,
-      colorHexOptions:{rgba: true}
-    },
+    fallback:false,
     filter:'**/*.css',
     headerBanner : true,
     banner:headerBanner,
