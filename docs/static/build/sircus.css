@@ -15,18 +15,12 @@ body {
   margin: 0;
   padding: 0; }
 
-img {
-  vertical-align: middle;
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
+img,
+figure {
   margin: 0; }
 
 svg {
   max-height: 100%; }
-
-figure {
-  margin: 0; }
 
 pre {
   overflow: auto;
@@ -554,6 +548,18 @@ input[type='color'] {
   border: 0.1rem solid #eb5850;
   box-shadow: inset 0 1px 1px rgba(235, 88, 80, 0.4), 0 0 8px rgba(235, 88, 80, 0.4); }
 
+.Img {
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
+.Img--round {
+  border-radius: 0.4rem !important; }
+
+.Img--circle {
+  border-radius: 50% !important; }
+
 .Table {
   width: 100%;
   max-width: 100%;
@@ -890,21 +896,6 @@ input[type='color'] {
   .t-wlg-gutterReset {
     margin-left: 0;
     margin-right: 0; } }
-.t-imgFull {
-  vertical-align: middle;
-  display: inline-block;
-  max-width: 100%;
-  height: auto; }
-
-.t-imgInline {
-  display: inline !important; }
-
-.t-imgRound {
-  border-radius: 0.4rem !important; }
-
-.t-imgCircle {
-  border-radius: 50% !important; }
-
 .t-clear:before,
 .t-clear:after {
   content: " ";
