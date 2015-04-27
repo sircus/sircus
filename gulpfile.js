@@ -53,7 +53,7 @@ module.exports = {
   },
   'ghpage' : {
     src : './_public/**/*',
-    remoteUrl : 'https://github.com/sircus/sircus.github.io.git',
+    remoteUrl : 'git@github.com:sircus/sircus.github.io.git',
     branch : 'master'
   },
   'hugo' : {
