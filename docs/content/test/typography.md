@@ -3,7 +3,7 @@ title: "Typography"
 description: ""
 ---
 
-<div class="ContainerFull">
+<div class="Container">
   <h2>Haddings</h2>
 
   <h1 class="H0">Heading 0</h1>

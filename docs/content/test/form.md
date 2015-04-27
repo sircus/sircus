@@ -3,7 +3,7 @@ title: "Form"
 description: ""
 ---
 
-<div class="ContainerFull">
+<div class="Container">
 
 <h1>Forms</h1>
 

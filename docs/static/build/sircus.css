@@ -576,8 +576,6 @@ input[type='color'] {
 .Table > tfoot > tr > td {
   border-top: 0.2rem solid #DDD; }
 
-.ContainerSlim,
-.ContainerFull,
 .Container {
   box-sizing: border-box;
   margin-right: auto;
@@ -585,20 +583,18 @@ input[type='color'] {
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
 
-.ContainerSlim {
+.Container--slim {
   max-width: 74.4rem; }
 
 @media (min-width: 768px) {
-  .Container {
+  .Container--responsive {
     width: 74.4rem; } }
 @media (min-width: 992px) {
-  .Container {
+  .Container--responsive {
     width: 96.4rem; } }
 @media (min-width: 1200px) {
-  .Container {
+  .Container--responsive {
     width: 116.4rem; } }
-.ContainerSlim,
-.ContainerFull,
 .Container {
   box-sizing: border-box;
   margin-right: auto;
@@ -606,17 +602,17 @@ input[type='color'] {
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
 
-.ContainerSlim {
+.Container--slim {
   max-width: 74.4rem; }
 
 @media (min-width: 768px) {
-  .Container {
+  .Container--responsive {
     width: 74.4rem; } }
 @media (min-width: 992px) {
-  .Container {
+  .Container--responsive {
     width: 96.4rem; } }
 @media (min-width: 1200px) {
-  .Container {
+  .Container--responsive {
     width: 116.4rem; } }
 .Row {
   font-size: 0;
@@ -851,8 +847,6 @@ input[type='color'] {
 @media print {
   .t-print-hidden {
     display: none !important; } }
-.ContainerSlim,
-.ContainerFull,
 .Container {
   box-sizing: border-box;
   margin-right: auto;
@@ -860,17 +854,17 @@ input[type='color'] {
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
 
-.ContainerSlim {
+.Container--slim {
   max-width: 74.4rem; }
 
 @media (min-width: 768px) {
-  .Container {
+  .Container--responsive {
     width: 74.4rem; } }
 @media (min-width: 992px) {
-  .Container {
+  .Container--responsive {
     width: 96.4rem; } }
 @media (min-width: 1200px) {
-  .Container {
+  .Container--responsive {
     width: 116.4rem; } }
 .t-gutterReset,
 .t-wxs-gutterReset,

@@ -2,7 +2,7 @@
 title: "Tools / Display"
 description: ""
 ---
-<div class="ContainerFull">
+<div class="Container">
   <h3>Show and Hide</h3>
   <ul>
     <li>.t-show</li>

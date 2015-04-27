@@ -53,7 +53,7 @@ description: ""
 
 
 
-<div class="ContainerFull test-row-container">
+<div class="Container test-row-container">
   <h3>Row / top</h3>
   <div class="Row">
     <div class="Row-col test-row-col t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">

@@ -2,7 +2,7 @@
 title: "Buttons"
 description: ""
 ---
-<section class="ContainerFull">
+<section class="Container">
 
   <h2>Base button element</h2>
   <p>

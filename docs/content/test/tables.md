@@ -3,7 +3,7 @@ title: "Tables"
 description: ""
 ---
 
-<div class="ContainerFull">
+<div class="Container">
   <h2>table.Table</h2>
 
   <table class="Table">

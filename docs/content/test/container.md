@@ -3,36 +3,35 @@ title: "Container"
 description: ""
 ---
 
+
 <div class="Container test-container">
   <h3>.Container</h3>
 </div>
 
+<div class="Container Container--responsive test-container">
+  <h3>.Container.Container--responsive</h3>
+</div>
 
-<div class="ContainerFull test-container">
-  <h3>.ContainerFull</h3>
+<div class="Container Container--slim test-container">
+  <h3>.Container.Container--slim</h3>
 </div>
 
 
-<div class="ContainerSlim test-container">
-  <h3>.ContainerSlim</h3>
-</div>
 
-
-
-<div class="ContainerFull test-container-nest">
-  <p>.ContainerFull</p>
+<div class="Container test-container-nest">
+  <p>.Container</p>
   <div class="t-wxs-gutterReset test-container-nest">
     <p>.t-wxs-gutterReset</p>
-    <div class="ContainerSlim test-container-nest">
-      <p>.ContainerSlim</p>
+    <div class="Container Container--slim test-container-nest">
+      <p>.Container.Container--slim</p>
     </div>
   </div>
 </div>
 
 
 
-<div class="ContainerSlim">
-  <h3>.ContainerSlim > .t-wxs-gutterReset</h3>
+<div class="Container Container--slim">
+  <h3>.Container.Container--slim >.t-wxs-gutterReset</h3>
   <div class="t-wxs-gutterReset">
     <code>.t-wxs-gutterReset</code>
     <img class="" src="http://placehold.it/1250x800" alt="" />
