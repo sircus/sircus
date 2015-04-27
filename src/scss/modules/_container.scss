@@ -12,8 +12,6 @@ $sl-Container-screen-wmd-min:   $sg-Container-screen-wmd-min !default;
 $sl-Container-screen-wlg-min:   $sg-Container-screen-wlg-min !default;
 
 // ==================================
-.ContainerSlim,
-.ContainerFull,
 .Container {
   box-sizing:border-box;
   margin-right: auto;
@@ -22,14 +20,14 @@ $sl-Container-screen-wlg-min:   $sg-Container-screen-wlg-min !default;
   padding-right: $sl-Container-gutter-width;
 }
 
-.ContainerSlim { max-width: $sl-Container-wsm-width; }
+.Container--slim { max-width: $sl-Container-wsm-width; }
 
 @media (min-width: $sl-Container-screen-wsm-min) {
-  .Container { width: $sl-Container-wsm-width; }
+  .Container--responsive { width: $sl-Container-wsm-width; }
 }
 @media (min-width: $sl-Container-screen-wmd-min) {
-  .Container { width: $sl-Container-wmd-width; }
+  .Container--responsive { width: $sl-Container-wmd-width; }
 }
 @media (min-width: $sl-Container-screen-wlg-min) {
-  .Container { width: $sl-Container-wlg-width; }
+  .Container--responsive { width: $sl-Container-wlg-width; }
 }
