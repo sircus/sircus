@@ -6,4 +6,5 @@ vendor
 
 # Folders for Docs
 _public
-test/static/build
+.publish
+docs/static/build
