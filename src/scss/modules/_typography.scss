@@ -16,13 +16,12 @@ $sl-baseTypo-headings-weight:        $sg-headings-weight !default;
 $sl-baseTypo-headings-lineHeight:    $sg-headings-lineHeight !default;
 $sl-baseTypo-headings-color:         $sg-headings-color !default;
 
-$sl-baseTypo-fontSize-h0:            $sg-fontSize-sc !default;
-$sl-baseTypo-fontSize-h1:            $sg-fontSize-hg !default;
-$sl-baseTypo-fontSize-h2:            $sg-fontSize-mg !default;
-$sl-baseTypo-fontSize-h3:            $sg-fontSize-xl !default;
-$sl-baseTypo-fontSize-h4:            $sg-fontSize-lg !default;
-$sl-baseTypo-fontSize-h5:            $sg-fontSize-bs !default;
-$sl-baseTypo-fontSize-h6:            $sg-fontSize-sm !default;
+$sl-baseTypo-fontSize-h1:            $sg-fontSize-h1 !default;
+$sl-baseTypo-fontSize-h2:            $sg-fontSize-h2 !default;
+$sl-baseTypo-fontSize-h3:            $sg-fontSize-h3 !default;
+$sl-baseTypo-fontSize-h4:            $sg-fontSize-h4 !default;
+$sl-baseTypo-fontSize-h5:            $sg-fontSize-h5 !default;
+$sl-baseTypo-fontSize-h6:            $sg-fontSize-h6 !default;
 
 $sl-baseTypo-mark-bgColor:           $sg-color-primary !default;
 $sl-baseTypo-mark-color:             #fff !default;
@@ -42,10 +41,6 @@ body {
   line-height: $sl-baseTypo-lineHeight-bs;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin:0 0 $sl-baseTypo-headings-space 0;
 }
 
 p, ul, ol, dd, blockquote {
@@ -74,9 +69,9 @@ h1, h2, h3, h4, h5, h6 {
   color: $sl-baseTypo-headings-color;
   font-weight: $sl-baseTypo-headings-weight;
   line-height: $sl-baseTypo-headings-lineHeight;
+  margin:($sl-baseTypo-headings-space * 2) 0 $sl-baseTypo-headings-space 0;
 }
 
-.H0     { font-size: $sl-baseTypo-fontSize-h0; }
 h1, .H1 { font-size: $sl-baseTypo-fontSize-h1; }
 h2, .H2 { font-size: $sl-baseTypo-fontSize-h2; }
 h3, .H3 { font-size: $sl-baseTypo-fontSize-h3; }
@@ -129,7 +124,7 @@ hr {
   display: block;
   height: .1rem;
   border: 0;
-  border-top: .1rem solid #ccc;
+  border-top: .1rem solid #ddd;
   margin: $sl-baseTypo-space-bs 0;
   padding: 0;
 }

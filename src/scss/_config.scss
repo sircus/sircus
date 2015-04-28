@@ -11,16 +11,11 @@
 
 // Base size
 // ------------------
-// sc = space
-// hg = huge
-// mg = mega
 // xl = x-large
 // lg = large
 // bs = base
 // sm = small
 // xs = x-small
-// mn = mini
-// mc = micro
 
 // variables prefix
 // $sg-* = sircus global
@@ -93,19 +88,17 @@ $sg-fontFamily-monospace-en: Menlo, Monaco, Consolas, "Courier New", monospace !
 $sg-fontFamily-monospace-ja: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !default;
 
 // Font size --------------------
-$sg-fontSize-bs:            1.6rem !default; // base
-$sg-fontSize-sc:            ($sg-fontSize-bs + 3.6) !default; //h0
-$sg-fontSize-hg:            ($sg-fontSize-bs + 2.4) !default; //h1
-$sg-fontSize-mg:            ($sg-fontSize-bs + 1.6) !default; //h2
-$sg-fontSize-xl:            ($sg-fontSize-bs + .8) !default;  //h3
-$sg-fontSize-lg:            ($sg-fontSize-bs + .4) !default;  //h4
-// base
-$sg-fontSize-sm:            ($sg-fontSize-bs - .2) !default;  //h6
-$sg-fontSize-xs:            ($sg-fontSize-bs - .3) !default;
+$sg-fontSize-h1:           3.6rem !default;
+$sg-fontSize-h2:           3rem !default;
+$sg-fontSize-h3:           2.4rem !default;
+$sg-fontSize-h4:           2rem !default;
+$sg-fontSize-h5:           1.6rem !default; // base
+$sg-fontSize-bs:           $sg-fontSize-h5 !default; // base
+$sg-fontSize-h6:           1.2rem !default;
+
 
 // text --------------------
 $sg-textColor:              $sg-color-gray-darkest !default;
-// $text-muted:             $sg-color-gray !default;
 
 // Link --------------------
 $sg-linkColor:              $sg-color-primary !default;
@@ -129,7 +122,7 @@ $sg-headings-color:          inherit !default;
 // ==========================
 $sg-lineHeight-xl:        2 !default;
 $sg-lineHeight-lg:        1.8 !default;
-$sg-lineHeight-bs:        1.5 !default; // 20/14
+$sg-lineHeight-bs:        1.5 !default;
 $sg-lineHeight-sm:        1.2 !default;
 $sg-lineHeight-xs:        1.1 !default;
 
@@ -146,14 +139,11 @@ $sg-letterSpace-xs : (0 - 0.08em) !default;
 
 // space (margin & padding)
 // ==========================
-$sg-space-hg : 7.2rem !default;
-$sg-space-mg : 6rem !default;
-$sg-space-xl : 4.8rem !default;
-$sg-space-lg : 3.6rem !default;
+$sg-space-xl : 9.6rem !default;
+$sg-space-lg : 4.8rem !default;
 $sg-space-bs : 2.4rem!default;
-$sg-space-sm : 1.8rem !default;
-$sg-space-xs : 1.2rem !default;
-$sg-space-mn : .6rem !default;
+$sg-space-sm : 1.2rem !default;
+$sg-space-xs : .6rem !default;
 
 
 // padding
@@ -172,10 +162,10 @@ $sg-paddingH-sm: 0.8rem !default;
 
 
 // ==========================
-$sg-sumHeight-xl:       ($sg-fontSize-xl + $sg-lineHeight-xl + $sg-paddingV-xl) !default;
-$sg-sumHeight-lg:       ($sg-fontSize-lg + $sg-lineHeight-lg + $sg-paddingV-lg) !default;
+$sg-sumHeight-xl:       ($sg-fontSize-h3 + $sg-lineHeight-xl + $sg-paddingV-xl) !default;
+$sg-sumHeight-lg:       ($sg-fontSize-h4 + $sg-lineHeight-lg + $sg-paddingV-lg) !default;
 $sg-sumHeight-bs:       ($sg-fontSize-bs + $sg-lineHeight-bs + $sg-paddingV-bs) !default;
-$sg-sumHeight-sm:       ($sg-fontSize-sm + $sg-lineHeight-sm + $sg-paddingV-sm) !default;
+$sg-sumHeight-sm:       ($sg-fontSize-h6 + $sg-lineHeight-sm + $sg-paddingV-sm) !default;
 
 
 // border
