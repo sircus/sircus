@@ -35,7 +35,6 @@
 .FullEmbed { }
 .Row { }
 .Container { }
-.ContainerFull { }
 ```
 
 > ModuleName--modifierName
