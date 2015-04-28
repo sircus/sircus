@@ -1,6 +1,6 @@
 @import "../config";
 
-$sl-Table-margin:            $sg-space-bs 0 !default;
+$sl-Table-margin:            $sg-space-bs !default;
 $sl-Table-padding:           1rem !default;
 $sl-Table-border-color:      $sg-color-gray-light !default;
 
@@ -9,7 +9,7 @@ $sl-Table-border-color:      $sg-color-gray-light !default;
   width: 100%;
   max-width: 100%;
   padding:0;
-  margin: $sl-Table-margin;
+  margin:0 0 $sl-Table-margin 0;
   border-collapse:collapse;
   text-align: left;
 }
