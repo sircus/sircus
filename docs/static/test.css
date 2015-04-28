@@ -1,39 +1,36 @@
-.test-container {
-  margin-bottom: 30px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  border: 1px solid rgba(238,238,238,1)
+.test-Container,
+.test-Row {
+  margin-bottom: 3rem;
+  background: rgba(248,248,248,1);
 }
-.test-container-nest {
-  padding-top: 30px;
-  padding-bottom: 50px;
-  background-color: rgba(248,248,248,1);
-  border: 1px solid rgba(238,238,238,1)
+.test-Row-Container h3,
+.test-Container h3 {
+  margin-bottom: 1em;
 }
-.test-container h3 {
-  margin-bottom: 20px;
-}
-.test-row-container {
-  padding-top: 30px;
-  padding-bottom: 50px;
-  background-color: rgba(248,248,248,1);
-  border-bottom: 1px solid rgba(238,238,238,1)
-}
-.test-row-container h3 {
-  margin-bottom: 20px;
-}
-.test-row-col,
+
+.test-Row-col,
 .test-block {
-  background-color: rgba(221,221,221,.6);
+  background: rgba(221,221,221,.6);
 }
-.test-row-col:nth-child(even),
+.test-Row-col:nth-child(even),
 .test-block:nth-child(even) {
-  background-color: rgba(215,215,215,1);
+  background: rgba(221,221,221,1);
 }
-.test-row-col--height,
-.test-height-60 {
-  height:60px;
+
+
+/* Container ============== */
+.test-Container {
+  border:.1rem solid #ddd;
 }
-.test-height-120 {
-  height:120px;
+.test-Container-nest {
+  margin-bottom: 3rem;
+  background: rgba(70,70,70,.1);
+}
+
+/* Row ============== */
+.test-Row-col {
+  padding:2rem;
+}
+.test-Row-col--height {
+  height:12rem;
 }

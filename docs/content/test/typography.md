@@ -6,7 +6,6 @@ description: ""
 <div class="Container">
   <h2>Haddings</h2>
 
-  <h1 class="H0">Heading 0</h1>
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
   <h3>Heading 3</h3>
@@ -15,7 +14,6 @@ description: ""
   <h6>Heading 6</h6>
 
   <ul class="ListInline">
-    <li class="H0">Heading 0</li>
     <li class="H1">Heading 1</li>
     <li class="H2">Heading 2</li>
     <li class="H3">Heading 3</li>
