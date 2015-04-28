@@ -1,6 +1,6 @@
+//setting
 @import "config";
-
-// Modules
+// Parts
 @import "modules/base";
 @import "modules/typography";
 @import "modules/button";
@@ -10,16 +10,15 @@
 @import "modules/form-status";
 @import "modules/image";
 @import "modules/table";
-//
+// layout
 @import "modules/container";
 @import "modules/row";
 @import "modules/full-embed";
-
-// Tools
-@import "tools/border";
-@import "tools/display";
-@import "tools/gutter";
-@import "tools/layout";
-@import "tools/space";
-@import "tools/typography";
-@import "tools/width";
+// tool
+@import "modules/tool-border";
+@import "modules/tool-display";
+@import "modules/tool-gutter-reset";
+@import "modules/tool-layout";
+@import "modules/tool-space";
+@import "modules/tool-typography";
+@import "modules/tool-width";
