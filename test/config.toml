@@ -1,8 +1,8 @@
-baseurl = "/"
+baseurl = "/test"
 MetaDataFormat = "yaml"
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "../_public"
+publishdir = "../_public/test"
 title = "Sircus Test"
 copyright = "Copyright (c) 2015 blivesta and ungki. all rights reserved."
 pygmentsuseclasses = true

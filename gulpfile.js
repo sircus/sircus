@@ -24,8 +24,7 @@ module.exports = {
     files: [
       './dist',
       './_public',
-      './test/static/build',
-      './src/scss/vendor'
+      './test/static/build'
     ]
   },
   'rubysass': {
@@ -52,7 +51,7 @@ module.exports = {
     dest: './test/static/build'
   },
   'ghpage' : {
-    src : './_public/**/*',
+    src : './_public/test/**/*',
     remoteUrl : 'git@github.com:sircus/test.git',
     branch : 'gh-pages'
   },
@@ -63,10 +62,6 @@ module.exports = {
     version: pkg.version, // base
     src:  './bower.json', //
     dest: '.'
-  },
-  'pagespeed': {
-    production: 'http://sircus.blivesta.com',
-    strategy: 'mobile'
   },
   'stylestats' :{
     src:  './dist/sircus.css'
@@ -82,7 +77,6 @@ gulp.task('deploy', require('gulptasks/lib/ghpage'));
 gulp.task('bump', require('gulptasks/lib/bump'));
 gulp.task('hugo', require('gulptasks/lib/hugo'));
 gulp.task('uninstall', require('gulptasks/lib/uninstall'));
-gulp.task('pagespeed', require('gulptasks/lib/pagespeed'));
 gulp.task('browsersync', require('gulptasks/lib/browsersync'));
 
 gulp.task('default',['browsersync'],function() {
