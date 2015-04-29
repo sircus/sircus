@@ -1,0 +1,50 @@
+---
+title: "Component / Container"
+description: ""
+---
+
+<div class="Container">
+  <h2 class="test-Title">Full width</h2>
+</div>
+<div class="Container test-Fixture">
+  <p>.Container</p>
+</div>
+
+<hr>
+
+<div class="Container">
+  <h2 class="test-Title">Responsive width</h2>
+</div>
+<div class="Container Container--responsive test-Fixture">
+  <p>.Container.Container--responsive</p>
+</div>
+
+<hr>
+
+
+<div class="Container">
+  <h2 class="test-Title">Slim width</h2>
+</div>
+<div class="Container Container--slim test-Fixture">
+  <p>.Container.Container--slim</p>
+</div>
+
+<hr>
+
+
+<div class="Container">
+  <h2 class="test-Title">.Container gutter reset</h2>
+</div>
+<div class="Container test-Fixture">
+  <p>.Container</p>
+  <div class="t-gutterReset test-Fixture">
+    <p>.t-gutterReset</p>
+    <div class="Container Container--slim test-Fixture">
+      <p>.Container.Container--slim</p>
+      <div class="t-gutterReset test-Fixture">
+        <p>.t-gutterReset</p>
+        <p><img class="Img" src="http://placehold.it/1250x800" alt="" /></p>
+      </div>
+    </div>
+  </div>
+</div>
