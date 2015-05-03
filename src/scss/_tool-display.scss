@@ -115,29 +115,3 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 @media (min-width: $sl-display-screen-wlg-min) {
   .t-wlg-hidden { display: none !important; }
 }
-
-
-.t-print-visible { display: none !important; }
-
-@media print {
-  .t-print-visible { display: block !important; }
-}
-.t-visible-print-block { display: none !important; }
-
-@media print {
-  .t-visible-print-block { display: block !important; }
-}
-.t-print-visible-inline { display: none !important; }
-
-@media print {
-  .t-print-visible-inline { display: inline !important; }
-}
-.t-print-visible-inlineBlock { display: none !important; }
-
-@media print {
-  .t-print-visible-inlineBlock { display: inline-block !important; }
-}
-
-@media print {
-  .t-print-hidden { display: none !important; }
-}
