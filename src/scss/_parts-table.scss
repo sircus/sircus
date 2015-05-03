@@ -13,17 +13,17 @@ $sl-Table-border-color:      $sg-color-gray-light !default;
   border-collapse:collapse;
   text-align: left;
 }
-.Table tr > th,
-.Table tr > td {
+.Table th,
+.Table td {
   padding:$sl-Table-padding;
   border-top:.1rem solid $sl-Table-border-color;
 }
-.Table > thead > tr > th,
-.Table > thead > tr > td {
+.Table > thead th,
+.Table > thead td {
   border-top:0;
   border-bottom:.2rem solid $sl-Table-border-color;
 }
-.Table > tfoot > tr > th,
-.Table > tfoot > tr > td {
+.Table > tfoot th,
+.Table > tfoot td {
   border-top:.2rem solid $sl-Table-border-color;
 }
