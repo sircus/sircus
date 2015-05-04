@@ -1,0 +1,62 @@
+@import "config";
+
+$sl-Row-gutter-width:       $sg-Container-gutter-width !default;
+$sl-Row-col-fontSize-bs:    $sg-fontSize-bs !default;
+$sl-Row-screen-wxs-min:     $sg-screen-wxs-min !default;
+
+// ============================================================
+// GridTable
+// ============================================================
+.GridTable {
+  margin-right: -$sl-Row-gutter-width;
+  margin-left: -$sl-Row-gutter-width;
+}
+
+// clear
+.GridTable:before,
+.GridTable:after {
+  content: " ";
+  display: table;
+}
+.GridTable:after {
+  clear: both;
+}
+
+// row
+// ============================================================
+.GridTable-row {
+  font-size: 0;
+  display: block;
+  margin: 0;
+  width:100%;
+  padding: 0;
+  text-align: left;
+}
+
+// col
+// ============================================================
+.GridTable-col {
+  font-size: $sl-Row-col-fontSize-bs;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding-right: $sl-Row-gutter-width;
+  padding-left: $sl-Row-gutter-width;
+  text-align: left;
+  vertical-align: top;
+}
+
+@media (min-width: $sl-Row-screen-wxs-min) {
+  .GridTable-row {
+    display: table;
+    table-layout: fixed;
+  }
+  .GridTable-col {
+    display: table-cell;
+  }
+}
+
+// -------------------------------
+.GridTable--top > .GridTable-row > .GridTable-col { vertical-align: top; }
+.GridTable--middle > .GridTable-row > .GridTable-col  { vertical-align: middle; }
+.GridTable--bottom > .GridTable-row > .GridTable-col  { vertical-align: bottom; }
