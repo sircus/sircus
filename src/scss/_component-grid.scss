@@ -1,0 +1,59 @@
+@import "config";
+
+$sl-Grid-gutter-width:       $sg-Container-gutter-width !default;
+$sl-Grid-col-fontSize-bs:    $sg-fontSize-bs !default;
+$sl-Grid-screen-wxs-min:     $sg-screen-wxs-min !default;
+
+// ============================================================
+// Grid
+// ============================================================
+
+.Grid {
+  font-size: 0;
+  display: block;
+  margin: 0;
+  margin-right: -$sl-Grid-gutter-width;
+  margin-left: -$sl-Grid-gutter-width;
+  padding: 0;
+  text-align: left;
+}
+
+// clear
+.Grid:before,
+.Grid:after {
+  content: " ";
+  display: table;
+}
+.Grid:after {
+  clear: both;
+}
+
+// col
+// ------------------------------
+.Grid > .Grid-col {
+  font-size: $sl-Grid-col-fontSize-bs;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding-right: $sl-Grid-gutter-width;
+  padding-left: $sl-Grid-gutter-width;
+  text-align: left;
+  vertical-align: top;
+}
+
+// .Grid--float
+// ============================================================
+.Grid--float > .Grid-col {
+  float: left;
+}
+
+// -------------------------------
+.Grid--center { text-align: center; }
+.Grid--right  { text-align: right; }
+.Grid--left   { text-align: left; }
+
+.Grid--top > .Grid-col     { vertical-align: top; }
+.Grid--middle > .Grid-col  { vertical-align: middle; }
+.Grid--bottom > .Grid-col  { vertical-align: bottom; }
