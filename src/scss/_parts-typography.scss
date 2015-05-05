@@ -11,7 +11,7 @@ $sl-baseTypo-link-decoration:        $sg-linkDecoration !default;
 $sl-baseTypo-link-colorHover:        $sg-linkColorHover !default;
 $sl-baseTypo-link-decorationHover:   $sg-linkDecorationHover !default;
 
-$sl-baseTypo-headings-space:         $sg-headings-space !default;
+$sl-baseTypo-headings-spacing:       $sg-headings-spacing !default;
 $sl-baseTypo-headings-weight:        $sg-headings-weight !default;
 $sl-baseTypo-headings-lineHeight:    $sg-headings-lineHeight !default;
 $sl-baseTypo-headings-color:         $sg-headings-color !default;
@@ -29,7 +29,7 @@ $sl-baseTypo-mark-color:             #fff !default;
 $sl-baseTypo-blockquote-bgColor:     $sg-color-gray-lighter !default;
 $sl-baseTypo-blockquote-borderColor: $sg-color-gray-light !default;
 
-$sl-baseTypo-space-bs:               $sg-space-bs ;
+$sl-baseTypo-spacing-bs:             $sg-spacing-bs ;
 
 $sl-baseTypo-selection-bgColor:      $sg-color-primary !default;
 
@@ -44,7 +44,7 @@ body {
 }
 
 p, ul, ol, dd, blockquote {
-  margin:0 0 $sl-baseTypo-space-bs 0;
+  margin:0 0 $sl-baseTypo-spacing-bs 0;
 }
 
 ::selection {
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $sl-baseTypo-headings-color;
   font-weight: $sl-baseTypo-headings-weight;
   line-height: $sl-baseTypo-headings-lineHeight;
-  margin:($sl-baseTypo-headings-space * 2) 0 $sl-baseTypo-headings-space 0;
+  margin:($sl-baseTypo-headings-spacing * 2) 0 $sl-baseTypo-headings-spacing 0;
 }
 
 h1, .H1 { font-size: $sl-baseTypo-fontSize-h1; }
@@ -89,7 +89,7 @@ ol > li > ol{
   list-style:inset;
 }
 ul,ol {
-  padding-left:$sl-baseTypo-space-bs;
+  padding-left:$sl-baseTypo-spacing-bs;
 }
 
 .ListInline,
@@ -116,7 +116,7 @@ dd { margin-left: 0; }
 pre,
 code {
   font-family: $sl-baseTypo-fontFamily-monospace;
-  white-space: pre-wrap;
+  white-spacing: pre-wrap;
 }
 
 // hr -------------------------
@@ -125,7 +125,7 @@ hr {
   height: .1rem;
   border: 0;
   border-top: .1rem solid #ddd;
-  margin: $sl-baseTypo-space-bs 0;
+  margin: $sl-baseTypo-spacing-bs 0;
   padding: 0;
 }
 
@@ -142,7 +142,7 @@ mark {
 
 // blockquote -------------------------
 blockquote {
-  padding:$sg-space-bs;
+  padding:$sg-spacing-bs;
   border-left:.6rem solid $sl-baseTypo-blockquote-borderColor;
   background: $sl-baseTypo-blockquote-bgColor;
   font-style: italic;

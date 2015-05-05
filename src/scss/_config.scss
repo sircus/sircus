@@ -112,7 +112,7 @@ $sg-focusBorderColor:       $sg-focusColor !default;
 
 
 // Headdings --------------------
-$sg-headings-space:          .5em !default;
+$sg-headings-spacing:        .5em !default;
 $sg-headings-weight:         500 !default;
 $sg-headings-lineHeight:     1.1 !default;
 $sg-headings-color:          inherit !default;
@@ -137,13 +137,13 @@ $sg-letterSpace-sm : (0 - 0.04em) !default;
 $sg-letterSpace-xs : (0 - 0.08em) !default;
 
 
-// space (margin & padding)
+// spacing (margin & padding)
 // ==========================
-$sg-space-xl : 9.6rem !default;
-$sg-space-lg : 4.8rem !default;
-$sg-space-bs : 2.4rem!default;
-$sg-space-sm : 1.2rem !default;
-$sg-space-xs : .6rem !default;
+$sg-spacing-xl : 9.6rem !default;
+$sg-spacing-lg : 4.8rem !default;
+$sg-spacing-bs : 2.4rem!default;
+$sg-spacing-sm : 1.2rem !default;
+$sg-spacing-xs : .6rem !default;
 
 
 // padding
@@ -198,10 +198,10 @@ $sg-ButtonAndForm-baseColor:          #c8c8c8 !default;
 
 // Container
 // ==========================
-$sg-Container-gutter-width:     ($sg-space-bs / 2) !default;
-$sg-Container-wsm-width:        (72rem + $sg-space-bs) !default;
-$sg-Container-wmd-width:        (94rem + $sg-space-bs )!default;
-$sg-Container-wlg-width:        (114rem + $sg-space-bs ) !default;
+$sg-Container-gutter-width:     ($sg-spacing-bs / 2) !default;
+$sg-Container-wsm-width:        (72rem + $sg-spacing-bs) !default;
+$sg-Container-wmd-width:        (94rem + $sg-spacing-bs )!default;
+$sg-Container-wlg-width:        (114rem + $sg-spacing-bs ) !default;
 $sg-Container-screen-wxs-min:   $sg-screen-wxs-min !default;
 $sg-Container-screen-wsm-min:   $sg-screen-wsm-min !default;
 $sg-Container-screen-wmd-min:   $sg-screen-wmd-min !default;
