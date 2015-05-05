@@ -30,7 +30,7 @@ $sl-Grid-screen-wxs-min:     $sg-screen-wxs-min !default;
 
 // col
 // ------------------------------
-.Grid > .Grid-col {
+.Grid-col {
   font-size: $sl-Grid-col-fontSize-bs;
   position: relative;
   display: inline-block;
