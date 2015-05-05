@@ -7,7 +7,6 @@ $Grid-screen-wxs-min:     $c-screen-wxs-min !default;
 // ============================================================
 // Grid
 // ============================================================
-
 .Grid {
   font-size: 0;
   display: block;
@@ -18,15 +17,6 @@ $Grid-screen-wxs-min:     $c-screen-wxs-min !default;
   text-align: left;
 }
 
-// clear
-.Grid:before,
-.Grid:after {
-  content: " ";
-  display: table;
-}
-.Grid:after {
-  clear: both;
-}
 
 // col
 // ------------------------------

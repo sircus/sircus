@@ -19,16 +19,6 @@ $Container-screen-wlg-min:   $c-Container-screen-wlg-min !default;
   padding-left: $Container-gutter-width;
   padding-right: $Container-gutter-width;
 }
-// clear
-.Container:before,
-.Container:after {
-  content: " ";
-  display: table;
-}
-.Container:after {
-  clear: both;
-}
-
 
 .Container--slim { max-width: $Container-wsm-width; }
 
