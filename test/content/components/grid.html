@@ -1,9 +1,9 @@
 ---
-title: "Component / Grid"
+title: "Component / Grid (display:inline-block | display:table | display:block; float:left)"
 description: ""
 ---
 <div class="Container">
-  <h2 class="test-Title">.Grid</h2>
+  <h2 class="test-Title">.Grid (display:inline-block)</h2>
   <div class="Grid">
     <div class="Grid-col test-Fixture t-width1of3">
       1
@@ -18,10 +18,8 @@ description: ""
 </div>
 
 
-<hr>
-
 <div class="Container">
-  <h2 class="test-Title">.Grid.Grid--center</h2>
+  <h2 class="test-Cap">.Grid.Grid--center</h2>
   <div class="Grid Grid--center">
     <div class="Grid-col test-Fixture t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">
       1
@@ -36,11 +34,10 @@ description: ""
 </div>
 
 
-<hr>
 
 
 <div class="Container">
-  <h2 class="test-Title">.Grid.Grid--right</h2>
+  <h2 class="test-Cap">.Grid.Grid--right</h2>
   <div class="Grid Grid--right">
     <div class="Grid-col test-Fixture t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">
       1
@@ -55,10 +52,9 @@ description: ""
 </div>
 
 
-<hr>
 
 <div class="Container">
-  <h2 class="test-Title">.Grid.Grid--middle</h2>
+  <h2 class="test-Cap">.Grid.Grid--middle</h2>
   <div class="Grid Grid--middle">
     <div class="Grid-col test-Fixture t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">
       1
@@ -81,10 +77,9 @@ description: ""
   </div>
 </div>
 
-<hr>
 
 <div class="Container">
-  <h2 class="test-Title">.Grid.Grid--bottom</h2>
+  <h2 class="test-Cap">.Grid.Grid--bottom</h2>
   <div class="Grid Grid--bottom">
     <div class="Grid-col test-Fixture t-width3of6 t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">
       1
@@ -107,10 +102,9 @@ description: ""
   </div>
 </div>
 
-<hr>
 
 <div class="Container">
-  <h2 class="test-Title">.Grid.Grid--float</h2>
+  <h2 class="test-Title">.Grid.Grid--float(float:left)</h2>
   <div class="Grid Grid--float">
     <div class="Grid-col test-Fixture t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">
       1
@@ -147,6 +141,171 @@ description: ""
     </div>
     <div class="Grid-col test-Fixture t-wxs-width1of3 t-wsm-width1of4 t-wmd-width1of6 t-wlg-width1of6">
       12
+    </div>
+  </div>
+</div>
+
+
+
+<div class="Container">
+  <h2 class="test-Title">Table object (display:table)</h2>
+  <h3 class="test-Cap">.Grid > .t-table > .Grid-col.t-table-col.t-width1of6</h3>
+  <div class="Grid">
+    <div class="t-table t-clear">
+      <div class="Grid-col t-table-col t-width1of6 test-Fixture">
+        1
+      </div>
+      <div class="Grid-col t-table-col t-width1of6 test-Fixture">
+        2
+      </div>
+      <div class="Grid-col t-table-col t-width1of6 test-Fixture">
+        3
+      </div>
+      <div class="Grid-col t-table-col t-width1of6 test-Fixture">
+        4
+      </div>
+      <div class="Grid-col t-table-col t-width1of6 test-Fixture">
+        5
+      </div>
+      <div class="Grid-col t-table-col t-width1of6 test-Fixture">
+        6
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Container">
+  <h3 class="test-Cap">.Grid > .t-wlg-table > .Grid-col.t-table-col.t-wlg-width1of6</h3>
+  <div class="Grid">
+    <div class="t-wlg-table">
+      <div class="Grid-col t-wlg-table-col t-wxs-width1of2 t-wlg-width1of6 t-wmd-width1of4 t-wsm-width1of3 test-Fixture">
+        1
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wxs-width1of2 t-wlg-width1of6 t-wmd-width1of4 t-wsm-width1of3 test-Fixture">
+        2
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wxs-width1of2 t-wlg-width1of6 t-wmd-width1of4 t-wsm-width1of3 test-Fixture">
+        3
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wxs-width1of2 t-wlg-width1of6 t-wmd-width1of4 t-wsm-width1of3 test-Fixture">
+        4
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wxs-width1of2 t-wlg-width1of6 t-wmd-width4of4 t-wsm-width1of3 test-Fixture">
+        5
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wxs-width1of2 t-wlg-width1of6 t-wmd-width4of4 t-wsm-width1of3 test-Fixture">
+        6
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="Container">
+  <h3 class="test-Cap">.Grid > .t-wxs-table > .Grid-col.t-table-col.t-wxs-width1of6</h3>
+  <div class="Grid">
+    <div class="t-wxs-table">
+      <div class="Grid-col t-wxs-table-col t-wxs-width1of6 test-Fixture">
+        1
+      </div>
+      <div class="Grid-col t-wxs-table-col t-wxs-width1of6 test-Fixture">
+        2
+      </div>
+      <div class="Grid-col t-wxs-table-col t-wxs-width1of6 test-Fixture">
+        3
+      </div>
+      <div class="Grid-col t-wxs-table-col t-wxs-width1of6 test-Fixture">
+        4
+      </div>
+      <div class="Grid-col t-wxs-table-col t-wxs-width1of6 test-Fixture">
+        5
+      </div>
+      <div class="Grid-col t-wxs-table-col t-wxs-width1of6 test-Fixture">
+        6
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="Container">
+  <h3 class="test-Cap">.Grid > .t-wsm-table > .Grid-col.t-table-col.t-wsm-width1of6</h3>
+  <div class="Grid">
+    <div class="t-wsm-table">
+      <div class="Grid-col t-wsm-table-col t-wsm-width1of6 test-Fixture">
+        1
+      </div>
+      <div class="Grid-col t-wsm-table-col t-wsm-width1of6 test-Fixture">
+        2
+      </div>
+      <div class="Grid-col t-wsm-table-col t-wsm-width1of6 test-Fixture">
+        3
+      </div>
+      <div class="Grid-col t-wsm-table-col t-wsm-width1of6 test-Fixture">
+        4
+      </div>
+      <div class="Grid-col t-wsm-table-col t-wsm-width1of6 test-Fixture">
+        5
+      </div>
+      <div class="Grid-col t-wsm-table-col t-wsm-width1of6 test-Fixture">
+        6
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="Container">
+  <h3 class="test-Cap">.Grid > .t-wmd-table > .Grid-col.t-table-col.t-wmd-width1of6</h3>
+  <div class="Grid">
+    <div class="t-wmd-table">
+      <div class="Grid-col t-wmd-table-col t-wmd-width1of6 test-Fixture">
+        1
+      </div>
+      <div class="Grid-col t-wmd-table-col t-wmd-width1of6 test-Fixture">
+        2
+      </div>
+      <div class="Grid-col t-wmd-table-col t-wmd-width1of6 test-Fixture">
+        3
+      </div>
+      <div class="Grid-col t-wmd-table-col t-wmd-width1of6 test-Fixture">
+        4
+      </div>
+      <div class="Grid-col t-wmd-table-col t-wmd-width1of6 test-Fixture">
+        5
+      </div>
+      <div class="Grid-col t-wmd-table-col t-wmd-width1of6 test-Fixture">
+        6
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="Container">
+  <h3 class="test-Cap">.Grid > .t-wlg-table > .Grid-col.t-table-col.t-wlg-width1of6</h3>
+  <div class="Grid">
+    <div class="t-wlg-table">
+      <div class="Grid-col t-wlg-table-col t-wlg-width1of6 test-Fixture">
+        1
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wlg-width1of6 test-Fixture">
+        2
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wlg-width1of6 test-Fixture">
+        3
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wlg-width1of6 test-Fixture">
+        4
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wlg-width1of6 test-Fixture">
+        5
+      </div>
+      <div class="Grid-col t-wlg-table-col t-wlg-width1of6 test-Fixture">
+        6
+      </div>
     </div>
   </div>
 </div>
