@@ -1,8 +1,8 @@
-@import "config";
+@import "core-config";
 
-$sl-Grid-gutter-width:       $sg-Container-gutter-width !default;
-$sl-Grid-col-fontSize-bs:    $sg-fontSize-bs !default;
-$sl-Grid-screen-wxs-min:     $sg-screen-wxs-min !default;
+$Grid-gutter-width:       $c-Container-gutter-width !default;
+$Grid-col-fontSize-bs:    $c-fontSize-bs !default;
+$Grid-screen-wxs-min:     $c-screen-wxs-min !default;
 
 // ============================================================
 // Grid
@@ -12,8 +12,8 @@ $sl-Grid-screen-wxs-min:     $sg-screen-wxs-min !default;
   font-size: 0;
   display: block;
   margin: 0;
-  margin-right: -$sl-Grid-gutter-width;
-  margin-left: -$sl-Grid-gutter-width;
+  margin-right: -$Grid-gutter-width;
+  margin-left: -$Grid-gutter-width;
   padding: 0;
   text-align: left;
 }
@@ -31,14 +31,14 @@ $sl-Grid-screen-wxs-min:     $sg-screen-wxs-min !default;
 // col
 // ------------------------------
 .Grid-col {
-  font-size: $sl-Grid-col-fontSize-bs;
+  font-size: $Grid-col-fontSize-bs;
   position: relative;
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
   min-height: 1px;
-  padding-right: $sl-Grid-gutter-width;
-  padding-left: $sl-Grid-gutter-width;
+  padding-right: $Grid-gutter-width;
+  padding-left: $Grid-gutter-width;
   text-align: left;
   vertical-align: top;
 }

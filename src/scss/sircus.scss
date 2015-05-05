@@ -1,7 +1,6 @@
-//setting
-@import "config";
-// base
-@import "base";
+// core
+@import "core-config";
+@import "core-elements";
 // Parts
 @import "parts-typography";
 @import "parts-button";
@@ -11,16 +10,16 @@
 @import "parts-form-status";
 @import "parts-image";
 @import "parts-table";
-// tool
-@import "tool-border";
-@import "tool-layout";
-@import "tool-typography";
 // responsive tool
 @import "tool-display-state";
 @import "tool-gutter-reset";
 @import "tool-spacing";
 @import "tool-width";
+// tool (helper)
+@import "tool-border";
+@import "tool-layout";
+@import "tool-typography";
 // Components
-@import "component-container";
-@import "component-grid";
-@import "component-full-embed";
+@import "container";
+@import "grid";
+@import "full-embed";
