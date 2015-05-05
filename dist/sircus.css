@@ -117,7 +117,7 @@ dd {
 pre,
 code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  white-space: pre-wrap; }
+  white-spacing: pre-wrap; }
 
 hr {
   display: block;
@@ -577,148 +577,6 @@ input[type='color'] {
 .Table > tfoot td {
   border-top: 0.2rem solid #DDD; }
 
-.t-borderTop {
-  border-top: 1px solid #DDD !important; }
-
-.t-borderLeft {
-  border-left: 1px solid #DDD !important; }
-
-.t-borderRight {
-  border-right: 1px solid #DDD !important; }
-
-.t-borderBottom {
-  border-bottom: 1px solid #DDD !important; }
-
-.t-border {
-  border: 1px solid #DDD !important; }
-
-.t-clear:before,
-.t-clear:after {
-  content: " ";
-  display: table; }
-
-.t-clear:after {
-  clear: both; }
-
-.t-center {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important; }
-
-.t-right {
-  float: right !important; }
-
-.t-left {
-  float: left !important; }
-
-.t-overfllow {
-  overflow: auto !important; }
-
-.t-overfllowX {
-  overflow-x: auto !important;
-  overflow-y: hidden !important; }
-
-.t-overfllowY {
-  overflow-x: hidden !important;
-  overflow-y: auto !important; }
-
-.t-normal {
-  font-weight: normal !important; }
-
-.t-bold {
-  font-weight: bold !important; }
-
-.t-italic {
-  font-style: italic !important; }
-
-.t-alignLeft {
-  text-align: left !important; }
-
-.t-alignRight {
-  text-align: right !important; }
-
-.t-alignCenter {
-  text-align: center !important; }
-
-.t-alignJustify {
-  text-align: justify !important; }
-
-.t-alignTop {
-  vertical-align: top !important; }
-
-.t-alignMiddle {
-  vertical-align: middle !important; }
-
-.t-alignBottom {
-  vertical-align: bottom !important; }
-
-.t-lowercase {
-  text-transform: lowercase !important; }
-
-.t-uppercase {
-  text-transform: uppercase !important; }
-
-.t-capitalize {
-  text-transform: capitalize !important; }
-
-.t-nowrap {
-  white-space: nowrap !important; }
-
-.t-typoHide {
-  font: 0/0 a !important;
-  color: transparent !important;
-  text-shadow: none !important;
-  background-color: transparent !important;
-  border: 0 !important; }
-
-.t-enSans {
-  font-family: "Helvetica Neue", Helvetica, sans-serif !important; }
-
-.t-jaSans {
-  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important; }
-
-.t-enSerif {
-  font-family: Georgia, "Times New Roman", Times, serif !important; }
-
-.t-jaSerif {
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif !important; }
-
-.t-enMonospace {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important; }
-
-.t-jaMonospace {
-  font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !important; }
-
-.t-ls-xs {
-  letter-spacing: -0.08em !important; }
-
-.t-ls-sm {
-  letter-spacing: -0.04em !important; }
-
-.t-ls-bs {
-  letter-spacing: 0 !important; }
-
-.t-ls-lg {
-  letter-spacing: 0.05em !important; }
-
-.t-ls-xl {
-  letter-spacing: 0.1em !important; }
-
-.t-lh-xs {
-  line-height: 1.1 !important; }
-
-.t-lh-sm {
-  line-height: 1.2 !important; }
-
-.t-lh-bs {
-  line-height: 1.5 !important; }
-
-.t-lh-lg {
-  line-height: 1.8 !important; }
-
-.t-lh-xl {
-  line-height: 2 !important; }
-
 @-ms-viewport {
   width: device-width; }
 .t-wxs-show,
@@ -844,28 +702,53 @@ input[type='color'] {
 
   .t-wlg-table-col {
     display: table-cell !important; } }
-.t-gutterReset,
-.t-wxs-gutterReset,
-.t-wsm-gutterReset,
-.t-wmd-gutterReset,
-.t-wlg-gutterReset {
+.t-gutterOn,
+.t-wxs-gutterOn,
+.t-wsm-gutterOn,
+.t-wmd-gutterOn,
+.t-wlg-gutterOn {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem; }
+
+.t-gutterOff,
+.t-wxs-gutterOff,
+.t-wxs-gutterOff,
+.t-wsm-gutterOff,
+.t-wmd-gutterOff,
+.t-wlg-gutterOff {
   margin-left: -1.2rem;
   margin-right: -1.2rem; }
 
 @media (min-width: 480px) {
-  .t-wxs-gutterReset {
+  .t-wxs-gutterOn {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; }
+
+  .t-wxs-gutterOff {
     margin-left: 0;
     margin-right: 0; } }
 @media (min-width: 768px) {
-  .t-wsm-gutterReset {
+  .t-wsm-gutterOn {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; }
+
+  .t-wsm-gutterOff {
     margin-left: 0;
     margin-right: 0; } }
 @media (min-width: 992px) {
-  .t-wmd-gutterReset {
+  .t-wmd-gutterOn {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; }
+
+  .t-wmd-gutterOff {
     margin-left: 0;
     margin-right: 0; } }
 @media (min-width: 1200px) {
-  .t-wlg-gutterReset {
+  .t-wlg-gutterOn {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; }
+
+  .t-wlg-gutterOff {
     margin-left: 0;
     margin-right: 0; } }
 .t-ma-00 {
@@ -1998,20 +1881,154 @@ input[type='color'] {
   .t-wlg-width9of9,
   .t-wlg-width10of10 {
     width: 100% !important; } }
+.t-borderTop {
+  border-top: 1px solid #DDD !important; }
+
+.t-borderLeft {
+  border-left: 1px solid #DDD !important; }
+
+.t-borderRight {
+  border-right: 1px solid #DDD !important; }
+
+.t-borderBottom {
+  border-bottom: 1px solid #DDD !important; }
+
+.t-border {
+  border: 1px solid #DDD !important; }
+
+.t-clear:before,
+.t-clear:after {
+  content: " ";
+  display: table; }
+
+.t-clear:after {
+  clear: both; }
+
+.t-center {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+.t-right {
+  float: right !important; }
+
+.t-left {
+  float: left !important; }
+
+.t-overfllow {
+  overflow: auto !important; }
+
+.t-overfllowX {
+  overflow-x: auto !important;
+  overflow-y: hidden !important; }
+
+.t-overfllowY {
+  overflow-x: hidden !important;
+  overflow-y: auto !important; }
+
+.t-normal {
+  font-weight: normal !important; }
+
+.t-bold {
+  font-weight: bold !important; }
+
+.t-italic {
+  font-style: italic !important; }
+
+.t-alignLeft {
+  text-align: left !important; }
+
+.t-alignRight {
+  text-align: right !important; }
+
+.t-alignCenter {
+  text-align: center !important; }
+
+.t-alignJustify {
+  text-align: justify !important; }
+
+.t-alignTop {
+  vertical-align: top !important; }
+
+.t-alignMiddle {
+  vertical-align: middle !important; }
+
+.t-alignBottom {
+  vertical-align: bottom !important; }
+
+.t-lowercase {
+  text-transform: lowercase !important; }
+
+.t-uppercase {
+  text-transform: uppercase !important; }
+
+.t-capitalize {
+  text-transform: capitalize !important; }
+
+.t-nowrap {
+  white-space: nowrap !important; }
+
+.t-typoHide {
+  font: 0/0 a !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  border: 0 !important; }
+
+.t-enSans {
+  font-family: "Helvetica Neue", Helvetica, sans-serif !important; }
+
+.t-jaSans {
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important; }
+
+.t-enSerif {
+  font-family: Georgia, "Times New Roman", Times, serif !important; }
+
+.t-jaSerif {
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif !important; }
+
+.t-enMonospace {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important; }
+
+.t-jaMonospace {
+  font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !important; }
+
+.t-ls-xs {
+  letter-spacing: -0.08em !important; }
+
+.t-ls-sm {
+  letter-spacing: -0.04em !important; }
+
+.t-ls-bs {
+  letter-spacing: 0 !important; }
+
+.t-ls-lg {
+  letter-spacing: 0.05em !important; }
+
+.t-ls-xl {
+  letter-spacing: 0.1em !important; }
+
+.t-lh-xs {
+  line-height: 1.1 !important; }
+
+.t-lh-sm {
+  line-height: 1.2 !important; }
+
+.t-lh-bs {
+  line-height: 1.5 !important; }
+
+.t-lh-lg {
+  line-height: 1.8 !important; }
+
+.t-lh-xl {
+  line-height: 2 !important; }
+
 .Container {
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
   padding-left: 1.2rem;
   padding-right: 1.2rem; }
-
-.Container:before,
-.Container:after {
-  content: " ";
-  display: table; }
-
-.Container:after {
-  clear: both; }
 
 .Container--slim {
   max-width: 74.4rem; }
@@ -2033,14 +2050,6 @@ input[type='color'] {
   margin-left: -1.2rem;
   padding: 0;
   text-align: left; }
-
-.Grid:before,
-.Grid:after {
-  content: " ";
-  display: table; }
-
-.Grid:after {
-  clear: both; }
 
 .Grid-col {
   font-size: 1.6rem;
