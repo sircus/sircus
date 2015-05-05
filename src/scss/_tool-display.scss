@@ -1,13 +1,13 @@
-@import "config";
+@import "core-config";
 
-$sl-display-screen-wxs-min:   $sg-screen-wxs-min !default;
-$sl-display-screen-wsm-min:   $sg-screen-wsm-min !default;
-$sl-display-screen-wmd-min:   $sg-screen-wmd-min !default;
-$sl-display-screen-wlg-min:   $sg-screen-wlg-min !default;
+$display-screen-wxs-min:   $c-screen-wxs-min !default;
+$display-screen-wsm-min:   $c-screen-wsm-min !default;
+$display-screen-wmd-min:   $c-screen-wmd-min !default;
+$display-screen-wlg-min:   $c-screen-wlg-min !default;
 
-$sl-display-screen-wxs-max:   $sg-screen-wxs-max !default;
-$sl-display-screen-wsm-max:   $sg-screen-wsm-max !default;
-$sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
+$display-screen-wxs-max:   $c-screen-wxs-max !default;
+$display-screen-wsm-max:   $c-screen-wsm-max !default;
+$display-screen-wmd-max:   $c-screen-wmd-max !default;
 
 
 @-ms-viewport { width: device-width; }
@@ -32,19 +32,19 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 
 // hide
 // ==================================
-@media (min-width: $sl-display-screen-wxs-min) {
+@media (min-width: $display-screen-wxs-min) {
   .t-wxs-none,
   .t-wxs-hide { display: none !important; }
 }
-@media (min-width: $sl-display-screen-wsm-min) {
+@media (min-width: $display-screen-wsm-min) {
   .t-wsm-none,
   .t-wsm-hide { display: none !important; }
 }
-@media (min-width: $sl-display-screen-wmd-min) {
+@media (min-width: $display-screen-wmd-min) {
   .t-wmd-none,
   .t-wmd-hide { display: none !important; }
 }
-@media (min-width: $sl-display-screen-wlg-min) {
+@media (min-width: $display-screen-wlg-min) {
   .t-wlg-none,
   .t-wlg-hide { display: none !important; }
 }
@@ -55,19 +55,19 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 .t-block,
 .t-show       { display:block !important; }
 
-@media (min-width: $sl-display-screen-wxs-min) {
+@media (min-width: $display-screen-wxs-min) {
   .t-wxs-block,
   .t-wxs-show { display: block !important; }
 }
-@media (min-width: $sl-display-screen-wsm-min) {
+@media (min-width: $display-screen-wsm-min) {
   .t-wsm-block,
   .t-wsm-show { display: block !important; }
 }
-@media (min-width: $sl-display-screen-wmd-min) {
+@media (min-width: $display-screen-wmd-min) {
   .t-wmd-block,
   .t-wmd-show { display: block !important; }
 }
-@media (min-width: $sl-display-screen-wlg-min) {
+@media (min-width: $display-screen-wlg-min) {
   .t-wlg-block,
   .t-wlg-show { display: block !important; }
 }
@@ -76,16 +76,16 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 // ==================================
 .t-inlineBlock       { display:inline-block !important; }
 
-@media (min-width: $sl-display-screen-wxs-min) {
+@media (min-width: $display-screen-wxs-min) {
   .t-wxs-inlineBlock { display: inline-block !important; }
 }
-@media (min-width: $sl-display-screen-wsm-min) {
+@media (min-width: $display-screen-wsm-min) {
   .t-wsm-inlineBlock { display: inline-block !important; }
 }
-@media (min-width: $sl-display-screen-wmd-min) {
+@media (min-width: $display-screen-wmd-min) {
   .t-wmd-inlineBlock { display: inline-block !important; }
 }
-@media (min-width: $sl-display-screen-wlg-min) {
+@media (min-width: $display-screen-wlg-min) {
   .t-wlg-inlineBlock { display: inline-block !important; }
 }
 
@@ -94,16 +94,16 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 .t-inline,
 .t-inline       { display:inline !important; }
 
-@media (min-width: $sl-display-screen-wxs-min) {
+@media (min-width: $display-screen-wxs-min) {
   .t-wxs-inline { display: inline !important; }
 }
-@media (min-width: $sl-display-screen-wsm-min) {
+@media (min-width: $display-screen-wsm-min) {
   .t-wsm-inline { display: inline !important; }
 }
-@media (min-width: $sl-display-screen-wmd-min) {
+@media (min-width: $display-screen-wmd-min) {
   .t-wmd-inline { display: inline !important; }
 }
-@media (min-width: $sl-display-screen-wlg-min) {
+@media (min-width: $display-screen-wlg-min) {
   .t-wlg-inline { display: inline !important; }
 }
 
@@ -118,7 +118,7 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
   display: table-cell !important;
  }
 
-@media (min-width: $sl-display-screen-wxs-min) {
+@media (min-width: $display-screen-wxs-min) {
   .t-wxs-table {
     display: table !important;
     table-layout: fixed !important;
@@ -128,7 +128,7 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
     display: table-cell !important;
   }
 }
-@media (min-width: $sl-display-screen-wsm-min) {
+@media (min-width: $display-screen-wsm-min) {
   .t-wsm-table {
     display: table !important;
     table-layout: fixed !important;
@@ -138,7 +138,7 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
     display: table-cell !important;
   }
 }
-@media (min-width: $sl-display-screen-wmd-min) {
+@media (min-width: $display-screen-wmd-min) {
   .t-wmd-table {
     display: table !important;
     table-layout: fixed !important;
@@ -148,7 +148,7 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
     display: table-cell !important;
   }
 }
-@media (min-width: $sl-display-screen-wlg-min) {
+@media (min-width: $display-screen-wlg-min) {
   .t-wlg-table {
     display: table !important;
     table-layout: fixed !important;
