@@ -13,11 +13,12 @@
 @import "parts-table";
 // tool
 @import "tool-border";
+@import "tool-layout";
+@import "tool-typography";
+// responsive tool
 @import "tool-display-state";
 @import "tool-gutter-reset";
-@import "tool-layout";
-@import "tool-space";
-@import "tool-typography";
+@import "tool-spacing";
 @import "tool-width";
 // Components
 @import "component-container";
