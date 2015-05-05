@@ -106,3 +106,55 @@ $sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
 @media (min-width: $sl-display-screen-wlg-min) {
   .t-wlg-inline { display: inline !important; }
 }
+
+// show (inline)
+// ==================================
+.t-table {
+  display: table !important;
+  table-layout: fixed !important;
+  width:100% !important;
+ }
+.t-table-col {
+  display: table-cell !important;
+ }
+
+@media (min-width: $sl-display-screen-wxs-min) {
+  .t-wxs-table {
+    display: table !important;
+    table-layout: fixed !important;
+    width:100% !important;
+  }
+  .t-wxs-table-col {
+    display: table-cell !important;
+  }
+}
+@media (min-width: $sl-display-screen-wsm-min) {
+  .t-wsm-table {
+    display: table !important;
+    table-layout: fixed !important;
+    width:100% !important;
+  }
+  .t-wsm-table-col {
+    display: table-cell !important;
+  }
+}
+@media (min-width: $sl-display-screen-wmd-min) {
+  .t-wmd-table {
+    display: table !important;
+    table-layout: fixed !important;
+    width:100% !important;
+  }
+  .t-wmd-table-col {
+    display: table-cell !important;
+  }
+}
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-table {
+    display: table !important;
+    table-layout: fixed !important;
+    width:100% !important;
+  }
+  .t-wlg-table-col {
+    display: table-cell !important;
+  }
+}
