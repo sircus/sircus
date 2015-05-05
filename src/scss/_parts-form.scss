@@ -1,31 +1,31 @@
-@import 'config';
+@import "core-config";
 
-$sl-Form-padding-xl:      $sg-paddingV-xl 1.2rem !default;
-$sl-Form-padding-lg:      $sg-paddingV-lg 1.2rem !default;
-$sl-Form-padding-bs:      $sg-paddingV-bs 1.2rem !default;
-$sl-Form-padding-sm:      $sg-paddingV-sm 1.2rem !default;
+$Form-padding-xl:      $c-paddingV-xl 1.2rem !default;
+$Form-padding-lg:      $c-paddingV-lg 1.2rem !default;
+$Form-padding-bs:      $c-paddingV-bs 1.2rem !default;
+$Form-padding-sm:      $c-paddingV-sm 1.2rem !default;
 
-$sl-Form-fontSize-xl:     $sg-fontSize-h3 !default;
-$sl-Form-fontSize-lg:     $sg-fontSize-h4 !default;
-$sl-Form-fontSize-bs:     $sg-fontSize-bs !default;
-$sl-Form-fontSize-sm:     $sg-fontSize-h6 !default;
+$Form-fontSize-xl:     $c-fontSize-h3 !default;
+$Form-fontSize-lg:     $c-fontSize-h4 !default;
+$Form-fontSize-bs:     $c-fontSize-bs !default;
+$Form-fontSize-sm:     $c-fontSize-h6 !default;
 
-$sl-Form-borderRadius-xl: $sg-borderRadius-lg !default;
-$sl-Form-borderRadius-lg: $sg-borderRadius-lg !default;
-$sl-Form-borderRadius-bs: $sg-borderRadius-bs !default;
-$sl-Form-borderRadius-sm: $sg-borderRadius-sm !default;
+$Form-borderRadius-xl: $c-borderRadius-lg !default;
+$Form-borderRadius-lg: $c-borderRadius-lg !default;
+$Form-borderRadius-bs: $c-borderRadius-bs !default;
+$Form-borderRadius-sm: $c-borderRadius-sm !default;
 
-$sl-Form-bgColor:         transparent !default;
-$sl-Form-borderSize:      $sg-ButtonAndForm-borderSize !default;
-$sl-Form-borderColor:     $sg-ButtonAndForm-baseColor !default;
+$Form-bgColor:         transparent !default;
+$Form-borderSize:      $c-ButtonAndForm-borderSize !default;
+$Form-borderColor:     $c-ButtonAndForm-baseColor !default;
 
-$sl-Form-color-focus:     $sg-focusColor !default;
-$sl-Form-color-disabled:  $sl-Form-borderColor !default;
+$Form-color-focus:     $c-focusColor !default;
+$Form-color-disabled:  $Form-borderColor !default;
 
-$sl-Form-height-xl:       $sg-ButtonAndForm-height-xl !default;
-$sl-Form-height-lg:       $sg-ButtonAndForm-height-lg !default;
-$sl-Form-height-bs:       $sg-ButtonAndForm-height-bs !default;
-$sl-Form-height-sm:       $sg-ButtonAndForm-height-sm !default;
+$Form-height-xl:       $c-ButtonAndForm-height-xl !default;
+$Form-height-lg:       $c-ButtonAndForm-height-lg !default;
+$Form-height-bs:       $c-ButtonAndForm-height-bs !default;
+$Form-height-sm:       $c-ButtonAndForm-height-sm !default;
 
 // ==================================
 select,
@@ -47,24 +47,24 @@ input[type='color'] {
   line-height: inherit;
   vertical-align: middle;
   box-sizing: border-box;
-  padding: $sl-Form-padding-bs;
-  font-size: $sl-Form-fontSize-bs;
+  padding: $Form-padding-bs;
+  font-size: $Form-fontSize-bs;
   display: inline-block;
 }
 
 .Input,
 .Textarea,
 .Select {
-  border: $sl-Form-borderSize solid $sl-Form-borderColor;
-  background-color: $sl-Form-bgColor;
-  border-radius: $sl-Form-borderRadius-bs;
+  border: $Form-borderSize solid $Form-borderColor;
+  background-color: $Form-bgColor;
+  border-radius: $Form-borderRadius-bs;
   box-shadow: inset 0 1px 1px rgba(0,0,0,.08);
   transition: border ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 .Input,
 .Select {
-  height: $sl-Form-height-bs;
+  height: $Form-height-bs;
 }
 
 .Input {
@@ -78,9 +78,9 @@ input[type='color'] {
 .Input:focus,
 .Textarea:focus,
 .Select:focus {
-  border: $sl-Form-borderSize solid $sl-Form-color-focus;
+  border: $Form-borderSize solid $Form-color-focus;
   outline: 0;
-  box-shadow: inset 0 1px 1px rgba($sl-Form-color-focus,.4),0 0 8px rgba($sl-Form-color-focus,.4);
+  box-shadow: inset 0 1px 1px rgba($Form-color-focus,.4),0 0 8px rgba($Form-color-focus,.4);
 }
 
 .Input.is-disabled,
@@ -92,33 +92,33 @@ input[type='color'] {
   cursor: not-allowed;
   pointer-events: none;
   opacity: .65;
-  background-color: lighten($sl-Form-color-disabled,10);
+  background-color: lighten($Form-color-disabled,10);
 }
 
 
 // ==================================
 .Input--xl,
 .Select--xl {
-  font-size: $sl-Form-fontSize-xl !important;
-  padding: $sl-Form-padding-xl !important;
-  border-radius: $sl-Form-borderRadius-xl !important;
-  height: $sl-Form-height-xl !important;
+  font-size: $Form-fontSize-xl !important;
+  padding: $Form-padding-xl !important;
+  border-radius: $Form-borderRadius-xl !important;
+  height: $Form-height-xl !important;
 }
 
 .Input--lg,
 .Select--lg {
-  font-size: $sl-Form-fontSize-lg !important;
-  padding: $sl-Form-padding-lg !important;
-  border-radius: $sl-Form-borderRadius-lg !important;
-  height: $sl-Form-height-lg !important;
+  font-size: $Form-fontSize-lg !important;
+  padding: $Form-padding-lg !important;
+  border-radius: $Form-borderRadius-lg !important;
+  height: $Form-height-lg !important;
 }
 
 .Input--sm,
 .Select--sm {
-  font-size: $sl-Form-fontSize-sm !important;
-  padding: $sl-Form-padding-sm !important;
-  border-radius: $sl-Form-borderRadius-sm !important;
-  height: $sl-Form-height-sm !important;
+  font-size: $Form-fontSize-sm !important;
+  padding: $Form-padding-sm !important;
+  border-radius: $Form-borderRadius-sm !important;
+  height: $Form-height-sm !important;
 }
 
 

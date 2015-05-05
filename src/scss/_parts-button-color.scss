@@ -1,39 +1,39 @@
-@import "config";
+@import "core-config";
 
 // .Button--primary
-$sl-Button-primary-typoColor:       #fff !default;
-$sl-Button-primary-bgColor:         $sg-color-primary !default;
-$sl-Button-primary-borderColor:     darken($sl-Button-primary-bgColor, 5) !default;
+$Button-primary-typoColor:       #fff !default;
+$Button-primary-bgColor:         $c-color-primary !default;
+$Button-primary-borderColor:     darken($Button-primary-bgColor, 5) !default;
 
 
 // .Button--primary
 // ==================================
 .Button--primary {
-  background-color:$sl-Button-primary-bgColor;
-  border-color: $sl-Button-primary-borderColor;
-  color:$sl-Button-primary-typoColor;
+  background-color:$Button-primary-bgColor;
+  border-color: $Button-primary-borderColor;
+  color:$Button-primary-typoColor;
 }
 .Button--primary:hover,
 .Button--primary:focus,
 .Button--primary:active,
 .Button--primary.is-active{
-  background-color:$sl-Button-primary-typoColor;
-  color:$sl-Button-primary-bgColor;
-  border-color: $sl-Button-primary-borderColor;
+  background-color:$Button-primary-typoColor;
+  color:$Button-primary-bgColor;
+  border-color: $Button-primary-borderColor;
 }
 
 
 
 .Button--border.Button--primary {
   background-color:transparent;
-  border-color: $sl-Button-primary-bgColor;
-  color:$sl-Button-primary-bgColor;
+  border-color: $Button-primary-bgColor;
+  color:$Button-primary-bgColor;
 }
 .Button--border.Button--primary:hover,
 .Button--border.Button--primary:focus,
 .Button--border.Button--primary:active,
 .Button--border.Button--primary.is-active{
-  background-color:$sl-Button-primary-bgColor;
-  color:$sl-Button-primary-typoColor;
-  border-color: $sl-Button-primary-borderColor;
+  background-color:$Button-primary-bgColor;
+  color:$Button-primary-typoColor;
+  border-color: $Button-primary-borderColor;
 }

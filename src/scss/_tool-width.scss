@@ -1,9 +1,9 @@
-@import "config";
+@import "core-config";
 
-$sl-width-screen-wxs-min: $sg-screen-wxs-min !default;
-$sl-width-screen-wsm-min: $sg-screen-wsm-min !default;
-$sl-width-screen-wmd-min: $sg-screen-wmd-min !default;
-$sl-width-screen-wlg-min: $sg-screen-wlg-min !default;
+$width-screen-wxs-min: $c-screen-wxs-min !default;
+$width-screen-wsm-min: $c-screen-wsm-min !default;
+$width-screen-wmd-min: $c-screen-wmd-min !default;
+$width-screen-wlg-min: $c-screen-wlg-min !default;
 
 .t-width1of10 { width: 10% !important; }
 .t-width1of9  { width: 11.11111% !important; }
@@ -62,7 +62,7 @@ $sl-width-screen-wlg-min: $sg-screen-wlg-min !default;
 
 
 
-@media (min-width: $sl-width-screen-wxs-min) {
+@media (min-width: $width-screen-wxs-min) {
   .t-wxs-width1of10 { width: 10% !important; }
   .t-wxs-width1of9  { width: 11.11111% !important; }
   .t-wxs-width1of8  { width: 12.5% !important; }
@@ -119,7 +119,7 @@ $sl-width-screen-wlg-min: $sg-screen-wlg-min !default;
   .t-wxs-width10of10  { width: 100% !important; }
 }
 
-@media (min-width: $sl-width-screen-wsm-min) {
+@media (min-width: $width-screen-wsm-min) {
   .t-wsm-width1of10 { width: 10% !important; }
   .t-wsm-width1of9  { width: 11.11111% !important; }
   .t-wsm-width1of8  { width: 12.5% !important; }
@@ -176,7 +176,7 @@ $sl-width-screen-wlg-min: $sg-screen-wlg-min !default;
   .t-wsm-width10of10  { width: 100% !important; }
 }
 
-@media (min-width: $sl-width-screen-wmd-min) {
+@media (min-width: $width-screen-wmd-min) {
   .t-wmd-width1of10 { width: 10% !important; }
   .t-wmd-width1of9  { width: 11.11111% !important; }
   .t-wmd-width1of8  { width: 12.5% !important; }
@@ -233,7 +233,7 @@ $sl-width-screen-wlg-min: $sg-screen-wlg-min !default;
   .t-wmd-width10of10  { width: 100% !important; }
 }
 
-@media (min-width: $sl-width-screen-wlg-min) {
+@media (min-width: $width-screen-wlg-min) {
   .t-wlg-width1of10 { width: 10% !important; }
   .t-wlg-width1of9  { width: 11.11111% !important; }
   .t-wlg-width1of8  { width: 12.5% !important; }

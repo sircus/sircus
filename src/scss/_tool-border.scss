@@ -1,10 +1,10 @@
-@import "config";
+@import "core-config";
 
-$sl-border-bs: $sg-border-bs !default;
+$border-bs: $c-border-bs !default;
 
 // ==================================
-.t-borderTop     { border-top:$sl-border-bs !important; }
-.t-borderLeft    { border-left:$sl-border-bs !important; }
-.t-borderRight   { border-right:$sl-border-bs !important; }
-.t-borderBottom  { border-bottom:$sl-border-bs !important; }
-.t-border        { border:$sl-border-bs !important; }
+.t-borderTop     { border-top:$border-bs !important; }
+.t-borderLeft    { border-left:$border-bs !important; }
+.t-borderRight   { border-right:$border-bs !important; }
+.t-borderBottom  { border-bottom:$border-bs !important; }
+.t-border        { border:$border-bs !important; }

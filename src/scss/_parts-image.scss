@@ -1,6 +1,6 @@
-@import "config";
+@import "core-config";
 
-$sl-img-round-borderRadius : $sg-borderRadius-bs !default;
+$Img-round-borderRadius : $c-borderRadius-bs !default;
 
 // ==================================
 .Img {
@@ -10,5 +10,5 @@ $sl-img-round-borderRadius : $sg-borderRadius-bs !default;
   height: auto;
 }
 
-.Img--round  { border-radius: $sl-img-round-borderRadius !important; }
+.Img--round  { border-radius: $Img-round-borderRadius !important; }
 .Img--circle { border-radius: 50% !important; }
