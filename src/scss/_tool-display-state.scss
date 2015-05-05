@@ -1,0 +1,108 @@
+@import "config";
+
+$sl-display-screen-wxs-min:   $sg-screen-wxs-min !default;
+$sl-display-screen-wsm-min:   $sg-screen-wsm-min !default;
+$sl-display-screen-wmd-min:   $sg-screen-wmd-min !default;
+$sl-display-screen-wlg-min:   $sg-screen-wlg-min !default;
+
+$sl-display-screen-wxs-max:   $sg-screen-wxs-max !default;
+$sl-display-screen-wsm-max:   $sg-screen-wsm-max !default;
+$sl-display-screen-wmd-max:   $sg-screen-wmd-max !default;
+
+
+@-ms-viewport { width: device-width; }
+
+
+.t-wxs-show,
+.t-wsm-show,
+.t-wmd-show,
+.t-wlg-show,
+.t-wxs-inlineBlock,
+.t-wsm-inlineBlock,
+.t-wmd-inlineBlock,
+.t-wlg-inlineBlock,
+.t-wxs-inline,
+.t-wsm-inline,
+.t-wmd-inline,
+.t-wlg-inline,
+.t-none,
+.t-hide {
+  display:none !important;
+}
+
+// hide
+// ==================================
+@media (min-width: $sl-display-screen-wxs-min) {
+  .t-wxs-none,
+  .t-wxs-hide { display: none !important; }
+}
+@media (min-width: $sl-display-screen-wsm-min) {
+  .t-wsm-none,
+  .t-wsm-hide { display: none !important; }
+}
+@media (min-width: $sl-display-screen-wmd-min) {
+  .t-wmd-none,
+  .t-wmd-hide { display: none !important; }
+}
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-none,
+  .t-wlg-hide { display: none !important; }
+}
+
+
+// show (block)
+// ==================================
+.t-block,
+.t-show       { display:block !important; }
+
+@media (min-width: $sl-display-screen-wxs-min) {
+  .t-wxs-block,
+  .t-wxs-show { display: block !important; }
+}
+@media (min-width: $sl-display-screen-wsm-min) {
+  .t-wsm-block,
+  .t-wsm-show { display: block !important; }
+}
+@media (min-width: $sl-display-screen-wmd-min) {
+  .t-wmd-block,
+  .t-wmd-show { display: block !important; }
+}
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-block,
+  .t-wlg-show { display: block !important; }
+}
+
+// inline-block
+// ==================================
+.t-inlineBlock       { display:inline-block !important; }
+
+@media (min-width: $sl-display-screen-wxs-min) {
+  .t-wxs-inlineBlock { display: inline-block !important; }
+}
+@media (min-width: $sl-display-screen-wsm-min) {
+  .t-wsm-inlineBlock { display: inline-block !important; }
+}
+@media (min-width: $sl-display-screen-wmd-min) {
+  .t-wmd-inlineBlock { display: inline-block !important; }
+}
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-inlineBlock { display: inline-block !important; }
+}
+
+// show (inline)
+// ==================================
+.t-inline,
+.t-inline       { display:inline !important; }
+
+@media (min-width: $sl-display-screen-wxs-min) {
+  .t-wxs-inline { display: inline !important; }
+}
+@media (min-width: $sl-display-screen-wsm-min) {
+  .t-wsm-inline { display: inline !important; }
+}
+@media (min-width: $sl-display-screen-wmd-min) {
+  .t-wmd-inline { display: inline !important; }
+}
+@media (min-width: $sl-display-screen-wlg-min) {
+  .t-wlg-inline { display: inline !important; }
+}
