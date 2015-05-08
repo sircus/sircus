@@ -1,3 +1,27 @@
+@import "core-config";
+
+$elements-fontFamily-bs:          $c-fontFamily-sans-en !default;
+$elements-fontFamily-monospace:   $c-fontFamily-monospace-en !default;
+$elements-fontSize-bs:            $c-fontSize-bs !default;
+$elements-textColor:              $c-textColor !default;
+$elements-lineHeight-bs:          $c-lineHeight-bs !default;
+
+$elements-link-color:             $c-linkColor !default;
+$elements-link-decoration:        $c-linkDecoration !default;
+$elements-link-colorHover:        $c-linkColorHover !default;
+$elements-link-decorationHover:   $c-linkDecorationHover !default;
+
+$elements-mark-bgColor:           $c-color-primary !default;
+$elements-mark-color:             #fff !default;
+
+$elements-blockquote-bgColor:     $c-color-gray-lighter !default;
+$elements-blockquote-borderColor: $c-color-gray-light !default;
+
+$elements-spacing-bs:             $c-spacing-bs ;
+
+$elements-selection-bgColor:      $c-color-primary !default;
+
+// ==================================
 html { font-size: 62.5%; } // 10px
 
 html,
@@ -5,6 +29,43 @@ body {
   min-height: 100%;
   margin:0;
   padding:0;
+}
+
+body {
+  font-family: $elements-fontFamily-bs;
+  color: $elements-textColor;
+  font-size: $elements-fontSize-bs;
+  line-height: $elements-lineHeight-bs;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+p, ul, ol, dd, blockquote {
+  margin:0 0 $elements-spacing-bs 0;
+}
+
+::selection {
+  background: $elements-selection-bgColor;
+}
+
+// a -------------------------
+a {
+  color: $elements-link-color;
+  text-decoration: $elements-link-decoration;
+}
+a:hover,
+a:focus,
+a:active  {
+  color: $elements-link-colorHover;
+  text-decoration: $elements-link-decorationHover;
 }
 
 // ==================================
@@ -18,17 +79,48 @@ svg {
 }
 
 // ==================================
+dt { font-weight: bold; }
+dd { margin-left: 0; }
+
+// pre,code  -------------------------
+pre,
+code {
+  font-family: $elements-fontFamily-monospace;
+  white-spacing: pre-wrap;
+}
+
 pre {
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-// ==================================
-input,
-textarea,
-select,
-button {
-  font-family: inherit;
-  font-size: 100%;
+// hr -------------------------
+hr {
+  display: block;
+  height: .1rem;
+  border: 0;
+  border-top: .1rem solid #ddd;
+  margin: $elements-spacing-bs 0;
+  padding: 0;
+}
+
+// mark -------------------------
+mark {
+  padding-left:.5rem;
+  padding-right:.5rem;
+  background-color:$elements-mark-bgColor;
+  color:$elements-mark-color;
+}
+
+// blockquote -------------------------
+blockquote {
+  padding:$c-spacing-bs;
+  border-left:.6rem solid $elements-blockquote-borderColor;
+  background: $elements-blockquote-bgColor;
+  font-style: italic;
+  display: block;
+}
+blockquote p:last-child {
+  margin-bottom:0;
 }
