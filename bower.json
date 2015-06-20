@@ -1,29 +1,23 @@
 {
   "name": "sircus",
-  "version": "0.5.1",
+  "description": "Moduler CSS For People Who Make Web Together.",
   "homepage": "https://github.com/sircus/sircus",
-  "authors": [
-    "blivesta"
-  ],
-  "description": "A Scalable CSS Family with Naming Rules.",
-  "main": [
-    "dist/sircus.css"
-  ],
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
   "keywords": [
-    "scalable css",
-    "responsive"
+    "scalable",
+    "design",
+    "css",
+    "cssnext",
+    "rwd"
   ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "*.yml",
     ".*",
-    "node_modules",
-    "gulpfile.js",
-    "docs"
-  ],
-  "devDependencies": {
-    "normalize.css": "^2.1.3",
-    "HTML5-Reset": "^2.1.2"
-  }
+    "node_modules"
+  ]
 }

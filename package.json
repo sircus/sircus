@@ -1,23 +1,68 @@
 {
   "name": "sircus",
-  "version": "0.5.1",
-  "description": "A Scalable CSS Family with Naming Rules.",
-  "author":"blivesta",
+  "version": "1.0.0-alpha.0",
+  "description": "Moduler CSS For People Who Make Web Together.",
   "homepage":"http://sircus.blivesta.com",
   "license":"MIT",
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
   "keywords": [
-    "RESPONSIVE",
-    "CSS"
+    "scalable",
+    "design",
+    "css",
+    "cssnext",
+    "rwd"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/sircus/sircus.git"
   },
+  "dependencies": {
+    "sircus-global-property": "^0.1.2",
+    "sircus-elements-body": "^0.0.1",
+    "sircus-elements-heading": "^0.0.1",
+    "sircus-elements-image": "^0.0.1",
+    "sircus-elements-link": "^0.0.1",
+    "sircus-elements-list": "^0.0.1",
+    "sircus-elements-paragraph": "^0.0.1",
+    "sircus-elements-space": "^0.0.1",
+    "sircus-components-button": "^0.0.1",
+    "sircus-components-button-paint": "^0.0.1",
+    "sircus-components-button-size": "^0.0.1",
+    "sircus-components-button-reset": "^0.0.1",
+    "sircus-components-container": "^0.0.1",
+    "sircus-components-fullembed": "^0.0.1",
+    "sircus-components-form": "^0.0.1",
+    "sircus-components-form-size": "^0.0.1",
+    "sircus-components-grid": "^0.0.1",
+    "sircus-components-list": "^0.0.1",
+    "sircus-components-table": "^0.0.1",
+    "sircus-tools-align": "^0.0.2",
+    "sircus-tools-align-responsive": "^0.0.3",
+    "sircus-tools-clear": "^0.0.2",
+    "sircus-tools-display": "^0.0.2",
+    "sircus-tools-display-responsive": "^0.0.3",
+    "sircus-tools-gutter": "^0.0.3",
+    "sircus-tools-gutter-responsive": "^0.0.3",
+    "sircus-tools-layout": "^0.0.2",
+    "sircus-tools-layout-responsive": "^0.0.3",
+    "sircus-tools-overflow": "^0.0.2",
+    "sircus-tools-overflow-responsive": "^0.0.3",
+    "sircus-tools-space": "^0.0.2",
+    "sircus-tools-space-responsive": "^0.0.3",
+    "sircus-tools-typo": "^0.0.2",
+    "sircus-tools-width": "^0.0.2",
+    "sircus-tools-width-responsive": "^0.0.3"
+  },
   "devDependencies": {
-    "browser-sync": "^2.2.1",
-    "gulp": "^3.8.10",
-    "gulp-rename": "^1.2.0",
-    "gulptasks":"^0.10.0",
-    "run-sequence": "^1.0.2"
+    "cssnext":"^1.7.1"
+  },
+  "scripts": {
+    "css": "cssnext --no-color-rgba --no-rem ./src/sircus.css ./dist/sircus.css",
+    "css:min": "cssnext --no-color-rgba --no-rem --compress ./src/sircus.css ./dist/sircus.min.css",
+    "build": "npm run css && npm run css:min",
+    "start": "npm install && npm run build"
   }
 }
