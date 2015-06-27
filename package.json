@@ -53,8 +53,8 @@
     "sircus-tools-space": "^0.0.2",
     "sircus-tools-space-responsive": "^0.0.3",
     "sircus-tools-typo": "^0.0.2",
-    "sircus-tools-width": "^0.0.2",
-    "sircus-tools-width-responsive": "^0.0.3"
+    "sircus-tools-width": "^0.1.0",
+    "sircus-tools-width-responsive": "^0.1.0"
   },
   "devDependencies": {
     "cssnext":"^1.7.1"
