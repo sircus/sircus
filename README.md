@@ -4,72 +4,23 @@
 [![Build Status](https://img.shields.io/travis/sircus/sircus/master.svg?style=flat)](https://travis-ci.org/sircus/sircus)
 
 
-## Installation
-
-> npm:
-
-```bash
-$ npm install sircus
-```
-
 ## Usage
 
-> using dist files
+> When Using CSS in the "dist" Folder.
 
 ```html
-<link rel="stylesheet" type="text/css" href="./normalize.min.css">
 <link rel="stylesheet" type="text/css" href="./dist/sircus.min.css">
 ```
 
 > using cssnext:
 
+```bash
+$ npm install sircus
+```
+
 input.css
 ```css
 @import "sircus";
-```
-
-> using sass:
-
-input.scss
-```scss
-@import "./node_modules/sircus-global-property/converted";
-
-@import "./node_modules/sircus-elements-body/converted";
-@import "./node_modules/sircus-elements-heading/converted";
-@import "./node_modules/sircus-elements-image/converted";
-@import "./node_modules/sircus-elements-link/converted";
-@import "./node_modules/sircus-elements-list/converted";
-@import "./node_modules/sircus-elements-paragraph/converted";
-@import "./node_modules/sircus-elements-space/converted";
-
-@import "./node_modules/sircus-components-button/converted";
-@import "./node_modules/sircus-components-button-paint/converted";
-@import "./node_modules/sircus-components-button-size/converted";
-@import "./node_modules/sircus-components-button-reset/converted";
-@import "./node_modules/sircus-components-container/converted";
-@import "./node_modules/sircus-components-fullembed/converted";
-@import "./node_modules/sircus-components-form/converted";
-@import "./node_modules/sircus-components-form-size/converted";
-@import "./node_modules/sircus-components-grid/converted";
-@import "./node_modules/sircus-components-list/converted";
-@import "./node_modules/sircus-components-table/converted";
-
-@import "./node_modules/sircus-tools-align/converted";
-@import "./node_modules/sircus-tools-align-responsive/converted";
-@import "./node_modules/sircus-tools-clear/converted";
-@import "./node_modules/sircus-tools-display/converted";
-@import "./node_modules/sircus-tools-display-responsive/converted";
-@import "./node_modules/sircus-tools-gutter/converted";
-@import "./node_modules/sircus-tools-gutter-responsive/converted";
-@import "./node_modules/sircus-tools-layout/converted";
-@import "./node_modules/sircus-tools-layout-responsive/converted";
-@import "./node_modules/sircus-tools-overflow/converted";
-@import "./node_modules/sircus-tools-overflow-responsive/converted";
-@import "./node_modules/sircus-tools-space/converted";
-@import "./node_modules/sircus-tools-space-responsive/converted";
-@import "./node_modules/sircus-tools-typo/converted";
-@import "./node_modules/sircus-tools-width/converted";
-@import "./node_modules/sircus-tools-width-responsive/converted";
 ```
 
 
@@ -105,7 +56,7 @@ input.scss
 ## 3: Components Module
 
 - [sircus-components-button](https://github.com/sircus/components-button)
-- [sircus-components-button-paint](https://github.com/sircus/components-button-paint)
+- [sircus-components-button-fill](https://github.com/sircus/components-button-fill)
 - [sircus-components-button-size](https://github.com/sircus/components-button-size)
 - [sircus-components-button-reset](https://github.com/sircus/components-button-reset)
 - [sircus-components-container](https://github.com/sircus/components-container)
@@ -134,7 +85,7 @@ Inspired by [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/m
 
 > ComponentName
 
-- **Component name to use UpperCamelCase**
+- ** The component's name must be written in pascal case. **
 
 ```css
 .FullEmbed { }
@@ -218,13 +169,13 @@ Inspired by [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/m
 
 ```css
 .t-clear { }
-.t-wsm-block { }
-.t-wxs-width2of4 { }
+.t-sm-block { }
+.t-xs-width2of4 { }
 ```
 
 ```html
 <div class="t-clear">
-  <div class="t-left t-wxs-hidden"></div>
+  <div class="t-left t-xs-hidden"></div>
   <p class="t-uppercase"></p>
 </div>
 ```
@@ -254,7 +205,7 @@ Size level Suffix
 | *-xs          | Extra Small     | -2    |
 | *-tn          | Tiny            | -3    |
 | *-mn          | Minimal         | -4    |
-| *-nn or 0     | None            |       |
+| *-nn or 0     | None            | 　    |
 
 
 
