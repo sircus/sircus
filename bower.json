@@ -16,7 +16,6 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "*.yml",
     ".*",
     "node_modules"
   ]
