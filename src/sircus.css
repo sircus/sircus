@@ -1,6 +1,6 @@
 /*!
  * Sircus - Moduler CSS For People Who Make Web Together.
- * @version v1.0.0-alpha.0
+ * @version v1.0.0-alpha.1
  * @link    http://sircus.blivesta.com
  * @author  blivesta
  * @license MIT
@@ -15,7 +15,7 @@
 @import "sircus-elements-space";
 
 @import "sircus-components-button";
-@import "sircus-components-button-paint";
+@import "sircus-components-button-fill";
 @import "sircus-components-button-size";
 @import "sircus-components-button-reset";
 @import "sircus-components-container";
