@@ -1,6 +1,6 @@
 /*!
  * Sircus - Modular CSS Family.
- * @version v1.0.0-alpha.1
+ * @version v1.0.0-alpha.2
  * @link    http://sircus.blivesta.com
  * @author  Yasuyuki Enomoto
  * @license MIT
@@ -92,6 +92,47 @@ p {
 p, ul, ol, dl, hr, table, fieldset, figure, pre {
   margin-top: 0;
   margin-bottom: 1.5rem;
+}
+
+/*　sircus-components-alert
+======================================== */
+.Alert {
+  box-sizing: border-box;
+  padding-top: 1.5rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #EFEFEF;
+  box-shadow: 0;
+}
+
+
+.Alert.is-success {
+  color: #00A47B;
+  border: 1px solid transparent;
+  background-color: #CCF5EB;
+}
+
+
+.Alert.is-notice {
+  color: #1AB2FF;
+  border: 1px solid transparent;
+  background-color: #E1F5FF;
+}
+
+
+.Alert.is-warning {
+  color: #D9AD00;
+  border: 1px solid transparent;
+  background-color: #FFF5CC;
+}
+
+
+.Alert.is-error {
+  color: #D41C12;
+  border: 1px solid transparent;
+  background-color: #FCDBD9;
 }
 
 
@@ -248,8 +289,6 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
   margin-left: auto;
 }
 
-.Container--slim { max-width: 48rem; }
-
 @media (min-width: 40em) {
   .Container { max-width: 48rem; }
 }
@@ -259,6 +298,8 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 @media (min-width: 75em) {
   .Container { max-width: 70rem; }
 }
+
+.Container--slim { max-width: 48rem; }
 /*　FullEmbed
 ======================================== */
 .FullEmbed {
