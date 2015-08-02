@@ -14,6 +14,7 @@
 @import "sircus-elements-paragraph";
 @import "sircus-elements-space";
 
+@import "sircus-components-alert";
 @import "sircus-components-button";
 @import "sircus-components-button-fill";
 @import "sircus-components-button-size";

@@ -20,6 +20,7 @@
     "url": "https://github.com/sircus/sircus.git"
   },
   "dependencies": {
+    "sircus-components-alert": "^0.0.0",
     "sircus-components-button": "^0.1.0",
     "sircus-components-button-fill": "^0.0.0",
     "sircus-components-button-reset": "^0.0.1",
