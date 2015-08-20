@@ -437,6 +437,10 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
   text-align: left;
 }
 
+.Grid .Grid {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
 
 .Grid-col {
   font-size: 1rem;
@@ -607,30 +611,19 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 .t-block       { display:block !important; }
 .t-inlineBlock { display:inline-block !important; }
 .t-inline      { display:inline !important; }
-/*
- * sircus-tools-display-responsive(base)
- ================================================== */
-
-.t-sm-block,
-.t-md-block,
-.t-lg-block,
-.t-sm-inlineBlock,
-.t-md-inlineBlock,
-.t-lg-inlineBlock,
-.t-sm-inline,
-.t-md-inline,
-.t-lg-inline {
-  display:none !important;
-}
+.t-table       { display:table !important; }
+.t-tableCell   { display:table-cell !important; }
 /*
  * sircus-tools-display-responsive(sm)
  ================================================== */
 
 @media (min-width: 40em) {
-  .t-sm-none  { display: none !important; }
+  .t-sm-none { display: none !important; }
   .t-sm-block { display: block !important; }
   .t-sm-inlineBlock { display: inline-block !important; }
   .t-sm-inline { display: inline !important; }
+  .t-sm-table { display:table !important; }
+  .t-sm-tableCell { display:table-cell !important; }
 }
 /*
  * sircus-tools-display-responsive(md)
@@ -641,6 +634,8 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
   .t-md-block { display: block !important; }
   .t-md-inlineBlock { display: inline-block !important; }
   .t-md-inline { display: inline !important; }
+  .t-md-table { display:table !important; }
+  .t-md-tableCell { display:table-cell !important; }
 }
 /*
  * sircus-tools-display-responsive(lg)
@@ -651,6 +646,8 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
   .t-lg-block { display: block !important; }
   .t-lg-inlineBlock { display: inline-block !important; }
   .t-lg-inline { display: inline !important; }
+  .t-lg-table { display:table !important; }
+  .t-lg-tableCell { display:table-cell !important; }
 }
 /*
  * sircus-tools-gutter
