@@ -150,7 +150,7 @@ Inspired by [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/m
 - [sircus-tools-overflow-responsive](https://github.com/sircus/tools-overflow-responsive)
 - [sircus-tools-space](https://github.com/sircus/tools-space)
 - [sircus-tools-space-responsive](https://github.com/sircus/tools-space-responsive)
-- [sircus-tools-typo](https://github.com/sircus/tools-typo)
+- [sircus-tools-typography](https://github.com/sircus/tools-typography)
 - [sircus-tools-width](https://github.com/sircus/tools-width)
 - [sircus-tools-width-responsive](https://github.com/sircus/tools-width-responsive)
 
