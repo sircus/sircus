@@ -658,51 +658,112 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
   padding-right: 0.75rem !important;
 }
 
+
 .t-gutterReset {
   margin-left: -0.75rem !important;
   margin-right: -0.75rem !important;
+}
+
+
+.t-gutter2x {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+
+.t-gutter2xReset {
+  padding-left: -1.5rem !important;
+  padding-right: -1.5rem !important;
 }
 /*
  * sircus-tools-gutter-responsive(sm)
  ================================================== */
 
 @media (min-width: 40em) {
+
   .t-sm-gutter {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
+
   .t-sm-gutterReset {
     margin-left: -0.75rem !important;
     margin-right: -0.75rem !important;
   }
+
+
+  .t-sm-gutter2x {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+
+  .t-sm-gutter2xReset {
+    padding-left: -1.5rem !important;
+    padding-right: -1.5rem !important;
+  }
+
 }
 /*
  * sircus-tools-gutter-responsive(md)
  ================================================== */
 
 @media (min-width: 64em) {
+
   .t-md-gutter {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
+
   .t-md-gutterReset {
     margin-left: -0.75rem !important;
     margin-right: -0.75rem !important;
   }
+
+
+  .t-md-gutter2x {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+
+  .t-md-gutter2xReset {
+    padding-left: -1.5rem !important;
+    padding-right: -1.5rem !important;
+  }
+
 }
 /*
  * sircus-tools-gutter-responsive(lg)
  ================================================== */
 
 @media (min-width: 75em) {
+
   .t-lg-gutter {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
+
   .t-lg-gutterReset {
     margin-left: -0.75rem !important;
     margin-right: -0.75rem !important;
   }
+
+
+  .t-lg-gutter2x {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+
+  .t-lg-gutter2xReset {
+    padding-left: -1.5rem !important;
+    padding-right: -1.5rem !important;
+  }
+
 }
 /*
  * sircus-tools-layout
@@ -1137,16 +1198,27 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
   .t-lg-pbGt   { padding-bottom: 5rem !important; }
 }
 /*
- * sircus-tools-typo
+ * sircus-tools-typography
  ================================================== */
 
 .t-normal        { font-weight: normal !important; }
 .t-bold          { font-weight: bold !important; }
+.t-bolder        { font-weight: bolder !important; }
+.t-lighter       { font-weight: lighter !important; }
+
 .t-italic        { font-style: italic !important; }
+
+
+.t-decoNone      { text-decoration: none !important; }
+.t-underline     { text-decoration: underline !important; }
+.t-overline      { text-decoration: overline !important; }
+.t-through       { text-decoration: line-through !important; }
+
 
 .t-lowercase     { text-transform: lowercase !important; }
 .t-uppercase     { text-transform: uppercase !important; }
 .t-capitalize    { text-transform: capitalize !important; }
+
 
 .t-nowrap        { white-space: nowrap !important; }
 .t-pre           { white-space: pre !important; }
@@ -1158,6 +1230,16 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 .t-jaSans        { font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important; }
 .t-jaSerif       { font-family: "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif !important;}
 .t-jaMonospace   { font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !important; }
+
+.t-colorPrimary  { color: #3B546C !important; }
+.t-colorSuccess  { color: #00CC99 !important; }
+.t-colorNotice   { color: #66CCFF !important; }
+.t-colorWarning  { color: #FFCC00 !important; }
+.t-colorError    { color: #EF4C43 !important; }
+
+.t-lh-sm  { line-height: 1.2 !important; }
+.t-lh-md  { line-height: 1.5 !important; }
+.t-lh-lg  { line-height: 1.8 !important; }
 /*
  * sircus-tools-width
  ================================================== */
