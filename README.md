@@ -6,21 +6,21 @@
 
 ## Usage
 
-> When Using CSS in the "dist" Folder.
-
-```html
-<link rel="stylesheet" type="text/css" href="./dist/sircus.min.css">
-```
-
-> using cssnext:
-
 ```bash
 $ npm install sircus
 ```
 
+> using cssnext:
+
 input.css
 ```css
 @import "sircus";
+```
+
+> using sass:
+input.scss
+```css
+@import "node_modules/sircus/sass";
 ```
 
 
@@ -55,6 +55,7 @@ input.css
 
 ## 3: Components Module
 
+- [sircus-components-alert](https://github.com/sircus/components-alert)
 - [sircus-components-button](https://github.com/sircus/components-button)
 - [sircus-components-button-fill](https://github.com/sircus/components-button-fill)
 - [sircus-components-button-size](https://github.com/sircus/components-button-size)
