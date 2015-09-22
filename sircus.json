@@ -1,0 +1,110 @@
+{
+  "published": "2015-09-22T17:33:46.923Z",
+  "paths": [
+    "./dist/sircus.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 41654,
+  "dataUriSize": 0,
+  "ratioOfDataUriSize": 0,
+  "gzippedSize": 6077,
+  "rules": 611,
+  "selectors": 736,
+  "declarations": 788,
+  "simplicity": 0.8301630434782609,
+  "averageOfIdentifier": 1.111413043478261,
+  "mostIdentifier": 4,
+  "mostIdentifierSelector": ".Table tr:first-child th",
+  "averageOfCohesion": 1.2896890343698855,
+  "lowestCohesion": 22,
+  "lowestCohesionSelector": [
+    ".Button"
+  ],
+  "totalUniqueFontSizes": 7,
+  "uniqueFontSizes": [
+    "0",
+    ".75rem",
+    ".875rem",
+    "1rem",
+    "1.25rem",
+    "1.5rem",
+    "2rem"
+  ],
+  "totalUniqueFontFamilies": 7,
+  "uniqueFontFamilies": [
+    "\"Helvetica Neue\", Calibri, sans-serif",
+    "\"Osaka－等幅\", Osaka-mono, \"ＭＳ ゴシック\", \"MS Gothic\", monospace",
+    "\"Times New Roman\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", serif",
+    "\"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic ProN\", \"メイリオ\", Meiryo, sans-serif",
+    "Baskerville, Cambria, serif",
+    "Menlo, Consolas, monospace",
+    "inherit"
+  ],
+  "totalUniqueColors": 14,
+  "uniqueColors": [
+    "#00A47B",
+    "#00CC99",
+    "#1AB2FF",
+    "#202E3B",
+    "#3B546C",
+    "#575757",
+    "#66CCFF",
+    "#898989",
+    "#B5B5B5",
+    "#D41C12",
+    "#D9AD00",
+    "#EF4C43",
+    "#FFCC00",
+    "#FFFFFF"
+  ],
+  "idSelectors": 0,
+  "universalSelectors": 0,
+  "unqualifiedAttributeSelectors": 4,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 562,
+  "floatProperties": 13,
+  "propertiesCount": [
+    {
+      "property": "width",
+      "count": 134
+    },
+    {
+      "property": "padding",
+      "count": 52
+    },
+    {
+      "property": "padding-bottom",
+      "count": 44
+    },
+    {
+      "property": "margin-top",
+      "count": 44
+    },
+    {
+      "property": "margin",
+      "count": 43
+    },
+    {
+      "property": "margin-bottom",
+      "count": 42
+    },
+    {
+      "property": "padding-top",
+      "count": 41
+    },
+    {
+      "property": "display",
+      "count": 38
+    },
+    {
+      "property": "vertical-align",
+      "count": 31
+    },
+    {
+      "property": "color",
+      "count": 23
+    }
+  ],
+  "mediaQueries": 24
+}

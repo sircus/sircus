@@ -59,12 +59,14 @@
   },
   "devDependencies": {
     "cssnext":"^1.8.4",
-    "node-sass":"^3.4.0-beta1"
+    "node-sass":"^3.4.0-beta1",
+    "stylestats":"^5.4.3"
   },
   "scripts": {
     "build:sass": "node-sass ./_sass.scss ~sass.css",
     "build:css": "node ./css.js",
-    "build": "npm run build:css && npm run build:sass",
+    "stats": "stylestats ./dist/sircus.css -f json > sircus.json",
+    "build": "npm run build:css && npm run build:sass && npm run stats",
     "start": "npm install && npm run build"
   }
 }
