@@ -2,7 +2,7 @@
   "name": "sircus",
   "version": "1.0.0-alpha.3",
   "description": "Modular CSS Family.",
-  "homepage":"http://sircus.blivesta.com",
+  "homepage": "https://github.com/sircus/sircus",
   "license":"MIT",
   "author": {
     "name": "blivesta",
@@ -39,7 +39,7 @@
     "sircus-elements-list": "^0.0.1",
     "sircus-elements-paragraph": "^0.0.1",
     "sircus-elements-space": "^0.0.1",
-    "sircus-global-property": "^0.3.0",
+    "sircus-global-property": "^0.4.0",
     "sircus-tools-align": "^0.0.2",
     "sircus-tools-align-responsive": "^0.0.3",
     "sircus-tools-clear": "^0.0.2",
