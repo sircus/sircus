@@ -58,10 +58,13 @@
     "sircus-tools-width-responsive": "^0.1.0"
   },
   "devDependencies": {
-    "cssnext":"^1.8.4"
+    "cssnext":"^1.8.4",
+    "node-sass":"^3.4.0-beta1"
   },
   "scripts": {
-    "build": "node ./css.js",
+    "build:sass": "node-sass ./_sass.scss ~sass.css",
+    "build:css": "node ./css.js",
+    "build": "npm run build:css && npm run build:sass",
     "start": "npm install && npm run build"
   }
 }
