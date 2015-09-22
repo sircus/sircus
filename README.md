@@ -12,13 +12,12 @@ $ npm install sircus
 
 > using cssnext:
 
-input.css
 ```css
 @import "sircus";
 ```
 
 > using sass:
-input.scss
+
 ```css
 @import "node_modules/sircus/sass";
 ```
