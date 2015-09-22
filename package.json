@@ -58,13 +58,10 @@
     "sircus-tools-width-responsive": "^0.1.0"
   },
   "devDependencies": {
-    "cssnano":"^2.6.1",
-    "cssnext":"^1.8.3"
+    "cssnext":"^1.8.4"
   },
   "scripts": {
-    "css": "cssnext --no-color-rgba --no-rem ./src/sircus.css ./dist/sircus.css",
-    "css:min": "cssnano ./dist/sircus.css ./dist/sircus.min.css",
-    "build": "npm run css && npm run css:min",
+    "build": "node ./css.js",
     "start": "npm install && npm run build"
   }
 }
