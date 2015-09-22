@@ -1,11 +1,3 @@
-/*!
- * Sircus - Modular CSS Family.
- * @version v1.0.0-alpha.3
- * @link    http://sircus.blivesta.com
- * @author  Yasuyuki Enomoto
- * @license MIT
- */
-
 @import "sircus-elements-body";
 @import "sircus-elements-heading";
 @import "sircus-elements-image";
