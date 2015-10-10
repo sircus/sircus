@@ -4,26 +4,48 @@
 [![Build Status](https://img.shields.io/travis/sircus/sircus/master.svg?style=flat)](https://travis-ci.org/sircus/sircus)
 
 
-## Usage
+## Install
 
-```bash
+npm:
+```
 $ npm install sircus
 ```
 
-> using cssnext:
+bower:
+```
+$ bower install sircus
+```
 
+## Usage
+
+> Use [cssnext](http://cssnext.io/)
+
+Create `input.css`
 ```css
 @import "sircus";
 ```
 
-> using sass:
+Build
+```
+$ npm install cssnext
+$ cssnext input.css output.css
+```
+
+> if use sass([node-sass](https://github.com/sass/node-sass))
+
+Create `input.scss`
 
 ```css
 @import "node_modules/sircus/sass";
 ```
 
+```
+$ npm install node-sass
+$ node-sass input.scss output.css
+```
 
-##  1: Global Module
+## Modules
+###  1: Global Module
 
 - [sircus-global-property](https://github.com/sircus/global-property)
 
@@ -37,7 +59,7 @@ $ npm install sircus
 | `--g-*`  | `--g-primary-dark` |
 
 
-## 2: Elements Module
+### 2: Elements Module
 
 - [sircus-elements-body](https://github.com/sircus/elements-body)
 - [sircus-elements-heading](https://github.com/sircus/elements-heading)
@@ -52,7 +74,7 @@ $ npm install sircus
 `--elementsName-propertyName`
 
 
-## 3: Components Module
+### 3: Components Module
 
 - [sircus-components-alert](https://github.com/sircus/components-alert)
 - [sircus-components-button](https://github.com/sircus/components-button)
@@ -121,7 +143,7 @@ Inspired by [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/m
 ```html
 <a class="Button is-active"> </a>
 ```
-### State classies
+#### State classies
 
 > .is-[focus||active||disabled]
 
@@ -135,7 +157,7 @@ Inspired by [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/m
 
 
 
-## 4: Tools Module
+### 4: Tools Module
 
 - [sircus-tools-align](https://github.com/sircus/tools-align)
 - [sircus-tools-align-responsive](https://github.com/sircus/tools-align-responsive)
@@ -163,7 +185,7 @@ Inspired by [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/m
 | `none`   | `--gutter-size` |
 
 
-### Classies
+#### Classies
 
 `t-[sm-||md-||lg-]toolName`
 
@@ -208,6 +230,13 @@ Size level Suffix
 | *-nn or 0     | None            | 　    |
 
 
+## Development
+```
+$ git clone https://github.com/sircus/sircus.git
+$ cd sircus
+$ git checkout -b patch-1
+$ npm run start
+```
 
 ## Resources
 
