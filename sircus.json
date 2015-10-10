@@ -1,14 +1,14 @@
 {
-  "published": "2015-09-22T18:30:38.002Z",
+  "published": "2015-10-10T07:05:25.240Z",
   "paths": [
     "./dist/sircus.css"
   ],
   "stylesheets": 1,
   "styleElements": 0,
-  "size": 41845,
+  "size": 41839,
   "dataUriSize": 0,
   "ratioOfDataUriSize": 0,
-  "gzippedSize": 6150,
+  "gzippedSize": 6145,
   "rules": 611,
   "selectors": 736,
   "declarations": 788,
@@ -43,6 +43,7 @@
   ],
   "totalUniqueColors": 14,
   "uniqueColors": [
+    "#000000",
     "#00A47B",
     "#00CC99",
     "#1AB2FF",
@@ -50,7 +51,6 @@
     "#3B546C",
     "#575757",
     "#66CCFF",
-    "#898989",
     "#B5B5B5",
     "#D41C12",
     "#D9AD00",
