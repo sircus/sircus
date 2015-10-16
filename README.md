@@ -82,6 +82,7 @@ $ node-sass input.scss output.css
 - [sircus-components-button-size](https://github.com/sircus/components-button-size)
 - [sircus-components-button-reset](https://github.com/sircus/components-button-reset)
 - [sircus-components-container](https://github.com/sircus/components-container)
+- [sircus-components-flex](https://github.com/sircus/components-flex)
 - [sircus-components-fullembed](https://github.com/sircus/components-fullembed)
 - [sircus-components-form](https://github.com/sircus/components-form)
 - [sircus-components-form-size](https://github.com/sircus/components-form-size)
