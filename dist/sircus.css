@@ -300,6 +300,38 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 }
 
 .Container--slim { max-width: 48rem; }
+/*　sircus-components-flex
+======================================== */
+.Flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.Flex--nowrap       { -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+
+.Flex--center       { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+.Flex--right        { -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
+.Flex--left         { -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; }
+.Flex--justify      { -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+
+.Flex--top          { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.Flex--middle       { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+.Flex--bottom       { -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; }
+.Flex--baseline     { -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline; }
+
+
+.Flex-col {
+  box-sizing: border-box;
+}
+
+.Flex-col--fit   { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+.Flex-col--first { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1 }
+.Flex-col--last  { -webkit-box-ordinal-group: 10000; -webkit-order: 9999; -ms-flex-order: 9999; order: 9999 }
 /*　FullEmbed
 ======================================== */
 .FullEmbed {

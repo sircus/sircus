@@ -1,22 +1,22 @@
 {
-  "published": "2015-10-10T07:05:25.240Z",
+  "published": "2015-10-16T13:51:28.127Z",
   "paths": [
     "./dist/sircus.css"
   ],
   "stylesheets": 1,
   "styleElements": 0,
-  "size": 41839,
+  "size": 43578,
   "dataUriSize": 0,
   "ratioOfDataUriSize": 0,
-  "gzippedSize": 6145,
-  "rules": 611,
-  "selectors": 736,
-  "declarations": 788,
-  "simplicity": 0.8301630434782609,
-  "averageOfIdentifier": 1.111413043478261,
+  "gzippedSize": 6479,
+  "rules": 625,
+  "selectors": 750,
+  "declarations": 843,
+  "simplicity": 0.8333333333333334,
+  "averageOfIdentifier": 1.1093333333333333,
   "mostIdentifier": 4,
   "mostIdentifierSelector": ".Table tr:first-child th",
-  "averageOfCohesion": 1.2896890343698855,
+  "averageOfCohesion": 1.3488,
   "lowestCohesion": 22,
   "lowestCohesionSelector": [
     ".Button"
@@ -74,11 +74,11 @@
       "count": 52
     },
     {
-      "property": "padding-bottom",
+      "property": "margin-top",
       "count": 44
     },
     {
-      "property": "margin-top",
+      "property": "padding-bottom",
       "count": 44
     },
     {
@@ -90,19 +90,19 @@
       "count": 42
     },
     {
-      "property": "padding-top",
-      "count": 41
+      "property": "display",
+      "count": 42
     },
     {
-      "property": "display",
-      "count": 38
+      "property": "padding-top",
+      "count": 41
     },
     {
       "property": "vertical-align",
       "count": 31
     },
     {
-      "property": "color",
+      "property": "text-align",
       "count": 23
     }
   ],
