@@ -1,22 +1,22 @@
 {
-  "published": "2015-10-16T13:52:50.981Z",
+  "published": "2015-10-27T07:35:01.089Z",
   "paths": [
     "./dist/sircus.css"
   ],
   "stylesheets": 1,
   "styleElements": 0,
-  "size": 43578,
+  "size": 44076,
   "dataUriSize": 0,
   "ratioOfDataUriSize": 0,
-  "gzippedSize": 6479,
-  "rules": 625,
-  "selectors": 750,
-  "declarations": 843,
-  "simplicity": 0.8333333333333334,
-  "averageOfIdentifier": 1.1093333333333333,
+  "gzippedSize": 6527,
+  "rules": 629,
+  "selectors": 754,
+  "declarations": 857,
+  "simplicity": 0.8342175066312998,
+  "averageOfIdentifier": 1.1087533156498675,
   "mostIdentifier": 4,
   "mostIdentifierSelector": ".Table tr:first-child th",
-  "averageOfCohesion": 1.3488,
+  "averageOfCohesion": 1.3624801271860096,
   "lowestCohesion": 22,
   "lowestCohesionSelector": [
     ".Button"
@@ -62,12 +62,16 @@
   "universalSelectors": 0,
   "unqualifiedAttributeSelectors": 4,
   "javascriptSpecificSelectors": 0,
-  "importantKeywords": 562,
+  "importantKeywords": 578,
   "floatProperties": 13,
   "propertiesCount": [
     {
       "property": "width",
       "count": 134
+    },
+    {
+      "property": "display",
+      "count": 54
     },
     {
       "property": "padding",
@@ -87,10 +91,6 @@
     },
     {
       "property": "margin-bottom",
-      "count": 42
-    },
-    {
-      "property": "display",
       "count": 42
     },
     {

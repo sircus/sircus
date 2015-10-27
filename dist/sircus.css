@@ -1,5 +1,5 @@
 /*!
- * sircus v1.1.0
+ * sircus v1.2.0
  * Modular CSS Family.
  * https://github.com/sircus/sircus
  * License : MIT
@@ -300,13 +300,10 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 }
 
 .Container--slim { max-width: 48rem; }
+
 /*　sircus-components-flex
 ======================================== */
 .Flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
@@ -327,6 +324,8 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 
 .Flex-col {
   box-sizing: border-box;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
 }
 
 .Flex-col--fit   { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
@@ -638,9 +637,9 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 /*
  * sircus-tools-display
  ================================================== */
-
 .t-none        { display:none !important; }
 .t-block       { display:block !important; }
+.t-flex        { display:-webkit-box !important; display:-webkit-flex !important; display:-ms-flexbox !important; display:flex !important; }
 .t-inlineBlock { display:inline-block !important; }
 .t-inline      { display:inline !important; }
 .t-table       { display:table !important; }
@@ -648,10 +647,10 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 /*
  * sircus-tools-display-responsive(sm)
  ================================================== */
-
 @media (min-width: 40em) {
   .t-sm-none { display: none !important; }
   .t-sm-block { display: block !important; }
+  .t-sm-flex { display: -webkit-box !important; display: -webkit-flex !important; display: -ms-flexbox !important; display: flex !important; }
   .t-sm-inlineBlock { display: inline-block !important; }
   .t-sm-inline { display: inline !important; }
   .t-sm-table { display:table !important; }
@@ -660,10 +659,10 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 /*
  * sircus-tools-display-responsive(md)
  ================================================== */
-
 @media (min-width: 64em) {
   .t-md-none { display: none !important; }
   .t-md-block { display: block !important; }
+  .t-md-flex { display: -webkit-box !important; display: -webkit-flex !important; display: -ms-flexbox !important; display: flex !important; }
   .t-md-inlineBlock { display: inline-block !important; }
   .t-md-inline { display: inline !important; }
   .t-md-table { display:table !important; }
@@ -672,10 +671,10 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 /*
  * sircus-tools-display-responsive(lg)
  ================================================== */
-
 @media (min-width: 75em) {
   .t-lg-none { display: none !important; }
   .t-lg-block { display: block !important; }
+  .t-lg-flex { display: -webkit-box !important; display: -webkit-flex !important; display: -ms-flexbox !important; display: flex !important; }
   .t-lg-inlineBlock { display: inline-block !important; }
   .t-lg-inline { display: inline !important; }
   .t-lg-table { display:table !important; }
@@ -684,118 +683,96 @@ p, ul, ol, dl, hr, table, fieldset, figure, pre {
 /*
  * sircus-tools-gutter
  ================================================== */
-
 .t-gutter {
   padding-left: 0.75rem !important;
   padding-right: 0.75rem !important;
 }
-
 
 .t-gutterReset {
   margin-left: -0.75rem !important;
   margin-right: -0.75rem !important;
 }
 
-
 .t-gutter2x {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
 }
 
-
 .t-gutter2xReset {
-  padding-left: -1.5rem !important;
-  padding-right: -1.5rem !important;
+  margin-left: -1.5rem !important;
+  margin-right: -1.5rem !important;
 }
 /*
  * sircus-tools-gutter-responsive(sm)
  ================================================== */
-
 @media (min-width: 40em) {
-
   .t-sm-gutter {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
-
 
   .t-sm-gutterReset {
     margin-left: -0.75rem !important;
     margin-right: -0.75rem !important;
   }
 
-
   .t-sm-gutter2x {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
 
-
   .t-sm-gutter2xReset {
-    padding-left: -1.5rem !important;
-    padding-right: -1.5rem !important;
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
   }
-
 }
 /*
  * sircus-tools-gutter-responsive(md)
  ================================================== */
-
 @media (min-width: 64em) {
-
   .t-md-gutter {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
-
 
   .t-md-gutterReset {
     margin-left: -0.75rem !important;
     margin-right: -0.75rem !important;
   }
 
-
   .t-md-gutter2x {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
 
-
   .t-md-gutter2xReset {
-    padding-left: -1.5rem !important;
-    padding-right: -1.5rem !important;
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
   }
-
 }
 /*
  * sircus-tools-gutter-responsive(lg)
  ================================================== */
-
 @media (min-width: 75em) {
-
   .t-lg-gutter {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
-
 
   .t-lg-gutterReset {
     margin-left: -0.75rem !important;
     margin-right: -0.75rem !important;
   }
 
-
   .t-lg-gutter2x {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
 
-
   .t-lg-gutter2xReset {
-    padding-left: -1.5rem !important;
-    padding-right: -1.5rem !important;
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
   }
-
 }
 /*
  * sircus-tools-layout
