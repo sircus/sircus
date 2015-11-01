@@ -53,6 +53,7 @@
     "sircus-tools-align-responsive": "^1.0.1",
     "sircus-tools-border": "^0.0.0",
     "sircus-tools-border-responsive": "^0.0.0",
+    "sircus-tools-boxsizing": "^0.0.0",
     "sircus-variables": "^0.1.0"
   },
   "devDependencies": {
