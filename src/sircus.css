@@ -1,10 +1,4 @@
-@import "sircus-elements-body";
-@import "sircus-elements-heading";
-@import "sircus-elements-image";
-@import "sircus-elements-link";
-@import "sircus-elements-list";
-@import "sircus-elements-paragraph";
-@import "sircus-elements-space";
+@import "sircus-elements";
 
 @import "sircus-components-button";
 @import "sircus-components-button-fill";

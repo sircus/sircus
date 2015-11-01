@@ -34,13 +34,6 @@
     "sircus-components-grid": "^0.1.0",
     "sircus-components-list": "^0.0.1",
     "sircus-components-table": "^0.1.0",
-    "sircus-elements-body": "^0.2.0",
-    "sircus-elements-heading": "^0.2.0",
-    "sircus-elements-image": "^0.0.1",
-    "sircus-elements-link": "^0.0.1",
-    "sircus-elements-list": "^0.0.1",
-    "sircus-elements-paragraph": "^0.0.1",
-    "sircus-elements-space": "^0.0.1",
     "sircus-tools-align": "^0.0.2",
     "sircus-tools-align-responsive": "^0.0.3",
     "sircus-tools-clear": "^0.0.2",
@@ -57,6 +50,7 @@
     "sircus-tools-typography": "^0.0.0",
     "sircus-tools-width": "^0.1.0",
     "sircus-tools-width-responsive": "^0.1.0"
+    "sircus-elements": "^0.1.1",
     "sircus-variables": "^0.1.0"
   },
   "devDependencies": {
