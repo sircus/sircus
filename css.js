@@ -1,6 +1,6 @@
-var fs = require('fs');
-var cssnext = require('cssnext');
-var pkg = require('./package.json');
+var fs = require('fs')
+var cssnext = require('cssnext')
+var pkg = require('./package.json')
 
 var banner = [
 '/*!',
@@ -11,7 +11,7 @@ var banner = [
 ' * Author : ' + pkg.author.name + ' (' + pkg.author.url + ')',
 ' */',
 '',
-''].join('\n');
+''].join('\n')
 
 var src = fs.readFileSync('./src/sircus.css', 'utf8')
 
@@ -22,12 +22,12 @@ var features = {
 
 var css = banner + cssnext(src, {
   features: features
-});
+})
 
 var minify = banner + cssnext(src, {
   features: features,
   compress: true
-});
+})
 
 fs.writeFileSync('dist/sircus.css', css)
 fs.writeFileSync('dist/sircus.min.css', minify)
