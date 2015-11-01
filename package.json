@@ -28,8 +28,6 @@
     "sircus-components-button-size": "^1.0.0",
     "sircus-components-container": "0.2.0",
     "sircus-components-flex": "^0.1.0",
-    "sircus-tools-width": "^0.1.0",
-    "sircus-tools-width-responsive": "^0.1.0"
     "sircus-components-form": "^1.0.0",
     "sircus-components-form-size": "^1.0.0",
     "sircus-components-fullembed": "^0.0.2",
@@ -55,6 +53,8 @@
     "sircus-tools-space": "^1.0.0",
     "sircus-tools-space-responsive": "^1.0.0",
     "sircus-tools-typography": "^1.0.0",
+    "sircus-tools-width": "^1.0.0",
+    "sircus-tools-width-responsive": "^1.0.0",
     "sircus-variables": "^0.1.0"
   },
   "devDependencies": {
