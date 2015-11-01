@@ -54,6 +54,7 @@
     "sircus-tools-border": "^0.0.0",
     "sircus-tools-border-responsive": "^0.0.0",
     "sircus-tools-boxsizing": "^0.0.0",
+    "sircus-tools-color": "^0.1.0",
     "sircus-variables": "^0.1.0"
   },
   "devDependencies": {
