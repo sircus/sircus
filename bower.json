@@ -1,22 +1,22 @@
 {
   "name": "sircus",
-  "description": "Modular CSS For People Who Make Web Together.",
+  "description": "Flexible Modular CSS Family for Designing in the Browser.",
   "homepage": "https://github.com/sircus/sircus",
   "author": {
     "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "keywords": [
-    "modular",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "flexble",
+    "modular",
+    "scalable",
+    "responsive",
     "rwd"
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    ".*",
-    "node_modules"
+    ".*"
   ]
 }
