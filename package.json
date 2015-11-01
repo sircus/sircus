@@ -59,12 +59,12 @@
   },
   "devDependencies": {
     "cssnext":"^1.8.4",
-    "node-sass":"^3.4.1",
+    "node-sass":"^3.4.1"
   },
   "scripts": {
     "build:sass": "node-sass ./_sass.scss ~sass.css",
     "build:css": "node ./css.js",
-    "build": "npm run build:css && npm run build:sass && npm run stats",
+    "build": "npm run build:css && npm run build:sass",
     "start": "npm install && npm run build"
   }
 }
