@@ -1,5 +1,5 @@
 /*!
- * sircus v1.2.0
+ * sircus v2.0.0
  * Flexible Modular CSS Family for Designing in the Browser.
  * https://github.com/sircus/sircus
  * License : MIT
@@ -47,15 +47,16 @@ img {
   display: inline-block;
 }
 
-
 a {
   color: #1069C2;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
   color: #0C4F92;
+  text-decoration: underline;
 }
 
 
