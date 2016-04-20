@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Flexible Modular CSS Family for Designing in the Browser.",
   "homepage": "https://github.com/sircus/sircus",
+  "style":"index.css",
   "license":"MIT",
   "author": {
     "name": "blivesta",
@@ -58,13 +59,10 @@
     "sircus-variables": "^0.1.0"
   },
   "devDependencies": {
-    "cssnext":"^1.8.4",
-    "node-sass":"^3.4.1"
+    "cssnext":"^1.8.4"
   },
   "scripts": {
-    "build:sass": "node-sass ./_sass.scss ~sass.css",
-    "build:css": "node ./css.js",
-    "build": "npm run build:css && npm run build:sass",
+    "build": "node ./css.js",
     "start": "npm install && npm run build"
   }
 }
