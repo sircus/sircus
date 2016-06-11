@@ -1,0 +1,15 @@
+@media (--g-viewport-lg) {
+  .t-lg-alignLeft       { text-align: left; }
+  .t-lg-alignRight      { text-align: right; }
+  .t-lg-alignCenter     { text-align: center; }
+  .t-lg-alignJustify    { text-align: justify; text-justify: inter-ideograph; }
+
+  .t-lg-alignBaseline   { vertical-align: baseline; }
+  .t-lg-alignTop        { vertical-align: top; }
+  .t-lg-alignMiddle     { vertical-align: middle; }
+  .t-lg-alignBottom     { vertical-align: bottom; }
+  .t-lg-alignTextTop    { vertical-align: text-top; }
+  .t-lg-alignTextBottom { vertical-align: text-bottom; }
+  .t-lg-alignSuper      { vertical-align: super; }
+  .t-lg-alignSub        { vertical-align: sub; }
+}

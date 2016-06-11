@@ -4,7 +4,7 @@
 
 ## Installation
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-align
@@ -12,15 +12,13 @@ $ npm install sircus-tools-align
 
 ## Usage
 
-> cssnext:
+CSS
 
-input.css
 ```css
-@import "sircus-tools-align"
+@import "sircus-tools-align";
 ```
 
-
-> html
+html
 
 ```html
 <p class="t-alignLeft">...</p>
@@ -37,6 +35,22 @@ input.css
 <span class="t-alignTextBottom">...</span>
 ```
 
+### Responsive classes
+
+```css
+@import "sircus-tools-align/responsive";
+/*  OR  */
+@import "sircus-tools-align/sm";
+@import "sircus-tools-align/md";
+@import "sircus-tools-align/lg";
+```
+e.g:
+
+```html
+<p class="t-sm-alignLeft">...</p>
+<p class="t-md-alignLeft">...</p>
+<p class="t-lg-alignLeft">...</p>
+```
 
 ## License
 Released under the MIT license.

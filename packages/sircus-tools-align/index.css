@@ -1,16 +1,1 @@
-/*
- * sircus-tools-align
- ================================================== */
-.t-alignLeft       { text-align: left; }
-.t-alignRight      { text-align: right; }
-.t-alignCenter     { text-align: center; }
-.t-alignJustify    { text-align: justify; text-justify: inter-ideograph; }
-
-.t-alignTop        { vertical-align: top; }
-.t-alignMiddle     { vertical-align: middle; }
-.t-alignBottom     { vertical-align: bottom; }
-.t-alignBaseline   { vertical-align: baseline; }
-.t-alignTextTop    { vertical-align: text-top; }
-.t-alignTextBottom { vertical-align: text-bottom; }
-.t-alignSuper      { vertical-align: super; }
-.t-alignSub        { vertical-align: sub; }
+@import "./lib/align";
