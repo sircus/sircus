@@ -1,26 +1,17 @@
 /*
  * sircus-tools-width
  ================================================== */
-.t-width1of12  { width: 8.33333333%; }
-.t-width1of10  { width: 10%; }
-.t-width2of12  { width: 16.66666667%; }
-.t-width2of10  { width: 20%; }
-.t-width3of12  { width: 25%; }
-.t-width3of10  { width: 30%; }
-.t-width4of12  { width: 33.33333333%; }
-.t-width4of10  { width: 40%; }
-.t-width5of12  { width: 41.66666667%; }
-.t-width5of10,
+.t-width1of12  { width: calc((1 / 12) * 100)%; }
+.t-width2of12  { width: calc((2 / 12) * 100)%; }
+.t-width3of12  { width: calc((3 / 12) * 100)%; }
+.t-width4of12  { width: calc((4 / 12) * 100)%; }
+.t-width5of12  { width: calc((5 / 12) * 100)%; }
 .t-width6of12,
-.t-widthHalf   { width: 50%; }
-.t-width7of12  { width: 58.33333333%; }
-.t-width6of10,
-.t-width9of12  { width: 60%; }
-.t-width8of12  { width: 66.66666667%; }
-.t-width7of10  { width: 70%; }
-.t-width9of12  { width: 75%; }
-.t-width8of10  { width: 80%; }
-.t-width10of12 { width: 83.33333333%; }
-.t-width9of10  { width: 90%;}
-.t-width11of12 { width: 91.66666667%; }
-.t-widthFull   { width: 100%; }
+.t-widthHalf   { width: calc((6 / 12) * 100)%; }
+.t-width7of12  { width: calc((7 / 12) * 100)%; }
+.t-width8of12  { width: calc((8 / 12) * 100)%; }
+.t-width9of12  { width: calc((9 / 12) * 100)%; }
+.t-width10of12 { width: calc((10 / 12) * 100)%; }
+.t-width11of12 { width: calc((11 / 12) * 100)%; }
+.t-width12of12,
+.t-widthFull   { width: calc((12 / 12) * 100)%; }
