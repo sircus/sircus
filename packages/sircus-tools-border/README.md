@@ -20,48 +20,8 @@ input.css
 @import "sircus-variables";
 ```
 
-
 > html
 
-```html
-<div class="t-border">...</div>
-<div class="t-borderTop">...</div>
-<div class="t-borderLeft">...</div>
-<div class="t-borderBottom">...</div>
-<div class="t-borderRight">...</div>
-
-<div class="t-border2x">...</div>
-<div class="t-borderTop2x">...</div>
-<div class="t-borderLeft2x">...</div>
-<div class="t-borderBottom2x">...</div>
-<div class="t-borderRight2x">...</div>
-
-<div class="t-border3x">...</div>
-<div class="t-borderTop3x">...</div>
-<div class="t-borderLeft3x">...</div>
-<div class="t-borderBottom3x">...</div>
-<div class="t-borderRight3x">...</div>
-
-<div class="t-border4x">...</div>
-<div class="t-borderTop4x">...</div>
-<div class="t-borderLeft4x">...</div>
-<div class="t-borderBottom4x">...</div>
-<div class="t-borderRight4x">...</div>
-
-<div class="t-border0">...</div>
-<div class="t-borderTop0">...</div>
-<div class="t-borderLeft0">...</div>
-<div class="t-borderBottom0">...</div>
-<div class="t-borderRight0">...</div>
-
-<div class="t-borderRadius">...</div>
-<div class="t-borderRadiusSm">...</div>
-<div class="t-borderRadiusMd">...</div>
-<div class="t-borderRadiusLg">...</div>
-<div class="t-borderRadiusXl">...</div>
-```
-
-width `sircus-tools-border`
 ```html
 <p class="t-border t-borderGray90">...</p>
 <p class="t-border t-borderGray80">...</p>
@@ -91,7 +51,6 @@ width `sircus-tools-border`
 <div class="t-border t-borderError">...</div>
 <div class="t-border t-borderErrorLight">...</div>
 ```
-
 
 ## License
 Released under the MIT license.

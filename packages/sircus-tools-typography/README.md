@@ -2,17 +2,12 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-typography.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-typography)
 
-
-## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
-
-
 ## Installation
 
 > npm:
 
 ```bash
-$ npm install sircus-tools-typography sircus-global-property
+$ npm install sircus-tools-typography sircus-variables
 ```
 
 ## Usage
@@ -22,7 +17,7 @@ $ npm install sircus-tools-typography sircus-global-property
 input.css
 ```css
 @import "sircus-tools-typography";
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > html
