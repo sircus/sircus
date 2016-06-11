@@ -12,11 +12,31 @@
 }
 
 .t-gutter2x {
-  padding-left: calc(var(--g-gutter2x));
-  padding-right: calc(var(--g-gutter2x));
+  padding-left: calc(var(--g-gutter) * 2);
+  padding-right: calc(var(--g-gutter) * 2);
 }
 
 .t-gutter2xReset {
-  margin-left: calc(0 - var(--g-gutter2x));
-  margin-right: calc(0 - var(--g-gutter2x));
+  margin-left: calc(0 - (var(--g-gutter) * 2));
+  margin-right: calc(0 - (var(--g-gutter) * 2));
+}
+
+.t-gutter3x {
+  padding-left: calc(var(--g-gutter) * 3);
+  padding-right: calc(var(--g-gutter) * 3);
+}
+
+.t-gutter3xReset {
+  margin-left: calc(0 - (var(--g-gutter) * 3));
+  margin-right: calc(0 - (var(--g-gutter) * 3));
+}
+
+.t-gutter4x {
+  padding-left: calc(var(--g-gutter) * 4);
+  padding-right: calc(var(--g-gutter) * 4);
+}
+
+.t-gutter4xReset {
+  margin-left: calc(0 - (var(--g-gutter) * 4));
+  margin-right: calc(0 - (var(--g-gutter) * 4));
 }
