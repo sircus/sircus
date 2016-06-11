@@ -1,33 +1,34 @@
 :root {
-  --g-gray-90:  #212121;
-  --g-gray-80:  #424242;
-  --g-gray-60:  #757575;
-  --g-gray-40:  #BDBDBD;
-  --g-gray-30:  #DDDDDD;
-  --g-gray-20:  #EEEEEE;
-  --g-gray-10:  #F5F5F5;
-  --g-gray-5:   #FAFAFA;
+  --g-gray-90: color(#000 lightness(10%));
+  --g-gray-80: color(#000 lightness(20%));
+  --g-gray-70: color(#000 lightness(30%));
+  --g-gray-60: color(#000 lightness(40%));
+  --g-gray-50: color(#000 lightness(50%));
+  --g-gray-40: color(#000 lightness(60%));
+  --g-gray-30: color(#000 lightness(70%));
+  --g-gray-20: color(#000 lightness(80%));
+  --g-gray-10: color(#000 lightness(90%));
+  --g-gray-5: color(#000 lightness(95%));
 
-  --g-primary:         #1069C2;
-  --g-primary-dark:    #0C4F92;
-  --g-primary-light:   #C3D9F0;
+  --g-primary: #1069c2;
+  --g-primary-dark: color(var(--g-primary) lightness(30%));
+  --g-primary-light: color(var(--g-primary) lightness(90%));
 
-  --g-success:         #00CC99;
-  --g-success-dark:    #00A47B;
-  --g-success-light:   #CCF5EB;
+  --g-success: #00cc99;
+  --g-success-dark: color(var(--g-success) lightness(30%));
+  --g-success-light: color(var(--g-success) lightness(90%));
 
-  --g-notice:          #66CCFF;
-  --g-notice-dark:     #1AB2FF;
-  --g-notice-light:    #E1F5FF;
+  --g-notice: #66ccff;
+  --g-notice-dark: color(var(--g-notice) lightness(40%));
+  --g-notice-light: color(var(--g-notice) lightness(90%));
 
-  --g-warning:         #FFCC00;
-  --g-warning-dark:    #D9AD00;
-  --g-warning-light:   #FFF5CC;
+  --g-warning: #ffcc00;
+  --g-warning-dark: color(var(--g-warning) lightness(40%));
+  --g-warning-light: color(var(--g-warning) lightness(90%));
 
-  --g-error:           #EF4C43;
-  --g-error-dark:      #D41C12;
-  --g-error-light:     #FCDBD9;
-
+  --g-error: #ef4c43;
+  --g-error-dark: color(var(--g-error) lightness(40%));
+  --g-error-light: color(var(--g-error) lightness(90%));
 
   --g-space-gt: 5rem;
   --g-space-hg: 4rem;
@@ -86,7 +87,6 @@
   --g-fontSize-xs: .75rem;
   --g-fontSize: var(--g-fontSize-md);
 
-
   --g-fontWeight-normal: 400;
   --g-fontWeight-bold: 700;
   --g-fontWeight-lighter: 200;
@@ -114,7 +114,6 @@
   --g-controls-spaceH: 1rem;
   --g-controls-spaceV-sm: .125rem;
   --g-controls-spaceH-sm: .5rem;
-
 }
 
 @custom-media --g-viewport-sm (min-width: 40em);
