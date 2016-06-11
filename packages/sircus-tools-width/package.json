@@ -2,6 +2,9 @@
   "name": "sircus-tools-width",
   "version": "1.0.0",
   "description": "Module For CSS Column Width.",
+  "dependencies": {
+    "sircus-variables": "^0.1.0"
+  },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-width",
   "homepage": "http://sircus.github.io",
   "author": {

@@ -1,0 +1,16 @@
+@media (--g-viewport-md) {
+  .t-md-width1of12  { width: calc((1 / 12) * 100)%; }
+  .t-md-width2of12  { width: calc((2 / 12) * 100)%; }
+  .t-md-width3of12  { width: calc((3 / 12) * 100)%; }
+  .t-md-width4of12  { width: calc((4 / 12) * 100)%; }
+  .t-md-width5of12  { width: calc((5 / 12) * 100)%; }
+  .t-md-width6of12,
+  .t-md-widthHalf   { width: calc((6 / 12) * 100)%; }
+  .t-md-width7of12  { width: calc((7 / 12) * 100)%; }
+  .t-md-width8of12  { width: calc((8 / 12) * 100)%; }
+  .t-md-width9of12  { width: calc((9 / 12) * 100)%; }
+  .t-md-width10of12 { width: calc((10 / 12) * 100)%; }
+  .t-md-width11of12 { width: calc((11 / 12) * 100)%; }
+  .t-md-width12of12,
+  .t-md-widthFull   { width: calc((12 / 12) * 100)%; }
+}
