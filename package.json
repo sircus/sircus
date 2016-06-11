@@ -24,13 +24,9 @@
   },
   "dependencies": {
     "sircus-components-button": "^1.0.0",
-    "sircus-components-button-fill": "^1.0.0",
-    "sircus-components-button-reset": "^1.0.0",
-    "sircus-components-button-size": "^1.0.0",
     "sircus-components-container": "0.2.0",
     "sircus-components-flex": "^0.1.0",
     "sircus-components-form": "^1.0.0",
-    "sircus-components-form-size": "^1.0.0",
     "sircus-components-fullembed": "^0.0.2",
     "sircus-components-grid": "0.2.0",
     "sircus-components-list": "0.1.1",
