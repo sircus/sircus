@@ -2,6 +2,9 @@
   "name": "sircus-tools-height",
   "description": "Module For CSS box Height.",
   "version": "0.0.0",
+  "dependencies": {
+    "sircus-variables": "^0.1.0"
+  },
   "repository": "https://github.com/sircus/sircus/tree/master/modules/sircus-tools-height",
   "homepage": "http://sircus.github.io",
   "author": {
