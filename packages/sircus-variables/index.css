@@ -45,7 +45,6 @@
   --g-space-mi: .25rem;
   --g-space: var(--g-space-md);
 
-
   --g-borderRadius-xl: 8px;
   --g-borderRadius-lg: 6px;
   --g-borderRadius-md: 4px;
@@ -98,12 +97,10 @@
   --g-fontWeight-bold: 700;
   --g-fontWeight-lighter: 200;
 
-
   --g-borderColor: var(--g-gray-30);
   --g-borderStyle: solid;
   --g-borderSize : 1px;
   --g-border: var(--g-borderSize) var(--g-borderStyle) var(--g-borderColor);
-
 
   --g-controls-color: var(--g-gray-40);
   --g-controls-borderSize: .0625rem;

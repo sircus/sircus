@@ -12,7 +12,6 @@
 .t-maHg   { margin: var(--g-space-hg); }
 .t-maGt   { margin: var(--g-space-gt); }
 
-
 .t-mt0    { margin-top: 0; }
 .t-mtMi   { margin-top: var(--g-space-mi); }
 .t-mtTn   { margin-top: var(--g-space-tn); }
@@ -23,7 +22,6 @@
 .t-mtXl   { margin-top: var(--g-space-xl); }
 .t-mtHg   { margin-top: var(--g-space-hg); }
 .t-mtGt   { margin-top: var(--g-space-gt); }
-
 
 .t-mb0    { margin-bottom: 0; }
 .t-mbMi   { margin-bottom: var(--g-space-mi); }
@@ -36,7 +34,6 @@
 .t-mbHg   { margin-bottom: var(--g-space-hg); }
 .t-mbGt   { margin-bottom: var(--g-space-gt); }
 
-
 .t-pa0    { padding: 0; }
 .t-paMi   { padding: var(--g-space-mi); }
 .t-paTn   { padding: var(--g-space-tn); }
@@ -48,7 +45,6 @@
 .t-paHg   { padding: var(--g-space-hg); }
 .t-paGt   { padding: var(--g-space-gt); }
 
-
 .t-pt0    { padding-top: 0; }
 .t-ptMi   { padding-top: var(--g-space-mi); }
 .t-ptTn   { padding-top: var(--g-space-tn); }
@@ -59,7 +55,6 @@
 .t-ptXl   { padding-top: var(--g-space-xl); }
 .t-ptHg   { padding-top: var(--g-space-hg); }
 .t-ptGt   { padding-top: var(--g-space-gt); }
-
 
 .t-pb0    { padding-bottom: 0; }
 .t-pbMi   { padding-bottom: var(--g-space-mi); }
