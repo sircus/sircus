@@ -1,0 +1,5 @@
+/*
+ * sircus-tools-boxsizing
+ ================================================== */
+.t-borderBox   { box-sizing: border-box; }
+.t-contentBox  { box-sizing: content-box; }

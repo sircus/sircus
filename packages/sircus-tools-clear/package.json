@@ -1,0 +1,12 @@
+{
+  "name": "sircus-tools-clear",
+  "description": "Module For CSS Clearfix.",
+  "version": "0.0.3",
+  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-clear",
+  "homepage": "http://sircus.github.io",
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT"
+}

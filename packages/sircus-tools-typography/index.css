@@ -1,0 +1,41 @@
+/*
+ * sircus-tools-typography
+ ================================================== */
+.t-decoNone      { text-decoration: none; }
+.t-underline     { text-decoration: underline; }
+.t-overline      { text-decoration: overline; }
+.t-through       { text-decoration: line-through; }
+
+.t-lowercase     { text-transform: lowercase; }
+.t-uppercase     { text-transform: uppercase; }
+.t-capitalize    { text-transform: capitalize; }
+
+.t-nowrap        { white-space: nowrap; }
+.t-pre           { white-space: pre; }
+
+.t-normal        { font-weight: normal; }
+.t-bold          { font-weight: bold; }
+.t-bolder        { font-weight: bolder; }
+.t-lighter       { font-weight: lighter; }
+
+.t-italic        { font-style: italic; }
+
+.t-enSans        { font-family: var(--g-fontFamily-sansEn); }
+.t-enSerif       { font-family: var(--g-fontFamily-serifEn);}
+.t-enMonospace   { font-family: var(--g-fontFamily-monospaceEn); }
+
+.t-jaSans        { font-family: var(--g-fontFamily-sansJa); }
+.t-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
+.t-jaMonospace   { font-family: var(--g-fontFamily-monospaceJa); }
+
+.t-fontGt        { font-size: var(--g-fontSize-gt); }
+.t-fontHg        { font-size: var(--g-fontSize-hg); }
+.t-fontXl        { font-size: var(--g-fontSize-xl); }
+.t-fontLg        { font-size: var(--g-fontSize-lg); }
+.t-fontMd        { font-size: var(--g-fontSize-md); }
+.t-fontSm        { font-size: var(--g-fontSize-sm); }
+.t-fontXs        { font-size: var(--g-fontSize-xs); }
+
+.t-lineHeightSm  { line-height: var(--g-lineHeight-sm); }
+.t-lineHeightMd  { line-height: var(--g-lineHeight-md); }
+.t-lineHeightLg  { line-height: var(--g-lineHeight-lg); }
