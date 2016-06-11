@@ -1,0 +1,89 @@
+/*
+ * sircus-elements
+ ================================================== */
+:root {
+  --elementBody-fontFamily: var(--g-fontFamily);
+  --elementBody-fontSize: var(--g-fontSize);
+  --elementBody-lineHeight: var(--g-lineHeight);
+
+  --elementHeading-weight: var(--g-fontWeight-bold);
+  --elementHeading-marginTop: 1em;
+  --elementHeading-marginBottom: .5em;
+  --elementHeading-lineHeight: 1.2;
+  --elementHeading-fontSize-h1: var(--g-fontSize-hg);
+  --elementHeading-fontSize-h2: var(--g-fontSize-xl);
+  --elementHeading-fontSize-h3: var(--g-fontSize-lg);
+  --elementHeading-fontSize-h4: var(--g-fontSize-md);
+  --elementHeading-fontSize-h5: var(--g-fontSize-sm);
+  --elementHeading-fontSize-h6: var(--g-fontSize-xs);
+
+  --elementLink-color: var(--g-primary);
+  --elementLink-decoration: none;
+  --elementLink-decoration-hover: underline;
+  --elementLink-color-hover: var(--g-primary-dark);
+
+  --elementsSpace-marginTop: 0;
+  --elementsSpace-marginBottom: var(--g-space);
+}
+
+body {
+  font-family: var(--elementBody-fontFamily);
+  font-size: var(--elementBody-fontSize);
+  line-height: var(--elementBody-lineHeight);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--elementHeading-weight);
+  line-height: var(--elementHeading-lineHeight);
+  margin-top: var(--elementHeading-marginTop);
+  margin-bottom: var(--elementHeading-marginBottom);
+}
+
+h1 { font-size: var(--elementHeading-fontSize-h1); }
+h2 { font-size: var(--elementHeading-fontSize-h2); }
+h3 { font-size: var(--elementHeading-fontSize-h3); }
+h4 { font-size: var(--elementHeading-fontSize-h4); }
+h5 { font-size: var(--elementHeading-fontSize-h5); }
+h6 { font-size: var(--elementHeading-fontSize-h6); }
+
+img,
+svg {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  color: var(--elementLink-color);
+  text-decoration: var(--elementLink-decoration);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--elementLink-color-hover);
+  text-decoration: var(--elementLink-decoration-hover);
+}
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+fieldset,
+figure,
+blockquote,
+pre {
+  margin-top: var(--elementsSpace-marginTop);
+  margin-bottom: var(--elementsSpace-marginBottom);
+}

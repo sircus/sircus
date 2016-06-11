@@ -1,0 +1,15 @@
+{
+  "name": "sircus-elements",
+  "description": "Module for Base Elements.",
+  "version": "0.3.0",
+  "dependencies": {
+    "sircus-variables": "^0.1.0"
+  },
+  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-elements",
+  "homepage": "http://sircus.github.io",
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT"
+}
