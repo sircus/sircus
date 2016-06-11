@@ -76,8 +76,6 @@
   --g-letterSpacing: var(--g-letterSpaceing-md);
 
   --g-gutter: calc(var(--g-space) / 2);
-  --g-gutter2x: calc(var(--g-gutter) * 2);
-
 
   --g-fontFamily-sansEn: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --g-fontFamily-sansJa: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
