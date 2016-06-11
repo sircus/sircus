@@ -61,14 +61,12 @@
   --g-lineHeight-xs: 1.1;
   --g-lineHeight: var(--g-lineHeight-md);
 
-
-  --g-letterSpace-xl: .1em;
-  --g-letterSpace-lg: .05em;
-  --g-letterSpace-md: 0;
-  --g-letterSpace-sm: calc(0 - .04em);
-  --g-letterSpace-xs: calc(0 - .08em);
-  --g-letterSpace: var(--g-letterSpace-md);
-
+  --g-letterSpacing-xl: .3em;
+  --g-letterSpacing-lg: .15em;
+  --g-letterSpacing-md: 0;
+  --g-letterSpacing-sm: calc(0 - .04em);
+  --g-letterSpacing-xs: calc(0 - .08em);
+  --g-letterSpacing: var(--g-letterSpaceing-md);
 
   --g-gutter: calc(var(--g-space) / 2);
   --g-gutter2x: calc(var(--g-gutter) * 2);
