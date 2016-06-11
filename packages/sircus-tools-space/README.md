@@ -90,5 +90,22 @@ input.css
 <div class="t-pbGt"></div>
 ```
 
+### Responsive classes
+
+```css
+@import "sircus-tools-space/responsive";
+/*  OR  */
+@import "sircus-tools-space/sm";
+@import "sircus-tools-space/md";
+@import "sircus-tools-space/lg";
+```
+e.g:
+
+```html
+<div class="t-sm-pb0">...</div>
+<div class="t-md-ptLg">...</div>
+<div class="t-lg-mt0">...</div>
+```
+
 ## License
 Released under the MIT license.
