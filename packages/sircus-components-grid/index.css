@@ -1,0 +1,47 @@
+:root {
+  --Grid-gutter: var(--g-gutter);
+  --Grid-col-fontSize: var(--g-fontSize);
+}
+
+/*　sircus-components-grid
+======================================== */
+
+.Grid {
+  font-size: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.Grid .Grid {
+  margin-left: calc(0 - var(--Grid-gutter));
+  margin-right: calc(0 - var(--Grid-gutter));
+}
+
+.Grid-col {
+  font-size: var(--Grid-col-fontSize);
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding-right: var(--Grid-gutter);
+  padding-left: var(--Grid-gutter);
+  text-align: left;
+  vertical-align: top;
+}
+
+/* .Grid--float */
+.Grid--float > .Grid-col {
+  float: left;
+}
+
+
+.Grid--center { text-align: center; }
+.Grid--right  { text-align: right; }
+.Grid--left   { text-align: left; }
+
+.Grid--top > .Grid-col     { vertical-align: top; }
+.Grid--middle > .Grid-col  { vertical-align: middle; }
+.Grid--bottom > .Grid-col  { vertical-align: bottom; }

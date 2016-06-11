@@ -1,0 +1,15 @@
+{
+  "name": "sircus-components-grid",
+  "description": "Module For CSS inline-block Grid.",
+  "version": "0.2.0",
+  "dependencies": {
+    "sircus-variables": "^0.1.0"
+  },
+  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-components-grid",
+  "homepage": "http://sircus.github.io",
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT"
+}

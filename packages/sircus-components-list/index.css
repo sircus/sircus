@@ -1,0 +1,43 @@
+:root {
+  --ListInline-gutter: var(--g-gutter);
+}
+
+/*　sircus-components-list
+======================================== */
+.List {
+  padding-left: var(--g-space);
+}
+
+.List ul,
+.List ol {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+ul.List {
+  list-style: circle;
+}
+
+.ListInline,
+.ListReset,
+.ListReset ul,
+.ListReset ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+.ListInline {
+  margin-left: calc(0 - var(--ListInline-gutter));
+  margin-right: calc(0 - var(--ListInline-gutter));
+}
+
+.ListInline > li {
+  display: inline-block;
+  padding-left: var(--ListInline-gutter);
+  padding-right: var(--ListInline-gutter);
+}
+
+.ListReset ul,
+.ListReset ol {
+  margin-bottom: 0;
+}

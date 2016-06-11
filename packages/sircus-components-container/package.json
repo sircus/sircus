@@ -1,0 +1,12 @@
+{
+  "name": "sircus-components-container",
+  "description": "Module For Responsive Container.",
+  "version": "0.2.0",
+  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-components-container",
+  "homepage": "http://sircus.github.io",
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT"
+}
