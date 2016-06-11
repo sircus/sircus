@@ -7,7 +7,7 @@
 > npm:
 
 ```bash
-$ npm install sircus-variables sircus-tools-border sircus-tools-color
+$ npm install sircus-variables sircus-tools-border
 ```
 
 ## Usage
@@ -17,7 +17,6 @@ $ npm install sircus-variables sircus-tools-border sircus-tools-color
 input.css
 ```css
 @import "sircus-tools-border";
-@import "sircus-tools-color";
 @import "sircus-variables";
 ```
 
