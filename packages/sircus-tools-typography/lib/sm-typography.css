@@ -1,0 +1,86 @@
+@media (--g-viewport-sm) {
+  .t-sm-colorWhite           { color: #FFF; }
+  .t-sm-colorBlack           { color: #000; }
+
+  .t-sm-colorGray90          { color: var(--g-gray-90); }
+  .t-sm-colorGray80          { color: var(--g-gray-80); }
+  .t-sm-colorGray70          { color: var(--g-gray-70); }
+  .t-sm-colorGray60          { color: var(--g-gray-60); }
+  .t-sm-colorGray50          { color: var(--g-gray-50); }
+  .t-sm-colorGray40          { color: var(--g-gray-40); }
+  .t-sm-colorGray30          { color: var(--g-gray-30); }
+  .t-sm-colorGray20          { color: var(--g-gray-20); }
+  .t-sm-colorGray10          { color: var(--g-gray-10); }
+  .t-sm-colorGray5           { color: var(--g-gray-5); }
+
+  .t-sm-colorPrimary         { color: var(--g-primary); }
+  .t-sm-colorPrimaryDark     { color: var(--g-primary-dark); }
+  .t-sm-colorPrimaryLight    { color: var(--g-primary-light); }
+
+  .t-sm-colorSecondary       { color: var(--g-secondary); }
+  .t-sm-colorSecondaryDark   { color: var(--g-secondary-dark); }
+  .t-sm-colorSecondaryLight  { color: var(--g-secondary-light); }
+
+  .t-sm-colorSuccess         { color: var(--g-success); }
+  .t-sm-colorSuccessDark     { color: var(--g-success-dark); }
+  .t-sm-colorSuccessLight    { color: var(--g-success-light); }
+
+  .t-sm-colorNotice          { color: var(--g-notice); }
+  .t-sm-colorNoticeDark      { color: var(--g-notice-dark); }
+  .t-sm-colorNoticeLight     { color: var(--g-notice-light); }
+
+  .t-sm-colorWarning         { color: var(--g-warning); }
+  .t-sm-colorWarningDark     { color: var(--g-warning-dark); }
+  .t-sm-colorWarningLight    { color: var(--g-warning-light); }
+
+  .t-sm-colorError           { color: var(--g-error); }
+  .t-sm-colorErrorDark       { color: var(--g-error-dark); }
+  .t-sm-colorErrorLight      { color: var(--g-error-light); }
+
+  .t-sm-decoNone      { text-decoration: none; }
+  .t-sm-underline     { text-decoration: underline; }
+  .t-sm-overline      { text-decoration: overline; }
+  .t-sm-through       { text-decoration: line-through; }
+
+  .t-sm-lowercase     { text-transform: lowercase; }
+  .t-sm-uppercase     { text-transform: uppercase; }
+  .t-sm-capitalize    { text-transform: capitalize; }
+
+  .t-sm-nowrap        { white-space: nowrap; }
+  .t-sm-pre           { white-space: pre; }
+
+  .t-sm-normal        { font-weight: normal; }
+  .t-sm-bold          { font-weight: bold; }
+  .t-sm-bolder        { font-weight: bolder; }
+  .t-sm-lighter       { font-weight: lighter; }
+
+  .t-sm-italic        { font-style: italic; }
+
+  .t-sm-enSans        { font-family: var(--g-fontFamily-sansEn); }
+  .t-sm-enSerif       { font-family: var(--g-fontFamily-serifEn);}
+  .t-sm-enMonospace   { font-family: var(--g-fontFamily-monospaceEn); }
+
+  .t-sm-jaSans        { font-family: var(--g-fontFamily-sansJa); }
+  .t-sm-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
+  .t-sm-jaMonospace   { font-family: var(--g-fontFamily-monospaceJa); }
+
+  .t-sm-fontGt        { font-size: var(--g-fontSize-gt); }
+  .t-sm-fontHg        { font-size: var(--g-fontSize-hg); }
+  .t-sm-fontXl        { font-size: var(--g-fontSize-xl); }
+  .t-sm-fontLg        { font-size: var(--g-fontSize-lg); }
+  .t-sm-fontMd        { font-size: var(--g-fontSize-md); }
+  .t-sm-fontSm        { font-size: var(--g-fontSize-sm); }
+  .t-sm-fontXs        { font-size: var(--g-fontSize-xs); }
+
+  .t-sm-lineHeightXs  { line-height: var(--g-lineHeight-xs); }
+  .t-sm-lineHeightSm  { line-height: var(--g-lineHeight-sm); }
+  .t-sm-lineHeightMd  { line-height: var(--g-lineHeight-md); }
+  .t-sm-lineHeightLg  { line-height: var(--g-lineHeight-lg); }
+  .t-sm-lineHeightXl  { line-height: var(--g-lineHeight-xl); }
+
+  .t-sm-letterSpacingXs  { letter-spacing: var(--g-letterSpacing-xs); }
+  .t-sm-letterSpacingSm  { letter-spacing: var(--g-letterSpacing-sm); }
+  .t-sm-letterSpacingMd  { letter-spacing: var(--g-letterSpacing-md); }
+  .t-sm-letterSpacingLg  { letter-spacing: var(--g-letterSpacing-lg); }
+  .t-sm-letterSpacingXl  { letter-spacing: var(--g-letterSpacing-xl); }
+}
