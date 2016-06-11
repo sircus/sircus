@@ -1,0 +1,41 @@
+@media (--g-viewport-lg) {
+  .t-lg-gutter {
+    padding-left: var(--g-gutter);
+    padding-right: var(--g-gutter);
+  }
+
+  .t-lg-gutterReset {
+    margin-left: calc(0 - var(--g-gutter));
+    margin-right: calc(0 - var(--g-gutter));
+  }
+
+  .t-lg-gutter2x {
+    padding-left: calc(var(--g-gutter) * 2);
+    padding-right: calc(var(--g-gutter) * 2);
+  }
+
+  .t-lg-gutter2xReset {
+    margin-left: calc(0 - (var(--g-gutter) * 2));
+    margin-right: calc(0 - (var(--g-gutter) * 2));
+  }
+
+  .t-lg-gutter3x {
+    padding-left: calc(var(--g-gutter) * 3);
+    padding-right: calc(var(--g-gutter) * 3);
+  }
+
+  .t-lg-gutter3xReset {
+    margin-left: calc(0 - (var(--g-gutter) * 3));
+    margin-right: calc(0 - (var(--g-gutter) * 3));
+  }
+
+  .t-lg-gutter4x {
+    padding-left: calc(var(--g-gutter) * 4);
+    padding-right: calc(var(--g-gutter) * 4);
+  }
+
+  .t-lg-gutter4xReset {
+    margin-left: calc(0 - (var(--g-gutter) * 4));
+    margin-right: calc(0 - (var(--g-gutter) * 4));
+  }
+}
