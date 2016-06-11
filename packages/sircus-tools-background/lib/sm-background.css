@@ -1,0 +1,57 @@
+@media (--g-viewport-sm) {
+  .t-sm-bgWhite { background-color: #fff; }
+  .t-sm-bgBlack { background-color: #000; }
+  .t-sm-bgGray90 { background-color: var(--g-gray-90); }
+  .t-sm-bgGray80 { background-color: var(--g-gray-80); }
+  .t-sm-bgGray70 { background-color: var(--g-gray-70); }
+  .t-sm-bgGray60 { background-color: var(--g-gray-60); }
+  .t-sm-bgGray50 { background-color: var(--g-gray-50); }
+  .t-sm-bgGray40 { background-color: var(--g-gray-40); }
+  .t-sm-bgGray30 { background-color: var(--g-gray-30); }
+  .t-sm-bgGray20 { background-color: var(--g-gray-20); }
+  .t-sm-bgGray10 { background-color: var(--g-gray-10); }
+  .t-sm-bgGray5 { background-color: var(--g-gray-5); }
+
+  .t-sm-bgPrimary      { background-color: var(--g-primary); }
+  .t-sm-bgPrimaryDark  { background-color: var(--g-primary-dark); }
+  .t-sm-bgPrimaryLight { background-color: var(--g-primary-light); }
+
+  .t-sm-bgSecondary      { background-color: var(--g-secondary); }
+  .t-sm-bgSecondaryDark  { background-color: var(--g-secondary-dark); }
+  .t-sm-bgSecondaryLight { background-color: var(--g-secondary-light); }
+
+  .t-sm-bgSuccess      { background-color: var(--g-success); }
+  .t-sm-bgSuccessDark  { background-color: var(--g-success-dark); }
+  .t-sm-bgSuccessLight { background-color: var(--g-success-light); }
+
+  .t-sm-bgNotice      { background-color: var(--g-notice); }
+  .t-sm-bgNoticeDark  { background-color: var(--g-notice-dark); }
+  .t-sm-bgNoticeLight { background-color: var(--g-notice-light); }
+
+  .t-sm-bgWarning      { background-color: var(--g-warning); }
+  .t-sm-bgWarningDark  { background-color: var(--g-warning-dark); }
+  .t-sm-bgWarningLight { background-color: var(--g-warning-light); }
+
+  .t-sm-bgError      { background-color: var(--g-error); }
+  .t-sm-bgErrorDark  { background-color: var(--g-error-dark); }
+  .t-sm-bgErrorLight { background-color: var(--g-error-light); }
+
+  .t-sm-bgCover   { background-size: cover; }
+  .t-sm-bgContain { background-size: contain; }
+
+  .t-sm-bgCenter       { background-position: center center; }
+  .t-sm-bgCenterTop    { background-position: center top; }
+  .t-sm-bgCenterBottom { background-position: center bottom; }
+
+  .t-sm-bgLeft       { background-position: left center; }
+  .t-sm-bgLeftTop    { background-position: left top; }
+  .t-sm-bgLeftBottom { background-position: left bottom; }
+
+  .t-sm-bgRight       { background-position: right center; }
+  .t-sm-bgRightTop    { background-position: right top; }
+  .t-sm-bgRightBottom { background-position: right bottom; }
+
+  .t-sm-bgFixed { background-attachment: fixed; }
+
+  .t-sm-bgNoRepeat { background-repeat: no-repeat; }
+}
