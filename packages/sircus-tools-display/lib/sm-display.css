@@ -1,0 +1,9 @@
+@media (--g-viewport-sm) {
+  .t-sm-none        { display: none; }
+  .t-sm-block       { display: block; }
+  .t-sm-flex        { display: flex; }
+  .t-sm-inlineBlock { display: inline-block; }
+  .t-sm-inline      { display: inline; }
+  .t-sm-table       { display: table; }
+  .t-sm-tableCell   { display: table-cell; }
+}

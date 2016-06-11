@@ -4,7 +4,7 @@
 
 ## Installation
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-display
@@ -12,14 +12,13 @@ $ npm install sircus-tools-display
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-tools-display";
 ```
 
-> html
+html
 
 ```html
 <div class="t-none"></div>
@@ -29,6 +28,23 @@ input.css
 <div class="t-inline"></div>
 <div class="t-table"></div>
 <div class="t-tableCell"></div>
+```
+
+### Responsive classes
+
+```css
+@import "sircus-tools-display/responsive";
+/*  OR  */
+@import "sircus-tools-display/sm";
+@import "sircus-tools-display/md";
+@import "sircus-tools-display/lg";
+```
+e.g:
+
+```html
+<div class="t-sm-none">...</div>
+<div class="t-md-block">...</div>
+<div class="t-lg-inlineBlock">...</div>
 ```
 
 ## License
