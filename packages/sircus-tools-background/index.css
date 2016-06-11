@@ -1,0 +1,58 @@
+/*
+ * sircus-tools-backgrounds
+ ================================================== */
+.t-bgWhite { background-color: #fff; }
+.t-bgBlack { background-color: #000; }
+.t-bgGray90 { background-color: var(--g-gray-90); }
+.t-bgGray80 { background-color: var(--g-gray-80); }
+.t-bgGray70 { background-color: var(--g-gray-70); }
+.t-bgGray60 { background-color: var(--g-gray-60); }
+.t-bgGray50 { background-color: var(--g-gray-50); }
+.t-bgGray40 { background-color: var(--g-gray-40); }
+.t-bgGray30 { background-color: var(--g-gray-30); }
+.t-bgGray20 { background-color: var(--g-gray-20); }
+.t-bgGray10 { background-color: var(--g-gray-10); }
+.t-bgGray5 { background-color: var(--g-gray-5); }
+
+.t-bgPrimary      { background-color: var(--g-primary); }
+.t-bgPrimaryDark  { background-color: var(--g-primary-dark); }
+.t-bgPrimaryLight { background-color: var(--g-primary-light); }
+
+.t-bgSecondary      { background-color: var(--g-secondary); }
+.t-bgSecondaryDark  { background-color: var(--g-secondary-dark); }
+.t-bgSecondaryLight { background-color: var(--g-secondary-light); }
+
+.t-bgSuccess      { background-color: var(--g-success); }
+.t-bgSuccessDark  { background-color: var(--g-success-dark); }
+.t-bgSuccessLight { background-color: var(--g-success-light); }
+
+.t-bgNotice      { background-color: var(--g-notice); }
+.t-bgNoticeDark  { background-color: var(--g-notice-dark); }
+.t-bgNoticeLight { background-color: var(--g-notice-light); }
+
+.t-bgWarning      { background-color: var(--g-warning); }
+.t-bgWarningDark  { background-color: var(--g-warning-dark); }
+.t-bgWarningLight { background-color: var(--g-warning-light); }
+
+.t-bgError      { background-color: var(--g-error); }
+.t-bgErrorDark  { background-color: var(--g-error-dark); }
+.t-bgErrorLight { background-color: var(--g-error-light); }
+
+.t-bgCover   { background-size: cover; }
+.t-bgContain { background-size: contain; }
+
+.t-bgCenter       { background-position: center center; }
+.t-bgCenterTop    { background-position: center top; }
+.t-bgCenterBottom { background-position: center bottom; }
+
+.t-bgLeft       { background-position: left center; }
+.t-bgLeftTop    { background-position: left top; }
+.t-bgLeftBottom { background-position: left bottom; }
+
+.t-bgRight       { background-position: right center; }
+.t-bgRightTop    { background-position: right top; }
+.t-bgRightBottom { background-position: right bottom; }
+
+.t-bgFixed { background-attachment: fixed; }
+
+.t-bgNoRepeat { background-repeat: no-repeat; }
