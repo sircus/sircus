@@ -7,7 +7,7 @@
 npm:
 
 ```bash
-$ npm install sircus-tools-overflow
+$ npm install sircus-tools-overflow sircus-variables
 ```
 
 ## Usage

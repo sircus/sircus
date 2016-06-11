@@ -4,7 +4,7 @@
 
 ## Install
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-space sircus-variables
@@ -12,15 +12,14 @@ $ npm install sircus-tools-space sircus-variables
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-tools-space";
 @import "sircus-variables";
 ```
 
-> html
+html:
 
 ```html
 <div class="t-ma0"></div>

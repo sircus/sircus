@@ -7,30 +7,32 @@
 npm:
 
 ```bash
-$ npm install sircus-tools-align
+$ npm install sircus-tools-align sircus-variables
 ```
 
 ## Usage
 
-CSS
+CSS:
 
 ```css
 @import "sircus-tools-align";
+@import "sircus-variables";
 ```
 
 html
 
 ```html
+/* text-align */
 <p class="t-alignLeft">...</p>
 <p class="t-alignRight">...</p>
 <p class="t-alignCenter">...</p>
 <p class="t-alignJustify">...</p>
 
+/* vertical-align */
 <span class="t-alignBaseline">...</span>
 <span class="t-alignTop">...</span>
 <span class="t-alignMiddle">...</span>
 <span class="t-alignBottom">...</span>
-
 <span class="t-alignTextTop">...</span>
 <span class="t-alignTextBottom">...</span>
 ```

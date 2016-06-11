@@ -7,7 +7,7 @@
 npm:
 
 ```bash
-$ npm install sircus-tools-layout
+$ npm install sircus-tools-layout sircus-variables
 ```
 
 ## Usage
@@ -16,6 +16,7 @@ CSS:
 
 ```css
 @import "sircus-tools-layout";
+@import "sircus-variables";
 ```
 
 html:

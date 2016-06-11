@@ -4,7 +4,7 @@
 
 ## Installation
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-width
@@ -12,14 +12,13 @@ $ npm install sircus-tools-width
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-tools-width";
 ```
 
-> html
+html:
 
 ```html
 <div class="t-widthHalf"></div>

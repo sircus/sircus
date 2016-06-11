@@ -4,7 +4,7 @@
 
 ## Install
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-boxsizing
@@ -12,14 +12,13 @@ $ npm install sircus-tools-boxsizing
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-tools-boxsizing"
 ```
 
-> html
+html:
 
 ```html
 <div class="t-borderBox"></div>

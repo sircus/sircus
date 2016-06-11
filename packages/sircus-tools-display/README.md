@@ -18,7 +18,7 @@ CSS:
 @import "sircus-tools-display";
 ```
 
-html
+html:
 
 ```html
 <div class="t-none"></div>

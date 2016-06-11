@@ -4,7 +4,7 @@
 
 ## Install
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-variables sircus-tools-border
@@ -12,15 +12,14 @@ $ npm install sircus-variables sircus-tools-border
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-tools-border";
 @import "sircus-variables";
 ```
 
-> html
+html:
 
 ```html
 /* border */
@@ -112,9 +111,9 @@ input.css
 e.g:
 
 ```html
-<p class="t-sm-borderRadius">...</p>
-<p class="t-md-border2x">...</p>
-<p class="t-lg-border">...</p>
+<div class="t-sm-borderRadius">...</div>
+<div class="t-md-border2x">...</div>
+<div class="t-lg-border">...</div>
 ```
 
 ## License

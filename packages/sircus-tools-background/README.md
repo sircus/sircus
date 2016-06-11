@@ -12,7 +12,7 @@ $ npm install sircus-tools-background sircus-variables
 
 ## Usage
 
-CSS
+CSS:
 
 ```css
 @import "sircus-tools-background";
@@ -97,9 +97,9 @@ html
 e.g:
 
 ```html
-<p class="t-sm-bgCover">...</p>
-<p class="t-md-bgContain">...</p>
-<p class="t-lg-bgPrimary">...</p>
+<div class="t-sm-bgCover">...</div>
+<div class="t-md-bgContain">...</div>
+<div class="t-lg-bgPrimary">...</div>
 ```
 
 ## License

@@ -4,7 +4,7 @@
 
 ## Installation
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-clear
@@ -12,14 +12,13 @@ $ npm install sircus-tools-clear
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-tools-clear"
 ```
 
-> html
+html:
 
 ```html
 <div class="t-clear"></div>

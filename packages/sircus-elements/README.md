@@ -4,7 +4,7 @@
 
 ## Install
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-elements sircus-variables
@@ -12,9 +12,8 @@ $ npm install sircus-elements sircus-variables
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
 @import "sircus-elements";
 @import "sircus-variables";
