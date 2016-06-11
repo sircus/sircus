@@ -1,0 +1,122 @@
+:root {
+  --g-gray-90:  #212121;
+  --g-gray-80:  #424242;
+  --g-gray-60:  #757575;
+  --g-gray-40:  #BDBDBD;
+  --g-gray-30:  #DDDDDD;
+  --g-gray-20:  #EEEEEE;
+  --g-gray-10:  #F5F5F5;
+  --g-gray-5:   #FAFAFA;
+
+  --g-primary:         #1069C2;
+  --g-primary-dark:    #0C4F92;
+  --g-primary-light:   #C3D9F0;
+
+  --g-success:         #00CC99;
+  --g-success-dark:    #00A47B;
+  --g-success-light:   #CCF5EB;
+
+  --g-notice:          #66CCFF;
+  --g-notice-dark:     #1AB2FF;
+  --g-notice-light:    #E1F5FF;
+
+  --g-warning:         #FFCC00;
+  --g-warning-dark:    #D9AD00;
+  --g-warning-light:   #FFF5CC;
+
+  --g-error:           #EF4C43;
+  --g-error-dark:      #D41C12;
+  --g-error-light:     #FCDBD9;
+
+
+  --g-space-gt: 5rem;
+  --g-space-hg: 4rem;
+  --g-space-xl: 3rem;
+  --g-space-lg: 2rem;
+  --g-space-md: 1.5rem;
+  --g-space-sm: 1rem;
+  --g-space-xs: .75rem;
+  --g-space-tn: .5rem;
+  --g-space-mi: .25rem;
+  --g-space: var(--g-space-md);
+
+
+  --g-borderRadius-xl: 8px;
+  --g-borderRadius-lg: 6px;
+  --g-borderRadius-md: 4px;
+  --g-borderRadius-sm: 3px;
+  --g-borderRadius-xs: 2px;
+  --g-borderRadius: var(--g-borderRadius-md);
+
+
+  --g-lineHeight-xl: 2;
+  --g-lineHeight-lg: 1.8;
+  --g-lineHeight-md: 1.5;
+  --g-lineHeight-sm: 1.2;
+  --g-lineHeight-xs: 1.1;
+  --g-lineHeight: var(--g-lineHeight-md);
+
+
+  --g-letterSpace-xl: .1em;
+  --g-letterSpace-lg: .05em;
+  --g-letterSpace-md: 0;
+  --g-letterSpace-sm: calc(0 - .04em);
+  --g-letterSpace-xs: calc(0 - .08em);
+  --g-letterSpace: var(--g-letterSpace-md);
+
+
+  --g-gutter: calc(var(--g-space) / 2);
+  --g-gutter2x: calc(var(--g-gutter) * 2);
+
+
+  --g-fontFamily-sansEn: "Helvetica Neue", Helvetica, sans-serif;
+  --g-fontFamily-sansJa: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  --g-fontFamily-serifEn: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;
+  --g-fontFamily-serifJa: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  --g-fontFamily-monospaceEn: "Source Code Pro", Menlo, Consolas, monospace;
+  --g-fontFamily-monospaceJa: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+  --g-fontFamily: var(--g-fontFamily-sansEn);
+
+  --g-fontSize-gt: 3rem;
+  --g-fontSize-hg: 2rem;
+  --g-fontSize-xl: 1.5rem;
+  --g-fontSize-lg: 1.25rem;
+  --g-fontSize-md: 1rem;
+  --g-fontSize-sm: .875rem;
+  --g-fontSize-xs: .75rem;
+  --g-fontSize: var(--g-fontSize-md);
+
+
+  --g-fontWeight-normal: 400;
+  --g-fontWeight-bold: 700;
+  --g-fontWeight-lighter: 200;
+
+
+  --g-borderColor: var(--g-gray-30);
+  --g-borderStyle: solid;
+  --g-borderSize : 1px;
+  --g-border: var(--g-borderSize) var(--g-borderStyle) var(--g-borderColor);
+
+
+  --g-controls-color: var(--g-gray-40);
+  --g-controls-borderSize: .0625rem;
+  --g-controls-borderRadius: var(--g-borderRadius-md);
+  --g-controls-height-sm: calc(1.5rem - var(--g-controls-borderSize));
+  --g-controls-height-md: calc(2.25rem - var(--g-controls-borderSize));
+  --g-controls-height-lg: calc(3rem - var(--g-controls-borderSize));
+  --g-controls-height-xl: calc(3.75rem - var(--g-controls-borderSize));
+  --g-controls-height: var(--g-controls-height-md);
+  --g-controls-spaceV-xl: .75rem;
+  --g-controls-spaceH-xl: 3rem;
+  --g-controls-spaceV-lg: .5rem;
+  --g-controls-spaceH-lg: 2rem;
+  --g-controls-spaceV: .25rem;
+  --g-controls-spaceH: 1rem;
+  --g-controls-spaceV-sm: .125rem;
+  --g-controls-spaceH-sm: .5rem;
+
+}
+
+@custom-media --g-viewport-sm (min-width: 40em);
+@custom-media --g-viewport-md (min-width: 64em);
+@custom-media --g-viewport-lg (min-width: 75em);

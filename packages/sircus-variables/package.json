@@ -1,0 +1,12 @@
+{
+  "name": "sircus-variables",
+  "description": "Module for variable of the color and size,font,viewport.",
+  "version": "0.1.0",
+  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-variables",
+  "homepage": "http://sircus.github.io",
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT"
+}
