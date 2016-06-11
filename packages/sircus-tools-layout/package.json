@@ -2,6 +2,9 @@
   "name": "sircus-tools-layout",
   "description": "Tools Module For Layout.",
   "version": "1.0.0",
+  "dependencies": {
+    "sircus-variables": "^0.1.0"
+  },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-layout",
   "homepage": "http://sircus.github.io",
   "author": {

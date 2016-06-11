@@ -1,0 +1,22 @@
+@media (--g-viewport-sm) {
+  .t-sm-pullLeft   { float: left; }
+  .t-sm-pullRight  { float: right; }
+  .t-sm-pullNone   { float: none; }
+
+  .t-sm-center,
+  .t-sm-centerBlock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .t-sm-static     { position: static; }
+  .t-sm-absolute   { position: absolute; }
+  .t-sm-fixed      { position: fixed; }
+  .t-sm-relative   { position: relative; }
+
+  .t-sm-top0    { top: 0; }
+  .t-sm-bottom0 { bottom: 0; }
+  .t-sm-left0   { left: 0; }
+  .t-sm-right0  { right: 0; }
+}

@@ -1,0 +1,22 @@
+@media (--g-viewport-lg) {
+  .t-lg-pullLeft   { float: left; }
+  .t-lg-pullRight  { float: right; }
+  .t-lg-pullNone   { float: none; }
+
+  .t-lg-center,
+  .t-lg-centerBlock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .t-lg-static     { position: static; }
+  .t-lg-absolute   { position: absolute; }
+  .t-lg-fixed      { position: fixed; }
+  .t-lg-relative   { position: relative; }
+
+  .t-lg-top0    { top: 0; }
+  .t-lg-bottom0 { bottom: 0; }
+  .t-lg-left0   { left: 0; }
+  .t-lg-right0  { right: 0; }
+}
