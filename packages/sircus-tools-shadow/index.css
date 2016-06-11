@@ -1,10 +1,1 @@
-/*
- * sircus-tools-shadow
- ================================================== */
-.t-boxShadow   { box-shadow: var(--g-boxShadow) var(--g-boxShadow-color); }
-.t-boxShadowXs { box-shadow: var(--g-boxShadow-xs) var(--g-boxShadow-color); }
-.t-boxShadowSm { box-shadow: var(--g-boxShadow-sm) var(--g-boxShadow-color) }
-.t-boxShadowMd { box-shadow: var(--g-boxShadow-md) var(--g-boxShadow-color) }
-.t-boxShadowLg { box-shadow: var(--g-boxShadow-lg) var(--g-boxShadow-color) }
-.t-boxShadowXl { box-shadow: var(--g-boxShadow-xl) var(--g-boxShadow-color) }
-.t-boxShadow0  { box-shadow: none; }
+@import "./lib/shadow";
