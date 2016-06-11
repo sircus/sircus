@@ -1,14 +1,1 @@
-/*
- * sircus-tools-oveflow
- ================================================== */
-.t-overflowScroll  { overflow: scroll; }
-.t-overflow        { overflow: auto; }
-.t-overflowHidden  { overflow: hidden; }
-.t-overflowX {
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-.t-overflowY {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+@import "./lib/oveflow";

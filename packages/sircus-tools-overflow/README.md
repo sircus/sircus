@@ -4,7 +4,7 @@
 
 ## Installation
 
-> npm:
+npm:
 
 ```bash
 $ npm install sircus-tools-overflow
@@ -12,14 +12,14 @@ $ npm install sircus-tools-overflow
 
 ## Usage
 
-> cssnext:
+CSS:
 
-input.css
 ```css
-@import "sircus-tools-overflow"
+@import "sircus-tools-overflow";
+@import "sircus-variables";
 ```
 
-> html
+html:
 
 ```html
 <div class="t-overflow"></div>
@@ -27,6 +27,23 @@ input.css
 <div class="t-overflowY"></div>
 <div class="t-overflowScroll"></div>
 <div class="t-overflowHidden"></div>
+```
+
+### Responsive classes
+
+```css
+@import "sircus-tools-overflow/responsive";
+/*  OR  */
+@import "sircus-tools-overflow/sm";
+@import "sircus-tools-overflow/md";
+@import "sircus-tools-overflow/lg";
+```
+e.g:
+
+```html
+<div class="t-sm-overflow">...</div>
+<div class="t-md-overflowScroll">...</div>
+<div class="t-lg-overflowHidden">...</div>
 ```
 
 ## License
