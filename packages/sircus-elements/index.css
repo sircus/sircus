@@ -1,6 +1,3 @@
-/*
- * sircus-elements
- ================================================== */
 :root {
   --elementBody-fontFamily: var(--g-fontFamily);
   --elementBody-fontSize: var(--g-fontSize);
@@ -26,6 +23,9 @@
   --elementsSpace-marginBottom: var(--g-space);
 }
 
+/*
+ * sircus-elements
+ ================================================== */
 body {
   font-family: var(--elementBody-fontFamily);
   font-size: var(--elementBody-fontSize);

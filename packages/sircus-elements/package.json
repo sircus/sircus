@@ -5,7 +5,7 @@
   "dependencies": {
     "sircus-variables": "^0.1.0"
   },
-  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-elements",
+  "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-elements",
   "homepage": "http://sircus.github.io",
   "author": {
     "name": "blivesta",
