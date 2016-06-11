@@ -14,6 +14,10 @@
   --g-primary-dark: color(var(--g-primary) lightness(30%));
   --g-primary-light: color(var(--g-primary) lightness(90%));
 
+  --g-secondary: #df3c94;
+  --g-secondary-dark: color(var(--g-secondary) lightness(30%));
+  --g-secondary-light: color(var(--g-secondary) lightness(90%));
+
   --g-success: #00cc99;
   --g-success-dark: color(var(--g-success) lightness(30%));
   --g-success-light: color(var(--g-success) lightness(90%));
