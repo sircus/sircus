@@ -1,10 +1,17 @@
 /*
- * sircus-tools-shadow
+ * sircus-tools-width
  ================================================== */
-.t-boxShadow   { box-shadow: var(--g-boxShadow) var(--g-boxShadow-color); }
-.t-boxShadowXs { box-shadow: var(--g-boxShadow-xs) var(--g-boxShadow-color); }
-.t-boxShadowSm { box-shadow: var(--g-boxShadow-sm) var(--g-boxShadow-color) }
-.t-boxShadowMd { box-shadow: var(--g-boxShadow-md) var(--g-boxShadow-color) }
-.t-boxShadowLg { box-shadow: var(--g-boxShadow-lg) var(--g-boxShadow-color) }
-.t-boxShadowXl { box-shadow: var(--g-boxShadow-xl) var(--g-boxShadow-color) }
-.t-boxShadow0  { box-shadow: none; }
+.t-width1of12  { width: calc((1 / 12) * 100)%; }
+.t-width2of12  { width: calc((2 / 12) * 100)%; }
+.t-width3of12  { width: calc((3 / 12) * 100)%; }
+.t-width4of12  { width: calc((4 / 12) * 100)%; }
+.t-width5of12  { width: calc((5 / 12) * 100)%; }
+.t-width6of12,
+.t-widthHalf   { width: calc((6 / 12) * 100)%; }
+.t-width7of12  { width: calc((7 / 12) * 100)%; }
+.t-width8of12  { width: calc((8 / 12) * 100)%; }
+.t-width9of12  { width: calc((9 / 12) * 100)%; }
+.t-width10of12 { width: calc((10 / 12) * 100)%; }
+.t-width11of12 { width: calc((11 / 12) * 100)%; }
+.t-width12of12,
+.t-widthFull   { width: calc((12 / 12) * 100)%; }
