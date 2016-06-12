@@ -1,9 +1,9 @@
 {
   "name": "sircus-tools-align",
-  "description": "Module For CSS text-align and vertical-align.",
-  "version": "1.0.0",
+  "description": "Tools Module For CSS text-align and vertical-align.",
+  "version": "2.0.0",
   "dependencies": {
-    "sircus-variables": "^0.1.0"
+    "sircus-variables": "^1.0.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-align",
   "homepage": "http://sircus.github.io",
