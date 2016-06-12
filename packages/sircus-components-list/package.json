@@ -1,9 +1,9 @@
 {
   "name": "sircus-components-list",
-  "description": "Module For Lists Type Components.",
-  "version": "0.1.1",
+  "description": " Components Module for ul, ol Elements.",
+  "version": "1.0.0",
   "dependencies": {
-    "sircus-variables": "^0.1.0"
+    "sircus-variables": "^1.0.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-components-list",
   "homepage": "http://sircus.github.io",
