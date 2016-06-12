@@ -52,13 +52,13 @@
   --g-borderRadius-xs: 2px;
   --g-borderRadius: var(--g-borderRadius-md);
 
-  --g-boxShadow-color: color(#000 a(30%));
-  --g-boxShadow-xs: 0 1px 4px 1px;
-  --g-boxShadow-sm: 0 6px 10px 0;
-  --g-boxShadow-md: 0 13px 25px 0;
-  --g-boxShadow-lg: 0 20px 40px 0;
-  --g-boxShadow-xl: 0 27px 55px 0;
-  --g-boxShadow: var(--g-boxShadow-md);
+  --g-shadow-color: color(#000 a(30%));
+  --g-shadow-xs: 0 1px 4px 1px;
+  --g-shadow-sm: 0 6px 10px 0;
+  --g-shadow-md: 0 13px 25px 0;
+  --g-shadow-lg: 0 20px 40px 0;
+  --g-shadow-xl: 0 27px 55px 0;
+  --g-shadow: var(--g-shadow-md);
 
   --g-lineHeight-xl: 2;
   --g-lineHeight-lg: 1.8;
