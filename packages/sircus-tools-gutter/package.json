@@ -1,9 +1,9 @@
 {
   "name": "sircus-tools-gutter",
-  "description": "Tools Module For CSS Horizontal Gutter.",
-  "version": "1.0.0",
+  "description": "Tools Module For Horizontal Gutter.",
+  "version": "2.0.0",
   "dependencies": {
-    "sircus-variables": "^0.1.0"
+    "sircus-variables": "^1.0.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-gutter",
   "homepage": "http://sircus.github.io",
