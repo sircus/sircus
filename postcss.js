@@ -15,6 +15,7 @@ module.exports = {
     'postcss-custom-media',
     'postcss-calc',
     'postcss-color-function',
+    'css-mqpacker',
     'postcss-banner',
     'postcss-reporter'
   ],

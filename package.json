@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "csswring": "^5.0.0",
+    "css-mqpacker": "^5.0.1",
     "postcss-banner": "^1.2.0",
     "postcss-calc": "^5.2.1",
     "postcss-cli": "^2.5.2",
