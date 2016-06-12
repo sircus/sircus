@@ -41,9 +41,9 @@
     "postcss-reporter": "^1.3.0"
   },
   "scripts": {
-    "build": "mkdir -p dist && npm run css && npm run css:minify",
+    "build": "mkdir -p css && npm run css && npm run css:minify",
     "css": "postcss -c postcss.js",
-    "css:minify": "postcss -u csswring dist/sircus.css -o dist/sircus.min.css",
+    "css:minify": "postcss -u csswring css/sircus.css -o css/sircus.min.css",
     "dev": "postcss -c postcss.js -w",
     "start": "npm install && npm run build"
   },

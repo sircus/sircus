@@ -20,6 +20,6 @@ module.exports = {
     'postcss-reporter'
   ],
   'input': 'index.css',
-  'output': 'dist/sircus.css',
+  'output': 'css/sircus.css',
   'postcss-banner': { banner: banner },
 }
