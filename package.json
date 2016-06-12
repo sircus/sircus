@@ -30,7 +30,7 @@
     "postcss-banner": "^1.2.0",
     "postcss-calc": "^5.2.1",
     "postcss-cli": "^2.5.2",
-    "postcss-color-function": "^2.0.0'",
+    "postcss-color-function": "^2.0.0",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.1",
     "postcss-import": "^8.1.2",
