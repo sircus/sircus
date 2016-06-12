@@ -1,6 +1,6 @@
 {
   "name": "sircus-components-form",
-  "description": "Module For input and select elements.",
+  "description": "Components Module For input and select Elements.",
   "version": "2.0.0",
   "dependencies": {
     "sircus-variables": "^0.1.0"

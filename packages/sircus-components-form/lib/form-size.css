@@ -1,0 +1,34 @@
+:root {
+  --FormSize-padding-xl: var(--g-controls-spaceV-xl) var(--g-controls-spaceH);
+  --FormSize-padding-lg: var(--g-controls-spaceV-lg) var(--g-controls-spaceH);
+  --FormSize-padding-sm: var(--g-controls-spaceV-sm) var(--g-controls-spaceH);
+
+  --FormSize-fontSize-xl: var(--g-fontSize-xl);
+  --FormSize-fontSize-lg: var(--g-fontSize-lg);
+  --FormSize-fontSize-sm: var(--g-fontSize-sm);
+
+  --FormSize-height-xl: var(--g-controls-height-xl);
+  --FormSize-height-lg: var(--g-controls-height-lg);
+  --FormSize-height-sm: var(--g-controls-height-sm);
+}
+
+.Input--xl,
+.Select--xl {
+  font-size: var(--FormSize-fontSize-xl);
+  padding: var(--FormSize-padding-xl);
+  height: var(--FormSize-height-xl);
+}
+
+.Input--lg,
+.Select--lg {
+  font-size: var(--FormSize-fontSize-lg);
+  padding: var(--FormSize-padding-lg);
+  height: var(--FormSize-height-lg);
+}
+
+.Input--sm,
+.Select--sm {
+  font-size: var(--FormSize-fontSize-sm);
+  padding: var(--FormSize-padding-sm);
+  height: var(--FormSize-height-sm);
+}
