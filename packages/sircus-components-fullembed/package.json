@@ -1,7 +1,7 @@
 {
   "name": "sircus-components-fullembed",
-  "description": "Module For Fluid Width Video",
-  "version": "0.0.2",
+  "description": "Components Module For Fluid Width Video",
+  "version": "1.0.0",
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-components-fullembed",
   "homepage": "http://sircus.github.io/components-fullembed",
   "author": {
