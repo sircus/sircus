@@ -1,7 +1,7 @@
 {
   "name": "sircus-tools-overflow",
-  "description": "Tools Module For CSS Overflow Box.",
-  "version": "1.0.0",
+  "description": "Tools Module For CSS Overflow.",
+  "version": "2.0.0",
   "dependencies": {
     "sircus-variables": "^0.1.0"
   },
