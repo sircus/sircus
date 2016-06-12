@@ -1,9 +1,9 @@
 {
   "name": "sircus-components-table",
-  "description": "Module For Table Elements.",
-  "version": "0.3.0",
+  "description": "Components Module for table Elements.",
+  "version": "1.0.0",
   "dependencies": {
-    "sircus-variables": "^0.1.0"
+    "sircus-variables": "^1.0.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-components-table",
   "homepage": "http://sircus.github.io",
