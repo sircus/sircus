@@ -1,0 +1,109 @@
+:root {
+  --ButtonFill-color: #fff;
+  --ButtonFill-fill: #000;
+  --ButtonFill-primary-color: #fff;
+  --ButtonFill-primary-fill: var(--g-primary);
+  --ButtonFill-secondary-color: #fff;
+  --ButtonFill-secondary-fill: var(--g-secondary);
+  --ButtonFill-success-color: #fff;
+  --ButtonFill-success-fill: var(--g-success);
+  --ButtonFill-notice-color: #fff;
+  --ButtonFill-notice-fill: var(--g-notice);
+  --ButtonFill-warning-color: #fff;
+  --ButtonFill-warning-fill: var(--g-warning);
+  --ButtonFill-error-color: #fff;
+  --ButtonFill-error-fill: var(--g-error);
+}
+
+/*　fill  */
+.Button--fill {
+  background-color: var(--ButtonFill-fill);
+  color: var(--ButtonFill-color);
+}
+
+.Button--fill:hover,
+.Button--fill:focus,
+.Button--fill:active,
+.Button--fill.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-fill);
+  text-decoration: none;
+}
+
+.Button--fill.Button--primary {
+  background-color: var(--ButtonFill-primary-fill);
+  color: var(--ButtonFill-primary-color);
+}
+
+.Button--fill.Button--primary:hover,
+.Button--fill.Button--primary:focus,
+.Button--fill.Button--primary:active,
+.Button--fill.Button--primary.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-primary-fill);
+}
+
+.Button--fill.Button--secondary {
+  background-color: var(--ButtonFill-secondary-fill);
+  color: var(--ButtonFill-secondary-color);
+}
+
+.Button--fill.Button--secondary:hover,
+.Button--fill.Button--secondary:focus,
+.Button--fill.Button--secondary:active,
+.Button--fill.Button--secondary.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-secondary-fill);
+}
+
+.Button--fill.Button--success {
+  background-color: var(--ButtonFill-success-fill);
+  color: var(--ButtonFill-success-color);
+}
+
+.Button--fill.Button--success:hover,
+.Button--fill.Button--success:focus,
+.Button--fill.Button--success:active,
+.Button--fill.Button--success.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-success-fill);
+}
+
+.Button--fill.Button--notice {
+  background-color: var(--ButtonFill-notice-fill);
+  color: var(--ButtonFill-notice-color);
+}
+
+.Button--fill.Button--notice:hover,
+.Button--fill.Button--notice:focus,
+.Button--fill.Button--notice:active,
+.Button--fill.Button--notice.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-notice-fill);
+}
+
+.Button--fill.Button--warning {
+  background-color: var(--ButtonFill-warning-fill);
+  color: var(--ButtonFill-warning-color);
+}
+
+.Button--fill.Button--warning:hover,
+.Button--fill.Button--warning:focus,
+.Button--fill.Button--warning:active,
+.Button--fill.Button--warning.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-warning-fill);
+}
+
+.Button--fill.Button--error {
+  background-color: var(--ButtonFill-error-fill);
+  color: var(--ButtonFill-error-color);
+}
+
+.Button--fill.Button--error:hover,
+.Button--fill.Button--error:focus,
+.Button--fill.Button--error:active,
+.Button--fill.Button--error.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-error-fill);
+}

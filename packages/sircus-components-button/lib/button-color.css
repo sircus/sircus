@@ -1,0 +1,110 @@
+:root {
+  --Button-primary-color: var(--g-primary);
+  --Button-primary-fill: transparent;
+  --Button-primary-borderColor: var(--g-primary-dark);
+  --Button-secondary-color: var(--g-secondary);
+  --Button-secondary-fill: transparent;
+  --Button-secondary-borderColor: var(--g-secondary-dark);
+  --Button-success-color: var(--g-success);
+  --Button-success-fill: transparent;
+  --Button-success-borderColor: var(--g-success-dark);
+  --Button-notice-color: var(--g-notice);
+  --Button-notice-fill: transparent;
+  --Button-notice-borderColor: var(--g-notice-dark);
+  --Button-warning-color: var(--g-warning);
+  --Button-warning-fill: transparent;
+  --Button-warning-borderColor: var(--g-warning-dark);
+  --Button-error-color: var(--g-error);
+  --Button-error-fill: transparent;
+  --Button-error-borderColor: var(--g-error-dark);
+}
+
+.Button--primary {
+  background-color: var(--Button-primary-fill);
+  border-color: var(--Button-primary-borderColor);
+  color: var(--Button-primary-color);
+}
+
+.Button--primary:hover,
+.Button--primary:focus,
+.Button--primary:active,
+.Button--primary.is-active {
+  background-color: var(--Button-primary-color);
+  color: #fff;
+  border-color: var(--Button-primary-borderColor);
+}
+
+.Button--secondary {
+  background-color: var(--Button-secondary-fill);
+  border-color: var(--Button-secondary-borderColor);
+  color: var(--Button-secondary-color);
+}
+
+.Button--secondary:hover,
+.Button--secondary:focus,
+.Button--secondary:active,
+.Button--secondary.is-active {
+  background-color: var(--Button-secondary-color);
+  color: #fff;
+  border-color: var(--Button-secondary-borderColor);
+}
+
+.Button--success {
+  background-color: var(--Button-success-fill);
+  border-color: var(--Button-success-borderColor);
+  color: var(--Button-success-color);
+}
+
+.Button--success:hover,
+.Button--success:focus,
+.Button--success:active,
+.Button--success.is-active {
+  background-color: var(--Button-success-color);
+  color: #fff;
+  border-color: var(--Button-success-borderColor);
+}
+
+.Button--notice {
+  background-color: var(--Button-notice-fill);
+  border-color: var(--Button-notice-borderColor);
+  color: var(--Button-notice-color);
+}
+
+.Button--notice:hover,
+.Button--notice:focus,
+.Button--notice:active,
+.Button--notice.is-active {
+  background-color: var(--Button-notice-color);
+  color: #fff;
+  border-color: var(--Button-notice-borderColor);
+}
+
+.Button--warning {
+  background-color: var(--Button-warning-fill);
+  border-color: var(--Button-warning-borderColor);
+  color: var(--Button-warning-color);
+}
+
+.Button--warning:hover,
+.Button--warning:focus,
+.Button--warning:active,
+.Button--warning.is-active {
+  background-color: var(--Button-warning-color);
+  color: #fff;
+  border-color: var(--Button-warning-borderColor);
+}
+
+.Button--error {
+  background-color: var(--Button-error-fill);
+  border-color: var(--Button-error-borderColor);
+  color: var(--Button-error-color);
+}
+
+.Button--error:hover,
+.Button--error:focus,
+.Button--error:active,
+.Button--error.is-active {
+  background-color: var(--Button-error-color);
+  color: #fff;
+  border-color: var(--Button-error-borderColor);
+}

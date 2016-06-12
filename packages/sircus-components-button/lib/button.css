@@ -1,0 +1,53 @@
+:root {
+  --Button-spaceH: var(--g-controls-spaceH);
+  --Button-fontSize: var(--g-fontSize);
+  --Button-borderRadius: var(--g-borderRadius);
+  --Button-color: #000;
+  --Button-fill: transparent;
+  --Button-borderColor: #000;
+  --Button-borderSize: var(--g-controls-borderSize);
+  --Button-borderSize2x: calc(var(--Button-borderSize) * 2);
+  --Button-height: var(--g-controls-height);
+}
+
+/*　sircus-components-button
+======================================== */
+.Button {
+  font-size: var(--Button-fontSize);
+  line-height: calc(var(--Button-height) - var(--Button-borderSize2x));
+  display: inline-block;
+  box-sizing: border-box;
+  height: var(--Button-height);
+  margin: 0;
+  padding: 0 var(--Button-spaceH);
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--Button-color);
+  border: var(--Button-borderSize) solid var(--Button-borderColor);
+  border-radius: var(--Button-borderRadius);
+  outline: none;
+  background-color: var(--Button-fill);
+  background-image: none;
+  box-shadow: none;
+  appearance: none;
+}
+
+.Button.is-disabled,
+.Button[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.Button:hover,
+.Button:focus,
+.Button:active,
+.Button.is-active {
+  text-decoration: none;
+  color: #fff;
+  border-color: var(--Button-borderColor);
+  background-color: var(--Button-borderColor);
+}

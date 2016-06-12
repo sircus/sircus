@@ -1,0 +1,36 @@
+:root {
+  --ButtonSize-paddingH-xl: var(--g-controls-spaceH-xl);
+  --ButtonSize-paddingH-lg: var(--g-controls-spaceH-lg);
+  --ButtonSize-paddingH: var(--g-controls-spaceH);
+  --ButtonSize-paddingH-sm: var(--g-controls-spaceH-sm);
+
+  --ButtonSize-fontSize-xl: var(--g-fontSize-xl);
+  --ButtonSize-fontSize-lg: var(--g-fontSize-lg);
+  --ButtonSize-fontSize: var(--g-fontSize);
+  --ButtonSize-fontSize-sm: var(--g-fontSize-sm);
+
+  --ButtonSize-height-xl: var(--g-controls-height-xl);
+  --ButtonSize-height-lg: var(--g-controls-height-lg);
+  --ButtonSize-height: var(--g-controls-height);
+  --ButtonSize-height-sm: var(--g-controls-height-sm);
+}
+
+/*　size  */
+.Button--xl {
+  height: var(--ButtonSize-height-xl);
+  padding: 0 var(--ButtonSize-paddingH-xl);
+  line-height: calc(var(--ButtonSize-height-xl) - var(--Button-borderSize2x));
+  font-size: var(--ButtonSize-fontSize-xl);
+}
+.Button--lg {
+  height: var(--ButtonSize-height-lg);
+  padding: 0 var(--ButtonSize-paddingH-lg);
+  line-height: calc(var(--ButtonSize-height-lg) - var(--Button-borderSize2x));
+  font-size: var(--ButtonSize-fontSize-lg);
+}
+.Button--sm {
+  height: var(--ButtonSize-height-sm);
+  padding: 0 var(--ButtonSize-paddingH-sm);
+  line-height: calc(var(--ButtonSize-height-sm) - var(--Button-borderSize2x));
+  font-size: var(--ButtonSize-fontSize-sm);
+}

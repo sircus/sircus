@@ -1,6 +1,6 @@
 {
   "name": "sircus-components-button",
-  "description": "Module For Button styles.",
+  "description": "Components Module For Button.",
   "version": "2.0.0",
   "dependencies": {
     "sircus-variables": "^0.1.0"

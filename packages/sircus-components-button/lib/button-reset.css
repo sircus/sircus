@@ -1,0 +1,21 @@
+:root {
+  --ButtonReset-color: var(--g-primary);
+  --ButtonReset-fill: var(--g-gray-20);
+  --ButtonReset-hover-color: var(--g-primary-dark);
+}
+
+/*　reset */
+.Button--reset {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--ButtonReset-color);
+}
+
+.Button--reset:hover,
+.Button--reset:focus,
+.Button--reset:active,
+.Button--reset.is-active {
+  background-color: var(--ButtonReset-fill);
+  border-color: transparent;
+  color: var(--ButtonReset-hover-color);
+}
