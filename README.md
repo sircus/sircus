@@ -5,8 +5,12 @@
 
 > Flexible Modular CSS Family for Designing in the Browser.
 
-## Demo & Installation
+## Demo
 http://sircus.blivesta.com/
+
+## Packages
+
+https://github.com/sircus/sircus/tree/master/packages/
 
 ## Install
 
@@ -20,27 +24,5 @@ bower:
 $ bower install sircus
 ```
 
-## Usage
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-<link rel="stylesheet" href="./dist/sircus.min.css">
-```
-http://sircus.blivesta.com/
-
-## Development
-```
-$ git clone https://github.com/sircus/sircus.git
-$ cd sircus
-$ git checkout -b patch-1
-$ npm run start
-```
-
-
-## Contributing
-
-To contribute to sircus, clone this repo locally and commit your code.
-Please check that everything works before opening a pull-request.
-
-
 ## License
-Released under the [MIT](https://github.com/sircus/license/blob/master/LICENSE) license.
+Released under the MIT license.
