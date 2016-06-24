@@ -73,6 +73,8 @@
 .t-fontMd        { font-size: var(--g-fontSize-md); }
 .t-fontSm        { font-size: var(--g-fontSize-sm); }
 .t-fontXs        { font-size: var(--g-fontSize-xs); }
+.t-fontTn        { font-size: var(--g-fontSize-tn); }
+.t-fontMi        { font-size: var(--g-fontSize-mi); }
 
 .t-lineHeightXs  { line-height: var(--g-lineHeight-xs); }
 .t-lineHeightSm  { line-height: var(--g-lineHeight-sm); }

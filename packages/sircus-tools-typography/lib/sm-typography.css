@@ -71,6 +71,8 @@
   .t-sm-fontMd        { font-size: var(--g-fontSize-md); }
   .t-sm-fontSm        { font-size: var(--g-fontSize-sm); }
   .t-sm-fontXs        { font-size: var(--g-fontSize-xs); }
+  .t-sm-fontTn        { font-size: var(--g-fontSize-tn); }
+  .t-sm-fontMi        { font-size: var(--g-fontSize-mi); }
 
   .t-sm-lineHeightXs  { line-height: var(--g-lineHeight-xs); }
   .t-sm-lineHeightSm  { line-height: var(--g-lineHeight-sm); }
