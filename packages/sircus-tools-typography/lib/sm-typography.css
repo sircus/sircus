@@ -62,6 +62,8 @@
   .t-sm-jaSans        { font-family: var(--g-fontFamily-sansJa); }
   .t-sm-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
 
+  .t-sm-monospace     { font-family: var(--g-fontFamily-monospace); }
+
   .t-sm-fontGt        { font-size: var(--g-fontSize-gt); }
   .t-sm-fontHg        { font-size: var(--g-fontSize-hg); }
   .t-sm-fontXl        { font-size: var(--g-fontSize-xl); }

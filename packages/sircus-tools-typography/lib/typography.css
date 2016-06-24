@@ -64,6 +64,8 @@
 .t-jaSans        { font-family: var(--g-fontFamily-sansJa); }
 .t-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
 
+.t-monospace     { font-family: var(--g-fontFamily-monospace); }
+
 .t-fontGt        { font-size: var(--g-fontSize-gt); }
 .t-fontHg        { font-size: var(--g-fontSize-hg); }
 .t-fontXl        { font-size: var(--g-fontSize-xl); }

@@ -80,6 +80,7 @@
   --g-fontFamily-sansJa: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   --g-fontFamily-serifEn: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;
   --g-fontFamily-serifJa: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  --g-fontFamily-monospace: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace;
   --g-fontFamily: var(--g-fontFamily-sansEn);
 
   --g-fontSize-gt: 3rem;
