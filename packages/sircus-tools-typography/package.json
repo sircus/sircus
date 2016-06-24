@@ -1,9 +1,9 @@
 {
   "name": "sircus-tools-typography",
   "description": "Tools Module For CSS Typography.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "dependencies": {
-    "sircus-variables": "^1.0.0"
+    "sircus-variables": "^1.1.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-typography",
   "homepage": "http://sircus.github.io",
