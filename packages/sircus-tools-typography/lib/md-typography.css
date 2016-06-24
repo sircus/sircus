@@ -58,11 +58,9 @@
 
   .t-md-enSans        { font-family: var(--g-fontFamily-sansEn); }
   .t-md-enSerif       { font-family: var(--g-fontFamily-serifEn);}
-  .t-md-enMonospace   { font-family: var(--g-fontFamily-monospaceEn); }
 
   .t-md-jaSans        { font-family: var(--g-fontFamily-sansJa); }
   .t-md-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
-  .t-md-jaMonospace   { font-family: var(--g-fontFamily-monospaceJa); }
 
   .t-md-fontGt        { font-size: var(--g-fontSize-gt); }
   .t-md-fontHg        { font-size: var(--g-fontSize-hg); }

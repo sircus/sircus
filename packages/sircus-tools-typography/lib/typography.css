@@ -60,11 +60,9 @@
 
 .t-enSans        { font-family: var(--g-fontFamily-sansEn); }
 .t-enSerif       { font-family: var(--g-fontFamily-serifEn);}
-.t-enMonospace   { font-family: var(--g-fontFamily-monospaceEn); }
 
 .t-jaSans        { font-family: var(--g-fontFamily-sansJa); }
 .t-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
-.t-jaMonospace   { font-family: var(--g-fontFamily-monospaceJa); }
 
 .t-fontGt        { font-size: var(--g-fontSize-gt); }
 .t-fontHg        { font-size: var(--g-fontSize-hg); }

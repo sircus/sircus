@@ -58,11 +58,9 @@
 
   .t-sm-enSans        { font-family: var(--g-fontFamily-sansEn); }
   .t-sm-enSerif       { font-family: var(--g-fontFamily-serifEn);}
-  .t-sm-enMonospace   { font-family: var(--g-fontFamily-monospaceEn); }
 
   .t-sm-jaSans        { font-family: var(--g-fontFamily-sansJa); }
   .t-sm-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
-  .t-sm-jaMonospace   { font-family: var(--g-fontFamily-monospaceJa); }
 
   .t-sm-fontGt        { font-size: var(--g-fontSize-gt); }
   .t-sm-fontHg        { font-size: var(--g-fontSize-hg); }
