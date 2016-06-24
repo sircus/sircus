@@ -90,6 +90,8 @@
   --g-fontSize-md: 1rem;
   --g-fontSize-sm: .875rem;
   --g-fontSize-xs: .75rem;
+  --g-fontSize-tn: .6875rem;
+  --g-fontSize-mi: .625rem;
   --g-fontSize: var(--g-fontSize-md);
 
   --g-fontWeight-normal: 400;
