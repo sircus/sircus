@@ -1,12 +1,10 @@
 const pkg = require('./package.json')
 const banner =
-  '!\n' +
-  ' * ' + pkg.name + ' v' + pkg.version + '\n' +
-  ' * ' + pkg.description + '\n' +
-  ' * ' + pkg.homepage + '\n' +
-  ' * License : ' + pkg.license + '\n' +
-  ' * Author : ' + pkg.author.name + ' (' + pkg.author.url + ')' + '\n' +
-  ' '
+  pkg.name + ' v' + pkg.version + '\n' +
+  pkg.description + '\n' +
+  pkg.homepage + '\n' +
+  'License : ' + pkg.license + '\n' +
+  'Author : ' + pkg.author.name + ' (' + pkg.author.url + ')'
 
 module.exports = {
   use: [
@@ -21,5 +19,8 @@ module.exports = {
   ],
   'input': 'index.css',
   'output': 'css/sircus.css',
-  'postcss-banner': { banner: banner },
+  'postcss-banner': {
+    banner: banner,
+    important: true
+  },
 }
