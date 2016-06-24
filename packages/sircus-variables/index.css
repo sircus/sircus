@@ -76,10 +76,10 @@
 
   --g-gutter: calc(var(--g-space) / 2);
 
-  --g-fontFamily-sansEn: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
-  --g-fontFamily-sansJa: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  --g-fontFamily-serifEn: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;
-  --g-fontFamily-serifJa: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  --g-fontFamily-sansEn: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
+  --g-fontFamily-sansJa: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  --g-fontFamily-serifEn: Georgia, serif;
+  --g-fontFamily-serifJa: "Hiragino Mincho ProN", "Yu Mincho", serif;
   --g-fontFamily-monospace: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace;
   --g-fontFamily: var(--g-fontFamily-sansEn);
 
