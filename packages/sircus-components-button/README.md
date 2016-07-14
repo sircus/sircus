@@ -12,6 +12,12 @@ $ npm install sircus-components-button sircus-variables
 
 ```css
 @import "sircus-components-button";
+/* Modifier */
+@import "sircus-components-button/color";
+@import "sircus-components-button/fill";
+@import "sircus-components-button/size";
+@import "sircus-components-button/reset";
+/* Variables */
 @import "sircus-variables";
 ```
 
