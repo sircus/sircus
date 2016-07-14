@@ -10,7 +10,7 @@
   --Form-shadow: inset 0 1px 1px rgba(0, 0, 0, .08);
   --Form-transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
 
-  --Form-focus-color: #b9d7e6;
+  --Form-focus-color: var(--g-controls-focus-color);
   --Form-focus-shadow: inset 0 1px 1px var(--Form-focus-color), 0 0 8px var(--Form-focus-color);
   --Form-disable-fill: var(--g-gray-20);
 }
