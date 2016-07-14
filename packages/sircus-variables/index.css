@@ -104,6 +104,7 @@
   --g-border: var(--g-borderSize) var(--g-borderStyle) var(--g-borderColor);
 
   --g-controls-color: var(--g-gray-40);
+  --g-controls-focus-color: #b9d7e6;
   --g-controls-borderSize: .0625rem;
   --g-controls-borderRadius: var(--g-borderRadius-md);
   --g-controls-height-sm: calc(1.5rem - var(--g-controls-borderSize));
