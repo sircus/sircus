@@ -77,7 +77,7 @@
   --g-gutter: calc(var(--g-space) / 2);
 
   --g-fontFamily-sansEn: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
-  --g-fontFamily-sansJa: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  --g-fontFamily-sansJa: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   --g-fontFamily-serifEn: Georgia, serif;
   --g-fontFamily-serifJa: "Hiragino Mincho ProN", "Yu Mincho", serif;
   --g-fontFamily-monospace: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace;
