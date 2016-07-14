@@ -10,7 +10,7 @@
  ================================================== */
 
 body {
-  font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -94,7 +94,7 @@ pre {
   text-decoration: none;
   color: #000;
   border: .0625rem solid #000;
-  border-radius: 4px;
+  border-radius: 0;
   outline: none;
   background-color: transparent;
   background-image: none;
@@ -117,6 +117,10 @@ pre {
   color: #fff;
   border-color: #000;
   background-color: #000;
+}
+
+.Button:focus {
+  box-shadow: 0 0 3px 3px #b9d7e6;
 }
 
 .Button--primary {
@@ -1280,17 +1284,15 @@ ul.List {
 
 .t-italic        { font-style: italic; }
 
-.t-enSans        { font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif; }
+.t-enSans        { font-family: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif; }
 
-.t-enSerif       { font-family: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;}
+.t-enSerif       { font-family: Georgia, serif;}
 
-.t-enMonospace   { font-family: "Source Code Pro", Menlo, Consolas, monospace; }
+.t-jaSans        { font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
 
-.t-jaSans        { font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
+.t-jaSerif       { font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;}
 
-.t-jaSerif       { font-family: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;}
-
-.t-jaMonospace   { font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace; }
+.t-monospace     { font-family: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace; }
 
 .t-fontGt        { font-size: 3rem; }
 
@@ -1305,6 +1307,10 @@ ul.List {
 .t-fontSm        { font-size: .875rem; }
 
 .t-fontXs        { font-size: .75rem; }
+
+.t-fontTn        { font-size: .6875rem; }
+
+.t-fontMi        { font-size: .625rem; }
 
 .t-lineHeightXs  { line-height: 1.1; }
 
@@ -2466,27 +2472,23 @@ ul.List {
   }
 
   .t-sm-enSans {
-    font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
   }
 
   .t-sm-enSerif {
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;
-  }
-
-  .t-sm-enMonospace {
-    font-family: "Source Code Pro", Menlo, Consolas, monospace;
+    font-family: Georgia, serif;
   }
 
   .t-sm-jaSans {
-    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   }
 
   .t-sm-jaSerif {
-    font-family: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   }
 
-  .t-sm-jaMonospace {
-    font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+  .t-sm-monospace {
+    font-family: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace;
   }
 
   .t-sm-fontGt {
@@ -2515,6 +2517,14 @@ ul.List {
 
   .t-sm-fontXs {
     font-size: .75rem;
+  }
+
+  .t-sm-fontTn {
+    font-size: .6875rem;
+  }
+
+  .t-sm-fontMi {
+    font-size: .625rem;
   }
 
   .t-sm-lineHeightXs {
@@ -3718,27 +3728,23 @@ ul.List {
   }
 
   .t-md-enSans {
-    font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
   }
 
   .t-md-enSerif {
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;
-  }
-
-  .t-md-enMonospace {
-    font-family: "Source Code Pro", Menlo, Consolas, monospace;
+    font-family: Georgia, serif;
   }
 
   .t-md-jaSans {
-    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   }
 
   .t-md-jaSerif {
-    font-family: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   }
 
-  .t-md-jaMonospace {
-    font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+  .t-md-monospace {
+    font-family: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace;
   }
 
   .t-md-fontGt {
@@ -3767,6 +3773,14 @@ ul.List {
 
   .t-md-fontXs {
     font-size: .75rem;
+  }
+
+  .t-sm-fontTn {
+    font-size: .6875rem;
+  }
+
+  .t-sm-fontMi {
+    font-size: .625rem;
   }
 
   .t-md-lineHeightXs {
@@ -4967,27 +4981,23 @@ ul.List {
   }
 
   .t-lg-enSans {
-    font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: -apple-system, 'BlinkMacSystemFont', "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
   }
 
   .t-lg-enSerif {
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Times New Roman", Baskerville, Cambria, serif;
-  }
-
-  .t-lg-enMonospace {
-    font-family: "Source Code Pro", Menlo, Consolas, monospace;
+    font-family: Georgia, serif;
   }
 
   .t-lg-jaSans {
-    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   }
 
   .t-lg-jaSerif {
-    font-family: "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "Times New Roman", "HG明朝E", "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   }
 
-  .t-lg-jaMonospace {
-    font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+  .t-lg-monospace {
+    font-family: Roboto Mono, "Source Code Pro", Menlo, Consolas, monospace;
   }
 
   .t-lg-fontGt {
@@ -5016,6 +5026,14 @@ ul.List {
 
   .t-lg-fontXs {
     font-size: .75rem;
+  }
+
+  .t-sm-fontTn {
+    font-size: .6875rem;
+  }
+
+  .t-sm-fontMi {
+    font-size: .625rem;
   }
 
   .t-lg-lineHeightXs {

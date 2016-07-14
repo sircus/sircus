@@ -3,10 +3,10 @@
   "version": "3.0.0-beta.1",
   "description": "Flexible Modular CSS Family for Designing in the Browser.",
   "dependencies": {
-    "sircus-components-button": "^2.0.0",
+    "sircus-components-button": "^3.0.0",
     "sircus-components-container": "1.0.0",
     "sircus-components-flex": "^1.0.0",
-    "sircus-components-form": "^2.0.0",
+    "sircus-components-form": "^2.1.0",
     "sircus-components-fullembed": "^1.0.0",
     "sircus-components-grid": "1.0.0",
     "sircus-components-list": "1.0.0",
@@ -24,9 +24,9 @@
     "sircus-tools-overflow": "^2.0.0",
     "sircus-tools-shadow": "^0.0.0",
     "sircus-tools-space": "^2.0.0",
-    "sircus-tools-typography": "^2.0.0",
+    "sircus-tools-typography": "^2.1.0",
     "sircus-tools-width": "^2.0.0",
-    "sircus-variables": "^1.0.0"
+    "sircus-variables": "^1.3.0"
   },
   "devDependencies": {
     "csswring": "^5.0.0",
