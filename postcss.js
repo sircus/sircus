@@ -23,4 +23,9 @@ module.exports = {
     banner: banner,
     important: true
   },
+  'postcss-import': {
+    onImport: function(sources) {
+      global.watchCSS(sources, this.from)
+    }
+  },
 }
