@@ -1,5 +1,5 @@
 /*!
- * sircus v3.0.0-beta.1
+ * sircus v3.0.0
  * Flexible Modular CSS Family for Designing in the Browser.
  * https://github.com/sircus/sircus
  * License : MIT
@@ -99,7 +99,9 @@ pre {
   background-color: transparent;
   background-image: none;
   box-shadow: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .Button.is-disabled,
@@ -372,6 +374,7 @@ pre {
   box-sizing: border-box;
   padding: .25rem 1rem;
   width: 100%;
+  -webkit-transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
   vertical-align: middle;
   border: .0625rem solid rgb(153, 153, 153);
@@ -440,26 +443,27 @@ pre {
 ======================================== */
 
 .Flex {
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.Flex--nowrap       { flex-wrap: nowrap; }
+.Flex--nowrap       { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
 
-.Flex--center       { justify-content: center; }
+.Flex--center       { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.Flex--right        { justify-content: flex-end; }
+.Flex--right        { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.Flex--left         { justify-content: flex-start; }
+.Flex--left         { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
 
-.Flex--justify      { justify-content: space-between; }
+.Flex--justify      { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.Flex--top          { align-items: flex-start; }
+.Flex--top          { -webkit-box-align: start; -ms-flex-align: start; -ms-grid-row-align: flex-start; align-items: flex-start; }
 
-.Flex--middle       { align-items: center; }
+.Flex--middle       { -webkit-box-align: center; -ms-flex-align: center; -ms-grid-row-align: center; align-items: center; }
 
-.Flex--bottom       { align-items: flex-end; }
+.Flex--bottom       { -webkit-box-align: end; -ms-flex-align: end; -ms-grid-row-align: flex-end; align-items: flex-end; }
 
-.Flex--baseline     { align-items: baseline; }
+.Flex--baseline     { -webkit-box-align: baseline; -ms-flex-align: baseline; -ms-grid-row-align: baseline; align-items: baseline; }
 
 .Flex-col {
   box-sizing: border-box;
@@ -467,11 +471,11 @@ pre {
   padding-left: 0.75rem;
 }
 
-.Flex-col--fit   { flex: 1 1 0%; }
+.Flex-col--fit   { -webkit-box-flex: 1; -ms-flex: 1 1 0%; flex: 1 1 0%; }
 
-.Flex-col--first { order: -1 }
+.Flex-col--first { -webkit-box-ordinal-group: 0; -ms-flex-order: -1; order: -1 }
 
-.Flex-col--last  { order: 9999 }
+.Flex-col--last  { -webkit-box-ordinal-group: 10000; -ms-flex-order: 9999; order: 9999 }
 
 /*　FullEmbed
 ======================================== */
@@ -910,7 +914,7 @@ ul.List {
 
 .t-block       { display: block; }
 
-.t-flex        { display: flex; }
+.t-flex        { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
 .t-inlineBlock { display: inline-block; }
 
@@ -1842,6 +1846,8 @@ ul.List {
   }
 
   .t-sm-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -3098,6 +3104,8 @@ ul.List {
   }
 
   .t-md-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -4354,6 +4362,8 @@ ul.List {
   }
 
   .t-lg-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 

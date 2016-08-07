@@ -29,6 +29,7 @@
     "sircus-variables": "^1.3.0"
   },
   "devDependencies": {
+    "autoprefixer": "^6.4.0",
     "csswring": "^5.0.0",
     "css-mqpacker": "^5.0.1",
     "postcss-banner": "^3.0.0",

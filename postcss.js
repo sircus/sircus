@@ -13,6 +13,7 @@ module.exports = {
     'postcss-custom-media',
     'postcss-calc',
     'postcss-color-function',
+    'autoprefixer',
     'css-mqpacker',
     'postcss-banner',
     'postcss-reporter'
