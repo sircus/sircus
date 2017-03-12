@@ -3,40 +3,40 @@
  ================================================== */
 .t-bgWhite { background-color: #fff; }
 .t-bgBlack { background-color: #000; }
-.t-bgGray90 { background-color: var(--g-gray-90); }
-.t-bgGray80 { background-color: var(--g-gray-80); }
-.t-bgGray70 { background-color: var(--g-gray-70); }
-.t-bgGray60 { background-color: var(--g-gray-60); }
-.t-bgGray50 { background-color: var(--g-gray-50); }
-.t-bgGray40 { background-color: var(--g-gray-40); }
-.t-bgGray30 { background-color: var(--g-gray-30); }
-.t-bgGray20 { background-color: var(--g-gray-20); }
-.t-bgGray10 { background-color: var(--g-gray-10); }
-.t-bgGray5 { background-color: var(--g-gray-5); }
+.t-bgGray90 { background-color: var(--gray-90); }
+.t-bgGray80 { background-color: var(--gray-80); }
+.t-bgGray70 { background-color: var(--gray-70); }
+.t-bgGray60 { background-color: var(--gray-60); }
+.t-bgGray50 { background-color: var(--gray-50); }
+.t-bgGray40 { background-color: var(--gray-40); }
+.t-bgGray30 { background-color: var(--gray-30); }
+.t-bgGray20 { background-color: var(--gray-20); }
+.t-bgGray10 { background-color: var(--gray-10); }
+.t-bgGray5 { background-color: var(--gray-5); }
 
-.t-bgPrimary      { background-color: var(--g-primary); }
-.t-bgPrimaryDark  { background-color: var(--g-primary-dark); }
-.t-bgPrimaryLight { background-color: var(--g-primary-light); }
+.t-bgPrimary      { background-color: var(--primary); }
+.t-bgPrimaryDark  { background-color: var(--primary-dark); }
+.t-bgPrimaryLight { background-color: var(--primary-light); }
 
-.t-bgSecondary      { background-color: var(--g-secondary); }
-.t-bgSecondaryDark  { background-color: var(--g-secondary-dark); }
-.t-bgSecondaryLight { background-color: var(--g-secondary-light); }
+.t-bgSecondary      { background-color: var(--secondary); }
+.t-bgSecondaryDark  { background-color: var(--secondary-dark); }
+.t-bgSecondaryLight { background-color: var(--secondary-light); }
 
-.t-bgSuccess      { background-color: var(--g-success); }
-.t-bgSuccessDark  { background-color: var(--g-success-dark); }
-.t-bgSuccessLight { background-color: var(--g-success-light); }
+.t-bgSuccess      { background-color: var(--success); }
+.t-bgSuccessDark  { background-color: var(--success-dark); }
+.t-bgSuccessLight { background-color: var(--success-light); }
 
-.t-bgNotice      { background-color: var(--g-notice); }
-.t-bgNoticeDark  { background-color: var(--g-notice-dark); }
-.t-bgNoticeLight { background-color: var(--g-notice-light); }
+.t-bgNotice      { background-color: var(--notice); }
+.t-bgNoticeDark  { background-color: var(--notice-dark); }
+.t-bgNoticeLight { background-color: var(--notice-light); }
 
-.t-bgWarning      { background-color: var(--g-warning); }
-.t-bgWarningDark  { background-color: var(--g-warning-dark); }
-.t-bgWarningLight { background-color: var(--g-warning-light); }
+.t-bgWarning      { background-color: var(--warning); }
+.t-bgWarningDark  { background-color: var(--warning-dark); }
+.t-bgWarningLight { background-color: var(--warning-light); }
 
-.t-bgError      { background-color: var(--g-error); }
-.t-bgErrorDark  { background-color: var(--g-error-dark); }
-.t-bgErrorLight { background-color: var(--g-error-light); }
+.t-bgError      { background-color: var(--error); }
+.t-bgErrorDark  { background-color: var(--error-dark); }
+.t-bgErrorLight { background-color: var(--error-light); }
 
 .t-bgCover   { background-size: cover; }
 .t-bgContain { background-size: contain; }

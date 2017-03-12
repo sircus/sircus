@@ -1,4 +1,4 @@
-@media (--g-viewport-lg) {
+@media (--viewport-lg) {
   .t-lg-width1of12  { width: calc((1 / 12) * 100)%; }
   .t-lg-width2of12  { width: calc((2 / 12) * 100)%; }
   .t-lg-width3of12  { width: calc((3 / 12) * 100)%; }

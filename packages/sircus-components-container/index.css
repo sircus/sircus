@@ -12,19 +12,19 @@
   margin-left: auto;
 }
 
-@media (--g-viewport-sm) {
+@media (--viewport-sm) {
   .Container {
     max-width: var(--Container-width-sm);
   }
 }
 
-@media (--g-viewport-md) {
+@media (--viewport-md) {
   .Container {
     max-width: var(--Container-width-md);
   }
 }
 
-@media (--g-viewport-lg) {
+@media (--viewport-lg) {
   .Container {
     max-width: var(--Container-width-lg);
   }

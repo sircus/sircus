@@ -1,40 +1,40 @@
-@media (--g-viewport-lg) {
+@media (--viewport-lg) {
   .t-lg-bgWhite { background-color: #fff; }
   .t-lg-bgBlack { background-color: #000; }
-  .t-lg-bgGray90 { background-color: var(--g-gray-90); }
-  .t-lg-bgGray80 { background-color: var(--g-gray-80); }
-  .t-lg-bgGray70 { background-color: var(--g-gray-70); }
-  .t-lg-bgGray60 { background-color: var(--g-gray-60); }
-  .t-lg-bgGray50 { background-color: var(--g-gray-50); }
-  .t-lg-bgGray40 { background-color: var(--g-gray-40); }
-  .t-lg-bgGray30 { background-color: var(--g-gray-30); }
-  .t-lg-bgGray20 { background-color: var(--g-gray-20); }
-  .t-lg-bgGray10 { background-color: var(--g-gray-10); }
-  .t-lg-bgGray5 { background-color: var(--g-gray-5); }
+  .t-lg-bgGray90 { background-color: var(--gray-90); }
+  .t-lg-bgGray80 { background-color: var(--gray-80); }
+  .t-lg-bgGray70 { background-color: var(--gray-70); }
+  .t-lg-bgGray60 { background-color: var(--gray-60); }
+  .t-lg-bgGray50 { background-color: var(--gray-50); }
+  .t-lg-bgGray40 { background-color: var(--gray-40); }
+  .t-lg-bgGray30 { background-color: var(--gray-30); }
+  .t-lg-bgGray20 { background-color: var(--gray-20); }
+  .t-lg-bgGray10 { background-color: var(--gray-10); }
+  .t-lg-bgGray5 { background-color: var(--gray-5); }
 
-  .t-lg-bgPrimary      { background-color: var(--g-primary); }
-  .t-lg-bgPrimaryDark  { background-color: var(--g-primary-dark); }
-  .t-lg-bgPrimaryLight { background-color: var(--g-primary-light); }
+  .t-lg-bgPrimary      { background-color: var(--primary); }
+  .t-lg-bgPrimaryDark  { background-color: var(--primary-dark); }
+  .t-lg-bgPrimaryLight { background-color: var(--primary-light); }
 
-  .t-lg-bgSecondary      { background-color: var(--g-secondary); }
-  .t-lg-bgSecondaryDark  { background-color: var(--g-secondary-dark); }
-  .t-lg-bgSecondaryLight { background-color: var(--g-secondary-light); }
+  .t-lg-bgSecondary      { background-color: var(--secondary); }
+  .t-lg-bgSecondaryDark  { background-color: var(--secondary-dark); }
+  .t-lg-bgSecondaryLight { background-color: var(--secondary-light); }
 
-  .t-lg-bgSuccess      { background-color: var(--g-success); }
-  .t-lg-bgSuccessDark  { background-color: var(--g-success-dark); }
-  .t-lg-bgSuccessLight { background-color: var(--g-success-light); }
+  .t-lg-bgSuccess      { background-color: var(--success); }
+  .t-lg-bgSuccessDark  { background-color: var(--success-dark); }
+  .t-lg-bgSuccessLight { background-color: var(--success-light); }
 
-  .t-lg-bgNotice      { background-color: var(--g-notice); }
-  .t-lg-bgNoticeDark  { background-color: var(--g-notice-dark); }
-  .t-lg-bgNoticeLight { background-color: var(--g-notice-light); }
+  .t-lg-bgNotice      { background-color: var(--notice); }
+  .t-lg-bgNoticeDark  { background-color: var(--notice-dark); }
+  .t-lg-bgNoticeLight { background-color: var(--notice-light); }
 
-  .t-lg-bgWarning      { background-color: var(--g-warning); }
-  .t-lg-bgWarningDark  { background-color: var(--g-warning-dark); }
-  .t-lg-bgWarningLight { background-color: var(--g-warning-light); }
+  .t-lg-bgWarning      { background-color: var(--warning); }
+  .t-lg-bgWarningDark  { background-color: var(--warning-dark); }
+  .t-lg-bgWarningLight { background-color: var(--warning-light); }
 
-  .t-lg-bgError      { background-color: var(--g-error); }
-  .t-lg-bgErrorDark  { background-color: var(--g-error-dark); }
-  .t-lg-bgErrorLight { background-color: var(--g-error-light); }
+  .t-lg-bgError      { background-color: var(--error); }
+  .t-lg-bgErrorDark  { background-color: var(--error-dark); }
+  .t-lg-bgErrorLight { background-color: var(--error-light); }
 
   .t-lg-bgCover   { background-size: cover; }
   .t-lg-bgContain { background-size: contain; }

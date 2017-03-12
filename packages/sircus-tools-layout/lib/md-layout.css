@@ -1,4 +1,4 @@
-@media (--g-viewport-md) {
+@media (--viewport-md) {
   .t-md-pullLeft   { float: left; }
   .t-md-pullRight  { float: right; }
   .t-md-pullNone   { float: none; }

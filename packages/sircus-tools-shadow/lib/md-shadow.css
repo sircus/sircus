@@ -1,9 +1,9 @@
-@media (--g-viewport-md) {
-  .t-md-shadow   { box-shadow: var(--g-shadow) var(--g-shadow-color); }
-  .t-md-shadowXs { box-shadow: var(--g-shadow-xs) var(--g-shadow-color); }
-  .t-md-shadowSm { box-shadow: var(--g-shadow-sm) var(--g-shadow-color) }
-  .t-md-shadowMd { box-shadow: var(--g-shadow-md) var(--g-shadow-color) }
-  .t-md-shadowLg { box-shadow: var(--g-shadow-lg) var(--g-shadow-color) }
-  .t-md-shadowXl { box-shadow: var(--g-shadow-xl) var(--g-shadow-color) }
+@media (--viewport-md) {
+  .t-md-shadow   { box-shadow: var(--shadow) var(--shadow-color); }
+  .t-md-shadowXs { box-shadow: var(--shadow-xs) var(--shadow-color); }
+  .t-md-shadowSm { box-shadow: var(--shadow-sm) var(--shadow-color) }
+  .t-md-shadowMd { box-shadow: var(--shadow-md) var(--shadow-color) }
+  .t-md-shadowLg { box-shadow: var(--shadow-lg) var(--shadow-color) }
+  .t-md-shadowXl { box-shadow: var(--shadow-xl) var(--shadow-color) }
   .t-md-shadow0  { box-shadow: none; }
 }

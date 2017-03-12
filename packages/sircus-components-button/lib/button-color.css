@@ -1,22 +1,22 @@
 :root {
-  --Button-primary-color: var(--g-primary);
+  --Button-primary-color: var(--primary);
   --Button-primary-fill: transparent;
-  --Button-primary-borderColor: var(--g-primary-dark);
-  --Button-secondary-color: var(--g-secondary);
+  --Button-primary-borderColor: var(--primary-dark);
+  --Button-secondary-color: var(--secondary);
   --Button-secondary-fill: transparent;
-  --Button-secondary-borderColor: var(--g-secondary-dark);
-  --Button-success-color: var(--g-success);
+  --Button-secondary-borderColor: var(--secondary-dark);
+  --Button-success-color: var(--success);
   --Button-success-fill: transparent;
-  --Button-success-borderColor: var(--g-success-dark);
-  --Button-notice-color: var(--g-notice);
+  --Button-success-borderColor: var(--success-dark);
+  --Button-notice-color: var(--notice);
   --Button-notice-fill: transparent;
-  --Button-notice-borderColor: var(--g-notice-dark);
-  --Button-warning-color: var(--g-warning);
+  --Button-notice-borderColor: var(--notice-dark);
+  --Button-warning-color: var(--warning);
   --Button-warning-fill: transparent;
-  --Button-warning-borderColor: var(--g-warning-dark);
-  --Button-error-color: var(--g-error);
+  --Button-warning-borderColor: var(--warning-dark);
+  --Button-error-color: var(--error);
   --Button-error-fill: transparent;
-  --Button-error-borderColor: var(--g-error-dark);
+  --Button-error-borderColor: var(--error-dark);
 }
 
 .Button--primary {

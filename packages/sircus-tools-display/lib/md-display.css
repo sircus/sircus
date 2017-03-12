@@ -1,4 +1,4 @@
-@media (--g-viewport-md) {
+@media (--viewport-md) {
   .t-md-none        { display: none; }
   .t-md-block       { display: block; }
   .t-md-flex        { display: flex; }

@@ -1,14 +1,14 @@
 :root {
-  --Button-spaceH: var(--g-controls-spaceH);
-  --Button-fontSize: var(--g-fontSize);
+  --Button-spaceH: var(--controls-spaceH);
+  --Button-fontSize: var(--fontSize);
   --Button-borderRadius: 0;
   --Button-color: #000;
   --Button-fill: transparent;
   --Button-borderColor: #000;
-  --Button-borderSize: var(--g-controls-borderSize);
+  --Button-borderSize: var(--controls-borderSize);
   --Button-borderSize2x: calc(var(--Button-borderSize) * 2);
-  --Button-height: var(--g-controls-height);
-  --Button-focus-shadowColor: var(--g-controls-focus-color);
+  --Button-height: var(--controls-height);
+  --Button-focus-shadowColor: var(--controls-focus-color);
   --Button-focus-shadow: 0 0 3px 3px var(--Button-focus-shadowColor);
 }
 

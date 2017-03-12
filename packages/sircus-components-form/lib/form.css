@@ -1,18 +1,18 @@
 :root {
-  --Form-padding: var(--g-controls-spaceV) var(--g-controls-spaceH);
-  --Form-fontSize: var(--g-fontSize);
+  --Form-padding: var(--controls-spaceV) var(--controls-spaceH);
+  --Form-fontSize: var(--fontSize);
   --Form-width: 100%;
-  --Form-borderRadius: var(--g-borderRadius);
+  --Form-borderRadius: var(--borderRadius);
   --Form-fill: transparent;
-  --Form-borderSize: var(--g-controls-borderSize);
-  --Form-borderColor: var(--g-controls-color);
-  --Form-height: var(--g-controls-height);
+  --Form-borderSize: var(--controls-borderSize);
+  --Form-borderColor: var(--controls-color);
+  --Form-height: var(--controls-height);
   --Form-shadow: inset 0 1px 1px rgba(0, 0, 0, .08);
   --Form-transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
 
-  --Form-focus-color: var(--g-controls-focus-color);
+  --Form-focus-color: var(--controls-focus-color);
   --Form-focus-shadow: inset 0 1px 1px var(--Form-focus-color), 0 0 8px var(--Form-focus-color);
-  --Form-disable-fill: var(--g-gray-20);
+  --Form-disable-fill: var(--gray-20);
 }
 
 /*　sircus-components-form

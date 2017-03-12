@@ -1,41 +1,41 @@
-@media (--g-viewport-lg) {
+@media (--viewport-lg) {
   .t-lg-colorWhite           { color: #FFF; }
   .t-lg-colorBlack           { color: #000; }
 
-  .t-lg-colorGray90          { color: var(--g-gray-90); }
-  .t-lg-colorGray80          { color: var(--g-gray-80); }
-  .t-lg-colorGray70          { color: var(--g-gray-70); }
-  .t-lg-colorGray60          { color: var(--g-gray-60); }
-  .t-lg-colorGray50          { color: var(--g-gray-50); }
-  .t-lg-colorGray40          { color: var(--g-gray-40); }
-  .t-lg-colorGray30          { color: var(--g-gray-30); }
-  .t-lg-colorGray20          { color: var(--g-gray-20); }
-  .t-lg-colorGray10          { color: var(--g-gray-10); }
-  .t-lg-colorGray5           { color: var(--g-gray-5); }
+  .t-lg-colorGray90          { color: var(--gray-90); }
+  .t-lg-colorGray80          { color: var(--gray-80); }
+  .t-lg-colorGray70          { color: var(--gray-70); }
+  .t-lg-colorGray60          { color: var(--gray-60); }
+  .t-lg-colorGray50          { color: var(--gray-50); }
+  .t-lg-colorGray40          { color: var(--gray-40); }
+  .t-lg-colorGray30          { color: var(--gray-30); }
+  .t-lg-colorGray20          { color: var(--gray-20); }
+  .t-lg-colorGray10          { color: var(--gray-10); }
+  .t-lg-colorGray5           { color: var(--gray-5); }
 
-  .t-lg-colorPrimary         { color: var(--g-primary); }
-  .t-lg-colorPrimaryDark     { color: var(--g-primary-dark); }
-  .t-lg-colorPrimaryLight    { color: var(--g-primary-light); }
+  .t-lg-colorPrimary         { color: var(--primary); }
+  .t-lg-colorPrimaryDark     { color: var(--primary-dark); }
+  .t-lg-colorPrimaryLight    { color: var(--primary-light); }
 
-  .t-lg-colorSecondary       { color: var(--g-secondary); }
-  .t-lg-colorSecondaryDark   { color: var(--g-secondary-dark); }
-  .t-lg-colorSecondaryLight  { color: var(--g-secondary-light); }
+  .t-lg-colorSecondary       { color: var(--secondary); }
+  .t-lg-colorSecondaryDark   { color: var(--secondary-dark); }
+  .t-lg-colorSecondaryLight  { color: var(--secondary-light); }
 
-  .t-lg-colorSuccess         { color: var(--g-success); }
-  .t-lg-colorSuccessDark     { color: var(--g-success-dark); }
-  .t-lg-colorSuccessLight    { color: var(--g-success-light); }
+  .t-lg-colorSuccess         { color: var(--success); }
+  .t-lg-colorSuccessDark     { color: var(--success-dark); }
+  .t-lg-colorSuccessLight    { color: var(--success-light); }
 
-  .t-lg-colorNotice          { color: var(--g-notice); }
-  .t-lg-colorNoticeDark      { color: var(--g-notice-dark); }
-  .t-lg-colorNoticeLight     { color: var(--g-notice-light); }
+  .t-lg-colorNotice          { color: var(--notice); }
+  .t-lg-colorNoticeDark      { color: var(--notice-dark); }
+  .t-lg-colorNoticeLight     { color: var(--notice-light); }
 
-  .t-lg-colorWarning         { color: var(--g-warning); }
-  .t-lg-colorWarningDark     { color: var(--g-warning-dark); }
-  .t-lg-colorWarningLight    { color: var(--g-warning-light); }
+  .t-lg-colorWarning         { color: var(--warning); }
+  .t-lg-colorWarningDark     { color: var(--warning-dark); }
+  .t-lg-colorWarningLight    { color: var(--warning-light); }
 
-  .t-lg-colorError           { color: var(--g-error); }
-  .t-lg-colorErrorDark       { color: var(--g-error-dark); }
-  .t-lg-colorErrorLight      { color: var(--g-error-light); }
+  .t-lg-colorError           { color: var(--error); }
+  .t-lg-colorErrorDark       { color: var(--error-dark); }
+  .t-lg-colorErrorLight      { color: var(--error-light); }
 
   .t-lg-decoNone      { text-decoration: none; }
   .t-lg-underline     { text-decoration: underline; }
@@ -56,33 +56,33 @@
 
   .t-lg-italic        { font-style: italic; }
 
-  .t-lg-enSans        { font-family: var(--g-fontFamily-sansEn); }
-  .t-lg-enSerif       { font-family: var(--g-fontFamily-serifEn);}
+  .t-lg-enSans        { font-family: var(--fontFamily-sansEn); }
+  .t-lg-enSerif       { font-family: var(--fontFamily-serifEn);}
 
-  .t-lg-jaSans        { font-family: var(--g-fontFamily-sansJa); }
-  .t-lg-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
+  .t-lg-jaSans        { font-family: var(--fontFamily-sansJa); }
+  .t-lg-jaSerif       { font-family: var(--fontFamily-serifJa);}
 
-  .t-lg-monospace     { font-family: var(--g-fontFamily-monospace); }
+  .t-lg-monospace     { font-family: var(--fontFamily-monospace); }
 
-  .t-lg-fontGt        { font-size: var(--g-fontSize-gt); }
-  .t-lg-fontHg        { font-size: var(--g-fontSize-hg); }
-  .t-lg-fontXl        { font-size: var(--g-fontSize-xl); }
-  .t-lg-fontLg        { font-size: var(--g-fontSize-lg); }
-  .t-lg-fontMd        { font-size: var(--g-fontSize-md); }
-  .t-lg-fontSm        { font-size: var(--g-fontSize-sm); }
-  .t-lg-fontXs        { font-size: var(--g-fontSize-xs); }
-  .t-sm-fontTn        { font-size: var(--g-fontSize-tn); }
-  .t-sm-fontMi        { font-size: var(--g-fontSize-mi); }
+  .t-lg-fontGt        { font-size: var(--fontSize-gt); }
+  .t-lg-fontHg        { font-size: var(--fontSize-hg); }
+  .t-lg-fontXl        { font-size: var(--fontSize-xl); }
+  .t-lg-fontLg        { font-size: var(--fontSize-lg); }
+  .t-lg-fontMd        { font-size: var(--fontSize-md); }
+  .t-lg-fontSm        { font-size: var(--fontSize-sm); }
+  .t-lg-fontXs        { font-size: var(--fontSize-xs); }
+  .t-sm-fontTn        { font-size: var(--fontSize-tn); }
+  .t-sm-fontMi        { font-size: var(--fontSize-mi); }
 
-  .t-lg-lineHeightXs  { line-height: var(--g-lineHeight-xs); }
-  .t-lg-lineHeightSm  { line-height: var(--g-lineHeight-sm); }
-  .t-lg-lineHeightMd  { line-height: var(--g-lineHeight-md); }
-  .t-lg-lineHeightLg  { line-height: var(--g-lineHeight-lg); }
-  .t-lg-lineHeightXl  { line-height: var(--g-lineHeight-xl); }
+  .t-lg-lineHeightXs  { line-height: var(--lineHeight-xs); }
+  .t-lg-lineHeightSm  { line-height: var(--lineHeight-sm); }
+  .t-lg-lineHeightMd  { line-height: var(--lineHeight-md); }
+  .t-lg-lineHeightLg  { line-height: var(--lineHeight-lg); }
+  .t-lg-lineHeightXl  { line-height: var(--lineHeight-xl); }
 
-  .t-lg-letterSpacingXs  { letter-spacing: var(--g-letterSpacing-xs); }
-  .t-lg-letterSpacingSm  { letter-spacing: var(--g-letterSpacing-sm); }
-  .t-lg-letterSpacingMd  { letter-spacing: var(--g-letterSpacing-md); }
-  .t-lg-letterSpacingLg  { letter-spacing: var(--g-letterSpacing-lg); }
-  .t-lg-letterSpacingXl  { letter-spacing: var(--g-letterSpacing-xl); }
+  .t-lg-letterSpacingXs  { letter-spacing: var(--letterSpacing-xs); }
+  .t-lg-letterSpacingSm  { letter-spacing: var(--letterSpacing-sm); }
+  .t-lg-letterSpacingMd  { letter-spacing: var(--letterSpacing-md); }
+  .t-lg-letterSpacingLg  { letter-spacing: var(--letterSpacing-lg); }
+  .t-lg-letterSpacingXl  { letter-spacing: var(--letterSpacing-xl); }
 }

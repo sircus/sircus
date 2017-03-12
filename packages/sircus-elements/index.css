@@ -1,26 +1,26 @@
 :root {
-  --elementBody-fontFamily: var(--g-fontFamily);
-  --elementBody-fontSize: var(--g-fontSize);
-  --elementBody-lineHeight: var(--g-lineHeight);
+  --elementBody-fontFamily: var(--fontFamily);
+  --elementBody-fontSize: var(--fontSize);
+  --elementBody-lineHeight: var(--lineHeight);
 
-  --elementHeading-weight: var(--g-fontWeight-bold);
+  --elementHeading-weight: var(--fontWeight-bold);
   --elementHeading-marginTop: 1em;
   --elementHeading-marginBottom: .5em;
   --elementHeading-lineHeight: 1.2;
-  --elementHeading-fontSize-h1: var(--g-fontSize-hg);
-  --elementHeading-fontSize-h2: var(--g-fontSize-xl);
-  --elementHeading-fontSize-h3: var(--g-fontSize-lg);
-  --elementHeading-fontSize-h4: var(--g-fontSize-md);
-  --elementHeading-fontSize-h5: var(--g-fontSize-sm);
-  --elementHeading-fontSize-h6: var(--g-fontSize-xs);
+  --elementHeading-fontSize-h1: var(--fontSize-hg);
+  --elementHeading-fontSize-h2: var(--fontSize-xl);
+  --elementHeading-fontSize-h3: var(--fontSize-lg);
+  --elementHeading-fontSize-h4: var(--fontSize-md);
+  --elementHeading-fontSize-h5: var(--fontSize-sm);
+  --elementHeading-fontSize-h6: var(--fontSize-xs);
 
-  --elementLink-color: var(--g-primary);
+  --elementLink-color: var(--primary);
   --elementLink-decoration: none;
   --elementLink-decoration-hover: underline;
-  --elementLink-color-hover: var(--g-primary-dark);
+  --elementLink-color-hover: var(--primary-dark);
 
   --elementsSpace-marginTop: 0;
-  --elementsSpace-marginBottom: var(--g-space);
+  --elementsSpace-marginBottom: var(--space);
 }
 
 /*

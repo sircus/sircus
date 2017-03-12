@@ -1,15 +1,15 @@
 :root {
-  --FormSize-padding-xl: var(--g-controls-spaceV-xl) var(--g-controls-spaceH);
-  --FormSize-padding-lg: var(--g-controls-spaceV-lg) var(--g-controls-spaceH);
-  --FormSize-padding-sm: var(--g-controls-spaceV-sm) var(--g-controls-spaceH);
+  --FormSize-padding-xl: var(--controls-spaceV-xl) var(--controls-spaceH);
+  --FormSize-padding-lg: var(--controls-spaceV-lg) var(--controls-spaceH);
+  --FormSize-padding-sm: var(--controls-spaceV-sm) var(--controls-spaceH);
 
-  --FormSize-fontSize-xl: var(--g-fontSize-xl);
-  --FormSize-fontSize-lg: var(--g-fontSize-lg);
-  --FormSize-fontSize-sm: var(--g-fontSize-sm);
+  --FormSize-fontSize-xl: var(--fontSize-xl);
+  --FormSize-fontSize-lg: var(--fontSize-lg);
+  --FormSize-fontSize-sm: var(--fontSize-sm);
 
-  --FormSize-height-xl: var(--g-controls-height-xl);
-  --FormSize-height-lg: var(--g-controls-height-lg);
-  --FormSize-height-sm: var(--g-controls-height-sm);
+  --FormSize-height-xl: var(--controls-height-xl);
+  --FormSize-height-lg: var(--controls-height-lg);
+  --FormSize-height-sm: var(--controls-height-sm);
 }
 
 .Input--xl,

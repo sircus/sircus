@@ -1,4 +1,4 @@
-@media (--g-viewport-sm) {
+@media (--viewport-sm) {
   .t-sm-width1of12  { width: calc((1 / 12) * 100)%; }
   .t-sm-width2of12  { width: calc((2 / 12) * 100)%; }
   .t-sm-width3of12  { width: calc((3 / 12) * 100)%; }

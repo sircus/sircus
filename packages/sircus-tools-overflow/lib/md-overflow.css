@@ -1,4 +1,4 @@
-@media (--g-viewport-md) {
+@media (--viewport-md) {
   .t-md-overflowScroll  { overflow: scroll; }
   .t-md-overflow        { overflow: auto; }
   .t-md-overflowHidden  { overflow: hidden; }

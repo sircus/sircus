@@ -1,4 +1,4 @@
-@media (--g-viewport-sm) {
+@media (--viewport-sm) {
   .t-sm-pullLeft   { float: left; }
   .t-sm-pullRight  { float: right; }
   .t-sm-pullNone   { float: none; }

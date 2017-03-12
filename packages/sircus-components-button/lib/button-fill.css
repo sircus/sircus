@@ -2,17 +2,17 @@
   --ButtonFill-color: #fff;
   --ButtonFill-fill: #000;
   --ButtonFill-primary-color: #fff;
-  --ButtonFill-primary-fill: var(--g-primary);
+  --ButtonFill-primary-fill: var(--primary);
   --ButtonFill-secondary-color: #fff;
-  --ButtonFill-secondary-fill: var(--g-secondary);
+  --ButtonFill-secondary-fill: var(--secondary);
   --ButtonFill-success-color: #fff;
-  --ButtonFill-success-fill: var(--g-success);
+  --ButtonFill-success-fill: var(--success);
   --ButtonFill-notice-color: #fff;
-  --ButtonFill-notice-fill: var(--g-notice);
+  --ButtonFill-notice-fill: var(--notice);
   --ButtonFill-warning-color: #fff;
-  --ButtonFill-warning-fill: var(--g-warning);
+  --ButtonFill-warning-fill: var(--warning);
   --ButtonFill-error-color: #fff;
-  --ButtonFill-error-fill: var(--g-error);
+  --ButtonFill-error-fill: var(--error);
 }
 
 /*　fill  */

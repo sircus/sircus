@@ -1,7 +1,7 @@
 :root {
-  --ButtonReset-color: var(--g-primary);
-  --ButtonReset-fill: var(--g-gray-20);
-  --ButtonReset-hover-color: var(--g-primary-dark);
+  --ButtonReset-color: var(--primary);
+  --ButtonReset-fill: var(--gray-20);
+  --ButtonReset-hover-color: var(--primary-dark);
 }
 
 /*　reset */

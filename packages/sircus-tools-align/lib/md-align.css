@@ -1,4 +1,4 @@
-@media (--g-viewport-md) {
+@media (--viewport-md) {
   .t-md-alignLeft       { text-align: left; }
   .t-md-alignRight      { text-align: right; }
   .t-md-alignCenter     { text-align: center; }

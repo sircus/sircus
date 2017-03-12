@@ -4,40 +4,40 @@
 .t-colorWhite           { color: #FFF; }
 .t-colorBlack           { color: #000; }
 
-.t-colorGray90          { color: var(--g-gray-90); }
-.t-colorGray80          { color: var(--g-gray-80); }
-.t-colorGray70          { color: var(--g-gray-70); }
-.t-colorGray60          { color: var(--g-gray-60); }
-.t-colorGray50          { color: var(--g-gray-50); }
-.t-colorGray40          { color: var(--g-gray-40); }
-.t-colorGray30          { color: var(--g-gray-30); }
-.t-colorGray20          { color: var(--g-gray-20); }
-.t-colorGray10          { color: var(--g-gray-10); }
-.t-colorGray5           { color: var(--g-gray-5); }
+.t-colorGray90          { color: var(--gray-90); }
+.t-colorGray80          { color: var(--gray-80); }
+.t-colorGray70          { color: var(--gray-70); }
+.t-colorGray60          { color: var(--gray-60); }
+.t-colorGray50          { color: var(--gray-50); }
+.t-colorGray40          { color: var(--gray-40); }
+.t-colorGray30          { color: var(--gray-30); }
+.t-colorGray20          { color: var(--gray-20); }
+.t-colorGray10          { color: var(--gray-10); }
+.t-colorGray5           { color: var(--gray-5); }
 
-.t-colorPrimary         { color: var(--g-primary); }
-.t-colorPrimaryDark     { color: var(--g-primary-dark); }
-.t-colorPrimaryLight    { color: var(--g-primary-light); }
+.t-colorPrimary         { color: var(--primary); }
+.t-colorPrimaryDark     { color: var(--primary-dark); }
+.t-colorPrimaryLight    { color: var(--primary-light); }
 
-.t-colorSecondary       { color: var(--g-secondary); }
-.t-colorSecondaryDark   { color: var(--g-secondary-dark); }
-.t-colorSecondaryLight  { color: var(--g-secondary-light); }
+.t-colorSecondary       { color: var(--secondary); }
+.t-colorSecondaryDark   { color: var(--secondary-dark); }
+.t-colorSecondaryLight  { color: var(--secondary-light); }
 
-.t-colorSuccess         { color: var(--g-success); }
-.t-colorSuccessDark     { color: var(--g-success-dark); }
-.t-colorSuccessLight    { color: var(--g-success-light); }
+.t-colorSuccess         { color: var(--success); }
+.t-colorSuccessDark     { color: var(--success-dark); }
+.t-colorSuccessLight    { color: var(--success-light); }
 
-.t-colorNotice          { color: var(--g-notice); }
-.t-colorNoticeDark      { color: var(--g-notice-dark); }
-.t-colorNoticeLight     { color: var(--g-notice-light); }
+.t-colorNotice          { color: var(--notice); }
+.t-colorNoticeDark      { color: var(--notice-dark); }
+.t-colorNoticeLight     { color: var(--notice-light); }
 
-.t-colorWarning         { color: var(--g-warning); }
-.t-colorWarningDark     { color: var(--g-warning-dark); }
-.t-colorWarningLight    { color: var(--g-warning-light); }
+.t-colorWarning         { color: var(--warning); }
+.t-colorWarningDark     { color: var(--warning-dark); }
+.t-colorWarningLight    { color: var(--warning-light); }
 
-.t-colorError           { color: var(--g-error); }
-.t-colorErrorDark       { color: var(--g-error-dark); }
-.t-colorErrorLight      { color: var(--g-error-light); }
+.t-colorError           { color: var(--error); }
+.t-colorErrorDark       { color: var(--error-dark); }
+.t-colorErrorLight      { color: var(--error-light); }
 
 .t-decoNone      { text-decoration: none; }
 .t-underline     { text-decoration: underline; }
@@ -58,32 +58,32 @@
 
 .t-italic        { font-style: italic; }
 
-.t-enSans        { font-family: var(--g-fontFamily-sansEn); }
-.t-enSerif       { font-family: var(--g-fontFamily-serifEn);}
+.t-enSans        { font-family: var(--fontFamily-sansEn); }
+.t-enSerif       { font-family: var(--fontFamily-serifEn);}
 
-.t-jaSans        { font-family: var(--g-fontFamily-sansJa); }
-.t-jaSerif       { font-family: var(--g-fontFamily-serifJa);}
+.t-jaSans        { font-family: var(--fontFamily-sansJa); }
+.t-jaSerif       { font-family: var(--fontFamily-serifJa);}
 
-.t-monospace     { font-family: var(--g-fontFamily-monospace); }
+.t-monospace     { font-family: var(--fontFamily-monospace); }
 
-.t-fontGt        { font-size: var(--g-fontSize-gt); }
-.t-fontHg        { font-size: var(--g-fontSize-hg); }
-.t-fontXl        { font-size: var(--g-fontSize-xl); }
-.t-fontLg        { font-size: var(--g-fontSize-lg); }
-.t-fontMd        { font-size: var(--g-fontSize-md); }
-.t-fontSm        { font-size: var(--g-fontSize-sm); }
-.t-fontXs        { font-size: var(--g-fontSize-xs); }
-.t-fontTn        { font-size: var(--g-fontSize-tn); }
-.t-fontMi        { font-size: var(--g-fontSize-mi); }
+.t-fontGt        { font-size: var(--fontSize-gt); }
+.t-fontHg        { font-size: var(--fontSize-hg); }
+.t-fontXl        { font-size: var(--fontSize-xl); }
+.t-fontLg        { font-size: var(--fontSize-lg); }
+.t-fontMd        { font-size: var(--fontSize-md); }
+.t-fontSm        { font-size: var(--fontSize-sm); }
+.t-fontXs        { font-size: var(--fontSize-xs); }
+.t-fontTn        { font-size: var(--fontSize-tn); }
+.t-fontMi        { font-size: var(--fontSize-mi); }
 
-.t-lineHeightXs  { line-height: var(--g-lineHeight-xs); }
-.t-lineHeightSm  { line-height: var(--g-lineHeight-sm); }
-.t-lineHeightMd  { line-height: var(--g-lineHeight-md); }
-.t-lineHeightLg  { line-height: var(--g-lineHeight-lg); }
-.t-lineHeightXl  { line-height: var(--g-lineHeight-xl); }
+.t-lineHeightXs  { line-height: var(--lineHeight-xs); }
+.t-lineHeightSm  { line-height: var(--lineHeight-sm); }
+.t-lineHeightMd  { line-height: var(--lineHeight-md); }
+.t-lineHeightLg  { line-height: var(--lineHeight-lg); }
+.t-lineHeightXl  { line-height: var(--lineHeight-xl); }
 
-.t-letterSpacingXs  { letter-spacing: var(--g-letterSpacing-xs); }
-.t-letterSpacingSm  { letter-spacing: var(--g-letterSpacing-sm); }
-.t-letterSpacingMd  { letter-spacing: var(--g-letterSpacing-md); }
-.t-letterSpacingLg  { letter-spacing: var(--g-letterSpacing-lg); }
-.t-letterSpacingXl  { letter-spacing: var(--g-letterSpacing-xl); }
+.t-letterSpacingXs  { letter-spacing: var(--letterSpacing-xs); }
+.t-letterSpacingSm  { letter-spacing: var(--letterSpacing-sm); }
+.t-letterSpacingMd  { letter-spacing: var(--letterSpacing-md); }
+.t-letterSpacingLg  { letter-spacing: var(--letterSpacing-lg); }
+.t-letterSpacingXl  { letter-spacing: var(--letterSpacing-xl); }

@@ -1,4 +1,4 @@
-@media (--g-viewport-lg) {
+@media (--viewport-lg) {
   .t-lg-height1of12  { height: calc((1 / 12) * 100)vh; }
   .t-lg-height2of12  { height: calc((2 / 12) * 100)vh; }
   .t-lg-height3of12  { height: calc((3 / 12) * 100)vh; }

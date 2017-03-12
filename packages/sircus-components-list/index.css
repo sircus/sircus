@@ -1,11 +1,11 @@
 :root {
-  --ListInline-gutter: var(--g-gutter);
+  --ListInline-gutter: var(--gutter);
 }
 
 /*　sircus-components-list
 ======================================== */
 .List {
-  padding-left: var(--g-space);
+  padding-left: var(--space);
 }
 
 .List ul,

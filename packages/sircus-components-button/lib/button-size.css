@@ -1,18 +1,18 @@
 :root {
-  --ButtonSize-paddingH-xl: var(--g-controls-spaceH-xl);
-  --ButtonSize-paddingH-lg: var(--g-controls-spaceH-lg);
-  --ButtonSize-paddingH: var(--g-controls-spaceH);
-  --ButtonSize-paddingH-sm: var(--g-controls-spaceH-sm);
+  --ButtonSize-paddingH-xl: var(--controls-spaceH-xl);
+  --ButtonSize-paddingH-lg: var(--controls-spaceH-lg);
+  --ButtonSize-paddingH: var(--controls-spaceH);
+  --ButtonSize-paddingH-sm: var(--controls-spaceH-sm);
 
-  --ButtonSize-fontSize-xl: var(--g-fontSize-xl);
-  --ButtonSize-fontSize-lg: var(--g-fontSize-lg);
-  --ButtonSize-fontSize: var(--g-fontSize);
-  --ButtonSize-fontSize-sm: var(--g-fontSize-sm);
+  --ButtonSize-fontSize-xl: var(--fontSize-xl);
+  --ButtonSize-fontSize-lg: var(--fontSize-lg);
+  --ButtonSize-fontSize: var(--fontSize);
+  --ButtonSize-fontSize-sm: var(--fontSize-sm);
 
-  --ButtonSize-height-xl: var(--g-controls-height-xl);
-  --ButtonSize-height-lg: var(--g-controls-height-lg);
-  --ButtonSize-height: var(--g-controls-height);
-  --ButtonSize-height-sm: var(--g-controls-height-sm);
+  --ButtonSize-height-xl: var(--controls-height-xl);
+  --ButtonSize-height-lg: var(--controls-height-lg);
+  --ButtonSize-height: var(--controls-height);
+  --ButtonSize-height-sm: var(--controls-height-sm);
 }
 
 /*　size  */

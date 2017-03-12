@@ -1,6 +1,6 @@
 :root {
-  --Grid-gutter: var(--g-gutter);
-  --Grid-col-fontSize: var(--g-fontSize);
+  --Grid-gutter: var(--gutter);
+  --Grid-col-fontSize: var(--fontSize);
 }
 
 /*　sircus-components-grid

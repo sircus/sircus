@@ -1,9 +1,9 @@
 :root {
-  --Table-border: 1px solid var(--g-borderColor);
-  --Table-divitedBorder: 2px solid var(--g-borderColor);
-  --Table-padding: var(--g-space-tn) var(--g-gutter);
-  --Table-borderColor: var(--g-borderColor);
-  --Table-evenColor: var(--g-gray-5);
+  --Table-border: 1px solid var(--borderColor);
+  --Table-divitedBorder: 2px solid var(--borderColor);
+  --Table-padding: var(--space-tn) var(--gutter);
+  --Table-borderColor: var(--borderColor);
+  --Table-evenColor: var(--gray-5);
 }
 
 /*　sircus-components-table

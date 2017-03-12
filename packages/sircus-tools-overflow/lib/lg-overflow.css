@@ -1,4 +1,4 @@
-@media (--g-viewport-lg) {
+@media (--viewport-lg) {
   .t-lg-overflowScroll  { overflow: scroll; }
   .t-lg-overflow        { overflow: auto; }
   .t-lg-overflowHidden  { overflow: hidden; }
