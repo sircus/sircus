@@ -1,9 +1,9 @@
 @media (--viewport-sm) {
-  .t-sm-shadow   { box-shadow: var(--shadow) var(--shadow-color); }
-  .t-sm-shadowXs { box-shadow: var(--shadow-xs) var(--shadow-color); }
-  .t-sm-shadowSm { box-shadow: var(--shadow-sm) var(--shadow-color) }
-  .t-sm-shadowMd { box-shadow: var(--shadow-md) var(--shadow-color) }
-  .t-sm-shadowLg { box-shadow: var(--shadow-lg) var(--shadow-color) }
-  .t-sm-shadowXl { box-shadow: var(--shadow-xl) var(--shadow-color) }
-  .t-sm-shadow0  { box-shadow: none; }
+  .t-sm-shadow   { box-shadow: var(--shadow) var(--shadow-color) !important; }
+  .t-sm-shadowXs { box-shadow: var(--shadow-xs) var(--shadow-color) !important; }
+  .t-sm-shadowSm { box-shadow: var(--shadow-sm) var(--shadow-color) !important; }
+  .t-sm-shadowMd { box-shadow: var(--shadow-md) var(--shadow-color) !important; }
+  .t-sm-shadowLg { box-shadow: var(--shadow-lg) var(--shadow-color) !important; }
+  .t-sm-shadowXl { box-shadow: var(--shadow-xl) var(--shadow-color) !important; }
+  .t-sm-shadow0  { box-shadow: none !important; }
 }
