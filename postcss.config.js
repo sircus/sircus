@@ -25,8 +25,8 @@ module.exports = {
     important: true
   },
   'postcss-import': {
-    onImport: function(sources) {
+    onImport: function (sources) {
       global.watchCSS(sources, this.from)
     }
-  },
+  }
 }

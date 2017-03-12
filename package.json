@@ -43,9 +43,9 @@
   },
   "scripts": {
     "build": "mkdir -p css && npm run css && npm run css:minify",
-    "css": "postcss -c postcss.js",
+    "css": "postcss -c postcss.config.js",
     "css:minify": "postcss -u csswring css/sircus.css -o css/sircus.min.css",
-    "develop": "postcss -c postcss.js -w",
+    "develop": "postcss -c postcss.config.js -w",
     "start": "npm install && npm run build"
   },
   "repository": {
