@@ -1,9 +1,9 @@
 {
   "name": "sircus-components-form",
   "description": "Components Module For input and select Elements.",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "dependencies": {
-    "sircus-variables": "^1.3.0"
+    "sircus-variables": "^2.0.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-components-form",
   "homepage": "http://sircus.github.io",
