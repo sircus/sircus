@@ -1,15 +1,18 @@
 @media (--viewport-sm) {
-  .t-sm-alignLeft       { text-align: left; }
-  .t-sm-alignRight      { text-align: right; }
-  .t-sm-alignCenter     { text-align: center; }
-  .t-sm-alignJustify    { text-align: justify; text-justify: inter-ideograph; }
+  .t-sm-alignLeft       { text-align: left !important; }
+  .t-sm-alignRight      { text-align: right !important; }
+  .t-sm-alignCenter     { text-align: center !important; }
+  .t-sm-alignJustify    { 
+    text-align: justify !important;
+    text-justify: inter-ideograph !important;
+  }
 
-  .t-sm-alignBaseline   { vertical-align: baseline; }
-  .t-sm-alignTop        { vertical-align: top; }
-  .t-sm-alignMiddle     { vertical-align: middle; }
-  .t-sm-alignBottom     { vertical-align: bottom; }
-  .t-sm-alignTextTop    { vertical-align: text-top; }
-  .t-sm-alignTextBottom { vertical-align: text-bottom; }
-  .t-sm-alignSuper      { vertical-align: super; }
-  .t-sm-alignSub        { vertical-align: sub; }
+  .t-sm-alignBaseline   { vertical-align: baseline !important; }
+  .t-sm-alignTop        { vertical-align: top !important; }
+  .t-sm-alignMiddle     { vertical-align: middle !important; }
+  .t-sm-alignBottom     { vertical-align: bottom !important; }
+  .t-sm-alignTextTop    { vertical-align: text-top !important; }
+  .t-sm-alignTextBottom { vertical-align: text-bottom !important; }
+  .t-sm-alignSuper      { vertical-align: super !important; }
+  .t-sm-alignSub        { vertical-align: sub !important; }
 }

@@ -1,9 +1,9 @@
 @media (--viewport-md) {
-  .t-md-none        { display: none; }
-  .t-md-block       { display: block; }
-  .t-md-flex        { display: flex; }
-  .t-md-inlineBlock { display: inline-block; }
-  .t-md-inline      { display: inline; }
-  .t-md-table       { display: table; }
-  .t-md-tableCell   { display: table-cell; }
+  .t-md-none        { display: none !important; }
+  .t-md-block       { display: block !important; }
+  .t-md-flex        { display: flex !important; }
+  .t-md-inlineBlock { display: inline-block !important; }
+  .t-md-inline      { display: inline !important; }
+  .t-md-table       { display: table !important; }
+  .t-md-tableCell   { display: table-cell !important; }
 }

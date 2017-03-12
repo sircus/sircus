@@ -2,44 +2,44 @@
  * sircus-tools-gutter
  ================================================== */
 .t-gutter {
-  padding-left: var(--gutter);
-  padding-right: var(--gutter);
+  padding-left: var(--gutter) !important;
+  padding-right: var(--gutter) !important;
 }
 
 .t-gutterReset {
-  margin-left: calc(0 - var(--gutter));
-  margin-right: calc(0 - var(--gutter));
+  margin-left: calc(0 - var(--gutter)) !important;
+  margin-right: calc(0 - var(--gutter)) !important;
 }
 
 .t-gutter2x {
-  padding-left: calc(var(--gutter) * 2);
-  padding-right: calc(var(--gutter) * 2);
+  padding-left: calc(var(--gutter) * 2) !important;
+  padding-right: calc(var(--gutter) * 2) !important;
 }
 
 .t-gutter2xReset,
 .t-gutterReset2x {
-  margin-left: calc(0 - (var(--gutter) * 2));
-  margin-right: calc(0 - (var(--gutter) * 2));
+  margin-left: calc(0 - (var(--gutter) * 2)) !important;
+  margin-right: calc(0 - (var(--gutter) * 2)) !important;
 }
 
 .t-gutter3x {
-  padding-left: calc(var(--gutter) * 3);
-  padding-right: calc(var(--gutter) * 3);
+  padding-left: calc(var(--gutter) * 3) !important;
+  padding-right: calc(var(--gutter) * 3) !important;
 }
 
 .t-gutter3xReset,
 .t-gutterReset3x {
-  margin-left: calc(0 - (var(--gutter) * 3));
-  margin-right: calc(0 - (var(--gutter) * 3));
+  margin-left: calc(0 - (var(--gutter) * 3)) !important;
+  margin-right: calc(0 - (var(--gutter) * 3)) !important;
 }
 
 .t-gutter4x {
-  padding-left: calc(var(--gutter) * 4);
-  padding-right: calc(var(--gutter) * 4);
+  padding-left: calc(var(--gutter) * 4) !important;
+  padding-right: calc(var(--gutter) * 4) !important;
 }
 
 .t-gutter4xReset,
 .t-gutterReset4x {
-  margin-left: calc(0 - (var(--gutter) * 4));
-  margin-right: calc(0 - (var(--gutter) * 4));
+  margin-left: calc(0 - (var(--gutter) * 4)) !important;
+  margin-right: calc(0 - (var(--gutter) * 4)) !important;
 }

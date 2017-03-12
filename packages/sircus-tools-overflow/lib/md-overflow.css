@@ -1,13 +1,13 @@
 @media (--viewport-md) {
-  .t-md-overflowScroll  { overflow: scroll; }
-  .t-md-overflow        { overflow: auto; }
-  .t-md-overflowHidden  { overflow: hidden; }
+  .t-md-overflowScroll  { overflow: scroll !important; }
+  .t-md-overflow        { overflow: auto !important; }
+  .t-md-overflowHidden  { overflow: hidden !important; }
   .t-md-overflowX {
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
   }
   .t-md-overflowY {
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
   }
 }

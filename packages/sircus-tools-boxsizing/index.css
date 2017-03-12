@@ -1,5 +1,5 @@
 /*
  * sircus-tools-boxsizing
  ================================================== */
-.t-borderBox   { box-sizing: border-box; }
-.t-contentBox  { box-sizing: content-box; }
+.t-borderBox   { box-sizing: border-box !important; }
+.t-contentBox  { box-sizing: content-box !important; }

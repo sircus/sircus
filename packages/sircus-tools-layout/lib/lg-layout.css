@@ -1,22 +1,22 @@
 @media (--viewport-lg) {
-  .t-lg-pullLeft   { float: left; }
-  .t-lg-pullRight  { float: right; }
-  .t-lg-pullNone   { float: none; }
+  .t-lg-pullLeft   { float: left !important; }
+  .t-lg-pullRight  { float: right !important; }
+  .t-lg-pullNone   { float: none !important; }
 
   .t-lg-center,
   .t-lg-centerBlock {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
-  .t-lg-static     { position: static; }
-  .t-lg-absolute   { position: absolute; }
-  .t-lg-fixed      { position: fixed; }
-  .t-lg-relative   { position: relative; }
+  .t-lg-static     { position: static !important; }
+  .t-lg-absolute   { position: absolute !important; }
+  .t-lg-fixed      { position: fixed !important; }
+  .t-lg-relative   { position: relative !important; }
 
-  .t-lg-top0    { top: 0; }
-  .t-lg-bottom0 { bottom: 0; }
-  .t-lg-left0   { left: 0; }
-  .t-lg-right0  { right: 0; }
+  .t-lg-top0    { top: 0 !important; }
+  .t-lg-bottom0 { bottom: 0 !important; }
+  .t-lg-left0   { left: 0 !important; }
+  .t-lg-right0  { right: 0 !important; }
 }

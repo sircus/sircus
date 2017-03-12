@@ -1,10 +1,10 @@
 /*
  * sircus-tools-shadow
  ================================================== */
-.t-shadow   { box-shadow: var(--shadow) var(--shadow-color); }
-.t-shadowXs { box-shadow: var(--shadow-xs) var(--shadow-color); }
-.t-shadowSm { box-shadow: var(--shadow-sm) var(--shadow-color) }
-.t-shadowMd { box-shadow: var(--shadow-md) var(--shadow-color) }
-.t-shadowLg { box-shadow: var(--shadow-lg) var(--shadow-color) }
-.t-shadowXl { box-shadow: var(--shadow-xl) var(--shadow-color) }
-.t-shadow0  { box-shadow: none; }
+.t-shadow   { box-shadow: var(--shadow) var(--shadow-color) !important; }
+.t-shadowXs { box-shadow: var(--shadow-xs) var(--shadow-color) !important; }
+.t-shadowSm { box-shadow: var(--shadow-sm) var(--shadow-color) !important; }
+.t-shadowMd { box-shadow: var(--shadow-md) var(--shadow-color) !important; }
+.t-shadowLg { box-shadow: var(--shadow-lg) var(--shadow-color) !important; }
+.t-shadowXl { box-shadow: var(--shadow-xl) var(--shadow-color) !important; }
+.t-shadow0  { box-shadow: none !important; }

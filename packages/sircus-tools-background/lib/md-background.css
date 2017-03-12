@@ -1,57 +1,57 @@
 @media (--viewport-md) {
-  .t-md-bgWhite { background-color: #fff; }
-  .t-md-bgBlack { background-color: #000; }
-  .t-md-bgGray90 { background-color: var(--gray-90); }
-  .t-md-bgGray80 { background-color: var(--gray-80); }
-  .t-md-bgGray70 { background-color: var(--gray-70); }
-  .t-md-bgGray60 { background-color: var(--gray-60); }
-  .t-md-bgGray50 { background-color: var(--gray-50); }
-  .t-md-bgGray40 { background-color: var(--gray-40); }
-  .t-md-bgGray30 { background-color: var(--gray-30); }
-  .t-md-bgGray20 { background-color: var(--gray-20); }
-  .t-md-bgGray10 { background-color: var(--gray-10); }
-  .t-md-bgGray5 { background-color: var(--gray-5); }
+  .t-md-bgWhite { background-color: #fff !important; }
+  .t-md-bgBlack { background-color: #000 !important; }
+  .t-md-bgGray90 { background-color: var(--gray-90) !important; }
+  .t-md-bgGray80 { background-color: var(--gray-80) !important; }
+  .t-md-bgGray70 { background-color: var(--gray-70) !important; }
+  .t-md-bgGray60 { background-color: var(--gray-60) !important; }
+  .t-md-bgGray50 { background-color: var(--gray-50) !important; }
+  .t-md-bgGray40 { background-color: var(--gray-40) !important; }
+  .t-md-bgGray30 { background-color: var(--gray-30) !important; }
+  .t-md-bgGray20 { background-color: var(--gray-20) !important; }
+  .t-md-bgGray10 { background-color: var(--gray-10) !important; }
+  .t-md-bgGray5 { background-color: var(--gray-5) !important; }
 
-  .t-md-bgPrimary      { background-color: var(--primary); }
-  .t-md-bgPrimaryDark  { background-color: var(--primary-dark); }
-  .t-md-bgPrimaryLight { background-color: var(--primary-light); }
+  .t-md-bgPrimary      { background-color: var(--primary) !important; }
+  .t-md-bgPrimaryDark  { background-color: var(--primary-dark) !important; }
+  .t-md-bgPrimaryLight { background-color: var(--primary-light) !important; }
 
-  .t-md-bgSecondary      { background-color: var(--secondary); }
-  .t-md-bgSecondaryDark  { background-color: var(--secondary-dark); }
-  .t-md-bgSecondaryLight { background-color: var(--secondary-light); }
+  .t-md-bgSecondary      { background-color: var(--secondary) !important; }
+  .t-md-bgSecondaryDark  { background-color: var(--secondary-dark) !important; }
+  .t-md-bgSecondaryLight { background-color: var(--secondary-light) !important; }
 
-  .t-md-bgSuccess      { background-color: var(--success); }
-  .t-md-bgSuccessDark  { background-color: var(--success-dark); }
-  .t-md-bgSuccessLight { background-color: var(--success-light); }
+  .t-md-bgSuccess      { background-color: var(--success) !important; }
+  .t-md-bgSuccessDark  { background-color: var(--success-dark) !important; }
+  .t-md-bgSuccessLight { background-color: var(--success-light) !important; }
 
-  .t-md-bgNotice      { background-color: var(--notice); }
-  .t-md-bgNoticeDark  { background-color: var(--notice-dark); }
-  .t-md-bgNoticeLight { background-color: var(--notice-light); }
+  .t-md-bgNotice      { background-color: var(--notice) !important; }
+  .t-md-bgNoticeDark  { background-color: var(--notice-dark) !important; }
+  .t-md-bgNoticeLight { background-color: var(--notice-light) !important; }
 
-  .t-md-bgWarning      { background-color: var(--warning); }
-  .t-md-bgWarningDark  { background-color: var(--warning-dark); }
-  .t-md-bgWarningLight { background-color: var(--warning-light); }
+  .t-md-bgWarning      { background-color: var(--warning) !important; }
+  .t-md-bgWarningDark  { background-color: var(--warning-dark) !important; }
+  .t-md-bgWarningLight { background-color: var(--warning-light) !important; }
 
-  .t-md-bgError      { background-color: var(--error); }
-  .t-md-bgErrorDark  { background-color: var(--error-dark); }
-  .t-md-bgErrorLight { background-color: var(--error-light); }
+  .t-md-bgError      { background-color: var(--error) !important; }
+  .t-md-bgErrorDark  { background-color: var(--error-dark) !important; }
+  .t-md-bgErrorLight { background-color: var(--error-light) !important; }
 
-  .t-md-bgCover   { background-size: cover; }
-  .t-md-bgContain { background-size: contain; }
+  .t-md-bgCover   { background-size: cover !important; }
+  .t-md-bgContain { background-size: contain !important; }
 
-  .t-md-bgCenter       { background-position: center center; }
-  .t-md-bgCenterTop    { background-position: center top; }
-  .t-md-bgCenterBottom { background-position: center bottom; }
+  .t-md-bgCenter       { background-position: center center !important; }
+  .t-md-bgCenterTop    { background-position: center top !important; }
+  .t-md-bgCenterBottom { background-position: center bottom !important; }
 
-  .t-md-bgLeft       { background-position: left center; }
-  .t-md-bgLeftTop    { background-position: left top; }
-  .t-md-bgLeftBottom { background-position: left bottom; }
+  .t-md-bgLeft       { background-position: left center !important; }
+  .t-md-bgLeftTop    { background-position: left top !important; }
+  .t-md-bgLeftBottom { background-position: left bottom !important; }
 
-  .t-md-bgRight       { background-position: right center; }
-  .t-md-bgRightTop    { background-position: right top; }
-  .t-md-bgRightBottom { background-position: right bottom; }
+  .t-md-bgRight       { background-position: right center !important; }
+  .t-md-bgRightTop    { background-position: right top !important; }
+  .t-md-bgRightBottom { background-position: right bottom !important; }
 
-  .t-md-bgFixed { background-attachment: fixed; }
+  .t-md-bgFixed { background-attachment: fixed !important; }
 
-  .t-md-bgNoRepeat { background-repeat: no-repeat; }
+  .t-md-bgNoRepeat { background-repeat: no-repeat !important; }
 }

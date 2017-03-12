@@ -1,57 +1,57 @@
 @media (--viewport-sm) {
-  .t-sm-bgWhite { background-color: #fff; }
-  .t-sm-bgBlack { background-color: #000; }
-  .t-sm-bgGray90 { background-color: var(--gray-90); }
-  .t-sm-bgGray80 { background-color: var(--gray-80); }
-  .t-sm-bgGray70 { background-color: var(--gray-70); }
-  .t-sm-bgGray60 { background-color: var(--gray-60); }
-  .t-sm-bgGray50 { background-color: var(--gray-50); }
-  .t-sm-bgGray40 { background-color: var(--gray-40); }
-  .t-sm-bgGray30 { background-color: var(--gray-30); }
-  .t-sm-bgGray20 { background-color: var(--gray-20); }
-  .t-sm-bgGray10 { background-color: var(--gray-10); }
-  .t-sm-bgGray5 { background-color: var(--gray-5); }
+  .t-sm-bgWhite { background-color: #fff !important; }
+  .t-sm-bgBlack { background-color: #000 !important; }
+  .t-sm-bgGray90 { background-color: var(--gray-90) !important; }
+  .t-sm-bgGray80 { background-color: var(--gray-80) !important; }
+  .t-sm-bgGray70 { background-color: var(--gray-70) !important; }
+  .t-sm-bgGray60 { background-color: var(--gray-60) !important; }
+  .t-sm-bgGray50 { background-color: var(--gray-50) !important; }
+  .t-sm-bgGray40 { background-color: var(--gray-40) !important; }
+  .t-sm-bgGray30 { background-color: var(--gray-30) !important; }
+  .t-sm-bgGray20 { background-color: var(--gray-20) !important; }
+  .t-sm-bgGray10 { background-color: var(--gray-10) !important; }
+  .t-sm-bgGray5 { background-color: var(--gray-5) !important; }
 
-  .t-sm-bgPrimary      { background-color: var(--primary); }
-  .t-sm-bgPrimaryDark  { background-color: var(--primary-dark); }
-  .t-sm-bgPrimaryLight { background-color: var(--primary-light); }
+  .t-sm-bgPrimary      { background-color: var(--primary) !important; }
+  .t-sm-bgPrimaryDark  { background-color: var(--primary-dark) !important; }
+  .t-sm-bgPrimaryLight { background-color: var(--primary-light) !important; }
 
-  .t-sm-bgSecondary      { background-color: var(--secondary); }
-  .t-sm-bgSecondaryDark  { background-color: var(--secondary-dark); }
-  .t-sm-bgSecondaryLight { background-color: var(--secondary-light); }
+  .t-sm-bgSecondary      { background-color: var(--secondary) !important; }
+  .t-sm-bgSecondaryDark  { background-color: var(--secondary-dark) !important; }
+  .t-sm-bgSecondaryLight { background-color: var(--secondary-light) !important; }
 
-  .t-sm-bgSuccess      { background-color: var(--success); }
-  .t-sm-bgSuccessDark  { background-color: var(--success-dark); }
-  .t-sm-bgSuccessLight { background-color: var(--success-light); }
+  .t-sm-bgSuccess      { background-color: var(--success) !important; }
+  .t-sm-bgSuccessDark  { background-color: var(--success-dark) !important; }
+  .t-sm-bgSuccessLight { background-color: var(--success-light) !important; }
 
-  .t-sm-bgNotice      { background-color: var(--notice); }
-  .t-sm-bgNoticeDark  { background-color: var(--notice-dark); }
-  .t-sm-bgNoticeLight { background-color: var(--notice-light); }
+  .t-sm-bgNotice      { background-color: var(--notice) !important; }
+  .t-sm-bgNoticeDark  { background-color: var(--notice-dark) !important; }
+  .t-sm-bgNoticeLight { background-color: var(--notice-light) !important; }
 
-  .t-sm-bgWarning      { background-color: var(--warning); }
-  .t-sm-bgWarningDark  { background-color: var(--warning-dark); }
-  .t-sm-bgWarningLight { background-color: var(--warning-light); }
+  .t-sm-bgWarning      { background-color: var(--warning) !important; }
+  .t-sm-bgWarningDark  { background-color: var(--warning-dark) !important; }
+  .t-sm-bgWarningLight { background-color: var(--warning-light) !important; }
 
-  .t-sm-bgError      { background-color: var(--error); }
-  .t-sm-bgErrorDark  { background-color: var(--error-dark); }
-  .t-sm-bgErrorLight { background-color: var(--error-light); }
+  .t-sm-bgError      { background-color: var(--error) !important; }
+  .t-sm-bgErrorDark  { background-color: var(--error-dark) !important; }
+  .t-sm-bgErrorLight { background-color: var(--error-light) !important; }
 
-  .t-sm-bgCover   { background-size: cover; }
-  .t-sm-bgContain { background-size: contain; }
+  .t-sm-bgCover   { background-size: cover !important; }
+  .t-sm-bgContain { background-size: contain !important; }
 
-  .t-sm-bgCenter       { background-position: center center; }
-  .t-sm-bgCenterTop    { background-position: center top; }
-  .t-sm-bgCenterBottom { background-position: center bottom; }
+  .t-sm-bgCenter       { background-position: center center !important; }
+  .t-sm-bgCenterTop    { background-position: center top !important; }
+  .t-sm-bgCenterBottom { background-position: center bottom !important; }
 
-  .t-sm-bgLeft       { background-position: left center; }
-  .t-sm-bgLeftTop    { background-position: left top; }
-  .t-sm-bgLeftBottom { background-position: left bottom; }
+  .t-sm-bgLeft       { background-position: left center !important; }
+  .t-sm-bgLeftTop    { background-position: left top !important; }
+  .t-sm-bgLeftBottom { background-position: left bottom !important; }
 
-  .t-sm-bgRight       { background-position: right center; }
-  .t-sm-bgRightTop    { background-position: right top; }
-  .t-sm-bgRightBottom { background-position: right bottom; }
+  .t-sm-bgRight       { background-position: right center !important; }
+  .t-sm-bgRightTop    { background-position: right top !important; }
+  .t-sm-bgRightBottom { background-position: right bottom !important; }
 
-  .t-sm-bgFixed { background-attachment: fixed; }
+  .t-sm-bgFixed { background-attachment: fixed !important; }
 
-  .t-sm-bgNoRepeat { background-repeat: no-repeat; }
+  .t-sm-bgNoRepeat { background-repeat: no-repeat !important; }
 }

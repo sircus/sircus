@@ -1,23 +1,23 @@
 /*
  * sircus-tools-layout
  ================================================== */
-.t-pullLeft   { float: left; }
-.t-pullRight  { float: right; }
-.t-pullNone   { float: none; }
+.t-pullLeft   { float: left !important; }
+.t-pullRight  { float: right !important; }
+.t-pullNone   { float: none !important; }
 
 .t-center,
 .t-centerBlock {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.t-static     { position: static; }
-.t-absolute   { position: absolute; }
-.t-fixed      { position: fixed; }
-.t-relative   { position: relative; }
+.t-static     { position: static !important; }
+.t-absolute   { position: absolute !important; }
+.t-fixed      { position: fixed !important; }
+.t-relative   { position: relative !important; }
 
-.t-top0    { top: 0; }
-.t-bottom0 { bottom: 0; }
-.t-left0   { left: 0; }
-.t-right0  { right: 0; }
+.t-top0    { top: 0 !important; }
+.t-bottom0 { bottom: 0 !important; }
+.t-left0   { left: 0 !important; }
+.t-right0  { right: 0 !important; }

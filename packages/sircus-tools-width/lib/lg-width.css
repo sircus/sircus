@@ -1,16 +1,16 @@
 @media (--viewport-lg) {
-  .t-lg-width1of12  { width: calc((1 / 12) * 100)%; }
-  .t-lg-width2of12  { width: calc((2 / 12) * 100)%; }
-  .t-lg-width3of12  { width: calc((3 / 12) * 100)%; }
-  .t-lg-width4of12  { width: calc((4 / 12) * 100)%; }
-  .t-lg-width5of12  { width: calc((5 / 12) * 100)%; }
+  .t-lg-width1of12  { width: calc((1 / 12) * 100)% !important; }
+  .t-lg-width2of12  { width: calc((2 / 12) * 100)% !important; }
+  .t-lg-width3of12  { width: calc((3 / 12) * 100)% !important; }
+  .t-lg-width4of12  { width: calc((4 / 12) * 100)% !important; }
+  .t-lg-width5of12  { width: calc((5 / 12) * 100)% !important; }
   .t-lg-width6of12,
-  .t-lg-widthHalf   { width: calc((6 / 12) * 100)%; }
-  .t-lg-width7of12  { width: calc((7 / 12) * 100)%; }
-  .t-lg-width8of12  { width: calc((8 / 12) * 100)%; }
-  .t-lg-width9of12  { width: calc((9 / 12) * 100)%; }
-  .t-lg-width10of12 { width: calc((10 / 12) * 100)%; }
-  .t-lg-width11of12 { width: calc((11 / 12) * 100)%; }
+  .t-lg-widthHalf   { width: calc((6 / 12) * 100)% !important; }
+  .t-lg-width7of12  { width: calc((7 / 12) * 100)% !important; }
+  .t-lg-width8of12  { width: calc((8 / 12) * 100)% !important; }
+  .t-lg-width9of12  { width: calc((9 / 12) * 100)% !important; }
+  .t-lg-width10of12 { width: calc((10 / 12) * 100)% !important; }
+  .t-lg-width11of12 { width: calc((11 / 12) * 100)% !important; }
   .t-lg-width12of12,
-  .t-lg-widthFull   { width: calc((12 / 12) * 100)%; }
+  .t-lg-widthFull   { width: calc((12 / 12) * 100)% !important; }
 }

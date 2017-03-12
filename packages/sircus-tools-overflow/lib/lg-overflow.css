@@ -1,13 +1,13 @@
 @media (--viewport-lg) {
-  .t-lg-overflowScroll  { overflow: scroll; }
-  .t-lg-overflow        { overflow: auto; }
-  .t-lg-overflowHidden  { overflow: hidden; }
+  .t-lg-overflowScroll  { overflow: scroll !important; }
+  .t-lg-overflow        { overflow: auto !important; }
+  .t-lg-overflowHidden  { overflow: hidden !important; }
   .t-lg-overflowX {
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
   }
   .t-lg-overflowY {
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
   }
 }

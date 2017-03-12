@@ -3,7 +3,7 @@
  ================================================== */
 .t-clear:before,
 .t-clear:after {
-  content: " ";
-  display: table;
+  content: " " !important;
+  display: table !important;
 }
-.t-clear:after { clear: both }
+.t-clear:after { clear: both !important; }

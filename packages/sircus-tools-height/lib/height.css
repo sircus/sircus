@@ -1,17 +1,17 @@
 /*
  * sircus-tools-height
  ================================================== */
-.t-height1of12  { height: calc((1 / 12) * 100)vh; }
-.t-height2of12  { height: calc((2 / 12) * 100)vh; }
-.t-height3of12  { height: calc((3 / 12) * 100)vh; }
-.t-height4of12  { height: calc((4 / 12) * 100)vh; }
-.t-height5of12  { height: calc((5 / 12) * 100)vh; }
+.t-height1of12  { height: calc((1 / 12) * 100)vh !important; }
+.t-height2of12  { height: calc((2 / 12) * 100)vh !important; }
+.t-height3of12  { height: calc((3 / 12) * 100)vh !important; }
+.t-height4of12  { height: calc((4 / 12) * 100)vh !important; }
+.t-height5of12  { height: calc((5 / 12) * 100)vh !important; }
 .t-height6of12,
-.t-heightHalf   { height: calc((6 / 12) * 100)vh; }
-.t-height7of12  { height: calc((7 / 12) * 100)vh; }
-.t-height8of12  { height: calc((8 / 12) * 100)vh; }
-.t-height9of12  { height: calc((9 / 12) * 100)vh; }
-.t-height10of12 { height: calc((10 / 12) * 100)vh; }
-.t-height11of12 { height: calc((11 / 12) * 100)vh; }
+.t-heightHalf   { height: calc((6 / 12) * 100)vh !important; }
+.t-height7of12  { height: calc((7 / 12) * 100)vh !important; }
+.t-height8of12  { height: calc((8 / 12) * 100)vh !important; }
+.t-height9of12  { height: calc((9 / 12) * 100)vh !important; }
+.t-height10of12 { height: calc((10 / 12) * 100)vh !important; }
+.t-height11of12 { height: calc((11 / 12) * 100)vh !important; }
 .t-height12of12,
-.t-heightFull   { height: calc((12 / 12) * 100)vh; }
+.t-heightFull   { height: calc((12 / 12) * 100)vh !important; }

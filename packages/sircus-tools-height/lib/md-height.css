@@ -1,16 +1,16 @@
 @media (--viewport-md) {
-  .t-md-height1of12  { height: calc((1 / 12) * 100)vh; }
-  .t-md-height2of12  { height: calc((2 / 12) * 100)vh; }
-  .t-md-height3of12  { height: calc((3 / 12) * 100)vh; }
-  .t-md-height4of12  { height: calc((4 / 12) * 100)vh; }
-  .t-md-height5of12  { height: calc((5 / 12) * 100)vh; }
+  .t-md-height1of12  { height: calc((1 / 12) * 100)vh !important; }
+  .t-md-height2of12  { height: calc((2 / 12) * 100)vh !important; }
+  .t-md-height3of12  { height: calc((3 / 12) * 100)vh !important; }
+  .t-md-height4of12  { height: calc((4 / 12) * 100)vh !important; }
+  .t-md-height5of12  { height: calc((5 / 12) * 100)vh !important; }
   .t-md-height6of12,
-  .t-md-heightHalf   { height: calc((6 / 12) * 100)vh; }
-  .t-md-height7of12  { height: calc((7 / 12) * 100)vh; }
-  .t-md-height8of12  { height: calc((8 / 12) * 100)vh; }
-  .t-md-height9of12  { height: calc((9 / 12) * 100)vh; }
-  .t-md-height10of12 { height: calc((10 / 12) * 100)vh; }
-  .t-md-height11of12 { height: calc((11 / 12) * 100)vh; }
+  .t-md-heightHalf   { height: calc((6 / 12) * 100)vh !important; }
+  .t-md-height7of12  { height: calc((7 / 12) * 100)vh !important; }
+  .t-md-height8of12  { height: calc((8 / 12) * 100)vh !important; }
+  .t-md-height9of12  { height: calc((9 / 12) * 100)vh !important; }
+  .t-md-height10of12 { height: calc((10 / 12) * 100)vh !important; }
+  .t-md-height11of12 { height: calc((11 / 12) * 100)vh !important; }
   .t-md-height12of12,
-  .t-md-heightFull   { height: calc((12 / 12) * 100)vh; }
+  .t-md-heightFull   { height: calc((12 / 12) * 100)vh !important; }
 }

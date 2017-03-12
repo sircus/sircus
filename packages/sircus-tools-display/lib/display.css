@@ -1,10 +1,10 @@
 /*
  * sircus-tools-display
  ================================================== */
-.t-none        { display: none; }
-.t-block       { display: block; }
-.t-flex        { display: flex; }
-.t-inlineBlock { display: inline-block; }
-.t-inline      { display: inline; }
-.t-table       { display: table; }
-.t-tableCell   { display: table-cell; }
+.t-none        { display: none !important; }
+.t-block       { display: block !important; }
+.t-flex        { display: flex !important; }
+.t-inlineBlock { display: inline-block !important; }
+.t-inline      { display: inline !important; }
+.t-table       { display: table !important; }
+.t-tableCell   { display: table-cell !important; }

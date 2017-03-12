@@ -1,22 +1,22 @@
 @media (--viewport-sm) {
-  .t-sm-pullLeft   { float: left; }
-  .t-sm-pullRight  { float: right; }
-  .t-sm-pullNone   { float: none; }
+  .t-sm-pullLeft   { float: left !important; }
+  .t-sm-pullRight  { float: right !important; }
+  .t-sm-pullNone   { float: none !important; }
 
   .t-sm-center,
   .t-sm-centerBlock {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
-  .t-sm-static     { position: static; }
-  .t-sm-absolute   { position: absolute; }
-  .t-sm-fixed      { position: fixed; }
-  .t-sm-relative   { position: relative; }
+  .t-sm-static     { position: static !important; }
+  .t-sm-absolute   { position: absolute !important; }
+  .t-sm-fixed      { position: fixed !important; }
+  .t-sm-relative   { position: relative !important; }
 
-  .t-sm-top0    { top: 0; }
-  .t-sm-bottom0 { bottom: 0; }
-  .t-sm-left0   { left: 0; }
-  .t-sm-right0  { right: 0; }
+  .t-sm-top0    { top: 0 !important; }
+  .t-sm-bottom0 { bottom: 0 !important; }
+  .t-sm-left0   { left: 0 !important; }
+  .t-sm-right0  { right: 0 !important; }
 }
