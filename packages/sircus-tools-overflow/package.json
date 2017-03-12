@@ -1,9 +1,9 @@
 {
   "name": "sircus-tools-overflow",
   "description": "Tools Module For CSS Overflow.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "dependencies": {
-    "sircus-variables": "^0.1.0"
+    "sircus-variables": "^2.0.0"
   },
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-overflow",
   "homepage": "http://sircus.github.io",

@@ -1,7 +1,7 @@
 {
   "name": "sircus-tools-boxsizing",
   "description": "Tools Module For CSS box-sizing.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "repository": "https://github.com/sircus/sircus/tree/master/packages/sircus-tools-boxsizing",
   "homepage": "http://sircus.github.io",
   "author": {
