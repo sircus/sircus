@@ -34,7 +34,7 @@
     padding-right: calc(var(--gutter) * 2) !important;
   }
 
-  .t-lg-gutter2xReset {
+  .t-lg-gutterReset2x {
     margin-left: calc(0 - (var(--gutter) * 2)) !important;
     margin-right: calc(0 - (var(--gutter) * 2)) !important;
   }
@@ -44,7 +44,7 @@
     padding-right: calc(var(--gutter) * 3) !important;
   }
 
-  .t-lg-gutter3xReset {
+  .t-lg-gutterReset3x {
     margin-left: calc(0 - (var(--gutter) * 3)) !important;
     margin-right: calc(0 - (var(--gutter) * 3)) !important;
   }
@@ -54,7 +54,7 @@
     padding-right: calc(var(--gutter) * 4) !important;
   }
 
-  .t-lg-gutter4xReset {
+  .t-lg-gutterReset4x {
     margin-left: calc(0 - (var(--gutter) * 4)) !important;
     margin-right: calc(0 - (var(--gutter) * 4)) !important;
   }
