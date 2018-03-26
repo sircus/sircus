@@ -1,6 +1,26 @@
 /*
  * sircus-tools-gutter
  ================================================== */
+.t-gutterQuarter {
+  padding-left: calc(var(--gutter) / 4) !important;
+  padding-right: calc(var(--gutter) / 4) !important;
+}
+
+.t-gutterResetQuarter {
+  margin-left: calc(0 - (var(--gutter) * 4)) !important;
+  margin-right: calc(0 - (var(--gutter) * 4)) !important;
+}
+
+.t-gutterHalf {
+  padding-left: calc(var(--gutter) / 2) !important;
+  padding-right: calc(var(--gutter) / 2) !important;
+}
+
+.t-gutterResetHalf {
+  margin-left: calc(0 - (var(--gutter) * 2)) !important;
+  margin-right: calc(0 - (var(--gutter) * 2)) !important;
+}
+
 .t-gutter {
   padding-left: var(--gutter) !important;
   padding-right: var(--gutter) !important;

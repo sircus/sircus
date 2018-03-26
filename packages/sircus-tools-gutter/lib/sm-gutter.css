@@ -1,4 +1,24 @@
 @media (--viewport-sm) {
+  .t-sm-gutterQuarter {
+    padding-left: calc(var(--gutter) / 4) !important;
+    padding-right: calc(var(--gutter) / 4) !important;
+  }
+
+  .t-sm-gutterResetQuarter {
+    margin-left: calc(0 - (var(--gutter) * 4)) !important;
+    margin-right: calc(0 - (var(--gutter) * 4)) !important;
+  }
+
+  .t-sm-gutterHalf {
+    padding-left: calc(var(--gutter) / 2) !important;
+    padding-right: calc(var(--gutter) / 2) !important;
+  }
+
+  .t-sm-gutterResetHalf {
+    margin-left: calc(0 - (var(--gutter) * 2)) !important;
+    margin-right: calc(0 - (var(--gutter) * 2)) !important;
+  }
+
   .t-sm-gutter {
     padding-left: var(--gutter) !important;
     padding-right: var(--gutter) !important;
