@@ -72,7 +72,7 @@
   --letterSpacing-md: 0;
   --letterSpacing-sm: calc(0 - .04em);
   --letterSpacing-xs: calc(0 - .08em);
-  --letterSpacing: var(--letterSpaceing-md);
+  --letterSpacing: var(--letterSpacing-md);
 
   --gutter: calc(var(--space) / 2);
 
