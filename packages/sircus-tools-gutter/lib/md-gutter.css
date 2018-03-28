@@ -5,8 +5,8 @@
   }
 
   .t-md-gutterResetQuarter {
-    margin-left: calc(0 - (var(--gutter) * 4)) !important;
-    margin-right: calc(0 - (var(--gutter) * 4)) !important;
+    margin-left: calc(0 - (var(--gutter) / 4)) !important;
+    margin-right: calc(0 - (var(--gutter) / 4)) !important;
   }
 
   .t-md-gutterHalf {
@@ -15,10 +15,10 @@
   }
 
   .t-md-gutterResetHalf {
-    margin-left: calc(0 - (var(--gutter) * 2)) !important;
-    margin-right: calc(0 - (var(--gutter) * 2)) !important;
+    margin-left: calc(0 - (var(--gutter) / 2)) !important;
+    margin-right: calc(0 - (var(--gutter) / 2)) !important;
   }
-  
+
   .t-md-gutter {
     padding-left: var(--gutter) !important;
     padding-right: var(--gutter) !important;

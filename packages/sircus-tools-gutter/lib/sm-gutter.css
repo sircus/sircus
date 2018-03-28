@@ -5,8 +5,8 @@
   }
 
   .t-sm-gutterResetQuarter {
-    margin-left: calc(0 - (var(--gutter) * 4)) !important;
-    margin-right: calc(0 - (var(--gutter) * 4)) !important;
+    margin-left: calc(0 - (var(--gutter) / 4)) !important;
+    margin-right: calc(0 - (var(--gutter) / 4)) !important;
   }
 
   .t-sm-gutterHalf {
@@ -15,8 +15,8 @@
   }
 
   .t-sm-gutterResetHalf {
-    margin-left: calc(0 - (var(--gutter) * 2)) !important;
-    margin-right: calc(0 - (var(--gutter) * 2)) !important;
+    margin-left: calc(0 - (var(--gutter) / 2)) !important;
+    margin-right: calc(0 - (var(--gutter) / 2)) !important;
   }
 
   .t-sm-gutter {
