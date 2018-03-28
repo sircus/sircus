@@ -1,5 +1,5 @@
 /*!
- * sircus v4.0.0
+ * sircus v4.1.0
  * Flexible Modular CSS Family for Designing in the Browser.
  * https://github.com/sircus/sircus
  * License : MIT
@@ -374,7 +374,6 @@ pre {
   box-sizing: border-box;
   padding: .25rem 1rem;
   width: 100%;
-  -webkit-transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
   vertical-align: middle;
   border: .0625rem solid rgb(153, 153, 153);
@@ -443,27 +442,27 @@ pre {
 ======================================== */
 
 .Flex {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.Flex--nowrap       { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+.Flex--nowrap       { flex-wrap: nowrap; }
 
-.Flex--center       { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.Flex--center       { justify-content: center; }
 
-.Flex--right        { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.Flex--right        { justify-content: flex-end; }
 
-.Flex--left         { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.Flex--left         { justify-content: flex-start; }
 
-.Flex--justify      { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.Flex--justify      { justify-content: space-between; }
 
-.Flex--top          { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+.Flex--top          { align-items: flex-start; }
 
-.Flex--middle       { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.Flex--middle       { align-items: center; }
 
-.Flex--bottom       { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.Flex--bottom       { align-items: flex-end; }
 
-.Flex--baseline     { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+.Flex--baseline     { align-items: baseline; }
 
 .Flex-col {
   box-sizing: border-box;
@@ -471,11 +470,11 @@ pre {
   padding-left: 0.75rem;
 }
 
-.Flex-col--fit   { -webkit-box-flex: 1; -ms-flex: 1 1 0%; flex: 1 1 0%; }
+.Flex-col--fit   { flex: 1 1 0%; }
 
-.Flex-col--first { -webkit-box-ordinal-group: 0; -ms-flex-order: -1; order: -1 }
+.Flex-col--first { order: -1 }
 
-.Flex-col--last  { -webkit-box-ordinal-group: 10000; -ms-flex-order: 9999; order: 9999 }
+.Flex-col--last  { order: 9999 }
 
 /*　FullEmbed
 ======================================== */
@@ -917,7 +916,7 @@ ul.List {
 
 .t-block       { display: block !important; }
 
-.t-flex        { display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important; }
+.t-flex        { display: flex !important; }
 
 .t-inlineBlock { display: inline-block !important; }
 
@@ -930,6 +929,26 @@ ul.List {
 /*
  * sircus-tools-gutter
  ================================================== */
+
+.t-gutterQuarter {
+  padding-left: 0.1875rem !important;
+  padding-right: 0.1875rem !important;
+}
+
+.t-gutterResetQuarter {
+  margin-left: -0.1875rem !important;
+  margin-right: -0.1875rem !important;
+}
+
+.t-gutterHalf {
+  padding-left: 0.375rem !important;
+  padding-right: 0.375rem !important;
+}
+
+.t-gutterResetHalf {
+  margin-left: -0.375rem !important;
+  margin-right: -0.375rem !important;
+}
 
 .t-gutter {
   padding-left: 0.75rem !important;
@@ -946,7 +965,6 @@ ul.List {
   padding-right: 1.5rem !important;
 }
 
-.t-gutter2xReset,
 .t-gutterReset2x {
   margin-left: -1.5rem !important;
   margin-right: -1.5rem !important;
@@ -957,7 +975,6 @@ ul.List {
   padding-right: 2.25rem !important;
 }
 
-.t-gutter3xReset,
 .t-gutterReset3x {
   margin-left: -2.25rem !important;
   margin-right: -2.25rem !important;
@@ -968,7 +985,6 @@ ul.List {
   padding-right: 3rem !important;
 }
 
-.t-gutter4xReset,
 .t-gutterReset4x {
   margin-left: -3rem !important;
   margin-right: -3rem !important;
@@ -1849,8 +1865,6 @@ ul.List {
   }
 
   .t-sm-flex {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
 
@@ -1870,6 +1884,26 @@ ul.List {
     display: table-cell !important;
   }
 
+  .t-sm-gutterQuarter {
+    padding-left: 0.1875rem !important;
+    padding-right: 0.1875rem !important;
+  }
+
+  .t-sm-gutterResetQuarter {
+    margin-left: -0.1875rem !important;
+    margin-right: -0.1875rem !important;
+  }
+
+  .t-sm-gutterHalf {
+    padding-left: 0.375rem !important;
+    padding-right: 0.375rem !important;
+  }
+
+  .t-sm-gutterResetHalf {
+    margin-left: -0.375rem !important;
+    margin-right: -0.375rem !important;
+  }
+
   .t-sm-gutter {
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
@@ -1885,7 +1919,6 @@ ul.List {
     padding-right: 1.5rem !important;
   }
 
-  .t-sm-gutter2xReset,
   .t-sm-gutterReset2x {
     margin-left: -1.5rem !important;
     margin-right: -1.5rem !important;
@@ -1896,7 +1929,6 @@ ul.List {
     padding-right: 2.25rem !important;
   }
 
-  .t-sm-gutter3xReset,
   .t-sm-gutterReset3x {
     margin-left: -2.25rem !important;
     margin-right: -2.25rem !important;
@@ -1907,7 +1939,6 @@ ul.List {
     padding-right: 3rem !important;
   }
 
-  .t-sm-gutter4xReset,
   .t-sm-gutterReset4x {
     margin-left: -3rem !important;
     margin-right: -3rem !important;
@@ -3107,8 +3138,6 @@ ul.List {
   }
 
   .t-md-flex {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
 
@@ -3128,6 +3157,26 @@ ul.List {
     display: table-cell !important;
   }
 
+  .t-md-gutterQuarter {
+    padding-left: 0.1875rem !important;
+    padding-right: 0.1875rem !important;
+  }
+
+  .t-md-gutterResetQuarter {
+    margin-left: -0.1875rem !important;
+    margin-right: -0.1875rem !important;
+  }
+
+  .t-md-gutterHalf {
+    padding-left: 0.375rem !important;
+    padding-right: 0.375rem !important;
+  }
+
+  .t-md-gutterResetHalf {
+    margin-left: -0.375rem !important;
+    margin-right: -0.375rem !important;
+  }
+
   .t-md-gutter {
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
@@ -3143,7 +3192,6 @@ ul.List {
     padding-right: 1.5rem !important;
   }
 
-  .t-md-gutter2xReset,
   .t-md-gutterReset2x {
     margin-left: -1.5rem !important;
     margin-right: -1.5rem !important;
@@ -3154,7 +3202,6 @@ ul.List {
     padding-right: 2.25rem !important;
   }
 
-  .t-md-gutter3xReset,
   .t-md-gutterReset3x {
     margin-left: -2.25rem !important;
     margin-right: -2.25rem !important;
@@ -3165,7 +3212,6 @@ ul.List {
     padding-right: 3rem !important;
   }
 
-  .t-md-gutter4xReset,
   .t-md-gutterReset4x {
     margin-left: -3rem !important;
     margin-right: -3rem !important;
@@ -4365,8 +4411,6 @@ ul.List {
   }
 
   .t-lg-flex {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
 
@@ -4386,6 +4430,26 @@ ul.List {
     display: table-cell !important;
   }
 
+  .t-lg-gutterQuarter {
+    padding-left: 0.1875rem !important;
+    padding-right: 0.1875rem !important;
+  }
+
+  .t-lg-gutterResetQuarter {
+    margin-left: -0.1875rem !important;
+    margin-right: -0.1875rem !important;
+  }
+
+  .t-lg-gutterHalf {
+    padding-left: 0.375rem !important;
+    padding-right: 0.375rem !important;
+  }
+
+  .t-lg-gutterResetHalf {
+    margin-left: -0.375rem !important;
+    margin-right: -0.375rem !important;
+  }
+
   .t-lg-gutter {
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
@@ -4401,7 +4465,7 @@ ul.List {
     padding-right: 1.5rem !important;
   }
 
-  .t-lg-gutter2xReset {
+  .t-lg-gutterReset2x {
     margin-left: -1.5rem !important;
     margin-right: -1.5rem !important;
   }
@@ -4411,7 +4475,7 @@ ul.List {
     padding-right: 2.25rem !important;
   }
 
-  .t-lg-gutter3xReset {
+  .t-lg-gutterReset3x {
     margin-left: -2.25rem !important;
     margin-right: -2.25rem !important;
   }
@@ -4421,7 +4485,7 @@ ul.List {
     padding-right: 3rem !important;
   }
 
-  .t-lg-gutter4xReset {
+  .t-lg-gutterReset4x {
     margin-left: -3rem !important;
     margin-right: -3rem !important;
   }

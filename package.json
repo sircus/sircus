@@ -1,6 +1,6 @@
 {
   "name": "sircus",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Flexible Modular CSS Family for Designing in the Browser.",
   "dependencies": {
     "sircus-components-button": "^4.0.0",
