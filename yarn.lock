@@ -1294,7 +1294,7 @@ sircus-components-container@2.0.0:
   dependencies:
     sircus-variables "^2.0.0"
 
-sircus-components-flex@^2.0.0:
+sircus-components-flex@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/sircus-components-flex/-/sircus-components-flex-2.0.1.tgz#5b5cd813e864547d5be6232fa20a3320f3b9899b"
   dependencies:
@@ -1366,9 +1366,9 @@ sircus-tools-display@^3.0.0:
   dependencies:
     sircus-variables "^2.0.0"
 
-sircus-tools-gutter@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/sircus-tools-gutter/-/sircus-tools-gutter-3.1.0.tgz#5d3b78f03a1ae2b7e75a4ad60df89916e1af2a8f"
+sircus-tools-gutter@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/sircus-tools-gutter/-/sircus-tools-gutter-3.1.1.tgz#b77d0f4b6bebf6b5f746f2f62d83b55ca342b2e1"
   dependencies:
     sircus-variables "^2.0.0"
 
