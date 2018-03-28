@@ -1,4 +1,24 @@
 @media (--viewport-md) {
+  .t-md-gutterQuarter {
+    padding-left: calc(var(--gutter) / 4) !important;
+    padding-right: calc(var(--gutter) / 4) !important;
+  }
+
+  .t-md-gutterResetQuarter {
+    margin-left: calc(0 - (var(--gutter) * 4)) !important;
+    margin-right: calc(0 - (var(--gutter) * 4)) !important;
+  }
+
+  .t-md-gutterHalf {
+    padding-left: calc(var(--gutter) / 2) !important;
+    padding-right: calc(var(--gutter) / 2) !important;
+  }
+
+  .t-md-gutterResetHalf {
+    margin-left: calc(0 - (var(--gutter) * 2)) !important;
+    margin-right: calc(0 - (var(--gutter) * 2)) !important;
+  }
+  
   .t-md-gutter {
     padding-left: var(--gutter) !important;
     padding-right: var(--gutter) !important;
@@ -14,7 +34,6 @@
     padding-right: calc(var(--gutter) * 2) !important;
   }
 
-  .t-md-gutter2xReset,
   .t-md-gutterReset2x {
     margin-left: calc(0 - (var(--gutter) * 2)) !important;
     margin-right: calc(0 - (var(--gutter) * 2)) !important;
@@ -25,7 +44,6 @@
     padding-right: calc(var(--gutter) * 3) !important;
   }
 
-  .t-md-gutter3xReset,
   .t-md-gutterReset3x {
     margin-left: calc(0 - (var(--gutter) * 3)) !important;
     margin-right: calc(0 - (var(--gutter) * 3)) !important;
@@ -36,7 +54,6 @@
     padding-right: calc(var(--gutter) * 4) !important;
   }
 
-  .t-md-gutter4xReset,
   .t-md-gutterReset4x {
     margin-left: calc(0 - (var(--gutter) * 4)) !important;
     margin-right: calc(0 - (var(--gutter) * 4)) !important;

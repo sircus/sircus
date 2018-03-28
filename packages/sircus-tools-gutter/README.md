@@ -23,6 +23,15 @@ CSS:
 html:
 
 ```html
+<div class="t-gutterQuarter"></div>
+<div class="t-gutterQuarterReset"></div>
+
+<div class="t-gutterHalf"></div>
+<div class="t-gutterHalfReset"></div>
+
+<div class="t-gutter"></div>
+<div class="t-gutterReset"></div>
+
 <div class="t-gutter"></div>
 <div class="t-gutterReset"></div>
 
