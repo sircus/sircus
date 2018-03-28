@@ -5,7 +5,7 @@
   "dependencies": {
     "sircus-components-button": "^4.0.0",
     "sircus-components-container": "2.0.0",
-    "sircus-components-flex": "^2.0.0",
+    "sircus-components-flex": "^2.0.1",
     "sircus-components-form": "^3.0.0",
     "sircus-components-fullembed": "^1.0.0",
     "sircus-components-grid": "2.0.0",
@@ -18,7 +18,7 @@
     "sircus-tools-boxsizing": "^2.0.0",
     "sircus-tools-clear": "^2.0.0",
     "sircus-tools-display": "^3.0.0",
-    "sircus-tools-gutter": "^3.0.0",
+    "sircus-tools-gutter": "^3.1.0",
     "sircus-tools-height": "^1.0.0",
     "sircus-tools-layout": "^3.0.0",
     "sircus-tools-overflow": "^3.0.0",

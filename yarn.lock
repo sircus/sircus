@@ -1263,8 +1263,8 @@ sircus-components-container@2.0.0:
     sircus-variables "^2.0.0"
 
 sircus-components-flex@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/sircus-components-flex/-/sircus-components-flex-2.0.0.tgz#b87a974a786696281ef7d313ca604fb4b6b9a9e1"
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sircus-components-flex/-/sircus-components-flex-2.0.1.tgz#5b5cd813e864547d5be6232fa20a3320f3b9899b"
   dependencies:
     sircus-variables "^2.0.0"
 
@@ -1335,8 +1335,8 @@ sircus-tools-display@^3.0.0:
     sircus-variables "^2.0.0"
 
 sircus-tools-gutter@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/sircus-tools-gutter/-/sircus-tools-gutter-3.0.0.tgz#c8632734c091d4694b1acab1689398e685b37aa9"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/sircus-tools-gutter/-/sircus-tools-gutter-3.1.0.tgz#5d3b78f03a1ae2b7e75a4ad60df89916e1af2a8f"
   dependencies:
     sircus-variables "^2.0.0"
 
@@ -1382,11 +1382,7 @@ sircus-tools-width@^3.0.0:
   dependencies:
     sircus-variables "^2.0.0"
 
-sircus-variables@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/sircus-variables/-/sircus-variables-2.0.0.tgz#f5bf7c88e3ffa138247a1287887b7335ad358ee6"
-
-sircus-variables@^2.0.1:
+sircus-variables@^2.0.0, sircus-variables@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/sircus-variables/-/sircus-variables-2.0.1.tgz#6312bda2e09921cc03d34adb257c88c23427a959"
 
