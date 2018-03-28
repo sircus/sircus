@@ -7,14 +7,13 @@
 
 
 ```bash
-$ npm install sircus-components-flex sircus-variables sircus-tools-display
+$ npm install sircus-components-flex sircus-variables
 ```
 
 ## Usage
 
 ```css
 @import "sircus-components-flex";
-@import "sircus-tools-display";
 @import "sircus-variables";
 ```
 
