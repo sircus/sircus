@@ -1,7 +1,7 @@
 {
   "name": "sircus-tools-gutter",
   "description": "Tools Module For Horizontal Gutter.",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "dependencies": {
     "sircus-variables": "^2.0.0"
   },
