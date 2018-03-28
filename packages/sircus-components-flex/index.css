@@ -5,6 +5,7 @@
 /*　sircus-components-flex
 ======================================== */
 .Flex {
+  display: flex;
   flex-wrap: wrap;
 }
 
